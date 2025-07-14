@@ -397,7 +397,7 @@ function New-GitHubRelease {
     
         $Body = @{
             tag_name         = $MODPACK_VERSION
-            target_commitish = 'master'
+            target_commitish = 'main'
             name             = $MODPACK_VERSION
             body             = ''
             draft            = $false

@@ -1,6 +1,6 @@
 param(
 	[Parameter(Position = 0)]
-	[string]$targetBranch = "master",
+	[string]$targetBranch = "main",
 
 	[Parameter(Position = 1)]
 	[string]$worldFolder = "world",
