@@ -1,0 +1,19 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiverse"
+	group: "440488E780593120"
+	id: "60F666DD0AC6F03F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "0F04956D59A78393"
+		tasks: [{
+			id: "10E9A412419B679A"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

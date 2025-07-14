@@ -1,0 +1,175 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/scavengers_delight"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "02545B33A0B47726"
+	loot_size: 2
+	order_index: 4
+	rewards: [
+		{
+			count: 4
+			id: "7ED9D05B8E4563CA"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			id: "692C1702A1BB98F3"
+			item: {
+				count: 1
+				id: "minecraft:paper"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "0CD1967DD8EFF942"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "05F92F0F1691FB7B"
+			item: {
+				count: 1
+				id: "minecraft:book"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 16
+			id: "43512960E95B5611"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 16
+			id: "23A4F02E03357DB4"
+			item: {
+				count: 1
+				id: "minecraft:terracotta"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 8
+			id: "07DE37000418F01F"
+			item: {
+				count: 1
+				id: "minecraft:nether_brick"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 16
+			id: "4A74A2E3E9904E2B"
+			item: {
+				count: 1
+				id: "minecraft:clay_ball"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 8
+			id: "02CF351AE56AA688"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "2BDFA6DE9FD06138"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "31D2429C68F9F717"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "10E155B7A6D81859"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "268DC041AFA20FEA"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 16
+			id: "67588721A0FDCFCB"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 16
+			id: "1F04A44C07C8ED03"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_crystals"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 8
+			id: "5F535051D5A4E11C"
+			item: {
+				count: 1
+				id: "minecraft:rabbit_foot"
+			}
+		}
+		{
+			count: 4
+			id: "5691618422F38B12"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+			random_bonus: 4
+		}
+		{ id: "03D7E161268692D7", item: { count: 1, id: "minecraft:totem_of_undying" } }
+		{
+			count: 2
+			id: "478E6BAD74DEF461"
+			item: {
+				count: 1
+				id: "ars_nouveau:warp_scroll"
+			}
+			random_bonus: 2
+		}
+	]
+	use_title: true
+}

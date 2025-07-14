@@ -1,0 +1,579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "oritech:super_ai_chip"
+	}
+	id: "60E3192C798C2841"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "oritech:block/machine_core_7"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0EEFC631A67266B1"
+			rewards: [{
+				count: 4
+				id: "270E7ED104C0C8BC"
+				item: {
+					count: 1
+					id: "oritech:tech_lever"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "141B590C9F765589"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "3FFF6EF85443852C"
+			rewards: [{
+				count: 8
+				id: "766036C0E3F92B09"
+				item: {
+					count: 1
+					id: "oritech:energy_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D242C944EFAD3CE"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EEFC631A67266B1"]
+			icon: {
+				id: "oritech:foundry_block"
+			}
+			id: "75765D97E7ACC6FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0045E9C68AFA235B"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					id: "13B40695B4AB3A6E"
+					item: {
+						count: 1
+						id: "oritech:powered_furnace_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "686855F210F6397D"
+					item: { count: 1, id: "oritech:foundry_block" }
+					type: "item"
+				}
+				{
+					id: "6E0B704DFCA62E81"
+					item: { count: 1, id: "oritech:machine_core_1" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DD76DB5C6220F40"]
+			id: "4E2C382FC583C03F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DEFBA83624A2BB6"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+				{
+					id: "72E999BE5CA9F7D8"
+					item: {
+						count: 1
+						id: "oritech:machine_fluid_addon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A7FC602C2C2C50C"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "5DD76DB5C6220F40"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "367FE1812FAAEECF"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41269E7E0BC276F1"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B816B9746784F88"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["685AA2A5C0C2C796"]
+			id: "413A165C27E8E5A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BE351AE71ACAD76"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04F6421CDF716774"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3FFF6EF85443852C"]
+			id: "2F28FE62872496C8"
+			rewards: [{
+				id: "64E82CEFB832E8C1"
+				item: {
+					count: 1
+					id: "oritech:large_storage_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF73666F6B09CE6"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FFF6EF85443852C"]
+			id: "20A3EA274A706343"
+			rewards: [
+				{
+					id: "08F6004FEBC4C325"
+					item: {
+						count: 1
+						id: "oritech:small_tank_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "172288642B160766"
+					item: {
+						count: 1
+						id: "oritech:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CB3A9B5D57091B9"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DD76DB5C6220F40"]
+			id: "685AA2A5C0C2C796"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "762053D5E03FDBC9"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68F7CE60B4BEFE56"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4E2C382FC583C03F"
+				"685AA2A5C0C2C796"
+			]
+			id: "3B77FB0A8CFAAB97"
+			rewards: [
+				{
+					id: "4B5123C225E226F3"
+					item: {
+						count: 1
+						id: "oritech:target_designator"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D3F2CA0C7B7F2B8"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1040686340598200"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "03405336161EF1B5"
+			rewards: [
+				{
+					id: "777138547AE437BB"
+					item: {
+						count: 1
+						id: "oritech:machine_extender"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50EDC3E6D2111FBE"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5A4465B1F1B8673A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:machine_addons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B77FB0A8CFAAB97"]
+			id: "4F19A0AECC129216"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DD9F8AD5405E16E"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35D6E3E319CCFA9A"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B77FB0A8CFAAB97"]
+			id: "70122FCB0A26D96B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "723CDE667D3CC714"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "497DD708BEC0438D"
+				item: { count: 1, id: "oritech:deep_drill_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "3FF8D40CD4CB33BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FF1C2B9F00AEE91"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "363C5ADB7ECEA50C"
+					item: { count: 1, id: "oritech:chainsaw" }
+					type: "item"
+				}
+				{
+					id: "4317EE4823470078"
+					item: { count: 1, id: "oritech:hand_drill" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["685AA2A5C0C2C796"]
+			icon: {
+				id: "oritech:accelerator_controller"
+			}
+			id: "690FB1A43ED247CF"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "60D9E4EBEE000D96"
+				item: {
+					count: 1
+					id: "oritech:particle_collector_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CDF55B4822BE3AB"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					id: "1F9CCE4CE199F2B6"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "31AE726CDE87ED73"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					id: "1F2782159C5BB903"
+					item: { count: 1, id: "oritech:accelerator_sensor" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"690FB1A43ED247CF"
+				"3FFF6EF85443852C"
+			]
+			id: "72591AAEA1E6DE38"
+			rewards: [{
+				count: 4
+				id: "02B69CB8F2A9658D"
+				item: {
+					count: 1
+					id: "oritech:particle_collector_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "oritech:black_hole_block"
+				}
+				id: "4DBE23AE12CB9448"
+				observe_type: 0
+				timer: 0L
+				to_observe: "oritech:black_hole_block"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3FFF6EF85443852C"]
+			icon: {
+				id: "oritech:reactor_controller"
+			}
+			id: "0CD74FE194111D3E"
+			rewards: [
+				{
+					count: 4
+					id: "24E7FC4CB08D03FA"
+					item: {
+						count: 1
+						id: "oritech:plutonium_pellet"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "108B8B4F162F44BC"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "293BB4009A1210EA"
+					item: { count: 1, id: "oritech:reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "0DB5297239EECEC9"
+					item: { components: { "ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5524F2ED8C79A10F"
+					item: { count: 1, id: "oritech:reactor_fuel_port" }
+					type: "item"
+				}
+				{
+					id: "37963156BF60F5E0"
+					item: { count: 1, id: "oritech:reactor_condenser" }
+					type: "item"
+				}
+				{
+					id: "5A86C8BDB968E7B2"
+					item: { count: 1, id: "oritech:reactor_absorber_port" }
+					type: "item"
+				}
+				{
+					id: "50026E53569AF4A7"
+					item: { count: 1, id: "oritech:reactor_vent" }
+					type: "item"
+				}
+				{
+					id: "36C1BE7E18CAC8C5"
+					item: { count: 1, id: "oritech:reactor_reflector" }
+					type: "item"
+				}
+				{
+					id: "7F48FAEBDDD8F273"
+					item: { count: 1, id: "oritech:reactor_heat_pipe" }
+					type: "item"
+				}
+				{
+					id: "433E6307752B33FC"
+					item: { count: 1, id: "oritech:reactor_energy_port" }
+					type: "item"
+				}
+				{
+					id: "47ED3115CF08FA29"
+					item: { count: 1, id: "oritech:reactor_redstone_port" }
+					type: "item"
+				}
+				{
+					id: "1F26A5DC1A1E18F3"
+					item: { count: 1, id: "oritech:reactor_wall" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F19A0AECC129216"]
+			icon: {
+				id: "oritech:drone_port_block"
+			}
+			id: "0F97525097FA4573"
+			rewards: [
+				{
+					id: "4076594B1A9A2DEF"
+					item: {
+						count: 1
+						id: "oritech:drone_port_block"
+					}
+					type: "item"
+				}
+				{
+					count: 11
+					id: "65E34227DC327346"
+					item: {
+						count: 1
+						id: "oritech:machine_core_3"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F619880EB21FF70"
+					item: { count: 1, id: "oritech:drone_port_block" }
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "6985D977D46566CD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:machine_cores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			icon: {
+				id: "oritech:exo_chestplate"
+			}
+			id: "66C2FBA12D91F642"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74EA8233178C4A4E"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "504D379255A4E578"
+					item: { count: 1, id: "oritech:exo_helmet" }
+					type: "item"
+				}
+				{
+					id: "25A3E7B85F5E15C9"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "277C71A4ABCBEF62"
+					item: { count: 1, id: "oritech:exo_leggings" }
+					type: "item"
+				}
+				{
+					id: "5E0CF6F60486829C"
+					item: { count: 1, id: "oritech:exo_boots" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+}

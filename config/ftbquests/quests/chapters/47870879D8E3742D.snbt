@@ -1,0 +1,399 @@
+{
+	autofocus_id: "6DE4258F18A7A321"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "47870879D8E3742D"
+	group: ""
+	icon: {
+		id: "minecraft:sheaf_pottery_sherd"
+	}
+	id: "47870879D8E3742D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/enigmatica_tree"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6DE4258F18A7A321"
+			rewards: [
+				{
+					id: "77384B0A99236E78"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_paxel"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD47CFEEC9FC796"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "104800DFAA34EA66"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "606456A6443027A7"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "18E03E060EA1712D"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "3BD94AD4DC0068FE"
+					item: {
+						components: {
+							"akashictome:tool_content": [
+								{
+									components: {
+										"akashictome:defined_mod": "apotheosis"
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "ae2"
+									}
+									count: 1
+									id: "ae2:guide"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "ars_nouveau"
+									}
+									count: 1
+									id: "ars_nouveau:worn_notebook"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "buildinggadgets2"
+										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "chococraft"
+									}
+									count: 1
+									id: "chococraft:chocopedia"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "evilcraft"
+									}
+									count: 1
+									id: "evilcraft:origins_of_darkness"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "bigreactors"
+										"patchouli:book": "bigreactors:erguide"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "geneticsresequenced"
+										"patchouli:book": "geneticsresequenced:guide"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "immersiveengineering"
+									}
+									count: 1
+									id: "immersiveengineering:manual"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "industrialforegoing"
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "irons_spellbooks"
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "justdirethings"
+										"patchouli:book": "justdirethings:justdirethingsbook"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "laserio"
+										"patchouli:book": "laserio:laseriobook"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "malum"
+									}
+									count: 1
+									id: "malum:encyclopedia_arcana"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "modern_industrialization"
+									}
+									count: 1
+									id: "modern_industrialization:guidebook"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "modonomicon"
+										"modonomicon:book_id": "theurgy:the_hermetica"
+									}
+									count: 1
+									id: "modonomicon:modonomicon"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "mffs"
+										"patchouli:book": "mffs:handbook"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "modularrouters"
+										"patchouli:book": "modularrouters:book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "naturesaura"
+										"patchouli:book": "naturesaura:book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "occultism"
+									}
+									count: 1
+									id: "occultism:dictionary_of_spirits"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "pneumaticcraft"
+										"patchouli:book": "pneumaticcraft:book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "productivetrees"
+										"patchouli:book": "productivetrees:guide"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "sushigocrafting"
+										"patchouli:book": "sushigocrafting:sushigocrafting"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+							]
+						}
+						count: 1
+						id: "akashictome:tome"
+					}
+					type: "item"
+				}
+				{
+					id: "0FEFE6B72E03D0F5"
+					item: {
+						components: {
+							"morphtool:is_morph_tool": 1b
+							"morphtool:tool_content": [
+								{
+									count: 1
+									id: "actuallyadditions:laser_wrench"
+								}
+								{
+									count: 1
+									id: "ae2:nether_quartz_wrench"
+								}
+								{
+									count: 1
+									id: "bigreactors:wrench"
+								}
+								{
+									count: 1
+									id: "cable_facades:facade_wrench"
+								}
+								{
+									count: 1
+									id: "enderio:yeta_wrench"
+								}
+								{
+									count: 1
+									id: "framedblocks:framed_wrench"
+								}
+								{
+									count: 1
+									id: "justdirethings:ferricore_wrench"
+								}
+								{
+									count: 1
+									id: "laserio:laser_wrench"
+								}
+								{
+									count: 1
+									id: "mekanism:configurator"
+								}
+								{
+									count: 1
+									id: "modern_industrialization:wrench"
+								}
+								{
+									components: {
+										"pneumaticcraft:air": 30000
+									}
+									count: 1
+									id: "pneumaticcraft:camo_applicator"
+								}
+								{
+									components: {
+										"pneumaticcraft:air": 30000
+									}
+									count: 1
+									id: "pneumaticcraft:logistics_configurator"
+								}
+								{
+									components: {
+										"pneumaticcraft:air": 30000
+									}
+									count: 1
+									id: "pneumaticcraft:pneumatic_wrench"
+								}
+								{
+									count: 1
+									id: "powah:wrench"
+								}
+								{
+									count: 1
+									id: "prettypipes:wrench"
+								}
+								{
+									count: 1
+									id: "supplementaries:wrench"
+								}
+								{
+									components: {
+										"minecraft:custom_name": "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Pipe Wrench\"}]}"
+										"minecraft:unbreakable": { }
+										"morphtool:is_morph_tool": 1b
+										"morphtool:og_display_name": "{\"translate\":\"item.oritech.wrench\"}"
+									}
+									count: 1
+									id: "oritech:wrench"
+								}
+							]
+						}
+						count: 1
+						id: "morphtool:tool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "kubejs:item/enigmatica_tree"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "42EE7B1C5F75BCAF"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DE4258F18A7A321"]
+			icon: {
+				id: "minecraft:recovery_compass"
+			}
+			id: "44BD4C393C59F1CB"
+			rewards: [{
+				id: "34CE01457EC3BF54"
+				table_id: 7328324051567566419L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DE0A9A5505F1850"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6DE4258F18A7A321"]
+			icon: {
+				id: "minecraft:calibrated_sculk_sensor"
+			}
+			id: "16C7D5478BF3D449"
+			rewards: [{
+				id: "3B91D6510485CE40"
+				table_id: 23658154196454858L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C0E5A805AE1132B"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+	]
+}

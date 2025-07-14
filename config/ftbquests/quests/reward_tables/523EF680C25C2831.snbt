@@ -1,0 +1,55 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/rare"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "523EF680C25C2831"
+	loot_size: 2
+	order_index: 13
+	rewards: [
+		{
+			count: 8
+			id: "1BE6EC6E68C5507E"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_drill"
+			}
+		}
+		{
+			count: 8
+			id: "175A6BDB457CBA89"
+			item: {
+				count: 1
+				id: "modern_industrialization:basic_machine_hull"
+			}
+		}
+		{
+			count: 16
+			id: "59405524C69C5194"
+			item: {
+				count: 1
+				id: "modern_industrialization:tin_cable"
+			}
+		}
+		{
+			count: 8
+			id: "5D35045FEB28B688"
+			item: {
+				count: 1
+				id: "modern_industrialization:analog_circuit"
+			}
+		}
+		{
+			count: 8
+			id: "4DC762BB70E39ED9"
+			item: {
+				count: 1
+				id: "modern_industrialization:motor"
+			}
+		}
+	]
+	use_title: true
+}

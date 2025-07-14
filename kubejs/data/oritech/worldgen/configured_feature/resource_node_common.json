@@ -1,0 +1,50 @@
+{
+    "type": "oritech:resource_node",
+    "config": {
+        "nodeSize": 9,
+        "nodeOreChance": 0.4,
+        "boulderRadius": 3,
+        "nodeOres": [
+            "oritech:resource_node_copper",
+            "oritech:resource_node_copper",
+            "oritech:resource_node_copper",
+            "oritech:resource_node_iron",
+            "oritech:resource_node_iron",
+            "oritech:resource_node_nickel",
+            "oritech:resource_node_nickel",
+            "oritech:resource_node_coal",
+            "kubejs:resource_node_lignite",
+            "kubejs:resource_node_tin",
+            "kubejs:resource_node_tin",
+            "kubejs:resource_node_lead",
+            "kubejs:resource_node_silver",
+            "kubejs:resource_node_silver",
+            "kubejs:resource_node_antimony"
+        ],
+        "boulderOres": [
+            "minecraft:deepslate_iron_ore",
+            "minecraft:deepslate_copper_ore",
+            "minecraft:deepslate_copper_ore",
+            "minecraft:deepslate_iron_ore",
+            "minecraft:deepslate_coal_ore",
+            "modern_industrialization:deepslate_nickel_ore",
+            "modern_industrialization:deepslate_nickel_ore",
+
+            "modern_industrialization:deepslate_lignite_coal_ore",
+            "modern_industrialization:deepslate_tin_ore",
+            "modern_industrialization:deepslate_lead_ore",
+            "modern_industrialization:deepslate_antimony_ore",
+            "occultism:silver_ore_deepslate",
+
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate"
+        ],
+        "overlayBlock": "pneumaticcraft:oil",
+        "overlayHeight": 5
+    }
+}

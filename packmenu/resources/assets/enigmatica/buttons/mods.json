@@ -1,0 +1,29 @@
+{
+    "x": 20,
+    "y": 170,
+    "width": 170,
+    "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/mods",
+        "width": 170,
+        "height": 20
+    },
+    "action": {
+        "type": "packmenu:open_screen",
+        "screen": "mods"
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.mods",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.mods",
+        "y_offset": 1,
+        "x_offset": 11
+    },
+    "sprites": {
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
+    }
+}

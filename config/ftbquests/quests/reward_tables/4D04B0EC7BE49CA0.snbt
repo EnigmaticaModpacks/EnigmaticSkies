@@ -1,0 +1,74 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/rare"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4D04B0EC7BE49CA0"
+	loot_size: 2
+	order_index: 16
+	rewards: [
+		{ id: "5C524A7AAEDBB57D", item: { components: { "pneumaticcraft:main_tank": { amount: 16000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:small_tank" } }
+		{
+			count: 4
+			id: "0B8E155B35C4CEF7"
+			item: {
+				count: 1
+				id: "pneumaticcraft:speed_upgrade"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			id: "31D0C6D766807C12"
+			item: {
+				count: 1
+				id: "pneumaticcraft:volume_upgrade"
+			}
+			random_bonus: 8
+		}
+		{ id: "375C13D9E3A3B4ED", item: { count: 1, id: "pneumaticcraft:liquid_hopper" } }
+		{ id: "7E2B071A15A9F5DB", item: { count: 1, id: "pneumaticcraft:omnidirectional_hopper" } }
+		{ id: "3F157E3988FB461A", item: { count: 1, id: "pneumaticcraft:redstone_module" } }
+		{ id: "0F61F66A05FE5CC8", item: { count: 1, id: "pneumaticcraft:thermostat_module" } }
+		{
+			count: 8
+			id: "1300C955C3112E18"
+			item: {
+				count: 1
+				id: "pneumaticcraft:pressure_tube"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 4
+			id: "16B004EF39DB486C"
+			item: {
+				count: 1
+				id: "pneumaticcraft:crop_support"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "1225938DF8E8DB63"
+			item: {
+				count: 1
+				id: "pneumaticcraft:bandage"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "0A46DAA545275519"
+			item: {
+				count: 1
+				id: "pneumaticcraft:module_expansion_card"
+			}
+			random_bonus: 2
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,84 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/alchemists_delight"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4C3908A1EDE782F7"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "38A415CC64FFC6EA"
+			item: {
+				count: 1
+				id: "theurgy:mercury_shard"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "23B87764D7F2DBB2"
+			item: {
+				count: 1
+				id: "theurgy:purified_gold"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "7DDD49F39BC22FD8"
+			item: {
+				count: 1
+				id: "theurgy:fermentation_starter"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "2ED1679A7E25366A"
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_strata"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "624F8F0B2B9F6DA1"
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_mineral"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "39B5EA11307FBF03"
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_plant"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "62E100A403DF7152"
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_creature"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{ id: "11FD9FD5CBE2FE0C", item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "ars_nouveau:spell_damage", "neoforge:cures": [ "protected_by_totem", "milk" ], show_icon: 1b }], potion: "kubejs:greater_mana_regen" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
+		{ id: "43B79964C7F120D4", item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "minecraft:regeneration", "neoforge:cures": [ "protected_by_totem", "milk" ], show_icon: 1b }], potion: "kubejs:greater_strength" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,69 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/rare"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "77FB07B0CC8EAE79"
+	loot_size: 2
+	order_index: 19
+	rewards: [
+		{
+			count: 2
+			id: "5C9AC9414E998BCB"
+			item: {
+				count: 1
+				id: "ars_additions:codex_entry"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			id: "1F809500EF0C8B85"
+			item: {
+				count: 1
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "6ECE99FB610E02DC"
+			item: {
+				count: 1
+				id: "ars_nouveau:whirlisprig_shards"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "605D687058F30CBE"
+			item: {
+				count: 1
+				id: "ars_elemental:siren_shards"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "60903146EE084C2B"
+			item: {
+				count: 1
+				id: "ars_nouveau:warp_scroll"
+			}
+			random_bonus: 2
+			weight: 15.0f
+		}
+		{
+			count: 8
+			id: "020FCC730CC62C89"
+			item: {
+				count: 1
+				id: "ars_nouveau:sourcestone"
+			}
+			random_bonus: 8
+			weight: 20.0f
+		}
+	]
+	use_title: true
+}
