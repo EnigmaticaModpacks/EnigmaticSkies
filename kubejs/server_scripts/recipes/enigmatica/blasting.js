@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:blasting/';
     const recipes = [];
 
-    const materials = ['copper', 'gold', 'iron', 'nickel', 'zinc', 'steel'];
+    const materials = ['copper', 'gold', 'iron', 'zinc', 'steel'];
 
     materials.forEach((material) => {
         recipes.push({

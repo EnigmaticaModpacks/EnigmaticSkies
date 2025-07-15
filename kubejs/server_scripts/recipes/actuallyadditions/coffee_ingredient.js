@@ -36,24 +36,6 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'minecraft:phantom_membrane' },
             max_amplifier: 2,
             id: `${id_prefix}slow_falling_from_phantom_membrane`
-        },
-        {
-            effects: [{ effect: 'minecraft:slow_falling', amplifier: 0, duration: 60 * 10 }],
-            ingredient: { item: 'chococraft:chocobo_feather' },
-            max_amplifier: 2,
-            id: `${id_prefix}slow_falling_from_chocobo_feather`
-        },
-        {
-            effects: [{ effect: 'minecraft:luck', amplifier: 0, duration: 60 * 10 }],
-            ingredient: { item: 'the_bumblezone:glistering_honey_crystal' },
-            max_amplifier: 1,
-            id: `${id_prefix}luck_from_glistering_honey_crystal`
-        },
-        {
-            effects: [{ effect: 'minecraft:regeneration', amplifier: 0, duration: 2 * 60 }],
-            ingredient: { item: 'chococraft:gysahl_green' },
-            max_amplifier: 3,
-            id: `${id_prefix}regeneration_from_gysahl_green`
         }
     ];
 

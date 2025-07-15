@@ -30,43 +30,43 @@ ServerEvents.recipes((event) => {
         });
     });
 
-    let materials = [
-        { primary: 'iron' },
-        { primary: 'copper' },
-        { primary: 'gold' },
-        { primary: 'osmium' },
-        { primary: 'iesnium' },
-        { primary: 'iridium' },
-        { primary: 'lead' },
-        { primary: 'silver' },
-        { primary: 'nickel' },
-        { primary: 'tin' },
-        { primary: 'aluminum' },
-        { primary: 'platinum' },
-        { primary: 'uranium' },
-        { primary: 'zinc' }
-    ];
+    // let materials = [
+    //     { primary: 'iron' },
+    //     { primary: 'copper' },
+    //     { primary: 'gold' },
+    //     { primary: 'osmium' },
+    //     { primary: 'iesnium' },
+    //     { primary: 'iridium' },
+    //     { primary: 'lead' },
+    //     { primary: 'silver' },
+    //     { primary: 'nickel' },
+    //     { primary: 'tin' },
+    //     { primary: 'aluminum' },
+    //     { primary: 'platinum' },
+    //     { primary: 'uranium' },
+    //     { primary: 'zinc' }
+    // ];
 
-    materials.forEach((material) => {
-        recipes.push(
-            {
-                results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 }],
-                ingredients: [{ tag: `c:clumps/${material.primary}` }],
-                fluidInput: { fluid: 'minecraft:water', amount: 1000 },
-                fluidOutputs: [],
-                time: 300,
-                id: `${id_prefix}clump_${material.primary}`
-            },
-            {
-                results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 3 }],
-                ingredients: [{ tag: `c:clumps/${material.primary}` }],
-                fluidInput: { fluid: 'oritech:still_sulfuric_acid', amount: 1000 },
-                fluidOutputs: [{ fluid: 'oritech:still_mineral_slurry', amount: 250 }],
-                time: 300,
-                id: `${id_prefix}clump_acid_${material.primary}`
-            }
-        );
-    });
+    // materials.forEach((material) => {
+    //     recipes.push(
+    //         {
+    //             results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 }],
+    //             ingredients: [{ tag: `c:clumps/${material.primary}` }],
+    //             fluidInput: { fluid: 'minecraft:water', amount: 1000 },
+    //             fluidOutputs: [],
+    //             time: 300,
+    //             id: `${id_prefix}clump_${material.primary}`
+    //         },
+    //         {
+    //             results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 3 }],
+    //             ingredients: [{ tag: `c:clumps/${material.primary}` }],
+    //             fluidInput: { fluid: 'oritech:still_sulfuric_acid', amount: 1000 },
+    //             fluidOutputs: [{ fluid: 'oritech:still_mineral_slurry', amount: 250 }],
+    //             time: 300,
+    //             id: `${id_prefix}clump_acid_${material.primary}`
+    //         }
+    //     );
+    // });
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:centrifuge_fluid';

@@ -64,7 +64,6 @@ ServerEvents.generateData('after_mods', (event) => {
 
     let zombies = [
         'minecraft:drowned',
-        'evilcraft:controlled_zombie',
         'occultism:possessed_zombie_piglin',
         'occultism:wild_zombie',
         'occultism:wild_horde_drowned',

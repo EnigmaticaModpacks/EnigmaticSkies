@@ -25,23 +25,12 @@ ServerEvents.recipes((event) => {
             time: 500,
             id: `${id_prefix}neptunium_nugget`
         },
-        {
-            results: [{ id: 'the_bumblezone:royal_jelly_bottle', count: 1 }],
-            ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'irons_spellbooks:arcane_essence' }],
-            time: 15000,
-            id: `${id_prefix}royal_jelly_bottle`
-        },
+
         {
             results: [{ id: 'minecraft:crying_obsidian', count: 1 }],
             ingredients: [{ tag: 'c:nuggets/neptunium' }, { item: 'minecraft:obsidian' }],
             time: 500,
             id: `${id_prefix}crying_obsidian`
-        },
-        {
-            results: [{ id: 'replication:raw_replica', count: 2 }],
-            ingredients: [{ tag: 'c:raw_materials/uraninite' }, { tag: 'c:raw_materials/tungsten' }],
-            time: 5000,
-            id: `${id_prefix}raw_replica`
         }
     ];
 

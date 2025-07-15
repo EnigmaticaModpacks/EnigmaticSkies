@@ -32,21 +32,13 @@ ServerEvents.recipes((event) => {
             inputs: ['#c:dusts/sulfur', '#c:dusts/sulfur'],
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
-        {
-            output: 'minecraft:yellow_dye',
-            inputs: ['productivetrees:fustic'],
-            id: `${id_prefix}yellow_dye_from_fustic`
-        },
+
         {
             output: 'minecraft:yellow_dye',
             inputs: ['minecraft:glow_berries'],
             id: `${id_prefix}yellow_dye_from_glow_berries`
         },
-        {
-            output: 'minecraft:red_dye',
-            inputs: ['productivetrees:dracaena_sap'],
-            id: `${id_prefix}red_dye_from_dracaena_sap`
-        },
+
         {
             output: 'minecraft:reinforced_deepslate',
             inputs: [
@@ -80,16 +72,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}amethyst_shard`
         }
     ];
-
-    copper_types.forEach((type) => {
-        oxides.forEach((oxide) => {
-            recipes.push({
-                output: `create:waxed_${oxide}${type}`,
-                inputs: [`create:${oxide}${type}`, 'modern_industrialization:wax'],
-                id: `${id_prefix}${oxide}${type}`
-            });
-        });
-    });
 
     recipes.forEach((recipe) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);

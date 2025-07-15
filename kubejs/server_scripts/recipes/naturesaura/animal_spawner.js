@@ -34,17 +34,6 @@ ServerEvents.recipes((event) => {
             aura: 30000,
             time: 40,
             id: `${id_prefix}allay`
-        },
-        {
-            entity: 'chococraft:chocobo',
-            ingredients: [
-                { item: 'naturesaura:birth_spirit' },
-                { item: 'chococraft:loverly_gysahl_green' },
-                { item: 'minecraft:feather' }
-            ],
-            aura: 30000,
-            time: 40,
-            id: `${id_prefix}chocobo`
         }
     ];
 

@@ -22,26 +22,26 @@ MoreJS.registerPotionBrewing((event) => {
             input: 'minecraft:awkward',
             output: 'minecraft:invisibility'
         },
-        {
-            reagent: 'chococraft:gysahl_green',
-            input: 'minecraft:awkward',
-            output: 'minecraft:regeneration'
-        },
+        // {
+        //     reagent: 'chococraft:gysahl_green',
+        //     input: 'minecraft:awkward',
+        //     output: 'minecraft:regeneration'
+        // },
         {
             reagent: 'ars_nouveau:manipulation_essence',
             input: 'minecraft:awkward',
             output: 'minecraft:strength'
         },
-        {
-            reagent: 'chococraft:chocobo_feather',
-            input: 'minecraft:awkward',
-            output: 'minecraft:slow_falling'
-        },
-        {
-            reagent: 'chococraft:gold_gysahl',
-            input: 'minecraft:slow_falling',
-            output: 'apothic_attributes:flying'
-        },
+        // {
+        //     reagent: 'chococraft:chocobo_feather',
+        //     input: 'minecraft:awkward',
+        //     output: 'minecraft:slow_falling'
+        // },
+        // {
+        //     reagent: 'chococraft:gold_gysahl',
+        //     input: 'minecraft:slow_falling',
+        //     output: 'apothic_attributes:flying'
+        // },
         {
             reagent: 'ae2:sky_dust',
             input: 'apothic_attributes:long_flying',
@@ -66,13 +66,31 @@ MoreJS.registerPotionBrewing((event) => {
 
     let greater_potions = [
         { output: 'kubejs:greater_strength', input: 'minecraft:strong_strength' },
-        { output: 'kubejs:greater_regeneration', input: 'minecraft:strong_regeneration' },
-        { output: 'kubejs:greater_mana_regen', input: 'ars_nouveau:mana_regen_potion_strong' },
-        { output: 'kubejs:greater_spell_damage', input: 'ars_nouveau:spell_damage_potion_strong' },
-        { output: 'kubejs:greater_shielding', input: 'ars_nouveau:shielding_potion_strong' },
-        { output: 'kubejs:greater_recovery', input: 'ars_nouveau:recovery_potion_strong' },
+        {
+            output: 'kubejs:greater_regeneration',
+            input: 'minecraft:strong_regeneration'
+        },
+        {
+            output: 'kubejs:greater_mana_regen',
+            input: 'ars_nouveau:mana_regen_potion_strong'
+        },
+        {
+            output: 'kubejs:greater_spell_damage',
+            input: 'ars_nouveau:spell_damage_potion_strong'
+        },
+        {
+            output: 'kubejs:greater_shielding',
+            input: 'ars_nouveau:shielding_potion_strong'
+        },
+        {
+            output: 'kubejs:greater_recovery',
+            input: 'ars_nouveau:recovery_potion_strong'
+        },
         { output: 'kubejs:greater_resistance', input: 'kubejs:strong_resistance' },
-        { output: 'kubejs:greater_instant_damage', input: 'minecraft:strong_harming' }
+        {
+            output: 'kubejs:greater_instant_damage',
+            input: 'minecraft:strong_harming'
+        }
     ];
 
     greater_potions.forEach((potion) => {

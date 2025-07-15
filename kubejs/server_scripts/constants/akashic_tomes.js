@@ -30,51 +30,8 @@ const akashic_tomes = [
     },
     {
         components: {
-            'akashictome:defined_mod': 'chococraft'
-        },
-        count: 1,
-        id: 'chococraft:chocopedia'
-    },
-    {
-        components: { 'akashictome:defined_mod': 'evilcraft' },
-        count: 1,
-        id: 'evilcraft:origins_of_darkness'
-    },
-    {
-        components: {
-            'akashictome:defined_mod': 'bigreactors',
-            'patchouli:book': 'bigreactors:erguide'
-        },
-        count: 1,
-        id: 'patchouli:guide_book'
-    },
-    {
-        components: {
-            'akashictome:defined_mod': 'geneticsresequenced',
-            'patchouli:book': 'geneticsresequenced:guide'
-        },
-        count: 1,
-        id: 'patchouli:guide_book'
-    },
-    {
-        components: {
-            'akashictome:defined_mod': 'immersiveengineering'
-        },
-        count: 1,
-        id: 'immersiveengineering:manual'
-    },
-    {
-        components: {
             'akashictome:defined_mod': 'industrialforegoing',
             'patchouli:book': 'industrialforegoing:industrial_foregoing'
-        },
-        count: 1,
-        id: 'patchouli:guide_book'
-    },
-    {
-        components: {
-            'akashictome:defined_mod': 'irons_spellbooks',
-            'patchouli:book': 'irons_spellbooks:iss_guide_book'
         },
         count: 1,
         id: 'patchouli:guide_book'
@@ -88,7 +45,10 @@ const akashic_tomes = [
         id: 'patchouli:guide_book'
     },
     {
-        components: { 'akashictome:defined_mod': 'laserio', 'patchouli:book': 'laserio:laseriobook' },
+        components: {
+            'akashictome:defined_mod': 'laserio',
+            'patchouli:book': 'laserio:laseriobook'
+        },
         count: 1,
         id: 'patchouli:guide_book'
     },
@@ -101,19 +61,6 @@ const akashic_tomes = [
         components: { 'akashictome:defined_mod': 'modern_industrialization' },
         count: 1,
         id: 'modern_industrialization:guidebook'
-    },
-    {
-        components: {
-            'akashictome:defined_mod': 'modonomicon',
-            'modonomicon:book_id': 'theurgy:the_hermetica'
-        },
-        count: 1,
-        id: 'modonomicon:modonomicon'
-    },
-    {
-        components: { 'akashictome:defined_mod': 'mffs', 'patchouli:book': 'mffs:handbook' },
-        count: 1,
-        id: 'patchouli:guide_book'
     },
     {
         components: {
@@ -142,14 +89,6 @@ const akashic_tomes = [
         components: {
             'akashictome:defined_mod': 'pneumaticcraft',
             'patchouli:book': 'pneumaticcraft:book'
-        },
-        count: 1,
-        id: 'patchouli:guide_book'
-    },
-    {
-        components: {
-            'akashictome:defined_mod': 'productivetrees',
-            'patchouli:book': 'productivetrees:guide'
         },
         count: 1,
         id: 'patchouli:guide_book'

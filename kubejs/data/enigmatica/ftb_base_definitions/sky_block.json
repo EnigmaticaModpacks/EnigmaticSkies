@@ -1,0 +1,18 @@
+{
+  "id": "enigmatica:sky_block",
+  "display": {
+    "description": "base.enigmatica.sky_block",
+    "preview_image": "enigmatica:textures/enigmatica_tree.png",
+    "author": "Enigmatica Team"
+  },
+  "construction": {
+    "structure_location": "enigmatica:base/cloud_gazebo",
+    "y_pos": 128,
+    "include_entities": false
+  },
+  "spawn_offset": [0, 0, -15],
+  "dimension": {
+    "private": false,
+    "dimension_id": "ftbteambases:bases"
+  }
+}
