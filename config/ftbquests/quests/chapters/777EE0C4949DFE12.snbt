@@ -491,8 +491,11 @@
 				{
 					id: "22799AD51BF131E2"
 					item: {
+						components: {
+							"ftbquests:missing_item": "powah:battery_starter"
+						}
 						count: 1
-						id: "powah:battery_starter"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

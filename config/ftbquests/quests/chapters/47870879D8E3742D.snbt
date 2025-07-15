@@ -97,20 +97,6 @@
 								}
 								{
 									components: {
-										"akashictome:defined_mod": "chococraft"
-									}
-									count: 1
-									id: "chococraft:chocopedia"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "evilcraft"
-									}
-									count: 1
-									id: "evilcraft:origins_of_darkness"
-								}
-								{
-									components: {
 										"akashictome:defined_mod": "bigreactors"
 										"patchouli:book": "bigreactors:erguide"
 									}
@@ -124,13 +110,6 @@
 									}
 									count: 1
 									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "immersiveengineering"
-									}
-									count: 1
-									id: "immersiveengineering:manual"
 								}
 								{
 									components: {
@@ -264,10 +243,6 @@
 								}
 								{
 									count: 1
-									id: "bigreactors:wrench"
-								}
-								{
-									count: 1
 									id: "cable_facades:facade_wrench"
 								}
 								{
@@ -314,10 +289,6 @@
 									}
 									count: 1
 									id: "pneumaticcraft:pneumatic_wrench"
-								}
-								{
-									count: 1
-									id: "powah:wrench"
 								}
 								{
 									count: 1

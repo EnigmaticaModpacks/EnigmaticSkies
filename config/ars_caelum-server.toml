@@ -1,0 +1,9 @@
+[starter_ritual]
+	#The ResourceLocation of the structure to use for the starter island. Default: ars_caelum:starter_island
+	starter_island_rl = "ars_caelum:starter_island"
+	#The amount of source required to perform the starting island ritual
+	# Default: 0
+	# Range: 0 ~ 10000
+	ritual_source = 0
+	#The biome to use for the starting island ritual, like minecraft:plains. Providing nothing will not change the biome.
+	ritual_biome = ""

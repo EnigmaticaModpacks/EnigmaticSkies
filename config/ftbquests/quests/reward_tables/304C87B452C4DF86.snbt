@@ -8,7 +8,7 @@
 	}
 	id: "304C87B452C4DF86"
 	loot_size: 2
-	order_index: 26
+	order_index: 23
 	rewards: [
 		{ id: "59393A713905B9EF", item: { count: 1, id: "oritech:machine_efficiency_addon" } }
 		{ id: "2A14C682A2DA008B", item: { count: 1, id: "oritech:machine_capacitor_addon" } }

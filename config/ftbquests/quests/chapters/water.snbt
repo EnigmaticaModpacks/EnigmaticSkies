@@ -4,7 +4,7 @@
 	filename: "water"
 	group: ""
 	id: "7F9A789B53FAB216"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		can_repeat: true
