@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}netherite_scrap`
         },
         {
-            input: { tag: 'c:ices/ice' },
+            input: { item: 'minecraft:ice' },
             output: [
                 {
                     stack: { id: 'minecraft:snow_block', count: 1 },
@@ -39,46 +39,57 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}snow_block`
-        }
-    ];
-
-    let materials = [
-        { primary: 'iron', secondary: 'nickel' },
-        { primary: 'copper', secondary: 'gold' },
-        { primary: 'gold', secondary: 'copper' },
-        { primary: 'osmium', secondary: 'silver' },
-        { primary: 'iesnium', secondary: 'silver' },
-        { primary: 'iridium', secondary: 'osmium' },
-        { primary: 'lead', secondary: 'silver' },
-        { primary: 'silver', secondary: 'lead' },
-        { primary: 'nickel', secondary: 'platinum' },
-        { primary: 'tin', secondary: 'iron' },
-        { primary: 'uranium', secondary: 'lead' },
-        { primary: 'platinum', secondary: 'iridium' },
-        { primary: 'aluminum', secondary: 'aluminum' },
-        { primary: 'zinc', secondary: 'silver' }
-    ];
-    materials.forEach((material) => {
-        recipes.push({
-            input: { tag: `c:raw_materials/${material.primary}` },
+        },
+        {
+            input: { item: 'minecraft:packed_ice' },
             output: [
                 {
-                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
+                    stack: { id: 'aether:cold_aercloud', count: 1 },
                     chance: 1.0,
-                    maxRange: 1
-                },
-                {
-                    stack: {
-                        id: AlmostUnified.getTagTargetItem(`c:dusts/${material.secondary}`).getId(),
-                        count: 1
-                    },
-                    chance: 0.15,
                     maxRange: 1
                 }
             ],
-            id: `${id_prefix}raw_${material.primary}`
-        });
-    });
+            id: `${id_prefix}cold_aercloud`
+        }
+    ];
+
+    // let materials = [
+    //     { primary: 'iron', secondary: 'nickel' },
+    //     { primary: 'copper', secondary: 'gold' },
+    //     { primary: 'gold', secondary: 'copper' },
+    //     { primary: 'osmium', secondary: 'silver' },
+    //     { primary: 'iesnium', secondary: 'silver' },
+    //     { primary: 'iridium', secondary: 'osmium' },
+    //     { primary: 'lead', secondary: 'silver' },
+    //     { primary: 'silver', secondary: 'lead' },
+    //     { primary: 'nickel', secondary: 'platinum' },
+    //     { primary: 'tin', secondary: 'iron' },
+    //     { primary: 'uranium', secondary: 'lead' },
+    //     { primary: 'platinum', secondary: 'iridium' },
+    //     { primary: 'aluminum', secondary: 'aluminum' },
+    //     { primary: 'zinc', secondary: 'silver' }
+    // ];
+    // materials.forEach((material) => {
+    //     recipes.push({
+    //         input: { tag: `c:raw_materials/${material.primary}` },
+    //         output: [
+    //             {
+    //                 stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
+    //                 chance: 1.0,
+    //                 maxRange: 1
+    //             },
+    //             {
+    //                 stack: {
+    //                     id: AlmostUnified.getTagTargetItem(`c:dusts/${material.secondary}`).getId(),
+    //                     count: 1
+    //                 },
+    //                 chance: 0.15,
+    //                 maxRange: 1
+    //             }
+    //         ],
+    //         id: `${id_prefix}raw_${material.primary}`
+    //     });
+    // });
 
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:crush';

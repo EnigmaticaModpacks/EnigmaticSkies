@@ -40,8 +40,11 @@
 			rewards: [{
 				id: "3766F951EB71EB36"
 				item: {
+					components: {
+						"ftbquests:missing_item": "powah:battery_basic"
+					}
 					count: 1
-					id: "powah:battery_basic"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

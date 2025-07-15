@@ -3,16 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ingredient: { tag: 'c:ores/uraninite' },
-            ignore_crushing_multiplier: false,
-            result: {
-                type: 'occultism:item',
-                id: 'powah:uraninite_raw',
-                count: 4
-            },
-            id: `${id_prefix}uraninite_raw`
-        },
-        {
             ingredient: { tag: 'c:ores/black_quartz' },
             ignore_crushing_multiplier: false,
             result: {

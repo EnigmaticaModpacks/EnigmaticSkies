@@ -153,69 +153,6 @@ ServerEvents.generateData('after_mods', (event) => {
             ]
         },
         {
-            registry_name: 'deeperdarker:angler_fish',
-            spirits: [
-                { spirit: 'eldritch', count: 1 },
-                { spirit: 'aqueous', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:sculk_leech',
-            spirits: [
-                { spirit: 'eldritch', count: 1 },
-                { spirit: 'aqueous', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:sculk_centipede',
-            spirits: [
-                { spirit: 'eldritch', count: 1 },
-                { spirit: 'earthen', count: 2 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:sculk_snapper',
-            spirits: [
-                { spirit: 'eldritch', count: 1 },
-                { spirit: 'wicked', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:sludge',
-            spirits: [
-                { spirit: 'eldritch', count: 1 },
-                { spirit: 'arcane', count: 1 },
-                { spirit: 'aqueous', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:shattered',
-            spirits: [
-                { spirit: 'eldritch', count: 1 },
-                { spirit: 'wicked', count: 1 },
-                { spirit: 'arcane', count: 1 },
-                { spirit: 'earthen', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:shriek_worm',
-            spirits: [
-                { spirit: 'eldritch', count: 3 },
-                { spirit: 'wicked', count: 3 },
-                { spirit: 'arcane', count: 3 },
-                { spirit: 'earthen', count: 3 }
-            ]
-        },
-        {
-            registry_name: 'deeperdarker:stalker',
-            spirits: [
-                { spirit: 'eldritch', count: 3 },
-                { spirit: 'wicked', count: 3 },
-                { spirit: 'arcane', count: 3 },
-                { spirit: 'earthen', count: 3 }
-            ]
-        },
-        {
             registry_name: 'minecraft:warden',
             spirits: [
                 { spirit: 'eldritch', count: 6 },
@@ -229,40 +166,6 @@ ServerEvents.generateData('after_mods', (event) => {
             spirits: [
                 { spirit: 'wicked', count: 1 },
                 { spirit: 'earthen', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'evilcraft:werewolf',
-            spirits: [
-                { spirit: 'wicked', count: 1 },
-                { spirit: 'earthen', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'evilcraft:netherfish',
-            spirits: [
-                { spirit: 'wicked', count: 1 },
-                { spirit: 'earthen', count: 1 },
-                { spirit: 'infernal', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'evilcraft:poisonous_libelle',
-            spirits: [
-                { spirit: 'wicked', count: 1 },
-                { spirit: 'aerial', count: 1 }
-            ]
-        },
-        {
-            registry_name: 'evilcraft:vengeance_spirit',
-            spirits: [{ spirit: 'wicked', count: 1 }]
-        },
-        {
-            registry_name: 'artifacts:mimic',
-            spirits: [
-                { spirit: 'arcane', count: 1 },
-                { spirit: 'earthen', count: 1 },
-                { spirit: 'wicked', count: 1 }
             ]
         },
         {

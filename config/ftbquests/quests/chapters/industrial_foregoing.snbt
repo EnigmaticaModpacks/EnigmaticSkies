@@ -10,7 +10,7 @@
 		id: "patchouli:guide_book"
 	}
 	id: "13D3BD9B8A839B2E"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -238,8 +238,11 @@
 			rewards: [{
 				id: "767A2E1B8A24E800"
 				item: {
+					components: {
+						"ftbquests:missing_item": "powah:energy_cell_hardened"
+					}
 					count: 1
-					id: "powah:energy_cell_hardened"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -414,8 +417,11 @@
 			rewards: [{
 				id: "709993EF9F5E664D"
 				item: {
+					components: {
+						"ftbquests:missing_item": "powah:energy_cell_nitro"
+					}
 					count: 1
-					id: "powah:energy_cell_nitro"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

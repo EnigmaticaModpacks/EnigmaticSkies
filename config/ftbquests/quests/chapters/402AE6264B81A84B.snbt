@@ -127,8 +127,11 @@
 			rewards: [{
 				id: "60AA6C3ADF129D25"
 				item: {
+					components: {
+						"ftbquests:missing_item": "powah:energy_cell_starter"
+					}
 					count: 1
-					id: "powah:energy_cell_starter"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -172,36 +175,6 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["235D7EF41916E480"]
-			icon: {
-				id: "powah:ender_gate_starter"
-			}
-			id: "0071209841FB1C23"
-			rewards: [{
-				count: 2
-				id: "1C26D90E2DDEB6BC"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6434DA9DBF54356B"
-					item: { components: { "ftbfiltersystem:filter": "or(item(powah:ender_gate_starter)item(powah:ender_gate_basic)item(powah:ender_gate_hardened)item(powah:ender_gate_blazing)item(powah:ender_gate_niotic)item(powah:ender_gate_spirited)item(powah:ender_gate_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "2443C92B985E88B2"
-					item: { components: { "ftbfiltersystem:filter": "or(item(powah:ender_cell_starter)item(powah:ender_cell_basic)item(powah:ender_cell_hardened)item(powah:ender_cell_blazing)item(powah:ender_cell_niotic)item(powah:ender_cell_spirited)item(powah:ender_cell_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -721,7 +694,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{

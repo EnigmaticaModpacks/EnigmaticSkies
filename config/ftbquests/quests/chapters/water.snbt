@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "water"
+	group: ""
+	id: "7F9A789B53FAB216"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		id: "7D6751D7D9E2AFA1"
+		rewards: [{
+			id: "2ED78D05EFB4D1E3"
+			item: {
+				components: {
+					"ars_elemental:elemental_tome_caster": {
+						flavor_text: "Conjures a single fluffy cloud."
+						hidden_text: "wgahnagl animal spirit elder cthulhu "
+						is_hidden: 1b
+						spells: {
+							0: {
+								color: {
+									b: 180
+									g: 25
+									id: "ars_nouveau:constant"
+									r: 255
+								}
+								name: "Cloud Burst"
+								particleTimeline: {
+									"ars_nouveau:burst": {
+										onResolvingEffect: {
+											motion: {
+												propMap: { }
+												type: "ars_nouveau:burst"
+											}
+											particleOptions: {
+												properties: {
+													"ars_nouveau:density": {
+														density: 5
+														radius: 0.1d
+														spawnType: "SPHERE"
+													}
+													"ars_nouveau:emitter": {
+														age: 0
+														rotation: {
+															x: 0.0f
+															y: 0.0f
+														}
+													}
+													"ars_nouveau:particle_type": {
+														particleType: "ars_nouveau:new_glow"
+														subProperties: {
+															"ars_nouveau:color": {
+																particleColor: {
+																	b: 211
+																	g: 211
+																	id: "ars_nouveau:constant"
+																	r: 211
+																}
+																tintDisabled: 0b
+															}
+														}
+													}
+												}
+												type: "ars_nouveau:new_glow"
+											}
+										}
+										resolveSound: {
+											sound: {
+												sound: {
+													id: "ars_nouveau:tempestry_family"
+												}
+											}
+										}
+										type: "ars_nouveau:burst"
+									}
+									"ars_nouveau:missile_projectile": {
+										castSound: {
+											sound: {
+												sound: {
+													id: "ars_nouveau:tempestry_family"
+												}
+											}
+										}
+										flairEffect: {
+											motion: {
+												propMap: { }
+												type: "ars_nouveau:none"
+											}
+											particleOptions: {
+												properties: {
+													"ars_nouveau:particle_type": {
+														particleType: "ars_nouveau:new_glow"
+														subProperties: {
+															"ars_nouveau:color": {
+																particleColor: {
+																	b: 180
+																	g: 25
+																	id: "ars_nouveau:constant"
+																	r: 255
+																}
+																tintDisabled: 1b
+															}
+														}
+													}
+												}
+												type: "ars_nouveau:new_glow"
+											}
+										}
+										onResolvingEffect: {
+											motion: {
+												propMap: { }
+												type: "ars_nouveau:burst"
+											}
+											particleOptions: {
+												properties: {
+													"ars_nouveau:density": {
+														density: 10
+														radius: 0.10000000149011612d
+														spawnType: "SPHERE"
+													}
+													"ars_nouveau:emitter": {
+														age: 0
+														rotation: {
+															x: 18.279661f
+															y: 154.0358f
+														}
+													}
+													"ars_nouveau:particle_type": {
+														particleType: "ars_nouveau:new_glow"
+														subProperties: {
+															"ars_nouveau:color": {
+																particleColor: {
+																	b: 229
+																	g: 215
+																	id: "ars_nouveau:constant"
+																	r: 173
+																}
+																tintDisabled: 0b
+															}
+														}
+													}
+												}
+												type: "ars_nouveau:new_glow"
+											}
+										}
+										onSpawnEffect: {
+											motion: {
+												propMap: { }
+												type: "ars_nouveau:none"
+											}
+											particleOptions: {
+												properties: {
+													"ars_nouveau:particle_type": {
+														particleType: "ars_nouveau:new_glow"
+														subProperties: {
+															"ars_nouveau:color": {
+																particleColor: {
+																	b: 180
+																	g: 25
+																	id: "ars_nouveau:constant"
+																	r: 255
+																}
+																tintDisabled: 1b
+															}
+														}
+													}
+												}
+												type: "ars_nouveau:new_glow"
+											}
+										}
+										resolveSound: {
+											sound: {
+												sound: {
+													id: "ars_nouveau:tempestry_family"
+												}
+											}
+										}
+										trailEffect: {
+											motion: {
+												propMap: {
+													"ars_nouveau:model": {
+														resource: "ars_nouveau:empty"
+														subPropMap: { }
+													}
+													"ars_nouveau:particle_type": {
+														particleType: "ars_nouveau:new_glow"
+														subProperties: {
+															"ars_nouveau:color": {
+																particleColor: {
+																	b: 214
+																	g: 191
+																	id: "ars_nouveau:constant"
+																	r: 122
+																}
+																tintDisabled: 0b
+															}
+														}
+													}
+												}
+												type: "ars_nouveau:helix"
+											}
+											particleOptions: {
+												properties: {
+													"ars_nouveau:density": {
+														density: 100
+														radius: 0.5d
+														spawnType: "SPHERE"
+													}
+													"ars_nouveau:particle_type": {
+														particleType: "ars_nouveau:new_glow"
+														subProperties: {
+															"ars_nouveau:color": {
+																particleColor: {
+																	b: 229
+																	g: 215
+																	id: "ars_nouveau:constant"
+																	r: 173
+																}
+																tintDisabled: 0b
+															}
+														}
+													}
+													"ars_nouveau:speed": {
+														xzMaxSpeed: 0.0d
+														xzMinSpeed: 0.0d
+														yMaxSpeed: 0.0d
+														yMinSpeed: 0.0d
+													}
+												}
+												type: "ars_nouveau:new_glow"
+											}
+										}
+										type: "ars_nouveau:projectile"
+									}
+								}
+								recipe: [
+									"arsomega:glyph_missile"
+									"ars_nouveau:glyph_duration_down"
+									"ars_nouveau:glyph_duration_down"
+									"ars_controle:glyph_filter_above"
+									"not_enough_glyphs:glyph_filter_light"
+									"ars_nouveau:glyph_burst"
+									"ars_nouveau:glyph_sensitive"
+									"ars_nouveau:glyph_aoe"
+									"ars_nouveau:glyph_aoe"
+									"ars_nouveau:glyph_conjure_water"
+									"ars_nouveau:glyph_freeze"
+									"ars_nouveau:glyph_freeze"
+									"ars_nouveau:glyph_crush"
+								]
+								sound: { }
+							}
+						}
+					}
+					"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Cloud Burst\"}"
+				}
+				count: 1
+				id: "ars_elemental:manipulation_caster_tome"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			count: 16L
+			id: "3DED21D6C46D912C"
+			item: { count: 1, id: "aether:cold_aercloud" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
+}

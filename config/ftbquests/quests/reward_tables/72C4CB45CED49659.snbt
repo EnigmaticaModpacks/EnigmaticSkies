@@ -8,7 +8,7 @@
 	}
 	id: "72C4CB45CED49659"
 	loot_size: 2
-	order_index: 23
+	order_index: 22
 	rewards: [
 		{ id: "2F28ABE5964C0A09", item: { count: 1, id: "naturesaura:ancient_sapling" } }
 		{

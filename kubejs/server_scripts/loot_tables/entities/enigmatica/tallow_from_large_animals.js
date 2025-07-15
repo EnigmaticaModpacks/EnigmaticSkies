@@ -11,7 +11,6 @@ LootJS.modifiers((event) => {
 
 LootJS.lootTables((event) => {
     const tables = [
-        'chococraft:entities/chocobo',
         'minecraft:entities/goat',
         'minecraft:entities/horse',
         'minecraft:entities/panda',

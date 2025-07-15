@@ -2,27 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/pulverizer/';
     const recipes = [
         {
-            results: [{ id: AlmostUnified.getTagTargetItem(`c:raw_materials/platinum`).getId(), count: 2 }],
-            ingredients: [{ tag: 'c:ores/platinum' }],
-            time: 180,
-            id: `${id_prefix}ore_platinum`
-        },
-        {
-            results: [
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/platinum`).getId(), count: 1 },
-                { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/platinum`).getId(), count: 3 }
-            ],
-            ingredients: [{ tag: 'c:raw_materials/platinum' }],
-            time: 180,
-            id: `${id_prefix}raw_platinum`
-        },
-        {
-            results: [{ id: 'powah:uraninite_raw', count: 4 }],
-            ingredients: [{ tag: 'c:ores/uraninite' }],
-            time: 180,
-            id: `${id_prefix}uraninite_raw`
-        },
-        {
             results: [{ id: 'actuallyadditions:black_quartz', count: 2 }],
             ingredients: [{ tag: 'c:ores/black_quartz' }],
             time: 180,
@@ -75,42 +54,42 @@ ServerEvents.recipes((event) => {
         });
     });
 
-    let materials = [
-        { primary: 'iron', secondary: 'nickel' },
-        { primary: 'copper', secondary: 'gold' },
-        { primary: 'gold', secondary: 'copper' },
-        { primary: 'iridium', secondary: 'platinum' },
-        { primary: 'lead', secondary: 'silver' },
-        { primary: 'osmium', secondary: 'silver' },
-        { primary: 'iesnium', secondary: 'silver' },
-        { primary: 'silver', secondary: 'lead' },
-        { primary: 'nickel', secondary: 'platinum' },
-        { primary: 'tin', secondary: 'iron' },
-        { primary: 'uranium', secondary: 'plutonium' },
-        { primary: 'aluminum', secondary: 'aluminum' },
-        { primary: 'zinc', secondary: 'silver' }
-    ];
-    materials.forEach((material) => {
-        recipes.push(
-            {
-                results: [
-                    { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId(), count: 2 }
-                ],
-                ingredients: [{ tag: `c:ores/${material.primary}` }],
-                time: 180,
-                id: `${id_prefix}ore_${material.primary}`
-            },
-            {
-                results: [
-                    { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
-                    { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.secondary}`).getId(), count: 3 }
-                ],
-                ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
-                time: 180,
-                id: `${id_prefix}raw_${material.primary}`
-            }
-        );
-    });
+    // let materials = [
+    //     { primary: 'iron', secondary: 'nickel' },
+    //     { primary: 'copper', secondary: 'gold' },
+    //     { primary: 'gold', secondary: 'copper' },
+    //     { primary: 'iridium', secondary: 'platinum' },
+    //     { primary: 'lead', secondary: 'silver' },
+    //     { primary: 'osmium', secondary: 'silver' },
+    //     { primary: 'iesnium', secondary: 'silver' },
+    //     { primary: 'silver', secondary: 'lead' },
+    //     { primary: 'nickel', secondary: 'platinum' },
+    //     { primary: 'tin', secondary: 'iron' },
+    //     { primary: 'uranium', secondary: 'plutonium' },
+    //     { primary: 'aluminum', secondary: 'aluminum' },
+    //     { primary: 'zinc', secondary: 'silver' }
+    // ];
+    // materials.forEach((material) => {
+    //     recipes.push(
+    //         {
+    //             results: [
+    //                 { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId(), count: 2 }
+    //             ],
+    //             ingredients: [{ tag: `c:ores/${material.primary}` }],
+    //             time: 180,
+    //             id: `${id_prefix}ore_${material.primary}`
+    //         },
+    //         {
+    //             results: [
+    //                 { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
+    //                 { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.secondary}`).getId(), count: 3 }
+    //             ],
+    //             ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
+    //             time: 180,
+    //             id: `${id_prefix}raw_${material.primary}`
+    //         }
+    //     );
+    // });
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:pulverizer';
