@@ -1,0 +1,46 @@
+#.
+#Sifter
+[Sifter]
+	#.
+	#.
+	#Minimum required speed.
+	# Default: 1.0
+	# Range: 1.0 ~ 3.4028234663852886E38
+	minimumSpeed = 1.0
+	#.
+	#Output item capacity.
+	# Default: 16
+	# Range: > 1
+	outputCapacity = 16
+
+#.
+#Brass Sifter
+["Brass Sifter"]
+	#.
+	#Items processed per cycle.
+	# Default: 8
+	# Range: > 1
+	outputCapacity = 8
+
+#.
+#Meshes
+[Meshes]
+	#.
+	#.
+	#Use mesh durability when sifting with sifter.
+	useMeshDurabilityWithSifter = false
+	#.
+	#Use mesh durability when sifting by hand.
+	useMeshDurabilityWithHand = true
+
+	#.
+	#Stress values
+	[stressValues.v1]
+
+		#.
+		#.
+		#[in Stress Units]
+		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+		[stressValues.v1.impact]
+			sifter = 4.0
+			brass_sifter = 16.0
