@@ -133,17 +133,6 @@ ServerEvents.recipes((event) => {
                 { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}obsidian`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `warden_.+`,
-            repairMaterial: { item: 'deeperdarker:reinforced_echo_shard', count: 1 },
-            spirits: [
-                { type: 'eldritch', count: 16 },
-                { type: 'wicked', count: 16 },
-                { type: 'earthen', count: 16 }
-            ],
-            id: `${id_prefix}warden`
         }
     ];
 

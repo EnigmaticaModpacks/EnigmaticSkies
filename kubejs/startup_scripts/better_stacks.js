@@ -39,6 +39,10 @@ ItemEvents.modification((event) => {
                 // music discs
                 /music_disc/
             ]
+        },
+        {
+            size: 1,
+            items: ['cold_sweat:filled_waterskin', 'cold_sweat:waterskin']
         }
     ];
 
