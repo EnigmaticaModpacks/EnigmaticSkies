@@ -1,0 +1,32 @@
+#Create: Cold Sweat settings
+[General]
+	#Should blaze burners apply heat?
+	"Blaze burner" = true
+	#Blaze burner smouldering temperature (MC UNITS)
+	# Default: 0.04291845494
+	# Range: 0.0 ~ 1.0
+	Smouldering = 0.04291845494
+	#Blaze burner fading temperature (MC UNITS)
+	# Default: 0.1287553648
+	# Range: 0.0 ~ 1.0
+	Fading = 0.1287553648
+	#Blaze burner kindled temperature (MC UNITS)
+	# Default: 0.2145922747
+	# Range: 0.0 ~ 1.0
+	Kindled = 0.2145922747
+	#Blaze burner seething temperature (MC UNITS)
+	# Default: 0.4291845494
+	# Range: 0.0 ~ 1.0
+	Seething = 0.4291845494
+	#Should Boilers apply heat?
+	Boiler = true
+	#The amount of MC UNITS to increase per heat level (max heat level is 18) (per block)
+	# Default: 0.00476871721
+	# Range: 0.0 ~ 1.0
+	"Boiler Increment" = 0.00476871721
+	#Should Liquids apply heat while in containers?
+	Liquids = true
+	#The temperature dampening on all default calculated liquids (calculated temperature / dampening)
+	# Default: 5.391630902
+	# Range: -100.0 ~ 100.0
+	"Liquid temperature dampening" = 5.391630902
