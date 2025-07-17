@@ -3053,7 +3053,8 @@
 		"&a🛈 Tip: Right-Click a Blood Extractor on "
 		"&a    the ground to dump out a bucket."
 	]
-	quest.4ACD723FC7EB7CD6.quest_desc: ["Cannot be used. Fires extinguish automatically."]
+	quest.4ACD723FC7EB7CD6.quest_desc: ["It's hard to keep a fire lit in this place; most open flames will go out immediately or simply not catch in the first place. "]
+	quest.4ACD723FC7EB7CD6.title: "Fire"
 	quest.4B0E34ADA419D750.quest_desc: ["Refined Canola Oil may be obtained with the help of a Fermenting Barrel. This greatly enhances the oil, allowing it to produce much more power. "]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
@@ -4421,14 +4422,16 @@
 		"This may prove quite challenging as you’ll need to provide some very peculiar materials to operate them, from Nether Stars and Dragon’s Breath to Potions and Fireworks. "
 	]
 	quest.6DBBD5B744B801B1.quest_desc: [
-		"You'll notice that a number of blocks either cannot be placed in this frigid place. Notably, the following blocks will be transformed if placed by any means, including conjuration!"
+		"You'll notice that a number of blocks either cannot be placed in this frigid place. "
 		""
-		"  • Cobblestone > Icestone"
-		"  • Dirt > Aether Dirt"
-		"  • Grass > Aether Grass"
-		"  • Mud > Aerogel"
-		"  • Sand > Cold Aercloud"
-		"  • Sandstone > Quicksoil"
+		"Notably, the following blocks will be transformed if placed by any means, including conjuration!"
+		""
+		"  • &7Cobblestone&r   &2⟶&r    &7Icestone&r"
+		"  • &7Dirt&r              &2⟶&r    &7Aether Dirt&r"
+		"  • &7Grass&r           &2⟶&r    &7Aether Grass&r"
+		"  • &7Mud&r              &2⟶&r    &7Aerogel&r"
+		"  • &7Sand&r            &2⟶&r    &7Cold Aercloud&r"
+		"  • &7Sandstone&r     &2⟶&r    &7Quicksoil&r"
 	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"

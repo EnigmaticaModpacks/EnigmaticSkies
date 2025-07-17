@@ -67,8 +67,63 @@ ServerEvents.recipes((event) => {
             result: { block: 'aether:aerogel' },
             biome: '#aether:ultracold',
             id: `${id_prefix}aerogel`
+        },
+        {
+            ingredient: { block: 'the_bumblezone:super_candle_base', properties: { lit: 'true' } },
+            result: { block: 'the_bumblezone:super_candle_base', properties: { lit: 'false' } },
+            biome: '#aether:ultracold',
+            id: `${id_prefix}the_bumblezone_super_candle_base`
+        },
+        {
+            ingredient: { block: 'occultism:large_candle', properties: { lit: 'true' } },
+            result: { block: 'occultism:large_candle', properties: { lit: 'false' } },
+            biome: '#aether:ultracold',
+            id: `${id_prefix}occultism_large_candle`
+        },
+        {
+            ingredient: { block: 'supplementaries:candle_holder', properties: { lit: 'true' } },
+            result: { block: 'supplementaries:candle_holder', properties: { lit: 'false' } },
+            biome: '#aether:ultracold',
+            id: `${id_prefix}supplementaries_candle_holder`
         }
     ];
+
+    const materials = ['golden', 'copper', 'iron'];
+    const mcw_types = ['low_candle', 'candle', 'wall_candle', 'double_candle', 'triple_candle'];
+
+    materials.forEach((material) => {
+        mcw_types.forEach((type) => {
+            recipes.push({
+                ingredient: { block: `mcwlights:${material}_${type}_holder`, properties: { lit: 'true' } },
+                result: { block: `mcwlights:${material}_${type}_holder`, properties: { lit: 'false' } },
+                biome: '#aether:ultracold',
+                id: `${id_prefix}mcwlights_${material}_${type}_holder`
+            });
+        });
+    });
+
+    colors.forEach((color) => {
+        recipes.push(
+            {
+                ingredient: { block: `supplementaries:candle_holder_${color}`, properties: { lit: 'true' } },
+                result: { block: `supplementaries:candle_holder_${color}`, properties: { lit: 'false' } },
+                biome: '#aether:ultracold',
+                id: `${id_prefix}supplementaries_candle_holder_${color}`
+            },
+            {
+                ingredient: { block: `occultism:large_candle_${color}`, properties: { lit: 'true' } },
+                result: { block: `occultism:large_candle_${color}`, properties: { lit: 'false' } },
+                biome: '#aether:ultracold',
+                id: `${id_prefix}occultism_large_candle_${color}`
+            },
+            {
+                ingredient: { block: `the_bumblezone:super_candle_base_${color}`, properties: { lit: 'true' } },
+                result: { block: `the_bumblezone:super_candle_base_${color}`, properties: { lit: 'false' } },
+                biome: '#aether:ultracold',
+                id: `${id_prefix}the_bumblezone_super_candle_base_${color}`
+            }
+        );
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'aether:placement_conversion';

@@ -8,24 +8,30 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["130A2701B96A941D"]
 			id: "44388FAFA8CEE204"
+			shape: "diamond"
 			tasks: [{
 				id: "495BC6C0DD9CC574"
 				item: { count: 1, id: "minecraft:ice" }
+				optional_task: true
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["130A2701B96A941D"]
 			id: "4ACD723FC7EB7CD6"
+			shape: "diamond"
 			tasks: [{
 				id: "06FE227E44DD0AA2"
 				item: { count: 1, id: "minecraft:flint_and_steel" }
+				optional_task: true
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.0d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["270F1A02A258ED17"]
@@ -443,17 +449,20 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["130A2701B96A941D"]
 			id: "6DBBD5B744B801B1"
+			shape: "diamond"
 			tasks: [{
 				icon: {
 					id: "aether:icestone"
 				}
 				id: "2B3416E3F3663598"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aether:icestone)item(aether:icestone_stairs)item(aether:icestone_slab)item(aether:icestone_wall)item(aether:aether_dirt)item(aether:aether_dirt_path)item(aether:aether_grass_block)item(aether:aether_farmland)item(aether:cold_aercloud)item(aether:quicksoil)item(aether:aerogel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				optional_task: true
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.5d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
