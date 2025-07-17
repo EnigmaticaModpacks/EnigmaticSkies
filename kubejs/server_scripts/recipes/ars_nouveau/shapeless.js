@@ -11,6 +11,28 @@ ServerEvents.recipes((event) => {
                 'ars_nouveau:smooth_sourcestone'
             ],
             id: `ars_nouveau:smooth_sourcestone_to_sourcestone`
+        },
+        {
+            output: 'ars_nouveau:novice_spell_book',
+            inputs: [
+                'minecraft:book',
+                'aether:skyroot_shovel',
+                'aether:skyroot_pickaxe',
+                'aether:skyroot_axe',
+                'aether:skyroot_sword'
+            ],
+            id: 'ars_nouveau:novice_spell_book'
+        },
+        {
+            output: 'ars_nouveau:novice_spell_book',
+            inputs: [
+                'ars_nouveau:worn_notebook',
+                'aether:skyroot_shovel',
+                'aether:skyroot_pickaxe',
+                'aether:skyroot_axe',
+                'aether:skyroot_sword'
+            ],
+            id: 'ars_nouveau:novice_spellbook_alt'
         }
     ];
 

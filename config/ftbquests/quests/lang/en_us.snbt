@@ -4414,6 +4414,16 @@
 		""
 		"This may prove quite challenging as you’ll need to provide some very peculiar materials to operate them, from Nether Stars and Dragon’s Breath to Potions and Fireworks. "
 	]
+	quest.6DBBD5B744B801B1.quest_desc: [
+		"You'll notice that a number of blocks either cannot be placed in this frigid place. Notably, the following blocks will be transformed if placed by any means, including conjuration!"
+		""
+		"  • Cobblestone > Icestone"
+		"  • Dirt > Aether Dirt"
+		"  • Grass > Aether Grass"
+		"  • Mud > Aerogel"
+		"  • Sand > Cold Aercloud"
+		"  • Sandstone > Quicksoil"
+	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
 		""
@@ -5204,6 +5214,7 @@
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
+	task.2B3416E3F3663598.title: "Block Conversions"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2D92956F1FC2B3EF.title: "Void Materials"
@@ -5228,6 +5239,7 @@
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3935AF387C2EA352.title: "Impossible"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
+	task.3B6A2E42A7F4D6C2.title: "Welcome to the Skies!"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
@@ -5303,7 +5315,6 @@
 	task.6614885B79D0A53B.title: "Observe a Beehive or Bee Nest"
 	task.664C79E935ED1414.title: "Glass Cables"
 	task.6711412248F76F31.title: "Any Pickaxe"
-	task.676745C472E7108B.title: "Clouds"
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"

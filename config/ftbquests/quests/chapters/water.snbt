@@ -8,55 +8,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "758BEAA5BAE707A5"
-			tasks: [{
-				id: "196F3956F188D6B9"
-				item: { count: 1, id: "aether:cold_aercloud" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -6.5d
-		}
-		{
-			id: "52BED21425CA01BC"
-			tasks: [{
-				id: "18924AACA39ADAA1"
-				item: { count: 1, id: "malum:wind_nucleus" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -5.5d
-		}
-		{
-			id: "48E1B46919BA6297"
-			tasks: [{
-				id: "00E152ADB964752E"
-				item: { count: 1, id: "aether:skyroot_sapling" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["48E1B46919BA6297"]
-			id: "16F3BCDE3E1EE0F6"
-			tasks: [{
-				id: "4447A263611279D0"
-				item: { count: 1, id: "aether:skyroot_planks" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
 			id: "44388FAFA8CEE204"
 			tasks: [{
 				id: "495BC6C0DD9CC574"
 				item: { count: 1, id: "minecraft:ice" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -6.5d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			id: "4ACD723FC7EB7CD6"
@@ -65,31 +24,25 @@
 				item: { count: 1, id: "minecraft:flint_and_steel" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 8.0d
 			y: -6.5d
 		}
 		{
-			id: "515ABAA8F60278F2"
-			tasks: [{
-				id: "3E249FAE49EED51D"
-				item: { count: 1, id: "aether:icestone" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["29829AEBCA3B2842"]
+			dependencies: ["270F1A02A258ED17"]
 			id: "2595962FA3E2AE2C"
 			tasks: [{
 				id: "28301B2607FD1904"
 				item: { components: { "thirst:purity": 2 }, count: 1, id: "minecraft:water_bucket" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
+			dependencies: [
+				"29829AEBCA3B2842"
+				"6DBBD5B744B801B1"
+			]
 			id: "270F1A02A258ED17"
 			tasks: [
 				{
@@ -98,282 +51,465 @@
 					type: "item"
 				}
 				{
-					id: "4CF7A174933DCFA6"
-					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					id: "0933050D18F77673"
+					item: { count: 1, id: "theurgy:sal_ammoniac_tank" }
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -3.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"270F1A02A258ED17"
-				"758BEAA5BAE707A5"
-			]
+			dependencies: ["6DBBD5B744B801B1"]
 			id: "29829AEBCA3B2842"
 			tasks: [{
 				id: "6E015FBF19CC1B02"
 				item: { count: 1, id: "theurgy:crystallized_water" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
 			id: "45F3C4F0EDA160C5"
-			rewards: [{
-				id: "6CA06EEB4813A544"
-				item: {
-					components: {
-						"ars_elemental:elemental_tome_caster": {
-							flavor_text: "Conjure a single fluffy cloud provided it's cold enough."
-							hidden_text: "the demon free galvanize "
-							is_hidden: 1b
-							spells: {
-								0: {
-									color: {
-										b: 180
-										g: 25
-										id: "ars_nouveau:constant"
-										r: 255
-									}
-									name: "Cloud Burst"
-									particleTimeline: {
-										"ars_nouveau:burst": {
-											onResolvingEffect: {
-												motion: {
-													propMap: { }
-													type: "ars_nouveau:burst"
-												}
-												particleOptions: {
-													properties: {
-														"ars_nouveau:density": {
-															density: 5
-															radius: 0.10000000149011612d
-															spawnType: "SPHERE"
-														}
-														"ars_nouveau:emitter": {
-															age: 0
-															rotation: {
-																x: 0.0f
-																y: 0.0f
-															}
-														}
-														"ars_nouveau:particle_type": {
-															particleType: "ars_nouveau:new_glow"
-															subProperties: {
-																"ars_nouveau:color": {
-																	particleColor: {
-																		b: 229
-																		g: 215
-																		id: "ars_nouveau:constant"
-																		r: 173
-																	}
-																	tintDisabled: 0b
-																}
-															}
-														}
-													}
-													type: "ars_nouveau:new_glow"
-												}
-											}
-											resolveSound: {
-												sound: {
-													sound: {
-														id: "ars_nouveau:tempestry_family"
-													}
-												}
-											}
-											type: "ars_nouveau:burst"
+			rewards: [
+				{
+					id: "6CA06EEB4813A544"
+					item: {
+						components: {
+							"ars_elemental:elemental_tome_caster": {
+								flavor_text: "Conjures a single fluffy cloud provided it's cold enough."
+								hidden_text: "the demon free galvanize "
+								is_hidden: 1b
+								spells: {
+									0: {
+										color: {
+											b: 180
+											g: 25
+											id: "ars_nouveau:constant"
+											r: 255
 										}
-										"ars_nouveau:missile_projectile": {
-											castSound: {
-												sound: {
+										name: "Cloud Burst"
+										particleTimeline: {
+											"ars_nouveau:burst": {
+												onResolvingEffect: {
+													motion: {
+														propMap: { }
+														type: "ars_nouveau:burst"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:density": {
+																density: 5
+																radius: 0.10000000149011612d
+																spawnType: "SPHERE"
+															}
+															"ars_nouveau:emitter": {
+																age: 0
+																rotation: {
+																	x: 0.0f
+																	y: 0.0f
+																}
+															}
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 229
+																			g: 215
+																			id: "ars_nouveau:constant"
+																			r: 173
+																		}
+																		tintDisabled: 0b
+																	}
+																}
+															}
+														}
+														type: "ars_nouveau:new_glow"
+													}
+												}
+												resolveSound: {
 													sound: {
-														id: "ars_nouveau:tempestry_family"
-													}
-												}
-											}
-											flairEffect: {
-												motion: {
-													propMap: { }
-													type: "ars_nouveau:none"
-												}
-												particleOptions: {
-													properties: {
-														"ars_nouveau:particle_type": {
-															particleType: "ars_nouveau:new_glow"
-															subProperties: {
-																"ars_nouveau:color": {
-																	particleColor: {
-																		b: 180
-																		g: 25
-																		id: "ars_nouveau:constant"
-																		r: 255
-																	}
-																	tintDisabled: 1b
-																}
-															}
+														sound: {
+															id: "ars_nouveau:tempestry_family"
 														}
 													}
-													type: "ars_nouveau:new_glow"
 												}
+												type: "ars_nouveau:burst"
 											}
-											onResolvingEffect: {
-												motion: {
-													propMap: { }
-													type: "ars_nouveau:burst"
-												}
-												particleOptions: {
-													properties: {
-														"ars_nouveau:density": {
-															density: 5
-															radius: 0.10000000149011612d
-															spawnType: "SPHERE"
-														}
-														"ars_nouveau:emitter": {
-															age: 0
-															rotation: {
-																x: 15.893464f
-																y: 154.01985f
-															}
-														}
-														"ars_nouveau:particle_type": {
-															particleType: "ars_nouveau:new_glow"
-															subProperties: {
-																"ars_nouveau:color": {
-																	particleColor: {
-																		b: 229
-																		g: 215
-																		id: "ars_nouveau:constant"
-																		r: 173
-																	}
-																	tintDisabled: 0b
-																}
-															}
-														}
-													}
-													type: "ars_nouveau:new_glow"
-												}
-											}
-											onSpawnEffect: {
-												motion: {
-													propMap: { }
-													type: "ars_nouveau:none"
-												}
-												particleOptions: {
-													properties: {
-														"ars_nouveau:particle_type": {
-															particleType: "ars_nouveau:new_glow"
-															subProperties: {
-																"ars_nouveau:color": {
-																	particleColor: {
-																		b: 180
-																		g: 25
-																		id: "ars_nouveau:constant"
-																		r: 255
-																	}
-																	tintDisabled: 1b
-																}
-															}
-														}
-													}
-													type: "ars_nouveau:new_glow"
-												}
-											}
-											resolveSound: {
-												sound: {
+											"ars_nouveau:missile_projectile": {
+												castSound: {
 													sound: {
-														id: "ars_nouveau:tempestry_family"
+														sound: {
+															id: "ars_nouveau:tempestry_family"
+														}
 													}
 												}
-											}
-											trailEffect: {
-												motion: {
-													propMap: {
-														"ars_nouveau:model": {
-															resource: "ars_nouveau:empty"
-															subPropMap: { }
-														}
-														"ars_nouveau:particle_type": {
-															particleType: "ars_nouveau:new_glow"
-															subProperties: {
-																"ars_nouveau:color": {
-																	particleColor: {
-																		b: 211
-																		g: 211
-																		id: "ars_nouveau:constant"
-																		r: 211
+												flairEffect: {
+													motion: {
+														propMap: { }
+														type: "ars_nouveau:none"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 180
+																			g: 25
+																			id: "ars_nouveau:constant"
+																			r: 255
+																		}
+																		tintDisabled: 1b
 																	}
-																	tintDisabled: 0b
 																}
 															}
 														}
+														type: "ars_nouveau:new_glow"
 													}
-													type: "ars_nouveau:helix"
 												}
-												particleOptions: {
-													properties: {
-														"ars_nouveau:density": {
-															density: 100
-															radius: 0.30000001192092896d
-															spawnType: "SPHERE"
-														}
-														"ars_nouveau:particle_type": {
-															particleType: "ars_nouveau:new_glow"
-															subProperties: {
-																"ars_nouveau:color": {
-																	particleColor: {
-																		b: 229
-																		g: 215
-																		id: "ars_nouveau:constant"
-																		r: 173
+												onResolvingEffect: {
+													motion: {
+														propMap: { }
+														type: "ars_nouveau:burst"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:density": {
+																density: 5
+																radius: 0.10000000149011612d
+																spawnType: "SPHERE"
+															}
+															"ars_nouveau:emitter": {
+																age: 0
+																rotation: {
+																	x: 15.893464f
+																	y: 154.01985f
+																}
+															}
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 229
+																			g: 215
+																			id: "ars_nouveau:constant"
+																			r: 173
+																		}
+																		tintDisabled: 0b
 																	}
-																	tintDisabled: 0b
 																}
 															}
 														}
-														"ars_nouveau:speed": {
-															xzMaxSpeed: 0.0d
-															xzMinSpeed: 0.0d
-															yMaxSpeed: 0.0d
-															yMinSpeed: 0.0d
+														type: "ars_nouveau:new_glow"
+													}
+												}
+												onSpawnEffect: {
+													motion: {
+														propMap: { }
+														type: "ars_nouveau:none"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 180
+																			g: 25
+																			id: "ars_nouveau:constant"
+																			r: 255
+																		}
+																		tintDisabled: 1b
+																	}
+																}
+															}
+														}
+														type: "ars_nouveau:new_glow"
+													}
+												}
+												resolveSound: {
+													sound: {
+														sound: {
+															id: "ars_nouveau:tempestry_family"
 														}
 													}
-													type: "ars_nouveau:new_glow"
 												}
+												trailEffect: {
+													motion: {
+														propMap: {
+															"ars_nouveau:model": {
+																resource: "ars_nouveau:empty"
+																subPropMap: { }
+															}
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 211
+																			g: 211
+																			id: "ars_nouveau:constant"
+																			r: 211
+																		}
+																		tintDisabled: 0b
+																	}
+																}
+															}
+														}
+														type: "ars_nouveau:helix"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:density": {
+																density: 100
+																radius: 0.30000001192092896d
+																spawnType: "SPHERE"
+															}
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 229
+																			g: 215
+																			id: "ars_nouveau:constant"
+																			r: 173
+																		}
+																		tintDisabled: 0b
+																	}
+																}
+															}
+															"ars_nouveau:speed": {
+																xzMaxSpeed: 0.0d
+																xzMinSpeed: 0.0d
+																yMaxSpeed: 0.0d
+																yMinSpeed: 0.0d
+															}
+														}
+														type: "ars_nouveau:new_glow"
+													}
+												}
+												type: "ars_nouveau:projectile"
 											}
-											type: "ars_nouveau:projectile"
 										}
+										recipe: [
+											"arsomega:glyph_missile"
+											"ars_nouveau:glyph_duration_down"
+											"ars_nouveau:glyph_duration_down"
+											"ars_nouveau:glyph_burst"
+											"ars_nouveau:glyph_aoe"
+											"ars_nouveau:glyph_sensitive"
+											"ars_elemental:glyph_conjure_terrain"
+											"ars_nouveau:glyph_crush"
+										]
+										sound: { }
 									}
-									recipe: [
-										"arsomega:glyph_missile"
-										"ars_nouveau:glyph_duration_down"
-										"ars_nouveau:glyph_duration_down"
-										"ars_nouveau:glyph_burst"
-										"ars_nouveau:glyph_aoe"
-										"ars_nouveau:glyph_sensitive"
-										"ars_elemental:glyph_conjure_terrain"
-										"ars_nouveau:glyph_crush"
-									]
-									sound: { }
 								}
 							}
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Cloud Burst\"}"
 						}
-						"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Cloud Burst\"}"
+						count: 1
+						id: "ars_elemental:manipulation_caster_tome"
 					}
-					count: 1
-					id: "ars_elemental:manipulation_caster_tome"
+					only_one: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "37389C4060D19A21"
+					item: {
+						components: {
+							"ars_elemental:elemental_tome_caster": {
+								flavor_text: "It's got what plants crave!"
+								hidden_text: "eldritch demon gargleblaster"
+								is_hidden: 1b
+								spells: {
+									0: {
+										color: {
+											b: 180
+											g: 25
+											id: "ars_nouveau:constant"
+											r: 255
+										}
+										name: "Boon of the Earth"
+										particleTimeline: {
+											"ars_nouveau:touch": {
+												onResolvingEffect: {
+													motion: {
+														propMap: { }
+														type: "ars_nouveau:burst"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:density": {
+																density: 5
+																radius: 0.10000000149011612d
+																spawnType: "SPHERE"
+															}
+															"ars_nouveau:emitter": {
+																age: 0
+																rotation: {
+																	x: 0.0f
+																	y: 0.0f
+																}
+															}
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:sonic_boom"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 233
+																			g: 221
+																			id: "ars_nouveau:constant"
+																			r: 184
+																		}
+																		tintDisabled: 0b
+																	}
+																	"ars_nouveau:sound": {
+																		sound: {
+																			sound: {
+																				id: "ars_nouveau:pointed_dripstone_drip_water"
+																			}
+																		}
+																	}
+																}
+															}
+														}
+														type: "ars_nouveau:sonic_boom"
+													}
+												}
+												resolveSound: {
+													sound: {
+														sound: {
+															id: "ars_nouveau:bucket_empty"
+														}
+													}
+												}
+												type: "ars_nouveau:touch"
+											}
+										}
+										recipe: [
+											"ars_nouveau:glyph_touch"
+											"ars_nouveau:glyph_grow"
+										]
+										sound: { }
+									}
+								}
+							}
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Brawndo\"}"
+						}
+						count: 1
+						id: "ars_elemental:earth_caster_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "742C59FE78E64170"
+					item: {
+						count: 1
+						id: "aether:skyroot_sapling"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "676745C472E7108B"
+				id: "3B6A2E42A7F4D6C2"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -8.0d
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0598950325F79D92"]
+			id: "6CE9EE018596DAD2"
+			tasks: [{
+				id: "4386E849D6D7FE0D"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CE9EE018596DAD2"]
+			id: "6DBBD5B744B801B1"
+			tasks: [{
+				icon: {
+					id: "aether:icestone"
+				}
+				id: "2B3416E3F3663598"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether:icestone)item(aether:icestone_stairs)item(aether:icestone_slab)item(aether:icestone_wall)item(aether:aether_dirt)item(aether:aether_dirt_path)item(aether:aether_grass_block)item(aether:aether_farmland)item(aether:cold_aercloud)item(aether:quicksoil)item(aether:aerogel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45F3C4F0EDA160C5"]
+			id: "62C7492F54D80CBA"
+			tasks: [
+				{
+					id: "00EBAB0BE28D10FB"
+					item: { count: 1, id: "aether:skyroot_axe" }
+					type: "item"
+				}
+				{
+					id: "700374EC77B623FD"
+					item: { count: 1, id: "aquaculture:wooden_fillet_knife" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["23852614773AD687"]
+			id: "0598950325F79D92"
+			tasks: [
+				{
+					id: "3AF428AEDD8B6358"
+					item: { count: 1, id: "farmersdelight:tree_bark" }
+					type: "item"
+				}
+				{
+					id: "51BE9066FD3CB962"
+					item: { count: 1, id: "minecraft:paper" }
+					type: "item"
+				}
+				{
+					id: "5F8CDC0602488FEA"
+					item: { count: 1, id: "farmersdelight:canvas" }
+					type: "item"
+				}
+				{
+					id: "264DC42818EFC7DB"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["62C7492F54D80CBA"]
+			id: "23852614773AD687"
+			tasks: [{
+				id: "444816BE95BEE0A2"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
 		}
 	]
 }
