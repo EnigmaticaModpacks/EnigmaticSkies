@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "water"
-	group: ""
+	group: "46AB9129BBE517B6"
 	icon: {
 		id: "ars_nouveau:water_essence"
 	}
 	id: "7F9A789B53FAB216"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -443,6 +443,7 @@
 		{
 			dependencies: ["0598950325F79D92"]
 			id: "6CE9EE018596DAD2"
+			min_width: 300
 			tasks: [{
 				id: "4386E849D6D7FE0D"
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }

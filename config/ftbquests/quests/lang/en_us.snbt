@@ -28,6 +28,7 @@
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
+	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.000E41CCCDD048C3.quest_desc: [
@@ -4433,6 +4434,34 @@
 		"• &7Confiscation Module&r steals all of the "
 		"  items from an intruding player’s "
 		"  inventory."
+	]
+	quest.6CE9EE018596DAD2.quest_desc: [
+		"Make yourself a Novice Spell Book. It comes with a few key glyphs that you’ll be able to put together, but you’ll soon want to explore more glyphs to pull off ever more impressive feats."
+		""
+		"&6&nUseful Keybinds&r"
+		""
+		"[\"• Open Book (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.ars_nouveau.open_book\"},\")\"]"
+		"[\"• Selection HUD (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Selection HUD\"}]},\"keybind\":\"key.ars_nouveau.selection_hud\"},\")\"]"
+		"[\"• Next Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Next Slot\"}]},\"keybind\":\"key.ars_nouveau.next_slot\"},\")\"]"
+		"[\"• Previous Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Previous Slot\"}]},\"keybind\":\"key.ars_nouveau.previous_slot\"},\")\"]"
+		""
+		"If you're feeling a little daunted by spellcraft, that's normal. It's a huge and very powerful system. We'll try to point out useful spells to know throughout the quests, however. "
+		""
+		"The guidebook also has a section that explains the rules, such as placing &5Form&r before &aEffect&r or where &6Augments&r are allowed. "
+		""
+		"[\"Lastly, the community driven \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://ars.guide/spells/introduction/compendium/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Ars.Guide\",\"underlined\":true},\" has a repository of useful spells. Feel free to explore them and submit your own creations!\"]"
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Multi-Tool&r"
+		"    &5Touch&r > &aBreak&r"
+		""
+		"&7Tree Harvesting&r"
+		"    &5Projectile&r > &aFell&r"
+		""
+		"&a🛈 Tip: Refer to the guide for more examples."
+		""
+		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
 	quest.6D68D3A5BD549EA3.quest_desc: [
 		"[\"From here, the rest is simple enough; Common Gem Niter may be \",{ \"text\": \"Reformed\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" to produce Iron Sulfur, or any other Common Metal Sulfur.\"]"
