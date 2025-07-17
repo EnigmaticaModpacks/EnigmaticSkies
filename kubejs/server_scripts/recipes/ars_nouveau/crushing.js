@@ -39,17 +39,6 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}snow_block`
-        },
-        {
-            input: { item: 'minecraft:packed_ice' },
-            output: [
-                {
-                    stack: { id: 'aether:cold_aercloud', count: 1 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
-            ],
-            id: `${id_prefix}cold_aercloud`
         }
     ];
 

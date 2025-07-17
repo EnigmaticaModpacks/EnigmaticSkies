@@ -12,7 +12,7 @@ ServerEvents.generateData('before_mods', (event) => {
                 ]
             },
             slots: [{ min: 0, max: 44 }],
-            temperature: 0.3,
+            temperature: 0.2,
             trait: 'core'
         },
         {
@@ -26,14 +26,11 @@ ServerEvents.generateData('before_mods', (event) => {
                 ]
             },
             slots: [{ min: 0, max: 44 }],
-            temperature: 1,
+            temperature: 0.5,
             trait: 'core'
         },
         {
             name: 'cold_items',
-            slots: [{ min: 0, max: 44 }],
-            temperature: -0.5,
-            trait: 'core',
             item: {
                 items: [
                     '#minecraft:snow',
@@ -42,7 +39,10 @@ ServerEvents.generateData('before_mods', (event) => {
                     'minecraft:snowball',
                     'starbunclemania:source_fluid_bucket'
                 ]
-            }
+            },
+            slots: [{ min: 0, max: 44 }],
+            temperature: -0.1,
+            trait: 'core'
         }
     ];
 

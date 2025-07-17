@@ -2712,6 +2712,7 @@
 		"Have a free book! This section is under construction!"
 	]
 	quest.4421EB35235888DF.title: "Nature's Aura"
+	quest.44388FAFA8CEE204.quest_desc: ["breaks normally with any pick"]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -3046,6 +3047,7 @@
 		"&a🛈 Tip: Right-Click a Blood Extractor on "
 		"&a    the ground to dump out a bucket."
 	]
+	quest.4ACD723FC7EB7CD6.quest_desc: ["Cannot be used. Fires extinguish automatically."]
 	quest.4B0E34ADA419D750.quest_desc: ["Refined Canola Oil may be obtained with the help of a Fermenting Barrel. This greatly enhances the oil, allowing it to produce much more power. "]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
