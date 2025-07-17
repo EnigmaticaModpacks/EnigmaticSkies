@@ -1,7 +1,7 @@
 ServerEvents.generateData('before_mods', (event) => {
     const carried_items = [
         {
-            name: 'warm_items',
+            name: 'warm_stackables',
             item: {
                 items: [
                     '#c:rods/blaze',
@@ -12,11 +12,11 @@ ServerEvents.generateData('before_mods', (event) => {
                 ]
             },
             slots: [{ min: 0, max: 44 }],
-            temperature: 0.2,
+            temperature: 0.2 / 64,
             trait: 'core'
         },
         {
-            name: 'hot_items',
+            name: 'hot_unstackables',
             item: {
                 items: [
                     'enderio:fire_water_bucket',
@@ -30,15 +30,18 @@ ServerEvents.generateData('before_mods', (event) => {
             trait: 'core'
         },
         {
-            name: 'cold_items',
+            name: 'cold_stackables',
             item: {
-                items: [
-                    '#minecraft:snow',
-                    '#minecraft:ice',
-                    'justdirethings:time_fluid_bucket',
-                    'minecraft:snowball',
-                    'starbunclemania:source_fluid_bucket'
-                ]
+                items: ['#minecraft:snow', '#minecraft:ice', 'minecraft:snowball']
+            },
+            slots: [{ min: 0, max: 44 }],
+            temperature: -0.1 / 64,
+            trait: 'core'
+        },
+        {
+            name: 'cold_unstackables',
+            item: {
+                items: ['justdirethings:time_fluid_bucket', 'starbunclemania:source_fluid_bucket']
             },
             slots: [{ min: 0, max: 44 }],
             temperature: -0.1,
