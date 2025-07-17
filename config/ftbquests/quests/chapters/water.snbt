@@ -411,6 +411,7 @@
 						count: 1
 						id: "ars_elemental:earth_caster_tome"
 					}
+					only_one: true
 					type: "item"
 				}
 				{
@@ -419,6 +420,7 @@
 						count: 1
 						id: "aether:skyroot_sapling"
 					}
+					only_one: true
 					type: "item"
 				}
 			]
