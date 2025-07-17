@@ -2712,7 +2712,13 @@
 		"Have a free book! This section is under construction!"
 	]
 	quest.4421EB35235888DF.title: "Nature's Aura"
-	quest.44388FAFA8CEE204.quest_desc: ["breaks normally with any pick"]
+	quest.44388FAFA8CEE204.quest_desc: [
+		"Need some Ice? Silk Touch is not required!"
+		""
+		"Regular Ice may be harvested with any Pickaxe of Stone quality or higher."
+		""
+		"Packed and Blue Ice may similarly be harvested with a Pickaxe of Iron quality or higher. "
+	]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -5207,6 +5213,7 @@
 	task.2404D63C45135601.title: "Spirit Aspects"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
+	task.2536D4AABBEB1FF0.title: "Observation: &2Hearth"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.26180CD75616C6C3.title: "Esoteric Materials"
