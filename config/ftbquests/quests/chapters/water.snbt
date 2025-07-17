@@ -8,15 +8,127 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
-			id: "7D6751D7D9E2AFA1"
+			id: "758BEAA5BAE707A5"
+			tasks: [{
+				id: "196F3956F188D6B9"
+				item: { count: 1, id: "aether:cold_aercloud" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "52BED21425CA01BC"
+			tasks: [{
+				id: "18924AACA39ADAA1"
+				item: { count: 1, id: "malum:wind_nucleus" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			id: "48E1B46919BA6297"
+			tasks: [{
+				id: "00E152ADB964752E"
+				item: { count: 1, id: "aether:skyroot_sapling" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48E1B46919BA6297"]
+			id: "16F3BCDE3E1EE0F6"
+			tasks: [{
+				id: "4447A263611279D0"
+				item: { count: 1, id: "aether:skyroot_planks" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "44388FAFA8CEE204"
+			tasks: [{
+				id: "495BC6C0DD9CC574"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "4ACD723FC7EB7CD6"
+			tasks: [{
+				id: "06FE227E44DD0AA2"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			id: "515ABAA8F60278F2"
+			tasks: [{
+				id: "3E249FAE49EED51D"
+				item: { count: 1, id: "aether:icestone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29829AEBCA3B2842"]
+			id: "2595962FA3E2AE2C"
+			tasks: [{
+				id: "28301B2607FD1904"
+				item: { components: { "thirst:purity": 2 }, count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "270F1A02A258ED17"
+			tasks: [
+				{
+					id: "797507A036BFAC93"
+					item: { count: 1, id: "theurgy:sal_ammoniac_accumulator" }
+					type: "item"
+				}
+				{
+					id: "4CF7A174933DCFA6"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"270F1A02A258ED17"
+				"758BEAA5BAE707A5"
+			]
+			id: "29829AEBCA3B2842"
+			tasks: [{
+				id: "6E015FBF19CC1B02"
+				item: { count: 1, id: "theurgy:crystallized_water" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "45F3C4F0EDA160C5"
 			rewards: [{
-				id: "2ED78D05EFB4D1E3"
+				id: "6CA06EEB4813A544"
 				item: {
 					components: {
 						"ars_elemental:elemental_tome_caster": {
-							flavor_text: "Conjures a single fluffy cloud."
-							hidden_text: "wgahnagl animal spirit elder cthulhu "
+							flavor_text: "Conjure a single fluffy cloud provided it's cold enough."
+							hidden_text: "the demon free galvanize "
 							is_hidden: 1b
 							spells: {
 								0: {
@@ -38,7 +150,7 @@
 													properties: {
 														"ars_nouveau:density": {
 															density: 5
-															radius: 0.1d
+															radius: 0.10000000149011612d
 															spawnType: "SPHERE"
 														}
 														"ars_nouveau:emitter": {
@@ -53,10 +165,10 @@
 															subProperties: {
 																"ars_nouveau:color": {
 																	particleColor: {
-																		b: 211
-																		g: 211
+																		b: 229
+																		g: 215
 																		id: "ars_nouveau:constant"
-																		r: 211
+																		r: 173
 																	}
 																	tintDisabled: 0b
 																}
@@ -116,15 +228,15 @@
 												particleOptions: {
 													properties: {
 														"ars_nouveau:density": {
-															density: 10
+															density: 5
 															radius: 0.10000000149011612d
 															spawnType: "SPHERE"
 														}
 														"ars_nouveau:emitter": {
 															age: 0
 															rotation: {
-																x: 18.279661f
-																y: 154.0358f
+																x: 15.893464f
+																y: 154.01985f
 															}
 														}
 														"ars_nouveau:particle_type": {
@@ -189,10 +301,10 @@
 															subProperties: {
 																"ars_nouveau:color": {
 																	particleColor: {
-																		b: 214
-																		g: 191
+																		b: 211
+																		g: 211
 																		id: "ars_nouveau:constant"
-																		r: 122
+																		r: 211
 																	}
 																	tintDisabled: 0b
 																}
@@ -205,7 +317,7 @@
 													properties: {
 														"ars_nouveau:density": {
 															density: 100
-															radius: 0.5d
+															radius: 0.30000001192092896d
 															spawnType: "SPHERE"
 														}
 														"ars_nouveau:particle_type": {
@@ -239,15 +351,10 @@
 										"arsomega:glyph_missile"
 										"ars_nouveau:glyph_duration_down"
 										"ars_nouveau:glyph_duration_down"
-										"ars_controle:glyph_filter_above"
-										"not_enough_glyphs:glyph_filter_light"
 										"ars_nouveau:glyph_burst"
+										"ars_nouveau:glyph_aoe"
 										"ars_nouveau:glyph_sensitive"
-										"ars_nouveau:glyph_aoe"
-										"ars_nouveau:glyph_aoe"
-										"ars_nouveau:glyph_conjure_water"
-										"ars_nouveau:glyph_freeze"
-										"ars_nouveau:glyph_freeze"
+										"ars_elemental:glyph_conjure_terrain"
 										"ars_nouveau:glyph_crush"
 									]
 									sound: { }
@@ -262,99 +369,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
-				id: "3DED21D6C46D912C"
-				item: { count: 1, id: "aether:cold_aercloud" }
-				type: "item"
+				id: "676745C472E7108B"
+				type: "checkmark"
 			}]
-			x: 2.0d
-			y: -6.5d
-		}
-		{
-			dependencies: [
-				"758BEAA5BAE707A5"
-				"2A6DE4B27A9820A0"
-			]
-			id: "7947E712C16ACD74"
-			tasks: [{
-				id: "4D27A57418DB6F07"
-				item: { count: 1, id: "aether:holystone" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7D6751D7D9E2AFA1"]
-			id: "758BEAA5BAE707A5"
-			tasks: [{
-				id: "196F3956F188D6B9"
-				item: { count: 1, id: "aether:cold_aercloud" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.0d
-		}
-		{
-			id: "2A6DE4B27A9820A0"
-			tasks: [{
-				id: "3C5185F950327B0A"
-				item: { count: 1, id: "minecraft:cobblestone" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			id: "52BED21425CA01BC"
-			tasks: [{
-				id: "18924AACA39ADAA1"
-				item: { count: 1, id: "malum:wind_nucleus" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -4.0d
-		}
-		{
-			id: "48E1B46919BA6297"
-			tasks: [{
-				id: "00E152ADB964752E"
-				item: { count: 1, id: "aether:skyroot_sapling" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["48E1B46919BA6297"]
-			id: "16F3BCDE3E1EE0F6"
-			tasks: [{
-				id: "4447A263611279D0"
-				item: { count: 1, id: "aether:skyroot_planks" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			id: "44388FAFA8CEE204"
-			tasks: [{
-				id: "495BC6C0DD9CC574"
-				item: { count: 1, id: "minecraft:ice" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -6.5d
-		}
-		{
-			id: "4ACD723FC7EB7CD6"
-			tasks: [{
-				id: "06FE227E44DD0AA2"
-				item: { count: 1, id: "minecraft:flint_and_steel" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -6.5d
+			x: 2.5d
+			y: -8.0d
 		}
 	]
 }

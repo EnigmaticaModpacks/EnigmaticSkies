@@ -61,6 +61,12 @@ ServerEvents.recipes((event) => {
             result: { block: 'aether:quicksoil' },
             biome: '#aether:ultracold',
             id: `${id_prefix}quicksoil`
+        },
+        {
+            ingredient: { block: 'minecraft:mud' },
+            result: { block: 'aether:aerogel' },
+            biome: '#aether:ultracold',
+            id: `${id_prefix}aerogel`
         }
     ];
 
