@@ -702,6 +702,20 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.130A2701B96A941D.quest_desc: [
+		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
+		""
+		"The Hearth in the gazebo will keep you warm within the bounds of the building. Flick the lever around back to get it started."
+		"&n                                                 &r"
+		""
+		"A Hearth protects a large covered area up to a volume of about 12,000 blocks or roughly 30 cubic meters. To operate, it requires fuel and a Redstone Signal on either the back or left side. "
+		""
+		"The heated area can propagate up to about 20 blocks from the Hearth itself or from any connected Smokestacks. "
+		""
+		"The most important factor is that it must be in an \"enclosed\" area, meaning that there must be a roof. Open walls are acceptable. "
+		""
+		"For now, you'll need to feed it fuel manually, so keep an eye on it. "
+	]
 	quest.130C6FC212F64474.quest_desc: [
 		"The Fluid Laser will be your next stop in gathering unusual monster fluids. This time, you’re after Ether Gas, which is obtained by drilling a Wither."
 		""
@@ -2766,6 +2780,11 @@
 		"Start small, you can always upgrade to large cells later!"
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
+	quest.45F3C4F0EDA160C5.quest_desc: [
+		"Lost your books? Ran out of Saplings? "
+		""
+		"This quest is repeatable to get you going again!"
+	]
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
 		""
@@ -4135,6 +4154,20 @@
 		""
 		"Right-Click a block of Prismarine with her charm to create her home. Placing more aquatic plants and animals in their home will make them happier and more productive."
 	]
+	quest.6703E3A9E3571660.quest_desc: [
+		"Standing out in the open without protection or holding too many cold items will cause your body temperature to drop rapidly. "
+		""
+		"Wearing protective clothing will slow the rate at which heat is lost, so don't leave home without it. "
+		"&n                                                 &r"
+		""
+		"Between your Health and your Hunger, you'll notice a new indicator showing your Temperature Rating. This indicator ranges from 0 to 100, where 0 is considered comfortable and 100 is deadly. It displays as &9Blue&r for freezing and &6Orange&r for overheating. "
+		""
+		"Starting at around &950&r, you'll notice your movements becoming sluggish and your view start to diminish. "
+		""
+		"If your Temperature Rating hits &9100&r, you will rapidly freeze to death."
+		""
+		"Overheating may not seem like a threat at the moment, but be aware that holding certain items, like Lava Buckets, will affect your body temperature."
+	]
 	quest.672B88E9A3FA1FCE.quest_desc: ["With the Winter’s Calling active, snow will slowly accumulate in the area and water will freeze to ice. Snow Golems may also appear to further spread the snowy goodness!"]
 	quest.673C6861CC3A781C.quest_desc: [
 		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
@@ -4422,7 +4455,7 @@
 		"This may prove quite challenging as you’ll need to provide some very peculiar materials to operate them, from Nether Stars and Dragon’s Breath to Potions and Fireworks. "
 	]
 	quest.6DBBD5B744B801B1.quest_desc: [
-		"You'll notice that a number of blocks either cannot be placed in this frigid place. "
+		"You'll notice that a number of blocks either cannot be placed in this frigid place or will transform when placed. "
 		""
 		"Notably, the following blocks will be transformed if placed by any means, including conjuration!"
 		""
@@ -5248,6 +5281,7 @@
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3935AF387C2EA352.title: "Impossible"
+	task.3A59C49FAF001D7E.title: "Temperature Management"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
 	task.3B6A2E42A7F4D6C2.title: "Welcome to the Skies!"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"

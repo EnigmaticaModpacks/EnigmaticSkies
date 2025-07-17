@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["130A2701B96A941D"]
+			dependencies: ["6703E3A9E3571660"]
 			id: "44388FAFA8CEE204"
 			shape: "diamond"
 			tasks: [{
@@ -18,10 +18,10 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["130A2701B96A941D"]
+			dependencies: ["6703E3A9E3571660"]
 			id: "4ACD723FC7EB7CD6"
 			shape: "diamond"
 			tasks: [{
@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["270F1A02A258ED17"]
@@ -449,7 +449,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["130A2701B96A941D"]
+			dependencies: ["6703E3A9E3571660"]
 			id: "6DBBD5B744B801B1"
 			shape: "diamond"
 			tasks: [{
@@ -462,7 +462,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
@@ -524,60 +524,15 @@
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
 			id: "130A2701B96A941D"
-			rewards: [
-				{
-					id: "70D2ACB6BF300504"
-					item: {
-						components: {
-							"cold_sweat:armor_insulation": {
-								insulation: [ ]
-							}
-						}
-						count: 1
-						id: "cold_sweat:goat_fur_cap"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "4803208E9BC307F2"
+				item: {
+					count: 1
+					id: "minecraft:charcoal"
 				}
-				{
-					id: "719919EE4D74F8C8"
-					item: {
-						components: {
-							"cold_sweat:armor_insulation": {
-								insulation: [ ]
-							}
-						}
-						count: 1
-						id: "cold_sweat:goat_fur_parka"
-					}
-					type: "item"
-				}
-				{
-					id: "1E6A53B3029895CD"
-					item: {
-						components: {
-							"cold_sweat:armor_insulation": {
-								insulation: [ ]
-							}
-						}
-						count: 1
-						id: "cold_sweat:goat_fur_pants"
-					}
-					type: "item"
-				}
-				{
-					id: "6309F23DE935A37D"
-					item: {
-						components: {
-							"cold_sweat:armor_insulation": {
-								insulation: [ ]
-							}
-						}
-						count: 1
-						id: "cold_sweat:goat_fur_boots"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "cold_sweat:hearth"
@@ -601,6 +556,81 @@
 			}]
 			x: 3.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["130A2701B96A941D"]
+			id: "6703E3A9E3571660"
+			rewards: [
+				{
+					id: "20E439049FB1E952"
+					item: {
+						components: {
+							"cold_sweat:armor_insulation": {
+								insulation: [ ]
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "cold_sweat:goat_fur_cap"
+					}
+					type: "item"
+				}
+				{
+					id: "7DEFBA2D4786F795"
+					item: {
+						components: {
+							"cold_sweat:armor_insulation": {
+								insulation: [ ]
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "cold_sweat:goat_fur_parka"
+					}
+					type: "item"
+				}
+				{
+					id: "109B88C196960CF2"
+					item: {
+						components: {
+							"cold_sweat:armor_insulation": {
+								insulation: [ ]
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "cold_sweat:goat_fur_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "67A3993500419699"
+					item: {
+						components: {
+							"cold_sweat:armor_insulation": {
+								insulation: [ ]
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "cold_sweat:goat_fur_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:the_void"
+				icon: {
+					components: {
+						"ftbquests:icon": "ars_additions:item/powdered_snow_walk_charm"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3A59C49FAF001D7E"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: -6.5d
 		}
 	]
 }
