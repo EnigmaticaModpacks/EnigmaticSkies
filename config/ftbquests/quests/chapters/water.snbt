@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "water"
 	group: ""
+	icon: {
+		id: "ars_nouveau:water_essence"
+	}
 	id: "7F9A789B53FAB216"
 	order_index: 1
 	quest_links: [ ]
