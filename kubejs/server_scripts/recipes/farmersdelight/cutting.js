@@ -18,6 +18,13 @@ ServerEvents.recipes((event) => {
             sound: { sound_id: 'minecraft:block.snow.break' },
             tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
             id: `${id_prefix}holystone`
+        },
+        {
+            ingredients: [{ item: 'aether:skyroot_slab' }],
+            result: [{ item: { id: 'enderio:wood_gear', count: 1 }, chance: 0.75 }],
+            sound: { sound_id: 'minecraft:item.axe.strip' },
+            tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
+            id: `${id_prefix}wood_gear`
         }
     ];
 

@@ -7,6 +7,8 @@ ServerEvents.recipes((event) => {
         //     mod: 'sample',
         //     id: 'sample'
         // }
+
+        { output: 'enderio:wood_gear' }
     ];
 
     recipes.forEach((recipe) => {
