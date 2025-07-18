@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
             id: `ars_nouveau:smooth_sourcestone_to_sourcestone`
         },
         {
-            output: 'ars_nouveau:novice_spell_book',
+            output: 'ars_nouveau:novice_spell_book[base_color="brown"]',
             inputs: [
                 'minecraft:book',
                 'aether:skyroot_shovel',
@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             id: 'ars_nouveau:novice_spell_book'
         },
         {
-            output: 'ars_nouveau:novice_spell_book',
+            output: 'ars_nouveau:novice_spell_book[base_color="brown"]',
             inputs: [
                 'ars_nouveau:worn_notebook',
                 'aether:skyroot_shovel',
