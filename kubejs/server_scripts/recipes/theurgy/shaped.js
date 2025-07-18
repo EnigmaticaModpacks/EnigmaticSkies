@@ -7,9 +7,30 @@ ServerEvents.recipes((event) => {
             pattern: ['AAA', 'ABA', 'AAA'],
             key: {
                 A: 'aether:cold_aercloud',
-                B: 'aether:icestone'
+                B: 'occultism:crushed_ice'
             },
             id: `${id_prefix}crystallized_water`
+        },
+        {
+            output: 'theurgy:sal_ammoniac_tank',
+            pattern: ['A A', 'ACA', 'BDB'],
+            key: {
+                A: 'aether:holystone',
+                B: 'aether:skyroot_stick',
+                C: 'aether:skyroot_bucket',
+                D: 'aether:holystone_bricks'
+            },
+            id: `theurgy:crafting/shaped/sal_ammoniac_tank`
+        },
+        {
+            output: 'theurgy:sal_ammoniac_accumulator',
+            pattern: ['A A', 'BCB'],
+            key: {
+                A: 'aether:holystone',
+                B: 'aether:skyroot_stick',
+                C: 'aether:skyroot_planks'
+            },
+            id: `theurgy:crafting/shaped/sal_ammoniac_accumulator`
         }
     ];
 
