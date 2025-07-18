@@ -4502,12 +4502,12 @@
 		""
 		"Notably, the following blocks will be transformed if placed by any means, including conjuration!"
 		""
-		"  • &7Cobblestone&r   &2⟶&r    &7Icestone&r"
-		"  • &7Dirt&r              &2⟶&r    &7Aether Dirt&r"
-		"  • &7Grass&r           &2⟶&r    &7Aether Grass&r"
-		"  • &7Mud&r              &2⟶&r    &7Aerogel&r"
-		"  • &7Sand&r            &2⟶&r    &7Cold Aercloud&r"
-		"  • &7Sandstone&r     &2⟶&r    &7Quicksoil&r"
+		"  • &7Cobbled&r"
+		"   &7Deepslate&r      &2⟶&r    &7Aerogel&r"
+		"  • &7Cobblestone&r    &2⟶&r    &7Icestone&r"
+		"  • &7Dirt&r               &2⟶&r    &7Aether Dirt&r"
+		"  • &7Sand&r             &2⟶&r    &7Cold Aercloud&r"
+		"  • &7Sandstone&r      &2⟶&r    &7Quicksoil&r"
 	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
