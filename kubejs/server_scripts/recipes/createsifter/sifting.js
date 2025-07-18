@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
             processingTime: 500,
-            waterlogged: true,
+            waterlogged: false,
             id: `${id_prefix}cloud_sifting`
         }
     ];

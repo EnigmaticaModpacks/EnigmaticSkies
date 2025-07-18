@@ -1,6 +1,6 @@
 ServerEvents.tick((event) => {
     const { server } = event;
-    if (server.tickCount % 20 != 0) return;
+    if (server.tickCount % 200 != 0) return;
 
     let gamerules = server.getGameRules();
     forced_rules.forEach((rule) => {

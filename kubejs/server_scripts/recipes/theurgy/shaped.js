@@ -3,15 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'theurgy:crystallized_water',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'aether:cold_aercloud',
-                B: 'occultism:crushed_ice'
-            },
-            id: `${id_prefix}crystallized_water`
-        },
-        {
             output: 'theurgy:sal_ammoniac_tank',
             pattern: ['A A', 'ACA', 'BDB'],
             key: {

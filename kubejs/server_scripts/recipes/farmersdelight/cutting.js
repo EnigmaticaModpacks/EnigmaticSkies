@@ -12,8 +12,7 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'aether:icestone' }],
             result: [
                 { item: { id: 'aether:holystone', count: 1 } },
-                { item: { id: 'occultism:crushed_ice', count: 1 } },
-                { item: { id: 'occultism:crushed_ice', count: 1 }, chance: 0.5 }
+                { item: { id: 'minecraft:snowball', count: 1 }, chance: 0.1 }
             ],
             sound: { sound_id: 'minecraft:block.snow.break' },
             tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },

@@ -45,12 +45,12 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"29829AEBCA3B2842"
-				"27D7F8EB0117C9CA"
+				"51636F3E5A461A7B"
 			]
 			id: "270F1A02A258ED17"
 			tasks: [
@@ -66,10 +66,10 @@
 				}
 			]
 			x: 2.5d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["51636F3E5A461A7B"]
+			dependencies: ["1834C84EFA232977"]
 			id: "29829AEBCA3B2842"
 			tasks: [{
 				id: "6E015FBF19CC1B02"
@@ -77,7 +77,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -441,7 +441,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["0598950325F79D92"]
+			dependencies: ["62C7492F54D80CBA"]
 			id: "6CE9EE018596DAD2"
 			min_width: 300
 			tasks: [{
@@ -449,8 +449,8 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]
@@ -471,6 +471,26 @@
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
 			id: "62C7492F54D80CBA"
+			rewards: [
+				{
+					count: 3
+					id: "0E1AEEBAFF321F5F"
+					item: {
+						count: 1
+						id: "farmersdelight:canvas"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "73676519AD4FD2E0"
+					item: {
+						count: 1
+						id: "farmersdelight:tree_bark"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00EBAB0BE28D10FB"
@@ -487,40 +507,19 @@
 					item: { count: 1, id: "farmersdelight:cutting_board" }
 					type: "item"
 				}
-			]
-			x: 2.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["62C7492F54D80CBA"]
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "0598950325F79D92"
-			tasks: [
 				{
-					id: "3AF428AEDD8B6358"
-					item: { count: 1, id: "farmersdelight:tree_bark" }
-					type: "item"
-				}
-				{
-					id: "51BE9066FD3CB962"
-					item: { count: 1, id: "minecraft:paper" }
-					type: "item"
-				}
-				{
-					id: "5F8CDC0602488FEA"
+					id: "18DB16DBC3D1EE14"
 					item: { count: 1, id: "farmersdelight:canvas" }
 					type: "item"
 				}
 				{
-					id: "264DC42818EFC7DB"
-					item: { count: 1, id: "minecraft:book" }
+					id: "55669FE501D77148"
+					item: { count: 1, id: "farmersdelight:tree_bark" }
 					type: "item"
 				}
 			]
 			x: 2.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
@@ -550,13 +549,20 @@
 		{
 			dependencies: ["6CE9EE018596DAD2"]
 			id: "51636F3E5A461A7B"
-			tasks: [{
-				id: "5FC002242368068E"
-				item: { count: 1, id: "aether:icestone" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.5d
+			tasks: [
+				{
+					id: "5FC002242368068E"
+					item: { count: 1, id: "aether:icestone" }
+					type: "item"
+				}
+				{
+					id: "41ED123F8F99DAB2"
+					item: { count: 1, id: "aether:holystone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["130A2701B96A941D"]
@@ -634,15 +640,15 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["51636F3E5A461A7B"]
-			id: "27D7F8EB0117C9CA"
+			dependencies: ["62C7492F54D80CBA"]
+			id: "1834C84EFA232977"
 			tasks: [{
-				id: "6BA430334158A363"
-				item: { count: 1, id: "aether:holystone" }
+				id: "3EE727D298953AB5"
+				item: { count: 1, id: "createsifter:string_mesh" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 3.0d
+			y: -6.5d
 		}
 	]
 }

@@ -28,7 +28,7 @@
 	#.
 	#.
 	#Use mesh durability when sifting with sifter.
-	useMeshDurabilityWithSifter = false
+	useMeshDurabilityWithSifter = true
 	#.
 	#Use mesh durability when sifting by hand.
 	useMeshDurabilityWithHand = true
