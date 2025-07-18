@@ -32,10 +32,17 @@ ServerEvents.generateData('before_mods', (event) => {
         {
             name: 'cold_stackables',
             item: {
-                items: ['#minecraft:snow', '#minecraft:ice', 'minecraft:snowball']
+                items: [
+                    '#chipped:snow_block',
+                    '#chipped:ice',
+                    '#chisel:ice',
+                    '#chipped:packed_ice',
+                    '#chipped:blue_ice',
+                    'minecraft:snowball'
+                ]
             },
             slots: [{ min: 0, max: 44 }],
-            temperature: -0.1 / 64,
+            temperature: -0.2 / 64,
             trait: 'core'
         },
         {
@@ -44,7 +51,7 @@ ServerEvents.generateData('before_mods', (event) => {
                 items: ['justdirethings:time_fluid_bucket', 'starbunclemania:source_fluid_bucket']
             },
             slots: [{ min: 0, max: 44 }],
-            temperature: -0.1,
+            temperature: -0.2,
             trait: 'core'
         }
     ];

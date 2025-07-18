@@ -44,8 +44,8 @@
 				item: { components: { "thirst:purity": 2 }, count: 1, id: "minecraft:water_bucket" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -65,8 +65,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -2.5d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -76,8 +76,8 @@
 				item: { count: 1, id: "theurgy:crystallized_water" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -449,8 +449,8 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.5d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]
@@ -482,12 +482,20 @@
 					item: { count: 1, id: "aquaculture:wooden_fillet_knife" }
 					type: "item"
 				}
+				{
+					id: "7F40392F16174E39"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
 			]
 			x: 2.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["23852614773AD687"]
+			dependencies: ["62C7492F54D80CBA"]
+			icon: {
+				id: "minecraft:book"
+			}
 			id: "0598950325F79D92"
 			tasks: [
 				{
@@ -511,17 +519,6 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["62C7492F54D80CBA"]
-			id: "23852614773AD687"
-			tasks: [{
-				id: "444816BE95BEE0A2"
-				item: { count: 1, id: "farmersdelight:cutting_board" }
-				type: "item"
-			}]
 			x: 2.5d
 			y: -6.5d
 		}
@@ -558,8 +555,8 @@
 				item: { count: 1, id: "aether:icestone" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["130A2701B96A941D"]

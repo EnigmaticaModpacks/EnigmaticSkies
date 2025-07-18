@@ -41,4 +41,16 @@ StartupEvents.registry('item', (event) => {
     ritualDummies.forEach((item) => {
         event.create(item.id, 'occultism:ritual_dummy').pentacleType(item.type).ritualTooltip(item.tooltip);
     });
+
+    event
+        .create(`enigmatica:poutine`)
+        .texture(`enigmatica:item/poutine`)
+        .displayName('Poutine')
+        .maxStackSize(64)
+        .useAnimation('eat')
+        .food((food) => {
+            food.nutrition(8)
+                .saturation(8 / 7.5) // Final saturation is nutrition * saturation... Shenanigans.
+                .effect('farmersdelight:comfort', 600, 0, 1);
+        });
 });

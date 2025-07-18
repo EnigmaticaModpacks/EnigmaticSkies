@@ -181,6 +181,11 @@
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
+	quest.0598950325F79D92.quest_desc: [
+		"It won’t be the nicest book by any means, but it’ll do the job. "
+		""
+		"Use the gathered Bark to craft Paper and Straw to craft Canvas. Combining those will finally get you a book."
+	]
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -717,6 +722,7 @@
 		""
 		"For now, you'll need to feed it fuel manually, so keep an eye on it. "
 	]
+	quest.130A2701B96A941D.title: "Staying Warm"
 	quest.130C6FC212F64474.quest_desc: [
 		"The Fluid Laser will be your next stop in gathering unusual monster fluids. This time, you’re after Ether Gas, which is obtained by drilling a Wither."
 		""
@@ -3967,6 +3973,11 @@
 		"&6    have been disabled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
+	quest.62C7492F54D80CBA.quest_desc: [
+		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Recovering that is going to take some time but should be your primary goal for now."
+		""
+		"Gather some wood and craft up some basic tools. With an Axe and Cutting Board, you’ll be able to get some Bark for paper. With a Knife, you’ll be able to break Grass for Straw."
+	]
 	quest.62CD365A54A0DE47.quest_desc: [
 		"Welcome to Immersive Engineering!"
 		""
