@@ -44,7 +44,7 @@
 				item: { count: 1, id: "aether:skyroot_water_bucket" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -662,7 +662,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -675,7 +675,7 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
@@ -689,7 +689,7 @@
 				item: { count: 1, id: "minecraft:clay" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -700,7 +700,7 @@
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -3.5d
 		}
 		{
@@ -723,7 +723,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.0d
+			y: -3.5d
 		}
 	]
 }
