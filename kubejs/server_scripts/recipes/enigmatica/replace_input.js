@@ -18,7 +18,6 @@ ServerEvents.recipes((event) => {
                 { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
                 { mod: 'ae2netanalyser' },
                 { mod: 'aquaculture', output: /tackle_box/ },
-                { mod: 'evilcraft' },
                 { mod: 'prettypipes' },
                 { mod: 'ppfluids' }
             ],
@@ -26,12 +25,7 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
         },
         {
-            filter: [
-                { mod: 'aquaculture', output: /tackle_box/ },
-                { mod: 'evilcraft' },
-                { mod: 'prettypipes' },
-                { mod: 'ppfluids' }
-            ],
+            filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:storage_blocks/iron',
             replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
         },
@@ -114,12 +108,27 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ id: `theurgy:crafting/shaped/reformation_target_pedestal` }],
             to_replace: '#c:gems/diamond',
-            replace_with: Ingredient.of([
-                '#evilcraft:gems/dark_power',
-                '#c:essences/manipulation',
-                '#c:ingots/arcane',
-                '#c:ingots/infused_iron'
-            ])
+            replace_with: Ingredient.of(['#c:essences/manipulation', '#c:ingots/arcane', '#c:ingots/infused_iron'])
+        },
+        {
+            filter: [{ output: `minecraft:hopper` }, { output: `utilitarian:fluid_hopper` }],
+            to_replace: '#c:ingots/iron',
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ output: `utilitarian:fluid_hopper` }],
+            to_replace: 'minecraft:bucket',
+            replace_with: Ingredient.of(['#c:buckets/empty'])
+        },
+        {
+            filter: [{ mod: `transfer_labels` }],
+            to_replace: '#c:dusts/redstone',
+            replace_with: Ingredient.of(['#c:dusts/sky_stone'])
+        },
+        {
+            filter: [{ mod: `transfer_labels` }],
+            to_replace: '#c:ingots/copper',
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         }
     ];
 

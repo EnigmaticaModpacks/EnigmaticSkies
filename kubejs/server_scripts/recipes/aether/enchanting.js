@@ -3,12 +3,12 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ingredient: { item: 'minecraft:mud' },
-            result: { id: 'minecraft:clay', count: 1 },
-            category: 'enchanting_blocks',
+            result: { id: 'aether:golden_oak_sapling', count: 1 },
+            ingredient: { item: 'aether:skyroot_sapling' },
+            category: 'enchanting_misc',
             cookingtime: 200,
             experience: 0.15,
-            id: `${id_prefix}icestone`
+            id: `${id_prefix}golden_oak_sapling`
         }
     ];
 

@@ -29,6 +29,10 @@ ClientEvents.generateAssets('before_mods', (event) => {
         {
             id: 'jearchaeology:sniffing',
             options: { order: 10007 }
+        },
+        {
+            id: 'emi_enchanting:enchantments',
+            options: { order: 10009 }
         }
     ];
 

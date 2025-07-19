@@ -10,6 +10,8 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
+        let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
+        if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);
+        if (recipe.replace) r.replaceIngredient(recipe.replace.item, recipe.replace.replacement);
     });
 });

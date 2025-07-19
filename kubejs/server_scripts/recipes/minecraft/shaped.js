@@ -18,15 +18,6 @@ ServerEvents.recipes((event) => {
                 B: 'aether:holystone_bricks'
             },
             id: `minecraft:furnace`
-        },
-        {
-            output: '8x minecraft:mud',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'aether:aether_dirt',
-                B: '#c:buckets/water'
-            },
-            id: `${id_prefix}mud`
         }
     ];
 
