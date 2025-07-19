@@ -18,11 +18,15 @@
 	#─────────────────────────────────//v
 	Boiler = [
 	    ["#minecraft:planks", 10],
+	    ["aether:skyroot_planks", 10],
 	    ["#minecraft:coals", 37],
 	    ["#minecraft:logs_that_burn", 37],
-	    ["minecraft:coal_block", 333],
+	    ["#c:storage_blocks/coal", 333],
+	    ["#c:storage_blocks/charcoal", 333],
+	    ["#c:storage_blocks/lignite_coal", 333],
 	    ["minecraft:magma_block", 333],
-	    ["minecraft:lava_bucket", 1000]
+	    ["minecraft:lava_bucket", 1000],
+	    ["ars_nouveau:fire_essence", 1000]
 	]
 	#─────────────────────────────────//v
 	Icebox = [
@@ -38,17 +42,22 @@
 	# (Negative values indicate cold fuel
 	Hearth = [
 	    ["#minecraft:planks", 10],
+	    ["aether:skyroot_planks", 10],
 	    ["#minecraft:coals", 37],
 	    ["#minecraft:logs_that_burn", 37],
-	    ["minecraft:coal_block", 333],
+	    ["#c:storage_blocks/coal", 333],
+	    ["#c:storage_blocks/charcoal", 333],
+	    ["#c:storage_blocks/lignite_coal", 333],
 	    ["minecraft:magma_block", 333],
 	    ["minecraft:lava_bucket", 1000],
+	    ["ars_nouveau:fire_essence", 1000],
 	    ["minecraft:snowball", -10],
 	    ["minecraft:clay_ball", -37],
 	    ["minecraft:snow_block", -100],
 	    ["minecraft:ice", -250],
 	    ["minecraft:clay", -333],
 	    ["minecraft:powder_snow_bucket", -100],
+	    ["aether:skyroot_powder_snow_bucket", -100],
 	    ["minecraft:packed_ice", -1000]
 	]
 

@@ -36,7 +36,7 @@
 	# ⌄ 
 	# Default: 2.0
 	# Range: 0.0 ~ Infinity
-	"Temperature Damage" = 2.0
+	"Temperature Damage" = 10.0
 	#─────────────────────────────────────────────────────────────────────────
 	# Nullifies temperature damage and effects when the difficulty is set to peaceful
 	# ⌄ 

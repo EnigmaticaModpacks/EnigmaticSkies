@@ -2,13 +2,13 @@
 	#Vanilla's beds will explode in the Aether
 	"Beds explode" = false
 	#Tools that aren't from the Aether will mine Aether blocks slower than tools that are from the Aether
-	"Debuff non-Aether tools" = true
+	"Debuff non-Aether tools" = false
 	#Ambrosium Shards can be eaten to restore a half heart of health
 	"Ambrosium Shards are edible" = true
 	#Makes Berry Bushes and Bush Stems behave consistently with Sweet Berry Bushes
-	"Berry Bush consistency" = false
+	"Berry Bush consistency" = true
 	#Makes Crystal Fruit Leaves behave consistently with Sweet Berry Bushes
-	"Crystal Fruit Leaves consistency" = false
+	"Crystal Fruit Leaves consistency" = true
 	#Gummy Swets when eaten restore full health instead of full hunger
 	"Gummy Swets restore health" = false
 	#Determines the limit of the amount of Life Shards a player can consume to increase their health
@@ -42,15 +42,15 @@
 	#Makes it so that only whitelisted users or anyone with permission level 4 can use the Sun Altar on a server
 	"Only whitelisted users access Sun Altars" = false
 	#Configures what dimensions are able to have their time changed by the Sun Altar
-	"Configure Sun Altar dimensions" = ["aether:the_aether"]
+	"Configure Sun Altar dimensions" = ["aether:the_aether", "ftbteambases:bases"]
 
 [Modpack]
 	#Spawns the player in the Aether dimension; this is best enabled alongside other modpack configuration to avoid issues
 	"Spawns the player in the Aether" = false
 	#Prevents the Aether Portal from being created normally in the mod
-	"Disables Aether Portal creation" = false
+	"Disables Aether Portal creation" = true
 	#Prevents the player from falling back to the Overworld when they fall out of the Aether
-	"Disables falling into the Overworld" = false
+	"Disables falling into the Overworld" = true
 	#Removes eternal day so that the Aether has a normal daylight cycle even before defeating the Sun Spirit
 	"Disables eternal day" = false
 	#Sets the ID of the dimension that the Aether Portal will send the player to

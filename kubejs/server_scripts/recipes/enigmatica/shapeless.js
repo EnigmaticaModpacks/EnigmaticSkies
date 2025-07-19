@@ -70,6 +70,17 @@ ServerEvents.recipes((event) => {
             output: '4x minecraft:amethyst_shard',
             inputs: ['#c:storage_blocks/amethyst'],
             id: `${id_prefix}amethyst_shard`
+        },
+        {
+            output: '4x enigmatica:poutine',
+            inputs: [
+                'pneumaticcraft:chips',
+                'pneumaticcraft:chips',
+                'pneumaticcraft:chips',
+                'pneumaticcraft:chips',
+                'sushigocrafting:cheese[sushigocrafting:amount=500]'
+            ],
+            id: `${id_prefix}poutine`
         }
     ];
 

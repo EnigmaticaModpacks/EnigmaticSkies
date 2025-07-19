@@ -31,7 +31,7 @@
 	useMeshDurabilityWithSifter = false
 	#.
 	#Use mesh durability when sifting by hand.
-	useMeshDurabilityWithHand = true
+	useMeshDurabilityWithHand = false
 
 	#.
 	#Stress values
