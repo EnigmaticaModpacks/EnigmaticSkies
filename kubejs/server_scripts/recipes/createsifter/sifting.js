@@ -22,14 +22,26 @@ ServerEvents.recipes((event) => {
                 { id: 'ae2:sky_dust', chance: 0.05 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
-            processingTime: 500,
+            processingTime: 25,
             waterlogged: false,
-            id: `${id_prefix}cloud_sifting`
+            id: `${id_prefix}cloud_sifting_canvas`
+        },
+        {
+            input: { item: 'aether:cold_aercloud' },
+            results: [
+                { id: 'theurgy:crystallized_water', chance: 0.25 },
+                { id: 'ae2:sky_dust', chance: 0.15 }
+            ],
+            mesh: { id: 'createsifter:andesite_mesh', count: 1 },
+            processingTime: 20,
+            waterlogged: false,
+            id: `${id_prefix}cloud_sifting_andesite`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'createsifter:sifting';
+        recipe.processingTime = recipe.processingTime * 20;
         event.custom(recipe).id(recipe.id);
     });
 });

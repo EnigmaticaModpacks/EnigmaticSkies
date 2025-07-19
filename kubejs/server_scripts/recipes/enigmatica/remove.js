@@ -16,8 +16,9 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:(cobblestone|stone)/ },
 
         // Theurgy
-        { type: 'theurgy:digestion' },
+        // { type: 'theurgy:digestion' },
         { type: 'theurgy:fermentation' },
+        { type: 'theurgy:distillation' },
 
         // Ore Processing Removals
 

@@ -726,7 +726,7 @@
 			id: "49E18B07D6E4A5EB"
 			tasks: [{
 				id: "2A0E860B2F2A9332"
-				item: { count: 1, id: "sushigocrafting:fermentation_barrel" }
+				item: { count: 1, id: "theurgy:fermentation_vat" }
 				type: "item"
 			}]
 			x: 3.0d
