@@ -39,6 +39,32 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}snow_block`
+        },
+        {
+            input: { item: 'aether:holystone' },
+            output: [
+                {
+                    stack: { id: 'aether:ambrosium_shard', count: 1 },
+                    chance: 0.1,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: 'createsifter:andesite_pebble', count: 1 },
+                    chance: 0.3,
+                    maxRange: 3
+                },
+                {
+                    stack: { id: 'createsifter:diorite_pebble', count: 1 },
+                    chance: 0.3,
+                    maxRange: 3
+                },
+                {
+                    stack: { id: 'createsifter:calcite_pebble', count: 1 },
+                    chance: 0.3,
+                    maxRange: 3
+                }
+            ],
+            id: `${id_prefix}holystone_crushing`
         }
     ];
 

@@ -44,7 +44,7 @@
 				item: { count: 1, id: "aether:skyroot_water_bucket" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -3.5d
 		}
 		{
@@ -449,7 +449,7 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -6.5d
 		}
 		{
@@ -470,6 +470,9 @@
 		}
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
 			id: "62C7492F54D80CBA"
 			rewards: [
 				{
@@ -561,7 +564,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -649,6 +652,78 @@
 			}]
 			x: 3.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["51636F3E5A461A7B"]
+			id: "6D847CE6DF1101D1"
+			tasks: [{
+				id: "031BF13FC1ECC30A"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"15FAB1720AD470A0"
+				"6D847CE6DF1101D1"
+			]
+			id: "121F78C888E3676C"
+			tasks: [{
+				id: "7E067B35AB7305BB"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"78E557B17D1EB84F"
+				"2595962FA3E2AE2C"
+			]
+			id: "7D55CFC63462B5C1"
+			tasks: [{
+				id: "20D18FA0DDC52E4E"
+				item: { count: 1, id: "minecraft:clay" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["098350521D096497"]
+			id: "15FAB1720AD470A0"
+			tasks: [{
+				id: "332A320109CC0BC4"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51636F3E5A461A7B"]
+			id: "098350521D096497"
+			tasks: [{
+				id: "463DFA879A15F67A"
+				item: { count: 1, id: "supplementaries:ash" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51636F3E5A461A7B"]
+			id: "78E557B17D1EB84F"
+			tasks: [{
+				id: "782CEBB73CA78563"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 }

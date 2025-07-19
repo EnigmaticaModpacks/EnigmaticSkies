@@ -19,6 +19,15 @@ ServerEvents.recipes((event) => {
                 B: 'aether:ambrosium_shard'
             },
             id: `aether:golden_ring`
+        },
+        {
+            output: `aether:altar`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'aether:holystone',
+                B: 'aether:ambrosium_shard'
+            },
+            id: `aether:altar`
         }
     ];
 

@@ -8,7 +8,11 @@ ServerEvents.recipes((event) => {
         //     id: 'sample'
         // }
 
-        { output: 'enderio:wood_gear' }
+        { type: 'createsifter:sifting' },
+        { output: 'enderio:wood_gear' },
+        { id: /create:mixing\/andesite_alloy/ },
+        { id: /create:crafting\/materials\/andesite_alloy/ },
+        { id: /ars_nouveau:(cobblestone|stone)/ }
     ];
 
     recipes.forEach((recipe) => {
