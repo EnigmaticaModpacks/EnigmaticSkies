@@ -6,14 +6,14 @@ ServerEvents.recipes((event) => {
             result: { id: 'minecraft:clay_ball', count: 2 },
             ingredients: [{ item: 'aether:aether_dirt' }],
             fluid: { id: 'minecraft:water', amount: 100 },
-            time: 100,
+            time: 6,
             id: `${id_prefix}clay_ball`
         },
         {
             result: { id: 'minecraft:clay_ball', count: 4 },
             ingredients: [{ item: 'aether:aether_dirt' }, { item: 'theurgy:fermentation_starter' }],
             fluid: { id: 'minecraft:water', amount: 100 },
-            time: 100,
+            time: 3,
             id: `${id_prefix}clay_ball_with_fermentation_starter`
         }
     ];
@@ -22,6 +22,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'theurgy:fermentation';
         recipe.category = 'misc';
         recipe.result.type = 'theurgy:item';
+        recipe.time = recipe.time * 20;
         recipe.fluid = {
             ingredient: { fluid: recipe.fluid.id },
             amount: recipe.fluid.amount
