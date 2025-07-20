@@ -13,12 +13,13 @@ ServerEvents.recipes((event) => {
         { output: 'enderio:wood_gear' },
         { id: /create:mixing\/andesite_alloy/ },
         { id: /create:crafting\/materials\/andesite_alloy/ },
-        { id: /ars_nouveau:(cobblestone|stone)/ },
+        { id: /ars_nouveau:(cobblestone|stone|sand)/ },
 
         // Theurgy
-        // { type: 'theurgy:digestion' },
+        { type: 'theurgy:digestion' },
         { type: 'theurgy:fermentation' },
         { type: 'theurgy:distillation' },
+        { type: 'theurgy:calcination' },
 
         // Ore Processing Removals
 

@@ -718,8 +718,8 @@
 				item: { count: 1, id: "theurgy:calcination_oven" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2595962FA3E2AE2C"]
@@ -773,6 +773,16 @@
 			}]
 			x: 2.0d
 			y: -3.5d
+		}
+		{
+			id: "714379744B3CF395"
+			tasks: [{
+				id: "2D1ED5D64999A68A"
+				item: { count: 1, id: "theurgy:digestion_vat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
 		}
 	]
 }

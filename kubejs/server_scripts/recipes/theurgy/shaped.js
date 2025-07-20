@@ -43,6 +43,27 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:barrel'
             },
             id: `theurgy:crafting/shaped/fermentation_vat`
+        },
+        {
+            output: 'theurgy:calcination_oven',
+            pattern: [' A ', 'BCB', 'BDB'],
+            key: {
+                A: '#c:ingots/andesite_alloy',
+                B: '#c:bricks/normal',
+                C: 'aether:aerogel',
+                D: 'create:basin'
+            },
+            id: `theurgy:crafting/shaped/calcination_oven`
+        },
+        {
+            output: 'theurgy:pyromantic_brazier',
+            pattern: ['CAC', 'ABA', 'CAC'],
+            key: {
+                A: '#c:ingots/andesite_alloy',
+                B: 'handcrafted:terracotta_thick_pot',
+                C: 'create:shaft'
+            },
+            id: `theurgy:crafting/shaped/pyromantic_brazier`
         }
     ];
 
