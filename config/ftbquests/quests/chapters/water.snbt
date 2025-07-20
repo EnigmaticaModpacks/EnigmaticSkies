@@ -640,8 +640,8 @@
 				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -654,7 +654,7 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -665,8 +665,8 @@
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["098350521D096497"]
@@ -676,7 +676,7 @@
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -698,27 +698,28 @@
 				item: { count: 1, id: "aether:altar" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
-			id: "75FB5B92EBADA24A"
-			tasks: [{
-				id: "3BE19B801CBD08EB"
-				item: { count: 1, id: "minecraft:terracotta" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
+			dependencies: [
+				"714379744B3CF395"
+				"121F78C888E3676C"
+			]
 			id: "540133B792547B21"
-			tasks: [{
-				id: "2002A1386F565014"
-				item: { count: 1, id: "theurgy:calcination_oven" }
-				type: "item"
-			}]
-			x: 4.0d
+			tasks: [
+				{
+					id: "2002A1386F565014"
+					item: { count: 1, id: "theurgy:calcination_oven" }
+					type: "item"
+				}
+				{
+					id: "5CC9F5064799852C"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+			]
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -729,7 +730,7 @@
 				item: { count: 1, id: "theurgy:fermentation_vat" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
@@ -771,18 +772,19 @@
 				item: { count: 1, id: "aether:golden_oak_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["7D55CFC63462B5C1"]
 			id: "714379744B3CF395"
 			tasks: [{
 				id: "2D1ED5D64999A68A"
 				item: { count: 1, id: "theurgy:digestion_vat" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 3.0d
+			y: -2.5d
 		}
 	]
 }

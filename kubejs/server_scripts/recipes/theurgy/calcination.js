@@ -4,9 +4,9 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             ingredient: { ingredient: { tag: 'c:pebbles' }, count: 1 },
-            result: { id: 'theurgy:alchemical_salt_strata', count: 8 },
+            result: { id: 'theurgy:alchemical_salt_mineral', count: 8 },
             time: 5,
-            id: `${id_prefix}alchemical_salt_strata_from_`
+            id: `${id_prefix}alchemical_salt_mineral_from_pebbles`
         }
     ];
 
