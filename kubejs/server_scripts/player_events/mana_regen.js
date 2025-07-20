@@ -3,7 +3,6 @@ PlayerEvents.tick((event) => {
     // const pData = player.persistentData;
 
     if (player.tickCount % 20 != 0 || player.isFake() || !player.isPlayer()) return;
-    // if (player.tickCount % 20 != 0) return;
 
     let effects = player.potionEffects.getActive();
 
