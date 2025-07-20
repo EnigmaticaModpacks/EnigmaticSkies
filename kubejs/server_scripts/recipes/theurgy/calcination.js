@@ -7,6 +7,12 @@ ServerEvents.recipes((event) => {
             result: { id: 'theurgy:alchemical_salt_mineral', count: 8 },
             time: 5,
             id: `${id_prefix}alchemical_salt_mineral_from_pebbles`
+        },
+        {
+            ingredient: { ingredient: { tag: 'minecraft:logs_that_burn' }, count: 1 },
+            result: { id: 'mekanism:block_charcoal', count: 1 },
+            time: 30,
+            id: `${id_prefix}block_charcoal`
         }
     ];
 
