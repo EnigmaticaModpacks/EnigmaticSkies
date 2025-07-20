@@ -761,19 +761,26 @@
 				item: { count: 1, id: "transfer_labels:label_accessor" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["78E557B17D1EB84F"]
 			id: "1D00057ADC3723FC"
-			tasks: [{
-				id: "161742DF017140E5"
-				item: { count: 1, id: "aether:golden_oak_sapling" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "161742DF017140E5"
+					item: { count: 1, id: "aether:golden_oak_sapling" }
+					type: "item"
+				}
+				{
+					id: "60E08A6334804BE2"
+					item: { count: 1, id: "aether:golden_amber" }
+					type: "item"
+				}
+			]
 			x: -2.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7D55CFC63462B5C1"]
@@ -785,6 +792,57 @@
 			}]
 			x: 3.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["121F78C888E3676C"]
+			id: "3010C0D6B504F8B9"
+			tasks: [
+				{
+					id: "307B11D96E6B5553"
+					item: { count: 1, id: "createsifter:sifter" }
+					type: "item"
+				}
+				{
+					id: "25ED38D9B2F7C2A5"
+					item: { count: 1, id: "createsifter:andesite_mesh" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D00057ADC3723FC"]
+			id: "73DEEB2D76617519"
+			tasks: [{
+				id: "2B8700BA69CE76B4"
+				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D00057ADC3723FC"]
+			id: "625BE0DEF686CEF8"
+			tasks: [{
+				id: "53312B86064663D6"
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73DEEB2D76617519"]
+			id: "2A7F4188B05E713E"
+			tasks: [{
+				id: "6AFFD4B4FE3C2F5F"
+				item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
 		}
 	]
 }

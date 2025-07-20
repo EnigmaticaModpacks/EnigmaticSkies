@@ -18,6 +18,15 @@ ServerEvents.recipes((event) => {
                 B: 'aether:holystone_bricks'
             },
             id: `minecraft:furnace`
+        },
+        {
+            output: 'minecraft:lever',
+            pattern: ['A', 'B'],
+            key: {
+                A: '#c:rods/wooden',
+                B: 'aether:holystone'
+            },
+            id: `${id_prefix}lever`
         }
     ];
 
