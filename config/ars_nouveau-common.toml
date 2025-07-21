@@ -19,7 +19,7 @@
 	#Should the Wilden Defender attack animals?
 	defenderHuntsAnimals = false
 	#Should the Wilden Chimera dive bomb destroy blocks?
-	destructiveDiveBomb = true
+	destructiveDiveBomb = false
 	#Archwood forest spawn weight
 	# Default: 2
 	# Range: > 0

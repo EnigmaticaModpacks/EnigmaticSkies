@@ -7,8 +7,6 @@ PlayerEvents.tick((event) => {
     let effects = player.potionEffects.getActive();
 
     effects.forEach((effect) => {
-        // console.log(effect.getDescriptionId());
-        // console.log(effect.getAmplifier());
         if (effect.getDescriptionId() == 'effect.cold_sweat.warmth' && effect.getAmplifier() >= 9) {
             player.potionEffects.add('ars_nouveau:mana_regen', 4 * 20, 0, false, false);
         }

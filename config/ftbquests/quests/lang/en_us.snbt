@@ -766,6 +766,15 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.13F15094F3AF4A73.quest_desc: [
+		"Biome: Mushroom Fields"
+		""
+		"Notables"
+		"Spider Webs"
+		"Red/Brown Shrooms"
+		"Mycelium"
+		"Source Berry"
+	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
 	quest.14555CEDF53F68FC.quest_desc: [
@@ -4072,6 +4081,16 @@
 		""
 		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
 	]
+	quest.6490781066FAE8CF.quest_desc: [
+		"Biome: Mangrove Swamp"
+		""
+		"Notables:"
+		"Glow Berries"
+		"Bamboo"
+		"Moss"
+		"Spore Blossom"
+		"Azalea"
+	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
 		""
@@ -5025,6 +5044,22 @@
 		""
 		"&a🛈 Tip: Break the block with Silk Touch"
 		"&a    and smelt it for a better yield!"
+	]
+	quest.78626EE046E48EF3.quest_desc: [
+		"Biome"
+		"Archwood Forest"
+		""
+		"Notables"
+		"Lava"
+		"Pumpkin"
+		"Sunflower"
+	]
+	quest.7893072479F01DC2.quest_desc: [
+		"Biome: Warm Ocean"
+		""
+		"Notables"
+		"Corals"
+		"Sugar Cane"
 	]
 	quest.78B1BC9540590D17.quest_desc: [
 		"Need a place to store that hard earned experience? "

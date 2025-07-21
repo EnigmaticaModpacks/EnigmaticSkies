@@ -812,37 +812,66 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1D00057ADC3723FC"]
-			id: "73DEEB2D76617519"
+			id: "7893072479F01DC2"
 			tasks: [{
-				id: "2B8700BA69CE76B4"
-				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+				id: "758EA454F1E9A0E3"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1D00057ADC3723FC"]
-			id: "625BE0DEF686CEF8"
+			id: "13F15094F3AF4A73"
 			tasks: [{
-				id: "53312B86064663D6"
-				item: { count: 1, id: "ars_nouveau:dominion_wand" }
+				id: "57A0F394D3AF0E62"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["73DEEB2D76617519"]
-			id: "2A7F4188B05E713E"
+			id: "78626EE046E48EF3"
 			tasks: [{
-				id: "6AFFD4B4FE3C2F5F"
-				item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+				id: "2EE92F0404F62B4C"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "6490781066FAE8CF"
+			tasks: [{
+				id: "58E41A8D61ED694C"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "605A60825B68C2D7"
+			tasks: [
+				{
+					id: "69E93F15E11DC562"
+					item: { count: 1, id: "actuallyadditions:feeder" }
+					type: "item"
+				}
+				{
+					id: "08E1136AEFAB4BB4"
+					item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
+					type: "item"
+				}
+				{
+					id: "36FFDB989168EE23"
+					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
 		}
 	]
 }

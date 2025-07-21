@@ -23,8 +23,8 @@ ServerEvents.recipes((event) => {
 
         // Ore Processing Removals
 
-        { id: /aether:ambrosium_shard_from_(smelting|blasting)/ },
-        { id: 'create:crushing/compat/aether/ambrosium_ore' }
+        { id: /aether:(ambrosium|zanite)_\w*_from_(smelting|blasting)/ },
+        { id: /create:crushing\/compat\/aether\/(ambrosium|zanite)_ore/ }
     ];
 
     recipes.forEach((recipe) => {
