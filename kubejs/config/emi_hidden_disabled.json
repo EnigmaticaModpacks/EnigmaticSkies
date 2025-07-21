@@ -1,7 +1,13 @@
 {
     "items": {
         "hidden": [],
-        "disabled": ["/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/"],
+        "disabled": [
+            "/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/",
+            "actuallyadditions:rice",
+            "actuallyadditions:rice_seeds",
+            "sushigocrafting:rice",
+            "sushigocrafting:rice_seeds"
+        ],
         "added": [
             "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"
         ]

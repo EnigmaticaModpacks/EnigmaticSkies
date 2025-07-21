@@ -22,10 +22,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `aether:altar`,
-            pattern: ['AAA', 'ABA', 'AAA'],
+            pattern: ['CCC', 'CBC', 'AAA'],
             key: {
                 A: 'aether:holystone',
-                B: 'aether:ambrosium_shard'
+                B: 'aether:ambrosium_shard',
+                C: '#aether:planks_crafting'
             },
             id: `aether:altar`
         }

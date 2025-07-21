@@ -761,8 +761,8 @@
 				item: { count: 1, id: "transfer_labels:label_accessor" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78E557B17D1EB84F"]
@@ -818,8 +818,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
 			id: "13F15094F3AF4A73"
@@ -828,8 +828,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			id: "78626EE046E48EF3"
@@ -838,8 +838,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			id: "6490781066FAE8CF"
@@ -848,8 +848,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			id: "605A60825B68C2D7"
@@ -870,8 +870,26 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 1.5d
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D00057ADC3723FC"]
+			id: "33D3FD6791A9087A"
+			tasks: [
+				{
+					id: "3DC393A2D42689F0"
+					item: { components: { "minecraft:entity_data": { VillagerData: { type: "minecraft:snow" }, id: "minecraft:villager" } }, count: 1, id: "occultism:fragile_soul_gem" }
+					type: "item"
+				}
+				{
+					id: "4A44E8ED39182B14"
+					item: { count: 1, id: "minecraft:composter" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
 		}
 	]
 }
