@@ -38,7 +38,8 @@ ServerEvents.generateData('before_mods', (event) => {
                     '#chisel:ice',
                     '#chipped:packed_ice',
                     '#chipped:blue_ice',
-                    'minecraft:snowball'
+                    'minecraft:snowball',
+                    'aether:icestone'
                 ]
             },
             slots: [{ min: 0, max: 44 }],

@@ -1,7 +1,11 @@
 ServerEvents.tags('block', (event) => {
-    let additions = ['theurgy:pyromantic_brazier', 'aether:altar', 'minecraft:furnace'];
-    event.get('enigmatica:temperature/warm_lit').add(additions);
+    let additions = {
+        hot: ['minecraft:lava', 'minecraft:fire', 'minecraft:lava_cauldron', 'minecraft:magma_block'],
+        warm_lit: ['theurgy:pyromantic_brazier', 'aether:altar', 'minecraft:furnace'],
+        cool_lit: ['aether:freezer']
+    };
 
-    additions = ['aether:freezer'];
-    event.get('enigmatica:temperature/cool_lit').add(additions);
+    Object.keys(additions).forEach((tag) => {
+        event.get(`enigmatica:temperature/${tag}`).add(additions[tag]);
+    });
 });
