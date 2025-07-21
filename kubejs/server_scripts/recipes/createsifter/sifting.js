@@ -16,7 +16,6 @@ ServerEvents.recipes((event) => {
                 { id: 'minecraft:beetroot_seeds', chance: 0.1 },
                 { id: 'farmersdelight:cabbage_seeds', chance: 0.1 },
                 { id: 'farmersdelight:tomato_seeds', chance: 0.1 },
-                { id: 'actuallyadditions:rice_seeds', chance: 0.1 },
                 { id: 'actuallyadditions:canola_seeds', chance: 0.1 },
                 { id: 'supplementaries:flax_seeds', chance: 0.1 },
                 { id: 'ae2:sky_dust', chance: 0.05 }
