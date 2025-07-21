@@ -12,11 +12,12 @@ ServerEvents.recipes((event) => {
         { type: 'createsifter:sifting' },
         { output: 'enderio:wood_gear' },
         { mod: 'utilitarian', id: /snad/ },
-        { id: /soliciting_carpet/ },
+        { output: /soliciting_carpet/ },
         { id: 'utilitarian:utility/green_dye' },
         { id: /create:mixing\/andesite_alloy/ },
         { id: /create:crafting\/materials\/andesite_alloy/ },
         { id: /ars_nouveau:(cobblestone|stone|sand)/ },
+        { id: 'supplementaries:statue' },
 
         // Theurgy
         { type: 'theurgy:digestion' },

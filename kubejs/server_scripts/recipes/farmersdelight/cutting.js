@@ -24,6 +24,16 @@ ServerEvents.recipes((event) => {
             sound: { sound_id: 'minecraft:item.axe.strip' },
             tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
             id: `${id_prefix}wood_gear`
+        },
+        {
+            ingredients: [{ item: 'minecraft:clay' }],
+            result: [
+                { item: { id: 'supplementaries:statue', count: 1 } },
+                { item: { id: 'minecraft:clay_ball', count: 1 }, chance: 0.75 }
+            ],
+            sound: { sound_id: 'minecraft:block.gravel.break' },
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}statue`
         }
     ];
 

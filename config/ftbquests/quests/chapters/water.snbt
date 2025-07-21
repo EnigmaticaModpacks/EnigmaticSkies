@@ -873,15 +873,5 @@
 			x: -2.0d
 			y: 1.5d
 		}
-		{
-			id: "6645DFED0DF87215"
-			tasks: [{
-				id: "3249A197F8582A61"
-				item: { count: 1, id: "minecraft:villager_spawn_egg" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.0d
-		}
 	]
 }

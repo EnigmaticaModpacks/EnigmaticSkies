@@ -1,47 +1,10 @@
 {
     "items": {
         "hidden": [],
-        "disabled": [
-            "utilitarian:soul_snad",
-            "utilitarian:drit",
-            "utilitarian:grrass",
-            "utilitarian:cursed_grrass",
-            "utilitarian:snad",
-            "utilitarian:red_snad",
-            "utilitarian:white_soliciting_carpet",
-            "utilitarian:white_trapped_soliciting_carpet",
-            "utilitarian:orange_soliciting_carpet",
-            "utilitarian:orange_trapped_soliciting_carpet",
-            "utilitarian:magenta_soliciting_carpet",
-            "utilitarian:magenta_trapped_soliciting_carpet",
-            "utilitarian:light_blue_soliciting_carpet",
-            "utilitarian:light_blue_trapped_soliciting_carpet",
-            "utilitarian:yellow_soliciting_carpet",
-            "utilitarian:yellow_trapped_soliciting_carpet",
-            "utilitarian:lime_soliciting_carpet",
-            "utilitarian:lime_trapped_soliciting_carpet",
-            "utilitarian:pink_soliciting_carpet",
-            "utilitarian:pink_trapped_soliciting_carpet",
-            "utilitarian:gray_soliciting_carpet",
-            "utilitarian:gray_trapped_soliciting_carpet",
-            "utilitarian:light_gray_soliciting_carpet",
-            "utilitarian:light_gray_trapped_soliciting_carpet",
-            "utilitarian:cyan_soliciting_carpet",
-            "utilitarian:cyan_trapped_soliciting_carpet",
-            "utilitarian:purple_soliciting_carpet",
-            "utilitarian:purple_trapped_soliciting_carpet",
-            "utilitarian:blue_soliciting_carpet",
-            "utilitarian:blue_trapped_soliciting_carpet",
-            "utilitarian:brown_soliciting_carpet",
-            "utilitarian:brown_trapped_soliciting_carpet",
-            "utilitarian:green_soliciting_carpet",
-            "utilitarian:green_trapped_soliciting_carpet",
-            "utilitarian:red_soliciting_carpet",
-            "utilitarian:red_trapped_soliciting_carpet",
-            "utilitarian:black_soliciting_carpet",
-            "utilitarian:black_trapped_soliciting_carpet"
-        ],
-        "added": []
+        "disabled": ["/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/"],
+        "added": [
+            "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"
+        ]
     },
     "fluids": {
         "hidden": []
