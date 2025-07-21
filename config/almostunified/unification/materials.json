@@ -10,6 +10,8 @@
         "ae2",
         "enderio",
         "oritech",
+        "farmersdelight",
+        "sushigocrafting",
         "actuallyadditions",
         "utilitarian",
         "justdirethings",
@@ -38,6 +40,7 @@
         "c:storage_blocks/{material}",
         "c:wires/{material}",
         "c:dyes/{material}",
+        "c:crops/{material}",
         "c:silicon",
         "c:coal_coke"
     ],
