@@ -3,6 +3,7 @@
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.113C730A83D7EB8C.title: "Villager Trading"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
@@ -935,6 +936,7 @@
 		"&6    near the pentacle. "
 	]
 	quest.16F69571092CAB9A.title: "Uncommon Materials"
+	quest.171EDB77B3A3FF05.title: "Farmer"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -1758,6 +1760,7 @@
 		""
 		"Refer to the Engineer’s Manual for a full list of compatible blocks."
 	]
+	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
@@ -5305,6 +5308,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.0F0214D71A4FA354.title: "Observation: &2Villager"
 	task.0F19417AE6661F06.title: "Improved Blast Furnace"
 	task.10648F2DE8CD75D4.title: "Impossible"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"

@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villager_trading"
+	group: "46AB9129BBE517B6"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/entity_icon/villager/profession/librarian.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "113C730A83D7EB8C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2C9B3F8D67C7B9AA"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "industrialforegoing:block/villager_trade_exchanger_front"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0F0214D71A4FA354"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C9B3F8D67C7B9AA"]
+			id: "171EDB77B3A3FF05"
+			tasks: [{
+				id: "248FC44CBF739479"
+				item: { count: 1, id: "minecraft:composter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C9B3F8D67C7B9AA"]
+			id: "2E5AE2778BAB63A5"
+			tasks: [{
+				id: "0B8C09ED4384D6B1"
+				item: { count: 1, id: "minecraft:barrel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+}
