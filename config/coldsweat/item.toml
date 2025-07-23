@@ -50,6 +50,7 @@
 	    ["#c:storage_blocks/lignite_coal", 333],
 	    ["minecraft:magma_block", 333],
 	    ["minecraft:lava_bucket", 1000],
+	    ["modern_industrialization:steam_bucket", 1000],
 	    ["ars_nouveau:fire_essence", 1000],
 	    ["minecraft:snowball", -10],
 	    ["minecraft:clay_ball", -37],
