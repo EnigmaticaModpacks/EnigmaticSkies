@@ -3,6 +3,7 @@
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.113C730A83D7EB8C.title: "Villager Trading"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
@@ -28,6 +29,7 @@
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
+	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.000E41CCCDD048C3.quest_desc: [
@@ -702,6 +704,21 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.130A2701B96A941D.quest_desc: [
+		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
+		""
+		"The Hearth in the gazebo will keep you warm within the bounds of the building. Flick the lever around back to get it started."
+		"&n                                                 &r"
+		""
+		"A Hearth protects a large covered area up to a volume of about 12,000 blocks or roughly 30 cubic meters. To operate, it requires fuel and a Redstone Signal on either the back or left side. "
+		""
+		"The heated area can propagate up to about 20 blocks from the Hearth itself or from any connected Smokestacks. "
+		""
+		"The most important factor is that it must be in an \"enclosed\" area, meaning that there must be a roof. Open walls are acceptable. "
+		""
+		"For now, you'll need to feed it fuel manually, so keep an eye on it. "
+	]
+	quest.130A2701B96A941D.title: "Staying Warm"
 	quest.130C6FC212F64474.quest_desc: [
 		"The Fluid Laser will be your next stop in gathering unusual monster fluids. This time, you’re after Ether Gas, which is obtained by drilling a Wither."
 		""
@@ -749,6 +766,15 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.13F15094F3AF4A73.quest_desc: [
+		"Biome: Mushroom Fields"
+		""
+		"Notables"
+		"Spider Webs"
+		"Red/Brown Shrooms"
+		"Mycelium"
+		"Source Berry"
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
@@ -910,6 +936,7 @@
 		"&6    near the pentacle. "
 	]
 	quest.16F69571092CAB9A.title: "Uncommon Materials"
+	quest.171EDB77B3A3FF05.title: "Farmer"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -955,6 +982,12 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.1834C84EFA232977.quest_desc: [
+		"Normally a Mesh such as this would be installed in a machine to run, but we haven’t quite got the materials for that yet. "
+		""
+		"For now, hold the Mesh in one hand and the item to be sifted in the other, then hold your Right Mouse Button to sift!"
+	]
+	quest.1834C84EFA232977.title: "Cloud Seeding?"
 	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
 	quest.195BD5456B6E674D.quest_desc: [
 		"Iron’s Spellbooks adds several structures to the world which will undoubtedly prove very useful."
@@ -1727,6 +1760,7 @@
 		""
 		"Refer to the Engineer’s Manual for a full list of compatible blocks."
 	]
+	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
@@ -1838,6 +1872,7 @@
 		""
 		"Be prepared for a lot of exploration to get a full set! We’ll get you started with an extra to call your own, however. "
 	]
+	quest.33D3FD6791A9087A.title: "Villagers"
 	quest.342FED2B0AC5F1B2.quest_desc: [
 		"Many Mekanism machines require some form of Chemical to perform recipes such as Redstone in Chemical form to create Infused Alloys. "
 		""
@@ -2712,6 +2747,13 @@
 		"Have a free book! This section is under construction!"
 	]
 	quest.4421EB35235888DF.title: "Nature's Aura"
+	quest.44388FAFA8CEE204.quest_desc: [
+		"Need some Ice? Silk Touch is not required!"
+		""
+		"Regular Ice may be harvested with any Pickaxe of Stone quality or higher."
+		""
+		"Packed and Blue Ice may similarly be harvested with a Pickaxe of Iron quality or higher. "
+	]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -2759,6 +2801,11 @@
 		"Start small, you can always upgrade to large cells later!"
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
+	quest.45F3C4F0EDA160C5.quest_desc: [
+		"Lost your books? Ran out of Saplings? "
+		""
+		"This quest is repeatable to get you going again!"
+	]
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
 		""
@@ -3046,6 +3093,8 @@
 		"&a🛈 Tip: Right-Click a Blood Extractor on "
 		"&a    the ground to dump out a bucket."
 	]
+	quest.4ACD723FC7EB7CD6.quest_desc: ["It's hard to keep a fire lit in this place; most open flames will go out immediately or simply not catch in the first place. "]
+	quest.4ACD723FC7EB7CD6.title: "Fire"
 	quest.4B0E34ADA419D750.quest_desc: ["Refined Canola Oil may be obtained with the help of a Fermenting Barrel. This greatly enhances the oil, allowing it to produce much more power. "]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
@@ -3938,6 +3987,11 @@
 		"&6    have been disabled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
+	quest.62C7492F54D80CBA.quest_desc: [
+		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on that now."
+		""
+		"Gather some wood and craft up some basic tools. With an Axe and Cutting Board, you’ll be able to get some Bark for paper. With a Knife, you’ll be able to break Grass for Straw."
+	]
 	quest.62CD365A54A0DE47.quest_desc: [
 		"Welcome to Immersive Engineering!"
 		""
@@ -4030,6 +4084,16 @@
 		"The device requires power, water, and biological materials such as crops to operate. "
 		""
 		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
+	]
+	quest.6490781066FAE8CF.quest_desc: [
+		"Biome: Mangrove Swamp"
+		""
+		"Notables:"
+		"Glow Berries"
+		"Bamboo"
+		"Moss"
+		"Spore Blossom"
+		"Azalea"
 	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
@@ -4125,6 +4189,20 @@
 		"&n                                                  &r"
 		""
 		"Right-Click a block of Prismarine with her charm to create her home. Placing more aquatic plants and animals in their home will make them happier and more productive."
+	]
+	quest.6703E3A9E3571660.quest_desc: [
+		"Standing out in the open without protection or holding too many cold items will cause your body temperature to drop rapidly. "
+		""
+		"Wearing protective clothing will slow the rate at which heat is lost, so don't leave home without it. "
+		"&n                                                 &r"
+		""
+		"Between your Health and your Hunger, you'll notice a new indicator showing your Temperature Rating. This indicator ranges from 0 to 100, where 0 is considered comfortable and 100 is deadly. It displays as &9Blue&r for freezing and &6Orange&r for overheating. "
+		""
+		"Starting at around &950&r, you'll notice your movements becoming sluggish and your view start to diminish. "
+		""
+		"If your Temperature Rating hits &9100&r, you will rapidly freeze to death."
+		""
+		"Overheating may not seem like a threat at the moment, but be aware that holding certain items, like Lava Buckets, will affect your body temperature."
 	]
 	quest.672B88E9A3FA1FCE.quest_desc: ["With the Winter’s Calling active, snow will slowly accumulate in the area and water will freeze to ice. Snow Golems may also appear to further spread the snowy goodness!"]
 	quest.673C6861CC3A781C.quest_desc: [
@@ -4392,6 +4470,37 @@
 		"  items from an intruding player’s "
 		"  inventory."
 	]
+	quest.6CE9EE018596DAD2.quest_desc: [
+		"Make yourself a Novice Spell Book. It comes with a few key glyphs that you’ll be able to put together, but you’ll soon want to explore more glyphs to pull off ever more impressive feats."
+		""
+		"&6&nUseful Keybinds&r"
+		""
+		"[\"• Open Book (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.ars_nouveau.open_book\"},\")\"]"
+		"[\"• Selection HUD (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Selection HUD\"}]},\"keybind\":\"key.ars_nouveau.selection_hud\"},\")\"]"
+		"[\"• Next Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Next Slot\"}]},\"keybind\":\"key.ars_nouveau.next_slot\"},\")\"]"
+		"[\"• Previous Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Previous Slot\"}]},\"keybind\":\"key.ars_nouveau.previous_slot\"},\")\"]"
+		""
+		"If you're feeling a little daunted by spellcraft, that's normal. It's a huge and very powerful system. We'll try to point out useful spells to know throughout the quests, however. "
+		""
+		"The guidebook also has a section that explains the rules, such as placing &5Form&r before &aEffect&r or where &6Augments&r are allowed. "
+		""
+		"[\"Lastly, the community driven \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://ars.guide/spells/introduction/compendium/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Ars.Guide\",\"underlined\":true},\" has a repository of useful spells. Feel free to explore them and submit your own creations!\"]"
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Multi-Tool&r"
+		"    &5Touch&r > &aBreak&r"
+		""
+		"&7Tree Harvesting&r"
+		"    &5Projectile&r > &aFell&r"
+		""
+		"&7Conjure Icestone&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r"
+		""
+		"&a🛈 Tip: Refer to the guide for more examples."
+		""
+		"&6⚠ Note: Spells may contain up to thirty glyphs."
+	]
 	quest.6D68D3A5BD549EA3.quest_desc: [
 		"[\"From here, the rest is simple enough; Common Gem Niter may be \",{ \"text\": \"Reformed\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" to produce Iron Sulfur, or any other Common Metal Sulfur.\"]"
 		""
@@ -4411,6 +4520,18 @@
 		"In order to operate, you must have all sixteen types of Mycelial Generator running. "
 		""
 		"This may prove quite challenging as you’ll need to provide some very peculiar materials to operate them, from Nether Stars and Dragon’s Breath to Potions and Fireworks. "
+	]
+	quest.6DBBD5B744B801B1.quest_desc: [
+		"You'll notice that a number of blocks either cannot be placed in this frigid place or will transform when placed. "
+		""
+		"Notably, the following blocks will be transformed if placed by any means, including conjuration!"
+		""
+		"  • &7Cobbled&r"
+		"   &7Deepslate&r      &2⟶&r    &7Aerogel&r"
+		"  • &7Cobblestone&r    &2⟶&r    &7Icestone&r"
+		"  • &7Dirt&r               &2⟶&r    &7Aether Dirt&r"
+		"  • &7Sand&r             &2⟶&r    &7Cold Aercloud&r"
+		"  • &7Sandstone&r      &2⟶&r    &7Quicksoil&r"
 	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
@@ -4928,6 +5049,22 @@
 		"&a🛈 Tip: Break the block with Silk Touch"
 		"&a    and smelt it for a better yield!"
 	]
+	quest.78626EE046E48EF3.quest_desc: [
+		"Biome"
+		"Archwood Forest"
+		""
+		"Notables"
+		"Lava"
+		"Pumpkin"
+		"Sunflower"
+	]
+	quest.7893072479F01DC2.quest_desc: [
+		"Biome: Warm Ocean"
+		""
+		"Notables"
+		"Corals"
+		"Sugar Cane"
+	]
 	quest.78B1BC9540590D17.quest_desc: [
 		"Need a place to store that hard earned experience? "
 		""
@@ -5171,6 +5308,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.0F0214D71A4FA354.title: "Observation: &2Villager"
 	task.0F19417AE6661F06.title: "Improved Blast Furnace"
 	task.10648F2DE8CD75D4.title: "Impossible"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"
@@ -5195,6 +5333,7 @@
 	task.2404D63C45135601.title: "Spirit Aspects"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
+	task.2536D4AABBEB1FF0.title: "Observation: &2Hearth"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.26180CD75616C6C3.title: "Esoteric Materials"
@@ -5202,6 +5341,7 @@
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
+	task.2B3416E3F3663598.title: "Block Conversions"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2D92956F1FC2B3EF.title: "Void Materials"
@@ -5225,7 +5365,9 @@
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3935AF387C2EA352.title: "Impossible"
+	task.3A59C49FAF001D7E.title: "Temperature Management"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
+	task.3B6A2E42A7F4D6C2.title: "Welcome to the Skies!"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"

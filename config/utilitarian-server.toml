@@ -1,5 +1,5 @@
 #Enable No Soliciting module
-noSolicitingEnabled = true
+noSolicitingEnabled = false
 #Range in chunks for no soliciting banner.
 # Default: 6
 # Range: > 1
@@ -53,4 +53,4 @@ soundMufflerBlockRange = 8
 #Enable No Raider module
 noRaiderEnabled = true
 #Enable Cursed Earth module
-cursedEarthEnabled = true
+cursedEarthEnabled = false

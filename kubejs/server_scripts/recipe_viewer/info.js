@@ -139,6 +139,20 @@ RecipeViewerEvents.addInformation('item', (event) => {
         }
     ];
 
+    Object.keys(villager_trades).forEach((profession) => {
+        var levels = ['Unemployed', 'Novice', 'Apprentice', 'Journeyman', 'Expert', 'Master'];
+        villager_trades[profession].forEach((recipe) => {
+            descriptions.push({
+                filter: [Item.of(recipe.result.id)],
+                text: [
+                    `Obtained by trading with ${profession.split(':')[1]} villagers.`,
+                    ` `,
+                    `Trade Level: ${levels[recipe.level]}`
+                ]
+            });
+        });
+    });
+
     descriptions.forEach((description) => {
         event.add(description.filter, description.text);
     });

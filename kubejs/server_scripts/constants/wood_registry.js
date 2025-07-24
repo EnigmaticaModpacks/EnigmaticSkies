@@ -4,6 +4,7 @@ const wood_registry = [];
 let wood_types = {
     // ars_elemental: ['yellow_archwood'],
     // ars_nouveau: ['blue_archwood', 'green_archwood', 'purple_archwood', 'red_archwood'],
+    aether: ['skyroot'],
     arts_and_crafts: ['cork'],
     occultism: ['otherworld']
 };

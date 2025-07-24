@@ -17,6 +17,16 @@ ServerEvents.recipes((event) => {
                 A: '#c:crops/rice'
             },
             id: `actuallyadditions:rice_paper`
+        },
+        {
+            output: 'actuallyadditions:wood_casing',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'aether:skyroot_planks',
+                B: 'farmersdelight:canvas',
+                C: '#aether:skyroot_logs'
+            },
+            id: `actuallyadditions:wood_casing`
         }
     ];
 

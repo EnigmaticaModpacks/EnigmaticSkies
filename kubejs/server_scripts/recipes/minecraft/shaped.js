@@ -9,6 +9,24 @@ ServerEvents.recipes((event) => {
                 A: 'actuallyadditions:rice_slimeball'
             },
             id: `${id_prefix}slime_block`
+        },
+        {
+            output: 'minecraft:furnace',
+            pattern: ['AAA', 'A A', 'BBB'],
+            key: {
+                A: 'aether:holystone',
+                B: 'aether:holystone_bricks'
+            },
+            id: `minecraft:furnace`
+        },
+        {
+            output: 'minecraft:lever',
+            pattern: ['A', 'B'],
+            key: {
+                A: '#c:rods/wooden',
+                B: 'aether:holystone'
+            },
+            id: `${id_prefix}lever`
         }
     ];
 
