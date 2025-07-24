@@ -18,12 +18,16 @@ ServerEvents.recipes((event) => {
         { id: /create:crafting\/materials\/andesite_alloy/ },
         { id: /ars_nouveau:(cobblestone|stone|sand)/ },
         { id: 'supplementaries:statue' },
+        { id: /cold_sweat:compat\/thirst/ },
 
         // Theurgy
         { type: 'theurgy:digestion' },
         { type: 'theurgy:fermentation' },
         { type: 'theurgy:distillation' },
         { type: 'theurgy:calcination' },
+
+        // Nature's Aura
+        { type: 'naturesaura:animal_spawner' },
 
         // Ore Processing Removals
 

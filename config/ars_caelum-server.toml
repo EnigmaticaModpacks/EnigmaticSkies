@@ -1,6 +1,8 @@
 [starter_ritual]
 	#The ResourceLocation of the structure to use for the starter island. Default: ars_caelum:starter_island
 	starter_island_rl = "ars_caelum:starter_island"
+	#The offset of the structure position for the starting island ritual
+	ritual_offset = [-16, -10, -14]
 	#The amount of source required to perform the starting island ritual
 	# Default: 0
 	# Range: 0 ~ 10000

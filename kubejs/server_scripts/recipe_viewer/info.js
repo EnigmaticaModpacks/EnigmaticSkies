@@ -139,6 +139,15 @@ RecipeViewerEvents.addInformation('item', (event) => {
         }
     ];
 
+    Object.keys(villager_trades).forEach((profession) => {
+        villager_trades[profession].forEach((recipe) => {
+            descriptions.push({
+                filter: [Item.of(recipe.result.id)],
+                text: [`Obtained by trading with ${profession.split(':')[1]} villagers.`]
+            });
+        });
+    });
+
     descriptions.forEach((description) => {
         event.add(description.filter, description.text);
     });
