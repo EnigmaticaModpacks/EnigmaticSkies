@@ -6,8 +6,8 @@ const villager_trades = {
         {
             result: { id: 'minecraft:potato', count: 2 },
             ingredients: [
-                { id: 'aether:golden_amber', count: [8, 12] },
-                { id: 'minecraft:bread', count: [8, 8] }
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
+                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
             ],
             level: 1,
             villagerExperience: 10,
@@ -16,8 +16,8 @@ const villager_trades = {
         {
             result: { id: 'minecraft:carrot', count: 2 },
             ingredients: [
-                { id: 'aether:golden_amber', count: [8, 12] },
-                { id: 'minecraft:bread', count: [8, 8] }
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
+                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
             ],
             level: 1,
             villagerExperience: 10,
@@ -26,8 +26,8 @@ const villager_trades = {
         {
             result: { id: 'farmersdelight:onion', count: 2 },
             ingredients: [
-                { id: 'aether:golden_amber', count: [8, 12] },
-                { id: 'minecraft:bread', count: [8, 8] }
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
+                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
             ],
             level: 2,
             villagerExperience: 20,
@@ -36,8 +36,8 @@ const villager_trades = {
         {
             result: { id: 'farmersdelight:rice', count: 2 },
             ingredients: [
-                { id: 'aether:golden_amber', count: [8, 12] },
-                { id: 'minecraft:bread', count: [8, 8] }
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
+                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
             ],
             level: 2,
             villagerExperience: 20,
@@ -48,8 +48,8 @@ const villager_trades = {
         {
             result: { id: 'aquaculture:goldfish', count: 9 },
             ingredients: [
-                { id: 'farmersdelight:safety_net', count: [1, 1] },
-                { id: 'minecraft:baked_potato', count: [2, 4] }
+                { id: 'farmersdelight:safety_net', count: { min: 1, max: 1 } },
+                { id: 'minecraft:baked_potato', count: { min: 2, max: 4 } }
             ],
             level: 1,
             villagerExperience: 10
@@ -57,8 +57,8 @@ const villager_trades = {
         {
             result: { id: 'minecraft:salmon', count: 9 },
             ingredients: [
-                { id: 'farmersdelight:safety_net', count: [1, 1] },
-                { id: 'minecraft:baked_potato', count: [2, 4] }
+                { id: 'farmersdelight:safety_net', count: { min: 1, max: 1 } },
+                { id: 'minecraft:baked_potato', count: { min: 2, max: 4 } }
             ],
             level: 1,
             villagerExperience: 10
@@ -66,8 +66,8 @@ const villager_trades = {
         {
             result: { id: 'aquaculture:red_shrooma', count: 9 },
             ingredients: [
-                { id: 'farmersdelight:safety_net', count: [1, 1] },
-                { id: 'farmersdelight:barbecue_stick', count: [2, 4] }
+                { id: 'farmersdelight:safety_net', count: { min: 1, max: 1 } },
+                { id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }
             ],
             level: 2,
             villagerExperience: 20
@@ -75,8 +75,8 @@ const villager_trades = {
         {
             result: { id: 'aquaculture:brown_shrooma', count: 9 },
             ingredients: [
-                { id: 'farmersdelight:safety_net', count: [1, 1] },
-                { id: 'farmersdelight:barbecue_stick', count: [2, 4] }
+                { id: 'farmersdelight:safety_net', count: { min: 1, max: 1 } },
+                { id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }
             ],
             level: 2,
             villagerExperience: 20
@@ -86,8 +86,8 @@ const villager_trades = {
         {
             result: { id: 'ars_caelum:ritual_conjure_island_starter', count: 1 },
             ingredients: [
-                { id: 'aether:golden_amber', count: [8, 12] },
-                { id: 'minecraft:bread', count: [8, 8] }
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
+                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
             ],
             level: 1,
             villagerExperience: 10,
@@ -96,8 +96,8 @@ const villager_trades = {
         {
             result: { id: 'enigmatica:flying_cow_iou', count: 1 },
             ingredients: [
-                { id: 'farmersdelight:rope', count: [8, 12] },
-                { id: 'farmersdelight:salmon_roll', count: [8, 8] }
+                { id: 'farmersdelight:rope', count: { min: 8, max: 12 } },
+                { id: 'farmersdelight:salmon_roll', count: { min: 8, max: 8 } }
             ],
             level: 1,
             villagerExperience: 10,
@@ -106,8 +106,8 @@ const villager_trades = {
         {
             result: { id: 'enigmatica:sheepuff_iou', count: 1 },
             ingredients: [
-                { id: 'farmersdelight:rope', count: [8, 12] },
-                { id: 'farmersdelight:hamburger', count: [8, 8] }
+                { id: 'farmersdelight:rope', count: { min: 8, max: 12 } },
+                { id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }
             ],
             level: 2,
             villagerExperience: 20,
@@ -116,8 +116,8 @@ const villager_trades = {
         {
             result: { id: 'enigmatica:phyg_iou', count: 1 },
             ingredients: [
-                { id: 'farmersdelight:rope', count: [8, 12] },
-                { id: 'farmersdelight:hamburger', count: [8, 8] }
+                { id: 'farmersdelight:rope', count: { min: 8, max: 12 } },
+                { id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }
             ],
             level: 2,
             villagerExperience: 20,
