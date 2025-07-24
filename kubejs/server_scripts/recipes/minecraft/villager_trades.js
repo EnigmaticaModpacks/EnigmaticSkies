@@ -5,8 +5,6 @@ MoreJS.villagerTrades((event) => {
         event.removeTrades({ professions: profession });
 
         villager_trades[profession].forEach((recipe) => {
-            console.log(Item.of(recipe.result.id, recipe.result.count));
-            console.log(recipe.result.count);
             let result = Item.of(recipe.result.id, recipe.result.count);
             let ingredients = [
                 TradeItem.of(recipe.ingredients[0].id, recipe.ingredients[0].count[0], recipe.ingredients[0].count[1]),
