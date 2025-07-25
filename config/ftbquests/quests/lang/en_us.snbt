@@ -3,7 +3,6 @@
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
-	chapter.113C730A83D7EB8C.title: "Villager Trading"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
@@ -1762,6 +1761,11 @@
 	]
 	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
+	quest.2F1EA0B091C700E1.quest_desc: [
+		"Fishermen can get you a steady supply of certain fish for a price. "
+		""
+		"Goldfish can be processed down for actual real Gold! "
+	]
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -1913,6 +1917,13 @@
 		"To set a channel, place the Crate in an Anvil with an Eye of Ender, then set a name. The name becomes the channel and any other Crate with the same name will share the same inventory."
 		""
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
+	]
+	quest.34FB10F0A2504973.quest_desc: [
+		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
+		""
+		"Start by making a Composter and grabbing some Potatoes and any other resources you can afford. "
+		""
+		"Villagers need a steady diet of good foods to do their best work, so get those taters in the ground!"
 	]
 	quest.34FFE863EB846035.quest_desc: [
 		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
@@ -3044,6 +3055,13 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge, especially concerning their multi-block structures.\"]"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
+	quest.4A12DC6BB0CB7F59.quest_desc: [
+		"What is a Shepherd without a herd? "
+		""
+		"This Villager can help you get started on Animal Husbandry. Purchase a Tablet of Conjure Island: Animals from it and summon it nearby. This island comes equipped with some special tools to allow you to summon animals. "
+		""
+		"Drop an IOU by the structure on the island to summon animals!"
+	]
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A80ADB324E4A6CA.quest_desc: [
 		"Crafting Rods, Plates, Wires, and Gears will become much simpler with a Metal Press, so consider setting one up soon to assist with those crafts. "
@@ -5319,6 +5337,7 @@
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
+	task.182F13A34DA8D2F3.title: "\"IOU\""
 	task.18C2AC93B4E7D144.title: "Excavator"
 	task.18CE5385D80E1C50.title: "Mixer"
 	task.1A13433A611626BD.title: "Engineer's Automated Workbench"
@@ -5422,7 +5441,6 @@
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
 	task.582472ED7BA0A212.title: "Item Storage"
 	task.5887027FAE29F371.title: "Addon: Processing"
-	task.59D03A0A41D575DF.title: "\"IOU\""
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"

@@ -818,8 +818,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			id: "13F15094F3AF4A73"
@@ -908,27 +908,45 @@
 		}
 		{
 			dependencies: ["33D3FD6791A9087A"]
+			icon: {
+				id: "minecraft:composter"
+			}
 			id: "34FB10F0A2504973"
-			tasks: [{
-				id: "3085C42071182AA1"
-				item: { count: 1, id: "minecraft:potato" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "12D0D24F2CBA6776"
+					item: { count: 1, id: "minecraft:composter" }
+					type: "item"
+				}
+				{
+					id: "3AE3BFCE38F96207"
+					item: { count: 1, id: "minecraft:potato" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]
+			icon: {
+				id: "minecraft:barrel"
+			}
 			id: "2F1EA0B091C700E1"
 			tasks: [
 				{
-					id: "72DEAD096583B84E"
-					item: { count: 1, id: "minecraft:salmon" }
+					id: "1D83B2509B34391D"
+					item: { count: 1, id: "minecraft:barrel" }
 					type: "item"
 				}
 				{
-					id: "47C5B30C8930149C"
+					id: "23A6FA63A91742A7"
 					item: { count: 1, id: "aquaculture:goldfish" }
+					type: "item"
+				}
+				{
+					id: "3D1B646F65A9EDC4"
+					item: { count: 1, id: "minecraft:salmon" }
 					type: "item"
 				}
 			]
@@ -937,15 +955,28 @@
 		}
 		{
 			dependencies: ["2F1EA0B091C700E1"]
+			icon: {
+				id: "minecraft:loom"
+			}
 			id: "4A12DC6BB0CB7F59"
 			tasks: [
 				{
-					id: "7519E0DA938DCAA4"
+					id: "2474572906897CFA"
+					item: { count: 1, id: "minecraft:loom" }
+					type: "item"
+				}
+				{
+					id: "5404831FDBDFD2F4"
 					item: { count: 1, id: "ars_caelum:ritual_conjure_island_starter" }
 					type: "item"
 				}
 				{
-					id: "59D03A0A41D575DF"
+					id: "4AC1F4B17B82A4AC"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "182F13A34DA8D2F3"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(enigmatica:iou)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}

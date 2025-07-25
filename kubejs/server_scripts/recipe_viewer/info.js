@@ -145,7 +145,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
             descriptions.push({
                 filter: [Item.of(recipe.result.id)],
                 text: [
-                    `Obtained by trading with ${profession.split(':')[1]} villagers.`,
+                    `Obtained by trading with ${profession.split(':')[1].replace('_', ' ')} villagers.`,
                     ` `,
                     `Trade Level: ${levels[recipe.level]}`
                 ]
