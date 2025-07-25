@@ -78,7 +78,8 @@ ServerEvents.recipes((event) => {
                 'pneumaticcraft:chips',
                 'pneumaticcraft:chips',
                 'pneumaticcraft:chips',
-                'sushigocrafting:cheese[sushigocrafting:amount=500]'
+                'sushigocrafting:cheese[sushigocrafting:amount=500]',
+                'arsdelight:wilden_sauce'
             ],
             id: `${id_prefix}poutine`
         }

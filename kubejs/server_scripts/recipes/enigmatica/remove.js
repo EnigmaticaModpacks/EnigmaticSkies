@@ -8,17 +8,20 @@ ServerEvents.recipes((event) => {
         //     id: 'sample'
         // }
 
-        { mod: 'belts' },
+        // Ars Nouveau and Addons
+        { type: 'ars_nouveau:glyph' },
+        { id: /ars_nouveau:(cobblestone|stone|sand)/ },
+
+        // Aquaculture
+        { id: 'aquaculture:gold_nugget_from_gold_fish' },
+
+        // Create and Addons
         { type: 'createsifter:sifting' },
-        { output: 'enderio:wood_gear' },
-        { mod: 'utilitarian', id: /snad/ },
-        { output: /soliciting_carpet/ },
-        { id: 'utilitarian:utility/green_dye' },
         { id: /create:mixing\/andesite_alloy/ },
         { id: /create:crafting\/materials\/andesite_alloy/ },
-        { id: /ars_nouveau:(cobblestone|stone|sand)/ },
-        { id: 'supplementaries:statue' },
-        { id: /cold_sweat:compat\/thirst/ },
+
+        // EnderIO
+        { output: 'enderio:wood_gear' },
 
         // Theurgy
         { type: 'theurgy:digestion' },
@@ -29,8 +32,18 @@ ServerEvents.recipes((event) => {
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
 
-        // Ore Processing Removals
+        // Utilitarian
+        { mod: 'utilitarian', id: /snad/ },
+        { output: /soliciting_carpet/ },
+        { output: 'utilitarian:drit' },
+        { output: 'utilitarian:grrass' },
+        { id: 'utilitarian:utility/green_dye' },
 
+        // Supplementaries
+        { id: 'supplementaries:statue' },
+        { id: 'supplementaries:ash_brick' },
+
+        // Ore Processing Removals
         { id: /aether:(ambrosium|zanite)_\w*_from_(smelting|blasting)/ },
         { id: /create:crushing\/compat\/aether\/(ambrosium|zanite)_ore/ }
     ];

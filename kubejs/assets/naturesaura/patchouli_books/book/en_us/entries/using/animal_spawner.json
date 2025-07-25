@@ -1,0 +1,21 @@
+{
+    "name": "Altar of Birthing",
+    "icon": "naturesaura:animal_spawner",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sometimes, the $(thing)creation$() of certain living creatures would be of use for any slightly gruesome botanist. For this, the $(item)Altar of Birthing$() can be used: It can create and spawn almost any $(thing)living creature$() at the cost of some ingredients that are related to that very creature and a bit of $(aura) from the environment."
+        },
+        {
+            "type": "text",
+            "text": "For it to work, it requires the right structure to be assembled and all ingredients to be thrown down on the ground close to the $(item)Altar of Birthing$(). The process will begin automatically.$(p)The following page outlines the construction."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:animal_spawner",
+            "text": "This formation needs to be created around the $(item)Altar of Birthing$() for it to work as expected."
+        }
+    ]
+}

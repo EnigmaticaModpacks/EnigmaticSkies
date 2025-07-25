@@ -68,8 +68,6 @@ StartupEvents.registry('item', (event) => {
         .maxStackSize(64)
         .useAnimation('eat')
         .food((food) => {
-            food.nutrition(8)
-                .saturation(8 / 7.5) // Final saturation is nutrition * saturation... Shenanigans.
-                .effect('farmersdelight:comfort', 600, 0, 1);
+            food.nutrition(8).saturation(8 / 7.5); // Final saturation is nutrition * saturation... Shenanigans.
         });
 });

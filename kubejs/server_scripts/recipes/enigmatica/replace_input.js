@@ -29,15 +29,15 @@ ServerEvents.recipes((event) => {
             to_replace: '#c:storage_blocks/iron',
             replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
         },
-        {
-            filter: [{ mod: 'functionalstorage' }],
-            to_replace: '#c:chests/wooden',
-            replace_with: 'framedblocks:framed_chest'
-        },
+        // {
+        //     filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
+        //     to_replace: '#c:chests/wooden',
+        //     replace_with: 'framedblocks:framed_chest'
+        // },
         {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
-            replace_with: '#c:chests/wooden'
+            replace_with: 'framedblocks:framed_chest'
         },
         {
             filter: {},
@@ -60,11 +60,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['minecraft:quartz', 'ae2:certus_quartz_crystal'])
         },
         {
-            filter: [{ mod: 'bigreactors' }],
-            to_replace: '#c:ingots/yellorium',
-            replace_with: '#c:ingots/uranium'
-        },
-        {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:ingots/gold',
             replace_with: '#c:ingots/copper'
@@ -78,16 +73,6 @@ ServerEvents.recipes((event) => {
             filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
             to_replace: 'actuallyadditions:black_quartz_pillar_block',
             replace_with: 'actuallyadditions:black_quartz_block'
-        },
-        {
-            filter: [{ id: `oritech:motor/motorcraft` }, { id: `oritech:crafting/magnet` }],
-            to_replace: '#c:ingots/steel',
-            replace_with: '#c:ingots/iron'
-        },
-        {
-            filter: [{ id: `oritech:crafting/foundry` }],
-            to_replace: '#c:ingots/electrum',
-            replace_with: '#c:ingots/iron'
         },
         {
             filter: [{ mod: 'oritech' }],
@@ -106,11 +91,6 @@ ServerEvents.recipes((event) => {
             ])
         },
         {
-            filter: [{ id: `theurgy:crafting/shaped/reformation_target_pedestal` }],
-            to_replace: '#c:gems/diamond',
-            replace_with: Ingredient.of(['#c:essences/manipulation', '#c:ingots/arcane', '#c:ingots/infused_iron'])
-        },
-        {
             filter: [{ output: `minecraft:hopper` }, { output: `utilitarian:fluid_hopper` }],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
@@ -120,15 +100,20 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
-        {
-            filter: [{ mod: `transfer_labels` }],
-            to_replace: '#c:dusts/redstone',
-            replace_with: Ingredient.of(['#c:dusts/sky_stone'])
-        },
+        // {
+        //     filter: [{ mod: `transfer_labels` }],
+        //     to_replace: '#c:dusts/redstone',
+        //     replace_with: Ingredient.of(['#c:dusts/sky_stone'])
+        // },
         {
             filter: [{ mod: `transfer_labels` }],
             to_replace: '#c:ingots/copper',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ id: `ars_nouveau:enchanting_apparatus` }],
+            to_replace: '#c:gems/diamond',
+            replace_with: Ingredient.of(['aether:ambrosium_shard'])
         }
     ];
 

@@ -1,8 +1,11 @@
 MoreJS.villagerTrades((event) => {
     // https://docs.almostreliable.com/morejs/villager-trades.html
 
+    const villagerExperience = [0, 10, 20, 40, 80, 160];
+
     Object.keys(villager_trades).forEach((profession) => {
         event.removeTrades({ professions: profession });
+        event.removeModdedTypedTrades({ professions: profession });
 
         villager_trades[profession].forEach((recipe) => {
             let result = Item.of(recipe.result.id, recipe.result.count);
@@ -16,7 +19,7 @@ MoreJS.villagerTrades((event) => {
 
             event.addTrade(profession, recipe.level, ingredients, result).transform((offer) => {
                 if (recipe.maxUses) offer.maxUses = recipe.maxUses;
-                if (recipe.villagerExperience) offer.villagerExperience = recipe.villagerExperience;
+                offer.villagerExperience = villagerExperience[recipe.level];
             });
         });
     });
@@ -25,7 +28,12 @@ MoreJS.villagerTrades((event) => {
 MoreJS.updateOffer((event) => {
     // Remove Supplementaries trades that are injected at trade-refresh time.
     if (event.offer.firstCost.id.includes('supplementaries') || event.offer.output.id.includes('supplementaries')) {
-        console.log('Blocked Supplementaries Injection!');
         return event.cancel();
+    }
+
+    if (event.isProfession('ars_nouveau:shady_wizard')) {
+        if (event.offer.firstCost.id.includes('emerald') || event.offer.output.id.includes('emerald')) {
+            return event.cancel();
+        }
     }
 });
