@@ -21,6 +21,16 @@ ServerEvents.recipes((event) => {
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
             id: `${id_prefix}source_gem`
+        },
+        {
+            ingredients: [
+                { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
+                { ingredient: { item: 'aquaculture:goldfish' }, count: 4 }
+            ],
+            result: { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 1 },
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            time: 5,
+            id: `${id_prefix}gold_nugget_from_gold_fish`
         }
     ];
 

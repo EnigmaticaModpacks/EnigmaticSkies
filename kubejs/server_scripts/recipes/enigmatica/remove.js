@@ -9,13 +9,16 @@ ServerEvents.recipes((event) => {
         // }
 
         // Ars Nouveau and Addons
+        { type: 'ars_nouveau:glyph' },
         { id: /ars_nouveau:(cobblestone|stone|sand)/ },
 
+        // Aquaculture
+        { id: 'aquaculture:gold_nugget_from_gold_fish' },
+
         // Create and Addons
+        { type: 'createsifter:sifting' },
         { id: /create:mixing\/andesite_alloy/ },
         { id: /create:crafting\/materials\/andesite_alloy/ },
-
-        { type: 'createsifter:sifting' },
 
         // EnderIO
         { output: 'enderio:wood_gear' },

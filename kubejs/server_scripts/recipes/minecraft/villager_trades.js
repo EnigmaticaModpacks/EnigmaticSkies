@@ -19,9 +19,7 @@ MoreJS.villagerTrades((event) => {
 
             event.addTrade(profession, recipe.level, ingredients, result).transform((offer) => {
                 if (recipe.maxUses) offer.maxUses = recipe.maxUses;
-                offer.villagerExperience = recipe.villagerExperience
-                    ? recipe.villagerExperience
-                    : villagerExperience[recipe.level];
+                offer.villagerExperience = villagerExperience[recipe.level];
             });
         });
     });
@@ -34,7 +32,6 @@ MoreJS.updateOffer((event) => {
     }
 
     if (event.isProfession('ars_nouveau:shady_wizard')) {
-        console.log('Would the real Slim Shady please stand up?');
         if (event.offer.firstCost.id.includes('emerald') || event.offer.output.id.includes('emerald')) {
             return event.cancel();
         }

@@ -94,26 +94,17 @@ const villager_trades = {
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [
-                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } },
-                { id: 'ars_nouveau:source_berry_roll', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 8, max: 12 } }],
             level: 1
         },
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [
-                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } },
-                { id: 'arsdelight:source_berry_cupcake', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:poutine', count: { min: 8, max: 12 } }],
             level: 3
         },
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [
-                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } },
-                { id: 'arsdelight:source_berry_hornbeer', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 8, max: 12 } }],
             level: 5
         }
     ]
