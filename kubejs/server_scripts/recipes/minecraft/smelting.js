@@ -7,6 +7,13 @@ ServerEvents.recipes((event) => {
             xp: 6.3,
             duration: 90,
             id: `${id_prefix}replica_block_from_raw_block`
+        },
+        {
+            input: `aether:icestone`,
+            output: 'aether:holystone',
+            xp: 0.1,
+            duration: 200,
+            id: `${id_prefix}holystone`
         }
     ];
 

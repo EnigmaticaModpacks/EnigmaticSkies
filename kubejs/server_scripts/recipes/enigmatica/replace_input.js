@@ -100,11 +100,11 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
-        {
-            filter: [{ mod: `transfer_labels` }],
-            to_replace: '#c:dusts/redstone',
-            replace_with: Ingredient.of(['#c:dusts/sky_stone'])
-        },
+        // {
+        //     filter: [{ mod: `transfer_labels` }],
+        //     to_replace: '#c:dusts/redstone',
+        //     replace_with: Ingredient.of(['#c:dusts/sky_stone'])
+        // },
         {
             filter: [{ mod: `transfer_labels` }],
             to_replace: '#c:ingots/copper',

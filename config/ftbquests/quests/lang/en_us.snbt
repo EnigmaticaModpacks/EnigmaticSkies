@@ -4671,6 +4671,14 @@
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
+	quest.702AFA5430CF6D73.quest_desc: [
+		"cobblestone conversion in hot biome?"
+		""
+		""
+		"Crush to dust, get lava crystal from that. "
+		""
+		"Extract remaining minerals from lava?"
+	]
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.705C37F9694E6FEA.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer chemicals bi-directionally."

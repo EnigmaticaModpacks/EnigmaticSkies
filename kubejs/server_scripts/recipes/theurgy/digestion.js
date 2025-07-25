@@ -27,10 +27,20 @@ ServerEvents.recipes((event) => {
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
                 { ingredient: { item: 'aquaculture:goldfish' }, count: 4 }
             ],
-            result: { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 1 },
+            result: { id: 'createsifter:raw_gold_piece', count: 4 },
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
-            id: `${id_prefix}gold_nugget_from_gold_fish`
+            id: `${id_prefix}gold_from_gold_fish`
+        },
+        {
+            ingredients: [
+                { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
+                { ingredient: { tag: 'c:foods/raw_meats' }, count: 1 }
+            ],
+            result: { id: 'createsifter:raw_iron_piece', count: 4 },
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            time: 5,
+            id: `${id_prefix}iron_from_meat`
         }
     ];
 

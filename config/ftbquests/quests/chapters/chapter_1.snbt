@@ -655,7 +655,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["49E18B07D6E4A5EB"]
@@ -665,8 +665,8 @@
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["098350521D096497"]
@@ -677,10 +677,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["51636F3E5A461A7B"]
+			dependencies: ["0DB54E62557E6819"]
 			id: "098350521D096497"
 			tasks: [{
 				id: "463DFA879A15F67A"
@@ -688,7 +688,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -698,13 +698,13 @@
 				item: { count: 1, id: "aether:altar" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
-				"714379744B3CF395"
 				"121F78C888E3676C"
+				"7D55CFC63462B5C1"
 			]
 			id: "540133B792547B21"
 			tasks: [
@@ -719,8 +719,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2595962FA3E2AE2C"]
@@ -730,7 +730,7 @@
 				item: { count: 1, id: "theurgy:fermentation_vat" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -761,8 +761,8 @@
 				item: { count: 1, id: "transfer_labels:label_accessor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["78E557B17D1EB84F"]
@@ -779,8 +779,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -4.5d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7D55CFC63462B5C1"]
@@ -791,7 +791,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -808,7 +808,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -818,8 +818,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			id: "13F15094F3AF4A73"
@@ -838,8 +838,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			id: "6490781066FAE8CF"
@@ -848,10 +848,11 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["5AFB064A80189AA4"]
 			id: "605A60825B68C2D7"
 			tasks: [
 				{
@@ -870,8 +871,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -3.0d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1D00057ADC3723FC"]
@@ -881,8 +882,8 @@
 				item: { components: { "minecraft:entity_data": { VillagerData: { type: "minecraft:snow" }, id: "minecraft:villager" } }, count: 1, id: "occultism:fragile_soul_gem" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -893,7 +894,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1834C84EFA232977"]
@@ -924,8 +925,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -2.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]
@@ -950,8 +951,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -1.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2F1EA0B091C700E1"]
@@ -981,8 +982,151 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -0.5d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51636F3E5A461A7B"]
+			id: "0DB54E62557E6819"
+			tasks: [{
+				id: "28CB642B0632C9FF"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["714379744B3CF395"]
+			id: "1F493A257A7E700C"
+			tasks: [{
+				id: "38C2951B66ED26AF"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5ADD2A1D5F244036"]
+			id: "47B1B3BCFAD8CB53"
+			tasks: [{
+				id: "44BA28A6ED51BF6B"
+				item: { count: 1, id: "modern_industrialization:diamond_tiny_dust" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5ADD2A1D5F244036"]
+			id: "40041238D58298E2"
+			tasks: [{
+				id: "72C3EB38500A40FF"
+				item: { count: 1, id: "occultism:burnt_otherstone" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["714379744B3CF395"]
+			id: "798D16C2A0D071FF"
+			tasks: [{
+				id: "67DCE4BD5716CCE1"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["714379744B3CF395"]
+			id: "7989524CA113403E"
+			tasks: [{
+				id: "4CAD5A643A1FA9CA"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "5AFB064A80189AA4"
+			tasks: [{
+				id: "7EB17A8C21C157CA"
+				item: { count: 1, id: "minecraft:moss_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AFB064A80189AA4"]
+			id: "779E0B3E3CFEF22C"
+			tasks: [{
+				id: "362EC0B56B18DBBB"
+				item: { count: 1, id: "naturesaura:moss_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78626EE046E48EF3"]
+			id: "702AFA5430CF6D73"
+			tasks: [{
+				id: "0BE87E2F89FA99EE"
+				item: { count: 1, id: "minecraft:basalt" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["702AFA5430CF6D73"]
+			id: "4CAD22296114B3AD"
+			tasks: [{
+				id: "613868E595899CED"
+				item: { count: 1, id: "createsifter:crushed_basalt" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CAD22296114B3AD"]
+			id: "1CA3F6B68095E927"
+			tasks: [{
+				id: "4B6822F4E297EC71"
+				item: { count: 1, id: "theurgy:crystallized_lava" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "2F2C14F36F96AD35"
+			tasks: [{
+				id: "3E1B55CF2D13EDAD"
+				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F2C14F36F96AD35"]
+			id: "7D03A7E07643F20C"
+			tasks: [{
+				id: "49B4DB5129AAB6DD"
+				item: { count: 1, id: "createsifter:raw_copper_piece" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 }
