@@ -1,0 +1,66 @@
+{
+    "item.minecraft.potion.effect.greater_strength": "力量药水",
+    "item.minecraft.splash_potion.effect.greater_strength": "喷溅型力量药水",
+    "item.minecraft.lingering_potion.effect.greater_strength": "滞留型力量药水",
+    "item.minecraft.tipped_arrow.effect.greater_strength": "力量之箭",
+
+    "item.minecraft.potion.effect.greater_regeneration": "再生药水",
+    "item.minecraft.splash_potion.effect.greater_regeneration": "喷溅型再生药水",
+    "item.minecraft.lingering_potion.effect.greater_regeneration": "滞留型再生药水",
+    "item.minecraft.tipped_arrow.effect.greater_regeneration": "再生之箭",
+
+    "item.minecraft.potion.effect.greater_mana_regen": "魔力再生药水",
+    "item.minecraft.splash_potion.effect.greater_mana_regen": "喷溅型魔力再生药水",
+    "item.minecraft.lingering_potion.effect.greater_mana_regen": "滞留型魔力再生药水",
+    "item.minecraft.tipped_arrow.effect.greater_mana_regen": "魔力再生之箭",
+
+    "item.minecraft.potion.effect.greater_spell_damage": "法术伤害药水",
+    "item.minecraft.splash_potion.effect.greater_spell_damage": "喷溅型法术伤害药水",
+    "item.minecraft.lingering_potion.effect.greater_spell_damage": "滞留型法术伤害药水",
+    "item.minecraft.tipped_arrow.effect.greater_spell_damage": "法术伤害之箭",
+
+    "item.minecraft.potion.effect.greater_shielding": "护盾药水",
+    "item.minecraft.splash_potion.effect.greater_shielding": "喷溅型护盾药水",
+    "item.minecraft.lingering_potion.effect.greater_shielding": "滞留型护盾药水",
+    "item.minecraft.tipped_arrow.effect.greater_shielding": "护盾之箭",
+
+    "item.minecraft.potion.effect.greater_recovery": "康复药水",
+    "item.minecraft.splash_potion.effect.greater_recovery": "喷溅型康复药水",
+    "item.minecraft.lingering_potion.effect.greater_recovery": "滞留型康复药水",
+    "item.minecraft.tipped_arrow.effect.greater_recovery": "康复之箭",
+
+    "item.minecraft.potion.effect.flight": "飞行药水",
+    "item.minecraft.splash_potion.effect.flight": "喷溅型飞行药水",
+    "item.minecraft.lingering_potion.effect.flight": "滞留型飞行药水",
+    "item.minecraft.tipped_arrow.effect.flight": "飞行之箭",
+
+    "item.minecraft.potion.effect.long_flight": "飞行药水",
+    "item.minecraft.splash_potion.effect.long_flight": "喷溅型飞行药水",
+    "item.minecraft.lingering_potion.effect.long_flight": "滞留型飞行药水",
+    "item.minecraft.tipped_arrow.effect.long_flight": "飞行之箭",
+
+    "item.minecraft.potion.effect.resistance": "抗性提升药水",
+    "item.minecraft.splash_potion.effect.resistance": "喷溅型抗性提升药水",
+    "item.minecraft.lingering_potion.effect.resistance": "滞留型抗性提升药水",
+    "item.minecraft.tipped_arrow.effect.resistance": "抗性提升之箭",
+
+    "item.minecraft.potion.effect.long_resistance": "抗性提升药水",
+    "item.minecraft.splash_potion.effect.long_resistance": "喷溅型抗性提升药水",
+    "item.minecraft.lingering_potion.effect.long_resistance": "滞留型抗性提升药水",
+    "item.minecraft.tipped_arrow.effect.long_resistance": "抗性提升之箭",
+
+    "item.minecraft.potion.effect.strong_resistance": "抗性提升药水",
+    "item.minecraft.splash_potion.effect.strong_resistance": "喷溅型抗性提升药水",
+    "item.minecraft.lingering_potion.effect.strong_resistance": "滞留型抗性提升药水",
+    "item.minecraft.tipped_arrow.effect.strong_resistance": "抗性提升之箭",
+
+    "item.minecraft.potion.effect.greater_resistance": "抗性提升药水",
+    "item.minecraft.splash_potion.effect.greater_resistance": "喷溅型抗性提升药水",
+    "item.minecraft.lingering_potion.effect.greater_resistance": "滞留型抗性提升药水",
+    "item.minecraft.tipped_arrow.effect.greater_resistance": "抗性提升之箭",
+
+    "item.minecraft.potion.effect.greater_instant_damage": "伤害药水",
+    "item.minecraft.splash_potion.effect.greater_instant_damage": "喷溅型伤害药水",
+    "item.minecraft.lingering_potion.effect.greater_instant_damage": "滞留型伤害药水",
+    "item.minecraft.tipped_arrow.effect.greater_instant_damage": "伤害之箭"
+}

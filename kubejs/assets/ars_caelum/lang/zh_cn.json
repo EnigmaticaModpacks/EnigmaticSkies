@@ -1,0 +1,20 @@
+{
+    "item.ars_caelum.ritual_conjure_island_starter": "繁茂花园空岛构筑",
+    "ars_caelum.ritual_desc.ritual_conjure_island_starter": "生成一个能够召唤动物的繁茂花园岛屿。注意：此仪式的运作位置最好距其他方块至少32格。",
+
+    "item.ars_caelum.ritual_conjure_island_geode": "蜂巢空岛构筑",
+    "ars_caelum.ritual_desc.ritual_conjure_island_geode": "生成一个蜂巢形状的岛屿。此仪式需要一整罐魔源。注意：此仪式的运作位置最好距其他方块至少32格。",
+
+    "item.ars_caelum.ritual_conjure_island_vexing": "恼人空岛构筑",
+    "ars_caelum.ritual_desc.ritual_conjure_island_vexing": "生成一个长有恼人至高木树、带有哭泣之井的岛屿，并将该区域的生物群系转换为蘑菇岛。此仪式需要一整罐魔源。注意：此仪式的运作位置最好距其他方块至少32格。",
+
+    "ars_caelum.ritual_desc.ritual_conjure_island_flourishing": "生成一个长有繁茂至高木树的岛屿，并将该区域的生物群系转换为红树林沼泽。此仪式需要一整罐魔源。注意：此仪式的运作位置最好距其他方块至少32格。",
+    "ars_caelum.ritual_desc.ritual_conjure_island_cascading": "生成一个长有奔流至高木树的岛屿，并将该区域的生物群系转换为暖水海洋。此仪式需要一整罐魔源。注意：此仪式的运作位置最好距其他方块至少32格。",
+    "ars_caelum.ritual_desc.ritual_conjure_island_blazing": "生成一个长有烈焰至高木树的岛屿，并将该区域的生物群系转换为至高木森林。此仪式需要一整罐魔源。注意：此仪式的运作位置最好距其他方块至少32格。",
+
+    "item.ars_caelum.ritual_conjure_island_sculk": "闪耀空岛构筑",
+    "ars_caelum.ritual_desc.ritual_conjure_island_sculk": "生成一个长有闪耀至高木树的岛屿，并将该区域的生物群系转换为深暗之域。此仪式需要一整罐魔源。注意：此仪式的运作位置最好距其他方块至少32格。",
+
+    "item.ars_caelum.ritual_conjure_island_village": "平台空岛构筑",
+    "ars_caelum.ritual_desc.ritual_conjure_island_village": "构筑一个适合建造的小型岛屿。"
+}
