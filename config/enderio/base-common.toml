@@ -67,6 +67,10 @@
 		# Range: 4 ~ 512
 		blockToBlockRange = 96
 
+	[items.soulVials]
+		#If true, soul vials can change spawners
+		allowSpawners = false
+
 [grainsOfInfinity]
 	#Should it make a sound when Grains of Infinity drops from a fire?
 	makesSound = true

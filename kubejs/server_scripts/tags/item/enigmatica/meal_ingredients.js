@@ -14,6 +14,7 @@ ServerEvents.tags('item', (event) => {
             'farmersdelight:baked_cod_stew',
             'farmersdelight:pumpkin_soup',
             'farmersdelight:fish_stew',
+            'farmersdelight:onion_soup',
             'minecraft:rabbit_stew',
             'farmersdelight:vegetable_soup'
         ],
