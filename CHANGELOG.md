@@ -8,6 +8,7 @@ NeoForge-1.21.1-21.1.228 |
 - Improved i18n support [(\#124)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/124) ([nageih](https://github.com/nageih))
 - Clarified Sourceberry quest [(\#127)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/127)
 - Pyromantic Brazier now uses skywood logs instead of wood [(\#128)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/128)
+- Clarified the Natural Altar quest [(\#130)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/130)
 
 #### 🦟 Bugs Fixed
 

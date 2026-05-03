@@ -4901,7 +4901,9 @@
 	quest.6BA05AC6ECC577DA.quest_desc: [
 		"By now, you should have everything you need to summon your first Island, the Lush Garden. "
 		""
-		"There, you'll find a number of plants to expand your cooking repertoire as well as an &7Altar of Birthing&r where you can summon in some animals for meat and other resources."
+		"There, you'll find a number of plants to expand your cooking repertoire as well as an &7Altar of Birthing&r where you can summon in some animals for meat and other resources. "
+		""
+		"Simply toss your recipe ingredients near the &7Altar&r and your animal will appear. Magic!"
 		"&n                                                              &r"
 		""
 		"Be careful when setting up these Island rituals. They will not destroy blocks when spawning the island. "
