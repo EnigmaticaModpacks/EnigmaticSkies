@@ -228,6 +228,7 @@ ServerEvents.recipes((event) => {
 
         // Cold Sweat
         { output: `cold_sweat:hearth` },
+        { output: `cold_sweat:smokestack` },
         { id: 'cold_sweat:ice_packed_to_normal' },
         { id: 'cold_sweat:ice_blue_to_packed' },
 
