@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ id: 'minecraft:wolf_armor' }],
             to_replace: 'minecraft:wolf_armor',
-            replace_with: `minecraft:wolf_armor[lore=['{"color":"light_purple","text":"Much Wow"}','{"color":"red","text":"Vetty Cute"}','{"color":"green","text":"Fite!"}','{"color":"blue","text":"Goodest Doge"}'],unbreakable={},attribute_modifiers={modifiers:[{amount:20.0d,id:"minecraft:armor",operation:"add_value",type:"minecraft:generic.armor"}]}]`
+            replace_with: `minecraft:wolf_armor[lore=['{"color":"light_purple","translate":"tooltip.enigmatica.wolf_armor.much_wow"}','{"color":"red","translate":"tooltip.enigmatica.wolf_armor.vetty_cute"}','{"color":"green","translate":"tooltip.enigmatica.wolf_armor.fite"}','{"color":"blue","translate":"tooltip.enigmatica.wolf_armor.goodest_doge"}'],unbreakable={},attribute_modifiers={modifiers:[{amount:20.0d,id:"minecraft:armor",operation:"add_value",type:"minecraft:generic.armor"}]}]`
         },
         {
             filter: [{ mod: 'eccentrictome' }],

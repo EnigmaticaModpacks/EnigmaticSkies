@@ -90,17 +90,18 @@ StartupEvents.registry('item', (event) => {
     });
 
     const iou_slips = [
-        { name: 'Flying Cow', layer: 'beef' },
-        { name: 'Phyg', layer: 'porkchop' },
-        { name: 'Sheepuff', layer: 'mutton' },
-        { name: 'Aerbunny', layer: 'rabbit' },
-        { name: 'Goat', layer: 'goat_fur' },
-        { name: 'Moa', layer: 'feather' },
-        { name: 'Chicken', layer: 'egg' }
+        { name: 'Flying Cow', entity: 'entity.aether.flying_cow', layer: 'beef' },
+        { name: 'Phyg', entity: 'entity.aether.phyg', layer: 'porkchop' },
+        { name: 'Sheepuff', entity: 'entity.aether.sheepuff', layer: 'mutton' },
+        { name: 'Aerbunny', entity: 'entity.aether.aerbunny', layer: 'rabbit' },
+        { name: 'Goat', entity: 'entity.minecraft.goat', layer: 'goat_fur' },
+        { name: 'Moa', entity: 'entity.aether.moa', layer: 'feather' },
+        { name: 'Chicken', entity: 'entity.minecraft.chicken', layer: 'egg' }
     ];
 
     iou_slips.forEach((item) => {
         let id = getID(item.name);
+        let entityName = Text.translate(`${item.entity}`);
         event
             .create(`enigmatica:${id}_iou`)
             .displayName(`§6IOU:§r 1x ${item.name}`)
@@ -108,7 +109,7 @@ StartupEvents.registry('item', (event) => {
             .texture('layer1', `enigmatica:item/${item.layer}`)
             .color(0, '#f2e1a5')
             // .color(1, '#00FFF0')
-            .tooltip(`§5May be exchanged for ${getArticle(item.name)} ${item.name}`);
+            .tooltip(Text.translate('tooltip.enigmatica.iou_exchange', getArticle(item.name), entityName));
     });
 
     const bottles = [

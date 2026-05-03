@@ -5,7 +5,7 @@ const statue_conversions = {
         mobID: 'minecraft:witch',
         mobData: {
             PatrolLeader: 0,
-            CustomName: '{"color":"gold","text":"Clockwork Witch"}',
+            CustomName: '{"color":"gold","translate":"entity.enigmatica.clockwork_witch"}',
             DeathLootTable: 'enigmatica:statue_tokens/witch',
             HandItems: [
                 {
@@ -26,7 +26,7 @@ const statue_conversions = {
         mobID: 'minecraft:evoker',
         mobData: {
             PatrolLeader: 0,
-            CustomName: '{"color":"gold","text":"Clockwork Evoker"}',
+            CustomName: '{"color":"gold","translate":"entity.enigmatica.clockwork_evoker"}',
             DeathLootTable: 'enigmatica:statue_tokens/evoker',
             HandItems: [
                 {
@@ -47,7 +47,7 @@ const statue_conversions = {
         mobID: 'minecraft:vindicator',
         mobData: {
             PatrolLeader: 0,
-            CustomName: '{"color":"gold","text":"Clockwork Vindicator"}',
+            CustomName: '{"color":"gold","translate":"entity.enigmatica.clockwork_vindicator"}',
             DeathLootTable: 'enigmatica:statue_tokens/vindicator',
             HandItems: [
                 {
@@ -68,7 +68,7 @@ const statue_conversions = {
         mobID: 'minecraft:pillager',
         mobData: {
             PatrolLeader: 0,
-            CustomName: '{"color":"gold","text":"Clockwork Pillager"}',
+            CustomName: '{"color":"gold","translate":"entity.enigmatica.clockwork_pillager"}',
             DeathLootTable: 'enigmatica:statue_tokens/pillager',
             HandItems: [
                 {

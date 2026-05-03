@@ -1,12 +1,16 @@
 ClientEvents.generateAssets('before_mods', (event) => {
     // https://github.com/emilyploszaj/emi/wiki/Adding-Recipes#adding-info-recipes
 
+    const Lore = (translationKey) => {
+        return `{"minecraft:lore":['{"color":"green","translate":"${translationKey}"}']}`;
+    };
+
     const recipes = [
         {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:minecraft:cauldron',
@@ -21,7 +25,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:ars_nouveau:enchanting_apparatus',
@@ -36,7 +40,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:farmersdelight:cooking_pot',
@@ -51,7 +55,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:minecraft:furnace',
@@ -66,7 +70,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:minecraft:stonecutter',
@@ -81,7 +85,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:farmersdelight:cutting_board',
@@ -96,7 +100,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.wixie_conversion'),
                 amount: 1
             },
             right: 'item:starbunclemania:fluid_jar',
@@ -172,7 +176,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             output: {
                 type: 'item',
                 id: 'actuallyadditions:worm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Small chance when tilling Grass"}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.worm_from_grass'),
                 amount: 1
             },
             id: 'actuallyadditions:worm'
@@ -183,7 +187,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             output: {
                 type: 'item',
                 id: 'minecraft:armadillo_scute',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Obtained by brushing Armadillos"}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.armadillo_scute'),
                 amount: 1
             },
             id: 'minecraft:armadillo_scute'
@@ -358,7 +362,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             output: {
                 type: 'item',
                 id: 'farmersdelight:straw',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Break Grass with a Knife!"}\u0027]}',
+                nbt: Lore('tooltip.enigmatica.straw_from_grass'),
                 chance: 0.2
             },
             id: 'farmersdelight:straw_from_grass'
@@ -371,7 +375,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 {
                     type: 'item',
                     id: 'minecraft:witch_spawn_egg',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+                    nbt: Lore('tooltip.enigmatica.awaken_trophy')
                 }
             ],
             id: 'handcrafted:witch_trophy'
@@ -384,7 +388,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 {
                     type: 'item',
                     id: 'minecraft:evoker_spawn_egg',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+                    nbt: Lore('tooltip.enigmatica.awaken_trophy')
                 }
             ],
             id: 'handcrafted:evoker_trophy'
@@ -397,7 +401,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 {
                     type: 'item',
                     id: 'minecraft:vindicator_spawn_egg',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+                    nbt: Lore('tooltip.enigmatica.awaken_trophy')
                 }
             ],
             id: 'handcrafted:vindicator_trophy'
@@ -410,7 +414,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 {
                     type: 'item',
                     id: 'minecraft:pillager_spawn_egg',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+                    nbt: Lore('tooltip.enigmatica.awaken_trophy')
                 }
             ],
             id: 'handcrafted:pillager_trophy'
