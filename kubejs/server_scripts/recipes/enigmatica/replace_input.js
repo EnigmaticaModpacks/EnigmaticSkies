@@ -355,7 +355,8 @@ ServerEvents.recipes((event) => {
                 { id: 'create:crafting/kinetics/cogwheel' },
                 { id: 'create:crafting/kinetics/large_cogwheel_from_little' },
                 { id: 'create:crafting/kinetics/water_wheel' },
-                { id: 'create:crafting/kinetics/large_water_wheel' }
+                { id: 'create:crafting/kinetics/large_water_wheel' },
+                { id: 'cold_sweat:sewing_table' }
             ],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
