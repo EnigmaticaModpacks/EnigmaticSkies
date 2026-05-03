@@ -4,12 +4,15 @@ NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ⭐ Improvements
 
+- Improved i18n support [(\#124)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/124) ([nageih](https://github.com/nageih))
 - Clarified Sourceberry quest [(\#127)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/127)
 - Pyromantic Brazier now uses skywood logs instead of wood [(\#128)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/128)
 
 #### 🦟 Bugs Fixed
 
 #### ✔️ Added Mods
+
+- [Enigmatic Skies Chinese Translation Resource](https://www.curseforge.com/minecraft/texture-packs/enigmatic-skies-chinese-translation-resource) (by [nageih](https://www.curseforge.com/members/nageih/projects))
 
 #### ❌ Removed Mods
 
