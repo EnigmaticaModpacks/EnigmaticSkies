@@ -9,8 +9,11 @@ NeoForge-1.21.1-21.1.228 |
 - Clarified Sourceberry quest [(\#127)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/127)
 - Pyromantic Brazier now uses skywood logs instead of wood [(\#128)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/128)
 - Clarified the Natural Altar quest [(\#130)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/130)
+- Players will now be granted 10 minutes Grace upon first going to their island [(\#132)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/132)
 
 #### 🦟 Bugs Fixed
+
+- Workaround implemented to safely return players to their island in some death scenarios [(\#132)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/132)
 
 #### ✔️ Added Mods
 
