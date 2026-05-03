@@ -1,0 +1,75 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  instancesync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: actions/cache@v4
+        with:
+          path: mods
+          key: ${{ github.run_id }}-instancesync
+
+      - run: java -jar InstanceSync.jar
+
+  server:
+    needs: instancesync
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: actions/cache@v4
+        with:
+          path: mods
+          key: ${{ github.run_id }}-mods
+          restore-keys: |
+            ${{ github.run_id }}-instancesync
+
+      - name: Remove client-only mods
+        shell: pwsh
+        run: pwsh ./automation/remove-client-mods.ps1
+
+      - name: Copy server config
+        run: |
+          cp ./automation/settings.cfg ./settings.cfg
+
+      - name: Set EULA
+        run: echo "eula=true" > eula.txt
+
+      - name: Make CI start script executable
+        run: chmod +x ./automation/start-server-ci.sh
+
+      - name: Start server
+        run: ./automation/start-server-ci.sh
+        timeout-minutes: 15
+
+      - name: Upload server logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: server-logs
+          path: |
+            ./logs
+            ./crash-reports
+            ./serverstart.log
