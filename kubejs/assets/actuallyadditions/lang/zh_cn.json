@@ -1,0 +1,7 @@
+{
+    "item.actuallyadditions.lens_of_the_miner": "光之透镜",
+    "booklet.actuallyadditions.chapter.lensMining": "光之透镜",
+    "booklet.actuallyadditions.chapter.lensMining.text.1": "<item>光之透镜<r>可以将方块<imp>转化为矿石<r>。<n>当激光击中<item>石头方块<r>时，会将它转化为<imp>不同的主世界矿石<r>，而击中<item>下界岩方块<r>则会转化为<imp>下界矿石<r>。<n>每次操作消耗<imp><energy>CF<r>能量，并根据生成矿石的稀有度<imp>额外消耗能量<r>。",
+    "jei.actuallyadditions.mining_lens": "光之透镜",
+    "actuallyadditions.configuration.minerLensEnergy": "光之透镜耗能"
+}

@@ -1,0 +1,32 @@
+{
+    "base.enigmatica.sky_block": "飞向天际！",
+
+    "fluid_type.enigmatica.starbies_nitro_cold_brew": "§a星宝克§r氮气冷萃咖啡",
+    "block.enigmatica.starbies_nitro_cold_brew": "§aS星宝克§r氮气冷萃咖啡",
+    "fluid.enigmatica.starbies_nitro_cold_brew": "§aS星宝克§r氮气冷萃咖啡",
+    "fluid.enigmatica.flowing_starbies_nitro_cold_brew": "流动的§aS星宝克§r氮气冷萃咖啡",
+    "item.enigmatica.starbies_nitro_cold_brew_bucket": "§aS星宝克§r氮气冷萃咖啡桶",
+
+    "tooltip.hint.enigmatica.extended_industrialization_nano_armor_set": "穿着全套纳米套装",
+
+    "tooltip.hint.enigmatica.ars_nouveau_armor_tier_2": "穿着全套2级盔甲",
+    "tooltip.hint.enigmatica.ars_nouveau_armor_tier_3": "穿着全套3级盔甲",
+
+    "tooltip.hint.enigmatica.ars_technica_technomancer_chestplate_set": "穿着全套机械法师套装",
+
+    "tooltip.hint.enigmatica.ars_elemental_fire_tunic_set": "穿着全套纵火狂套装",
+    "tooltip.hint.enigmatica.ars_elemental_fire_robes_set": "穿着全套烈火法师套装",
+    "tooltip.hint.enigmatica.ars_elemental_fire_chestplate_set": "穿着全套下界护卫套装",
+
+    "tooltip.hint.enigmatica.ars_elemental_aqua_tunic_set": "穿着全套海仙套装",
+    "tooltip.hint.enigmatica.ars_elemental_aqua_robes_set": "穿着全套碧水法师套装",
+    "tooltip.hint.enigmatica.ars_elemental_aqua_chestplate_set": "穿着全套寒冬护卫套装",
+
+    "tooltip.hint.enigmatica.ars_elemental_air_tunic_set": "穿着全套奥林匹亚套装",
+    "tooltip.hint.enigmatica.ars_elemental_air_robes_set": "穿着全套气岚法师套装",
+    "tooltip.hint.enigmatica.ars_elemental_air_chestplate_set": "穿着全套雷电护卫套装",
+
+    "tooltip.hint.enigmatica.ars_elemental_earth_tunic_set": "穿着全套树仙套装",
+    "tooltip.hint.enigmatica.ars_elemental_earth_robes_set": "穿着全套厚土法师套装",
+    "tooltip.hint.enigmatica.ars_elemental_earth_chestplate_set": "穿着全套林地护卫套装"
+}
