@@ -1,3 +1,18 @@
+### Enigmatic Skies 1.2.0
+
+#### ⭐ Improvements
+
+- Sewing Table Quest has been moved to after the Lush Island quests [(\#137)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/137)
+- Smokestacks can now be crafted from holystone [(\#137)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/137)
+
+#### 🦟 Bugs Fixed
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.1.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.1.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.1.0.md)

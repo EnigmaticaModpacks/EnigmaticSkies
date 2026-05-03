@@ -1183,5 +1183,35 @@
 			x: 1.5d
 			y: -6.5d
 		}
+		{
+			dependencies: ["6BA05AC6ECC577DA"]
+			icon: {
+				id: "cold_sweat:sewing_table"
+			}
+			id: "294B023DD4F19FE3"
+			rewards: [{
+				id: "209C7C89BA3A0B82"
+				item: {
+					count: 1
+					id: "minecraft:shears"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7546F4BED526C10E"
+					item: { count: 1, id: "cold_sweat:sewing_table" }
+					type: "item"
+				}
+				{
+					id: "5243C7DE02D7AA20"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(enigmatica:insulation)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
 	]
 }
