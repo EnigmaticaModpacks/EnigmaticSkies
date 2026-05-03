@@ -1,4 +1,4 @@
-# Settings for the ModpackUploader
+﻿# Settings for the ModpackUploader
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 # The main modpack folder
@@ -29,11 +29,11 @@ $MODPACK_NAME = "EnigmaticSkies"
 $CLIENT_NAME = "EnigmaticSkies"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.0"
+$MODPACK_VERSION = "1.0.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = $null
+$LAST_MODPACK_VERSION = "1.0.0"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -41,11 +41,28 @@ $LAST_MODPACK_VERSION = $null
 
 # Changelog Type
 # Can be "markdown", "text" or "html"
-$CLIENT_CHANGELOG_TYPE = "markdown"
+$CLIENT_CHANGELOG_TYPE = "html"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "The Changelog is currently being written."
+$CLIENT_CHANGELOG = @"
+<div style="font-family:sans-serif;text-align:center;max-width:480px;margin:0 auto;">
+  <img src="https://raw.githubusercontent.com/EnigmaticaModpacks/EnigmaticSkies/main/packmenu/resources/assets/enigmatica/textures/logo.png"
+       alt="Enigmatic Skies" style="width:80%;margin-bottom:16px;" />
+
+  <p style="font-size:15px;margin:8px 0;">
+    <a href="https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">🔧 Mod Updates</a>
+    <span style="color:#ccc;">&nbsp;|&nbsp;</span>
+    <a href="https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">📋 Modlist</a>
+    <span style="color:#ccc;">&nbsp;|&nbsp;</span>
+    <a href="https://www.bisecthosting.com/enigmatica" target="_blank" style="color:#a8d8d0;text-decoration:none;">🖥️ Get a Server</a>
+  </p>
+
+  <p style="font-size:12px;margin:4px 0;">
+    <a href="https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/CHANGELOG.md" target="_blank" style="color:#bbb;text-decoration:none;">See the full changelog on GitHub</a>
+  </p>
+</div>
+"@
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS

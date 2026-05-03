@@ -2,7 +2,7 @@
 #General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
 #The Application ID of the Discord App to use
-applicationID = 1255217647075856434
+applicationID = 1495525373050490982
 #Enable/Disable the mod
 enabled = true
 #Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!

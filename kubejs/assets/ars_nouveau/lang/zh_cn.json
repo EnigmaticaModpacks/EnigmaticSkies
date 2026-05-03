@@ -1,0 +1,17 @@
+{
+    "tooltip.alakarkinos_shard1": "§5♫ 看我像未经雕琢的钻石般闪耀 ♫",
+    "tooltip.starbuncle_shard": "§5♫ 你知道我们终将熠熠生辉 ♫",
+    "tooltip.wixie_shard": "§5♫ 飘浮于天际，远离我曾熟悉的世间 ♫",
+    "tooltip.bookwyrm_charm": "§5♫ 我匿于蔚蓝之中，安卧在云层之间 ♫",
+    "tooltip.ars_nouveau.amethyst_charm": "§5♫ 让错落的晶芒去迎接光芒吧 ♫",
+
+    "ars_nouveau.alakarkinos.set_home": "家园已设置。需在3格内供应魔源，并放置要转化的方块。",
+    "tooltip.source_gem": "一颗灌注了魔法能量的宝石。",
+    "tooltip.ars_nouveau.wilden_tribute": "击败荒野奇美拉获得。",
+    "tooltip.wilden_horn": "由荒野猎首掉落。",
+    "tooltip.wilden_spike": "由荒野守卫者掉落。",
+    "tooltip.wilden_wing": "由荒野伏击者掉落。",
+    "item.ars_nouveau.wilden_hunter_se": "荒野猎首刷怪蛋",
+    "item.ars_nouveau.wilden_guardian_se": "荒野守卫者刷怪蛋",
+    "item.ars_nouveau.wilden_stalker_se": "荒野伏击者刷怪蛋"
+}

@@ -1,0 +1,14 @@
+{
+    "lef_tier.extended_industrialization.modern_industrialization.copper_coil": "铜级",
+    "lef_tier.extended_industrialization.modern_industrialization.conductive_coil": "导电级",
+    "lef_tier.extended_industrialization.modern_industrialization.energetic_coil": "充能级",
+    "lef_tier.extended_industrialization.modern_industrialization.vibrant_coil": "振动级",
+
+    "teslatower_tier.extended_industrialization.modern_industrialization.copper_coil": "铜级",
+    "teslatower_tier.extended_industrialization.modern_industrialization.conductive_coil": "导电级",
+    "teslatower_tier.extended_industrialization.modern_industrialization.energetic_coil": "充能级",
+    "teslatower_tier.extended_industrialization.modern_industrialization.vibrant_coil": "振动级",
+    "teslatower_tier.extended_industrialization.modern_industrialization.superconductor_coil": "超导级",
+
+    "block.extended_industrialization.bronze_composter": "安山合金堆肥器"
+}
