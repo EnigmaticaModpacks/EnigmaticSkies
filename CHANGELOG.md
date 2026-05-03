@@ -5,6 +5,7 @@ NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 #### ⭐ Improvements
 
 - Clarified Sourceberry quest [(\#127)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/127)
+- Pyromantic Brazier now uses skywood logs instead of wood [(\#128)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/128)
 
 #### 🦟 Bugs Fixed
 

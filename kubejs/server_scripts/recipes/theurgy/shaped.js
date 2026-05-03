@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'modern_industrialization:fire_clay_brick',
                 B: 'handcrafted:terracotta_thick_pot',
-                C: 'aether:skyroot_wood'
+                C: 'aether:skyroot_log'
             },
             id: `${id_prefix}pyromantic_brazier`
         },
@@ -168,7 +168,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });
