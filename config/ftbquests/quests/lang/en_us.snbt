@@ -1231,7 +1231,9 @@
 	quest.1CF4103BFBCE0E29.quest_desc: [
 		"With an &7Imbuement Chamber&r, you can begin accessing new islands, each with its own unique block transformations and resources. "
 		""
-		"They are not self-contained, however; the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
+		"Use your &7Source Gems&r to create the &7Essences&r you'll need for each island. "
+		""
+		"These areas are not self-contained, however; the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
 		""
 		"Summon them all as soon as you're able. "
 		""

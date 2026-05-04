@@ -166,6 +166,12 @@
 			}
 			id: "1CF4103BFBCE0E29"
 			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C8C4913A50BF3CC"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "7DAC5388F81AED26"
