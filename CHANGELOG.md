@@ -6,6 +6,10 @@
 - Smokestacks can now be crafted from holystone [(\#137)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/137)
 - Dominion Wand is now slightly easier to craft [(\#138)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/138)
 - Whirl Glyph is now Tier 2 since it can't effectively be used in Tier 1 [(\#138)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/138)
+- Clarified where to get Steam for the Kiln [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
+- Plants from the Lush Garden now have tooltips to help indicate where they're found [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
+- Imbuement quest now mentions using Source Gems for Essence creation [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
+- The Source Gem version of Essence recipes is now the default recipe in EMI [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
 
 #### 🦟 Bugs Fixed
 

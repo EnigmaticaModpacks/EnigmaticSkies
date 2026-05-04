@@ -277,6 +277,27 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.translate('tooltip.enigmatica.animal_fodder').green()]
         },
         {
+            items: [
+                'actuallyadditions:canola_seeds',
+                'actuallyadditions:coffee_beans',
+                'farmersdelight:cabbage_seeds',
+                'farmersdelight:onion',
+                'farmersdelight:tomato_seeds',
+                'minecraft:beetroot_seeds',
+                'minecraft:carrot',
+                'minecraft:melon_seeds',
+                'minecraft:potato',
+                'minecraft:pumpkin_seeds',
+                'minecraft:sweet_berries',
+                'supplementaries:flax_seeds',
+                'sushigocrafting:cucumber_seeds',
+                'sushigocrafting:sesame_seeds',
+                'sushigocrafting:soy_seeds',
+                'sushigocrafting:wasabi_seeds'
+            ],
+            text: [Text.translate('tooltip.enigmatica.found_lush_garden_islands').gold()]
+        },
+        {
             items: ['minecraft:torchflower', 'ars_elemental:spore_blossom_up'],
             text: [Text.translate('tooltip.enigmatica.found_flourishing_islands').gold()]
         },
