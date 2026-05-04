@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
-            id: 'ars_nouveau:wixie_charm'
+            id: `${id_prefix}wixie_charm`
         },
         {
             result: { id: 'ars_nouveau:starbuncle_charm', count: 1 },
@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
-            id: 'ars_nouveau:starbuncle_charm'
+            id: `${id_prefix}starbuncle_charm`
         },
         {
             result: { id: 'ars_nouveau:alakarkinos_charm', count: 1 },
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
-            id: 'ars_nouveau:alakarkinos_charm'
+            id: `${id_prefix}alakarkinos_charm`
         },
         {
             result: { id: 'ars_nouveau:enchanters_sword', count: 1 },
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
             ],
             keepNbtOfReagent: true,
             sourceCost: 0,
-            id: 'ars_nouveau:enchanters_sword'
+            id: `${id_prefix}enchanters_sword`
         },
         {
             result: { id: 'arsdelight:enchanters_knife', count: 1 },
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
             ],
             keepNbtOfReagent: true,
             sourceCost: 0,
-            id: 'arsdelight:enchanters_knife'
+            id: `${id_prefix}enchanters_knife`
         },
         {
             result: { id: 'ars_nouveau:enchanters_gauntlet', count: 1 },
@@ -76,7 +76,7 @@ ServerEvents.recipes((event) => {
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
-            id: 'ars_nouveau:enchanters_gauntlet'
+            id: `${id_prefix}enchanters_gauntlet`
         },
         {
             result: { id: 'minecraft:heart_of_the_sea', count: 1 },
@@ -720,6 +720,14 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}world_seed`
+        },
+        {
+            result: { id: 'ars_nouveau:dominion_wand', count: 1 },
+            reagent: { tag: 'c:rods/wooden' },
+            pedestalItems: [{ tag: 'c:gems/source' }, { tag: 'c:gems/source' }, { tag: 'c:ingots/gold' }],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}dominion_wand`
         }
     ];
 
