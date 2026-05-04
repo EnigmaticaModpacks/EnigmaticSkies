@@ -1,5 +1,7 @@
 ### Enigmatic Skies 1.2.0
 
+NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.2.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.2.0.md)
+
 #### ⭐ Improvements
 
 - Sewing Table Quest has been moved to after the Lush Island quests [(\#137)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/137)
