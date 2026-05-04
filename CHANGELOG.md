@@ -7,6 +7,7 @@
 - Dominion Wand is now slightly easier to craft [(\#138)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/138)
 - Whirl Glyph is now Tier 2 since it can't effectively be used in Tier 1 [(\#138)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/138)
 - Clarified where to get Steam for the Kiln [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
+- Plants from the Lush Garden now have tooltips to help indicate where they're found [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
 
 #### 🦟 Bugs Fixed
 
