@@ -5,6 +5,7 @@
 - Sewing Table Quest has been moved to after the Lush Island quests [(\#137)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/137)
 - Smokestacks can now be crafted from holystone [(\#137)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/137)
 - Dominion Wand is now slightly easier to craft [(\#138)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/138)
+- Whirl Glyph is now Tier 2 since it can't effectively be used in Tier 1 [(\#138)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/138)
 
 #### 🦟 Bugs Fixed
 
