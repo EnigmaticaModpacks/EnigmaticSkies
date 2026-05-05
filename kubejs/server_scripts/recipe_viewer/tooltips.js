@@ -316,7 +316,7 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.translate('tooltip.enigmatica.found_blazing_islands').gold()]
         },
         {
-            items: ['minecraft:pink_petals', 'ars_elemental_flashpine_pod'],
+            items: ['minecraft:pink_petals', 'ars_elemental:flashpine_pod'],
             text: [Text.translate('tooltip.enigmatica.found_flashing_islands').gold()]
         },
         {
