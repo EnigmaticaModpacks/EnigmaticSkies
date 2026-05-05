@@ -236,7 +236,7 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${essence.output.split(':')[1]}_from_fluix_gem`
             },
             {
-                output: { id: essence.output, count: 16 },
+                output: { id: essence.output, count: 32 },
                 input: { tag: 'c:storage_blocks/fluix' },
                 pedestalItems: essence.pedestalItems,
                 source: 1500,
