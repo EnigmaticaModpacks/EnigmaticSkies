@@ -12,6 +12,7 @@ NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 - Plants from the Lush Garden now have tooltips to help indicate where they're found [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
 - Imbuement quest now mentions using Source Gems for Essence creation [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
 - The Source Gem version of Essence recipes is now the default recipe in EMI [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
+- Add tooltips to bamboo and glow berries to clarify where they come from [(\#141)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/141)
 
 #### 🦟 Bugs Fixed
 
