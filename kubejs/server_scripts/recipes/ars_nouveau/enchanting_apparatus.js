@@ -728,6 +728,21 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}dominion_wand`
+        },
+        {
+            result: { id: 'ars_controle:remote', count: 1 },
+            reagent: { item: 'ars_nouveau:dominion_wand' },
+            pedestalItems: [
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/source' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/source' },
+                { tag: 'c:ingots/hallowed_gold' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}remote`
         }
     ];
 
