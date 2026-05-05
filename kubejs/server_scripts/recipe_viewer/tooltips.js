@@ -298,7 +298,12 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.translate('tooltip.enigmatica.found_lush_garden_islands').gold()]
         },
         {
-            items: ['minecraft:torchflower', 'ars_elemental:spore_blossom_up'],
+            items: [
+                'minecraft:torchflower',
+                'ars_elemental:spore_blossom_up',
+                'minecraft:bamboo',
+                'minecraft:glow_berries'
+            ],
             text: [Text.translate('tooltip.enigmatica.found_flourishing_islands').gold()]
         },
         {
