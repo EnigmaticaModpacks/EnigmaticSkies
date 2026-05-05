@@ -6,6 +6,7 @@ NeoForge-1.21.1-21.1.228
 
 - Add tooltips to bamboo and glow berries to clarify where they come from [(\#148)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/148)
 - Update art assets for many custom items [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Fireclay Fluid Hatches now have a capacity of 2 Buckets [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150)
 
 #### 🦟 Bugs Fixed
 

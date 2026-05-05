@@ -42,6 +42,6 @@ MIMachineEvents.registerHatches((event) => {
         // Machine casing for the model of the hatch.
         'firebricks',
         // Number of buckets that the hatch can hold.
-        1
+        2
     );
 });
