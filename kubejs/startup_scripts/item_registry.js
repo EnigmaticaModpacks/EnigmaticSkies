@@ -1,102 +1,106 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
     const simple_items = [
-        'ruby',
-        'source_berry_roll_dough',
+        { id: 'cookie_dough' },
+        { id: 'sweet_berry_cookie_dough' },
+        { id: 'honey_cookie_dough' },
+        { id: 'source_berry_cookie_dough' },
+        { id: 'source_berry_roll_dough' },
 
-        'antikythera_mechanism',
-        'pulsating_mechanism',
-        'tempestuous_mechanism',
+        { id: 'antikythera_mechanism', rarity: 'uncommon' },
+        { id: 'pulsating_mechanism', rarity: 'rare' },
+        { id: 'tempestuous_mechanism', rarity: 'epic' },
 
-        'fire_clay_ball',
-        'cookie_dough',
-        'sweet_berry_cookie_dough',
-        'honey_cookie_dough',
-        'source_berry_cookie_dough',
-        'pelagite',
-        'kerogen',
+        { id: 'fire_clay_ball' },
+        { id: 'pelagite' },
+        { id: 'kerogen' },
+        { id: 'ruby' },
 
-        'magic_lamp',
+        { id: 'magic_lamp', rarity: 'rare' },
 
-        'elemental_matrix',
+        { id: 'elemental_matrix', rarity: 'uncommon' },
 
-        'dormant_wildroot',
-        'primordial_mud',
-        'suffused_wildroot',
+        { id: 'dormant_wildroot', rarity: 'rare' },
+        { id: 'primordial_mud', rarity: 'rare' },
+        { id: 'suffused_wildroot', rarity: 'rare' },
 
-        'northern_anemo',
-        'eastern_anemo',
-        'southern_anemo',
-        'western_anemo',
-        'welkin_decanter',
-        'flask_of_four_winds',
+        { id: 'desert_essentia', rarity: 'rare' },
+        { id: 'savanna_essentia', rarity: 'rare' },
+        { id: 'taiga_essentia', rarity: 'rare' },
+        { id: 'swamp_essentia', rarity: 'rare' },
+        { id: 'plains_essentia', rarity: 'rare' },
+        { id: 'tundra_essentia', rarity: 'rare' },
+        { id: 'ocean_essentia', rarity: 'rare' },
+        { id: 'forest_essentia', rarity: 'rare' },
 
-        'borrowed_flame',
+        { id: 'unfired_vessel' },
+        { id: 'stoneware_vessel' },
+        { id: 'warded_vessel', rarity: 'rare' },
+        { id: 'qulliq_vessel', rarity: 'epic' },
 
-        'world_seed'
+        { id: 'northern_anemo', rarity: 'rare' },
+        { id: 'eastern_anemo', rarity: 'rare' },
+        { id: 'southern_anemo', rarity: 'rare' },
+        { id: 'western_anemo', rarity: 'rare' },
+        { id: 'welkin_decanter', rarity: 'rare' },
+        { id: 'flask_of_four_winds', rarity: 'epic' },
+
+        { id: 'borrowed_flame', rarity: 'epic' },
+
+        { id: 'world_seed', rarity: 'epic' }
     ];
 
     simple_items.forEach((item) => {
-        event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
+        let e = event.create(`enigmatica:${item.id}`).texture(`enigmatica:item/${item.id}`);
+        if (item.rarity) {
+            e.rarity(item.rarity);
+        }
     });
 
     const delivery_bags = [
-        { name: `Dumpling Drop`, color: '#a832a8', magic: true },
-        { name: `Great Eggspectations`, color: '#e35e0b' },
-        { name: `Flappin' Jack's Trove`, color: '#0be3d1' },
-        { name: `Cozy Cauldron`, color: '#22e610', magic: true },
-        { name: `La Drygmese Poutine`, color: '#ed094a', magic: true },
-        { name: `Bun-Believable Burger`, color: '#02610d' },
-        { name: `Sheep-Eatin' Green`, color: '#3ff254' },
-        { name: `Flyin' Fox`, color: '#f2920c' },
-        { name: `Sun's Out, Buns Out`, color: '#f7f300' },
-        { name: `The Bun Also Rises`, color: '#139df2', magic: true },
-        { name: `Glazed and Confused`, color: '#070ff7', magic: true },
-        { name: `Braising Cain`, color: '#f578f1' },
-        { name: `Jax's Snax`, color: '#9851e9', magic: true }
+        { name: `Braising Cain` },
+        { name: `Bun-Believable Burger` },
+        { name: `Cozy Cauldron`, magic: true },
+        { name: `Dumpling Drop`, magic: true },
+        { name: `Flappin' Jack's Trove` },
+        { name: `Flyin' Fox` },
+        { name: `Glazed and Confused`, magic: true },
+        { name: `Great Eggspectations` },
+        { name: `Jax's Snax`, magic: true },
+        { name: `La Drygmese Poutine`, magic: true },
+        { name: `Sheep-Eatin' Green` },
+        { name: `Sun's Out, Buns Out` },
+        { name: `The Bun Also Rises`, magic: true }
     ];
 
     delivery_bags.forEach((delivery_bag) => {
         let id = getID(delivery_bag.name);
         event
             .create(`enigmatica:${id}`)
-            .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
-            .texture('layer1', `enigmatica:item/delivery_bags/label`)
-            .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
-            .color(1, delivery_bag.magic ? '#e0abfa' : '#ddc8b1')
-            .color(2, delivery_bag.color)
+            .texture('layer0', `enigmatica:item/${id}`)
             .displayName(`§6CloudDash: ${delivery_bag.magic ? '§d' : '§r'}${delivery_bag.name}`)
             .tag('enigmatica:deliveries');
     });
 
-    const meat_bags = [
-        { name: `Chicken Chunks`, color: '#f7f307' },
-        { name: `Beef Bits`, color: '#145ee6' },
-        { name: `Pork Pieces`, color: '#e70bb8' },
-        { name: `Mutton Morsels`, color: '#1cf339' }
-    ];
+    const meat_bags = [`Chicken Chunks`, `Beef Bits`, `Pork Pieces`, `Mutton Morsels`];
 
     meat_bags.forEach((meat_bag) => {
-        let id = getID(meat_bag.name);
+        let id = getID(meat_bag);
         event
             .create(`enigmatica:${id}`)
-            .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
-            .texture('layer1', `enigmatica:item/delivery_bags/label`)
-            .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
-            .color(1, '#c9c9c9')
-            .color(2, meat_bag.color)
-            .displayName(`§aMeatFresh: §7${meat_bag.name}`)
+            .texture('layer0', `enigmatica:item/${id}`)
+            .displayName(`§aMeatFresh: §7${meat_bag}`)
             .tag('enigmatica:deliveries');
     });
 
     const iou_slips = [
-        { name: 'Flying Cow', entity: 'entity.aether.flying_cow', layer: 'beef' },
-        { name: 'Phyg', entity: 'entity.aether.phyg', layer: 'porkchop' },
-        { name: 'Sheepuff', entity: 'entity.aether.sheepuff', layer: 'mutton' },
-        { name: 'Aerbunny', entity: 'entity.aether.aerbunny', layer: 'rabbit' },
-        { name: 'Goat', entity: 'entity.minecraft.goat', layer: 'goat_fur' },
-        { name: 'Moa', entity: 'entity.aether.moa', layer: 'feather' },
-        { name: 'Chicken', entity: 'entity.minecraft.chicken', layer: 'egg' }
+        { name: 'Flying Cow', entity: 'entity.aether.flying_cow' },
+        { name: 'Phyg', entity: 'entity.aether.phyg' },
+        { name: 'Sheepuff', entity: 'entity.aether.sheepuff' },
+        { name: 'Aerbunny', entity: 'entity.aether.aerbunny' },
+        { name: 'Goat', entity: 'entity.minecraft.goat' },
+        { name: 'Moa', entity: 'entity.aether.moa' },
+        { name: 'Chicken', entity: 'entity.minecraft.chicken' }
     ];
 
     iou_slips.forEach((item) => {
@@ -105,119 +109,19 @@ StartupEvents.registry('item', (event) => {
         event
             .create(`enigmatica:${id}_iou`)
             .displayName(`§6IOU:§r 1x ${item.name}`)
-            .texture('layer0', 'minecraft:item/paper')
-            .texture('layer1', `enigmatica:item/${item.layer}`)
-            .color(0, '#f2e1a5')
-            // .color(1, '#00FFF0')
+            .texture('layer0', `enigmatica:item/${id}_iou`)
             .tooltip(Text.translate('tooltip.enigmatica.iou_exchange', getArticle(item.name), entityName));
     });
 
-    const bottles = [
-        {
-            name: 'Source Ink',
-            colors: ['#7d20ab', '', ''],
-            layers: ['alchemy_bottle_normal_contents_swirling', 'alchemy_bottle', 'alchemy_bottle_label_black']
-        },
-        {
-            name: 'Desert Essentia',
-            colors: ['#c0b985', ''],
-            layers: ['alchemy_bottle_warded_contents_pulsing', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Savanna Essentia',
-            colors: ['#a4b641', ''],
-            layers: ['alchemy_bottle_warded_contents_bubbling', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Taiga Essentia',
-            colors: ['#86B783', ''],
-            layers: ['alchemy_bottle_warded_contents_swirling', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Swamp Essentia',
-            colors: ['#4C763C', ''],
-            layers: ['alchemy_bottle_warded_contents_roiling', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Plains Essentia',
-            colors: ['#05dcf8', ''],
-            layers: ['alchemy_bottle_warded_contents_still', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Tundra Essentia',
-            colors: ['#bae6f0', ''],
-            layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Ocean Essentia',
-            colors: ['#1463A5', ''],
-            layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Forest Essentia',
-            colors: ['#59AE30', ''],
-            layers: ['alchemy_bottle_warded_contents_vortex', 'alchemy_bottle_warded']
-        },
-        {
-            name: 'Luminiferous Aether Bottle',
-            colors: ['', ''],
-            layers: ['alchemy_bottle_reinforced_contents_luminiferous_aether', 'alchemy_bottle_reinforced']
-        },
-        {
-            name: 'Vapours of Nyx Bottle',
-            colors: ['', ''],
-            layers: ['alchemy_bottle_reinforced_contents_vapours_of_nyx', 'alchemy_bottle_reinforced']
-        }
-    ];
+    const essentia = ['Source Ink', 'Luminiferous Aether Bottle', 'Vapours of Nyx Bottle'];
 
-    bottles.forEach((bottle) => {
-        let id = getID(bottle.name);
-        let item = event.create(`enigmatica:${id}`).displayName(bottle.name);
-        item.containerItem('minecraft:glass_bottle');
-
-        bottle.layers.forEach((layer, index) => {
-            item.texture(`layer${index}`, `enigmatica:item/alchemy_bottles/${layer}`);
-        });
-
-        bottle.colors.forEach((color, index) => {
-            if (color != '') item.color(index, color);
-        });
-    });
-
-    const alchemy_pots = [
-        {
-            name: 'Unfired Vessel',
-            colors: [''],
-            layers: ['alchemy_pot_unfired']
-        },
-        {
-            name: 'Stoneware Vessel',
-            colors: [''],
-            layers: ['alchemy_pot_ceramic']
-        },
-        {
-            name: 'Warded Vessel',
-            colors: [''],
-            layers: ['alchemy_pot_stone']
-        },
-        {
-            name: 'Qulliq Vessel',
-            colors: ['', '#ff9100'],
-            layers: ['alchemy_pot_stone', 'alchemy_pot_contents_glossy']
-        }
-    ];
-
-    alchemy_pots.forEach((pot) => {
-        let id = getID(pot.name);
-        let item = event.create(`enigmatica:${id}`).displayName(pot.name);
-
-        pot.layers.forEach((layer, index) => {
-            item.texture(`layer${index}`, `enigmatica:item/alchemy_pots/${layer}`);
-        });
-
-        pot.colors.forEach((color, index) => {
-            if (color != '') item.color(index, color);
-        });
+    essentia.forEach((essence) => {
+        let id = getID(essence);
+        let item = event
+            .create(`enigmatica:${id}`)
+            .displayName(essence)
+            .texture('layer0', `enigmatica:item/${id}`)
+            .containerItem('minecraft:glass_bottle');
     });
 
     const simple_foods = [

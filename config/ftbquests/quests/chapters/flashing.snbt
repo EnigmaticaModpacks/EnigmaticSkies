@@ -374,6 +374,7 @@
 				id: "industrialforegoingsouls:soul_laser_base"
 			}
 			id: "1C4DB05778703E9B"
+			min_width: 250
 			rewards: [{
 				id: "78A762BD213FB9AD"
 				item: {
@@ -404,8 +405,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [

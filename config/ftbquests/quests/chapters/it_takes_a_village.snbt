@@ -1195,6 +1195,7 @@
 				id: "cold_sweat:sewing_table"
 			}
 			id: "294B023DD4F19FE3"
+			min_width: 300
 			rewards: [{
 				id: "209C7C89BA3A0B82"
 				item: {
