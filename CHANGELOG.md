@@ -10,6 +10,7 @@ NeoForge-1.21.1-21.1.228
 - Added information about insulation to the quests [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150)
 - Add more tooltips for tree pod locations [(\#151)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/151)
 - Add updated art assets for Genetics [(\#151)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/151) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Added quest to direct players to make Source for summoning Islands [(\#151)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/151)
 
 #### 🦟 Bugs Fixed
 

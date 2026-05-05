@@ -28,11 +28,7 @@
 	chapter_group.46AB9129BBE517B6.title: "&bEnigmatic Skies"
 	file.0000000000000001.title: "&n&6Enigmatic Skies&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
-	quest.008F3C0FB9F4B451.quest_desc: [
-		"[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"
-		""
-		"&a🛈 Tip: A full Source Jar is required."
-	]
+	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
 	quest.008F3C0FB9F4B451.title: "Blazing Island"
 	quest.00946DF0B2C88A9F.quest_desc: [
 		"Metals and plastics can serve as wonderful analogs to bone for structure, but motors and servos lack a certain flexibility. "
@@ -270,11 +266,7 @@
 		"&a    set Spell Turrets!"
 	]
 	quest.07189DA532A429AE.title: "Whirligigs"
-	quest.0745FDF3F22807CA.quest_desc: [
-		"[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"
-		""
-		"&a🛈 Tip: A full Source Jar is required."
-	]
+	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
 	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
 		"&7Water&r, precious and rare, will be hard to come by in this place. "
@@ -726,11 +718,7 @@
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
 	quest.12E0E45FC08A5912.quest_desc: ["&7Wireless Player Chargers&r will keep your FE consuming equipment charged while you're in their admittedly small area of effect. "]
-	quest.12E7105B33AC043E.quest_desc: [
-		"[ \"\", { \"text\": \"Abjuration Essence\", \"color\":\"gray\"}, \" grants access to the blighted lands of the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" } }, \".\" ]"
-		""
-		"&a🛈 Tip: A full Source Jar is required."
-	]
+	quest.12E7105B33AC043E.quest_desc: ["[ \"\", { \"text\": \"Abjuration Essence\", \"color\":\"gray\"}, \" grants access to the blighted lands of the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" } }, \".\" ]"]
 	quest.12E7105B33AC043E.title: "Vexing Island"
 	quest.130A2701B96A941D.quest_desc: [
 		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
@@ -2135,6 +2123,14 @@
 		"To begin, you’ll need to craft a Vengeance Ring. Sneak + Right-Click it to activate it, granting you several potent buffs and the ability to see the Spirits of the creatures you kill. "
 	]
 	quest.3202466CAE3744A9.title: "Spirits"
+	quest.32305BE195F77F2F.quest_desc: [
+		"Before heading out, you’ll need to start producing some Source as well; each of the following rituals will need a full &7Source Jar&r to activate."
+		""
+		"Purchase a &7Mycelial Sourcelink&r from &7Farmer Villager&r and use it to turn excess food directly into delectable Source. "
+		""
+		"&a🛈 Tip: Place your food into an  "
+		"&a    adjacent Arcane Pedestal!"
+	]
 	quest.323D480E3C37579E.quest_desc: [
 		"The &7Cascading Archwoods&r on this island will already have a few &7Frostaya&r grown on them. "
 		""
@@ -3758,11 +3754,7 @@
 		"&6    viewing the recipe."
 	]
 	quest.521DE7879A4B6F03.quest_desc: ["With access to &7EV Tier Cables&r and &7Transformers&r, upgrading your power infrastructure to handle high powered &7Particle Accelerator&r crafts would be a very good idea.  "]
-	quest.5226F1BC0A1B23D0.quest_desc: [
-		"[ \"\", { \"text\": \"Water Essence\", \"color\":\"gray\"}, \" grants access to the ever-flowing waterfalls of the \", { \"text\": \"Cascading Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7893072479F01DC2\" } }, \".\" ]"
-		""
-		"&a🛈 Tip: A full Source Jar is required."
-	]
+	quest.5226F1BC0A1B23D0.quest_desc: ["[ \"\", { \"text\": \"Water Essence\", \"color\":\"gray\"}, \" grants access to the ever-flowing waterfalls of the \", { \"text\": \"Cascading Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7893072479F01DC2\" } }, \".\" ]"]
 	quest.5226F1BC0A1B23D0.title: "Cascading Island"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
 	quest.52E79B2EB7400D13.quest_desc: [
@@ -3826,8 +3818,6 @@
 		"In need of some saplings? Maybe you’d like to get some bees producing honey? "
 		""
 		"Summon forth the Queen Bee in her throne and see what trades she has to offer!"
-		""
-		"&a🛈 Tip: A full Source Jar is required."
 	]
 	quest.5550423B6E6BDBAF.title: "Beehive Island"
 	quest.55785C260809F141.title: "Foliot Crusher"
@@ -4902,11 +4892,7 @@
 		""
 		"The second is a &7Ritual&r for more elaborate requests. Look for the chalice surrounded by chalk marks."
 	]
-	quest.6AC4CADE97CB512F.quest_desc: [
-		"[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"
-		""
-		"&a🛈 Tip: A full Source Jar is required."
-	]
+	quest.6AC4CADE97CB512F.quest_desc: ["[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"]
 	quest.6AC4CADE97CB512F.title: "Flourishing Island"
 	quest.6AF21EDF59FCE0D4.quest_desc: [
 		"In the time before Time, the Sky People lived high above on islands of clouds. "
