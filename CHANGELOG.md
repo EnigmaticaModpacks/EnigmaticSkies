@@ -8,6 +8,8 @@ NeoForge-1.21.1-21.1.228
 - Update art assets for many custom items [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150) ([Ridanisaurus](https://github.com/Ridanisaurus))
 - Fireclay Fluid Hatches have had their capacity increased to 2 buckets. Previously placed Hatches will have a capcity of 1 bucket until broken and re-placed. [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150)
 - Added information about insulation to the quests [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150)
+- Add more tooltips for tree pod locations [(\#151)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/151)
+- Add updated art assets for Genetics [(\#151)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/151) ([Ridanisaurus](https://github.com/Ridanisaurus))
 
 #### 🦟 Bugs Fixed
 
