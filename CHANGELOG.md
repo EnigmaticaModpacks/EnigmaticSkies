@@ -11,7 +11,7 @@ NeoForge-1.21.1-21.1.228
 
 #### 🦟 Bugs Fixed
 
-- Fix output of Essences using Fluix Blocks [(\#151)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/151)
+- Fix output of Essences using Fluix Blocks [(\#152)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/152)
 
 #### ✔️ Added Mods
 
