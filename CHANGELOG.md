@@ -1,3 +1,20 @@
+### Enigmatic Skies 1.3.0
+
+NeoForge-1.21.1-21.1.228
+
+#### ⭐ Improvements
+
+- Add tooltips to bamboo and glow berries to clarify where they come from [(\#148)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/148)
+- Update art assets for many custom items [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150) ([Ridanisaurus](https://github.com/Ridanisaurus))
+
+#### 🦟 Bugs Fixed
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.2.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.2.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.2.0.md)
