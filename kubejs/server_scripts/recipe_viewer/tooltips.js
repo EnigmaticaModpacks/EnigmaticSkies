@@ -302,25 +302,30 @@ ItemEvents.modifyTooltips((event) => {
                 'minecraft:torchflower',
                 'ars_elemental:spore_blossom_up',
                 'minecraft:bamboo',
-                'minecraft:glow_berries'
+                'minecraft:glow_berries',
+                'ars_nouveau:mendosteen_pod'
             ],
             text: [Text.translate('tooltip.enigmatica.found_flourishing_islands').gold()]
         },
         {
-            items: ['minecraft:allium', 'minecraft:pitcher_plant'],
+            items: ['minecraft:allium', 'minecraft:pitcher_plant', 'ars_nouveau:frostaya_pod'],
             text: [Text.translate('tooltip.enigmatica.found_cascading_islands').gold()]
+        },
+        {
+            items: ['ars_nouveau:bombegranate_pod'],
+            text: [Text.translate('tooltip.enigmatica.found_blazing_islands').gold()]
+        },
+        {
+            items: ['minecraft:pink_petals', 'ars_elemental:flashpine_pod'],
+            text: [Text.translate('tooltip.enigmatica.found_flashing_islands').gold()]
+        },
+        {
+            items: ['malum:strange_crystal', 'malum:large_strange_crystal', 'ars_nouveau:bastion_pod'],
+            text: [Text.translate('tooltip.enigmatica.found_vexing_islands').gold()]
         },
         {
             items: ['aether:white_flower', 'aether:purple_flower'],
             text: [Text.translate('tooltip.enigmatica.found_platform_islands').gold()]
-        },
-        {
-            items: ['minecraft:pink_petals'],
-            text: [Text.translate('tooltip.enigmatica.found_flashing_islands').gold()]
-        },
-        {
-            items: ['malum:strange_crystal', 'malum:large_strange_crystal'],
-            text: [Text.translate('tooltip.enigmatica.found_vexing_islands').gold()]
         },
         {
             items: ['malum:void_depot'],

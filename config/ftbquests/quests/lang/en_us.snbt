@@ -2123,6 +2123,14 @@
 		"To begin, you’ll need to craft a Vengeance Ring. Sneak + Right-Click it to activate it, granting you several potent buffs and the ability to see the Spirits of the creatures you kill. "
 	]
 	quest.3202466CAE3744A9.title: "Spirits"
+	quest.32305BE195F77F2F.quest_desc: [
+		"Before heading out, you’ll need to start producing some Source as well; each of the following rituals will need a full &7Source Jar&r to activate."
+		""
+		"Purchase a &7Mycelial Sourcelink&r from &7Farmer Villager&r and use it to turn excess food directly into delectable Source. "
+		""
+		"&a🛈 Tip: Place your food into an  "
+		"&a    adjacent Arcane Pedestal!"
+	]
 	quest.323D480E3C37579E.quest_desc: [
 		"The &7Cascading Archwoods&r on this island will already have a few &7Frostaya&r grown on them. "
 		""
