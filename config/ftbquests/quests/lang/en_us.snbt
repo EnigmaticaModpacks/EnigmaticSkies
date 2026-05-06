@@ -966,7 +966,7 @@
 		""
 		"In this case, the &7Steam Kiln&r requires both Item and Fluid Hatches. Multiple hatches may be placed in order to accomodate different inputs. "
 		""
-		"To power this device, at least one Fluid Input is required for &7Steam&r, which can be piped out of your &7Dilapidated Boiler&r."
+		"To power this device, at least one Fluid Input is required for &7Steam&r, which can be piped out of your &Decrepit Boiler&r."
 		""
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. &7Steam Kiln&r block) in &7EMI&r. Note that some of the blocks listed will be replaced by Hatches."
 		""
