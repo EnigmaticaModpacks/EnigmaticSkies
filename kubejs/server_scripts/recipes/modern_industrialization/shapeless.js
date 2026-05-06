@@ -11,11 +11,6 @@ ServerEvents.recipes((event) => {
             output: 'modern_industrialization:steel_alluvial_trommel',
             inputs: ['modern_industrialization:bronze_alluvial_trommel', 'modern_industrialization:steel_upgrade'],
             id: `${id_prefix}steel_alluvial_trommel`
-        },
-        {
-            output: 'modern_industrialization:bronze_boiler',
-            inputs: ['mi_tweaks:dilapidated_boiler'],
-            id: `${id_prefix}bronze_boiler_trade`
         }
     ];
 
