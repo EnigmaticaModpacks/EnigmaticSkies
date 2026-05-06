@@ -184,6 +184,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_additions:apparatus/source_spawner' },
 
         { id: 'ars_controle:scryers_linkage' },
+        { id: 'ars_controle:remote' },
 
         { id: 'not_enough_glyphs:spell_binder' },
 
