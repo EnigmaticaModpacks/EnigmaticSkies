@@ -1,3 +1,33 @@
+### Enigmatic Skies 1.3.0
+
+NeoForge-1.21.1-21.1.228
+
+#### ⭐ Improvements
+
+- Add tooltips to bamboo and glow berries to clarify where they come from [(\#148)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/148)
+- Update art assets for many custom items [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Fireclay Fluid Hatches have had their capacity increased to 2 buckets. Previously placed Hatches will have a capcity of 1 bucket until broken and re-placed. [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150)
+- Added information about insulation to the quests [(\#150)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/150)
+- Add more tooltips for tree pod locations [(\#153)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/153)
+- Add updated art assets for Genetics [(\#153)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/153) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Added quest to direct players to make Source for summoning Islands [(\#153)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/153)
+- Cheaper recipe for Ars Controle Remote [(\#154)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/154)
+- Add a note to the quests that branching smokestacks does not create two heated areas [(\#155)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/155)
+- Add updated art assets for Genetics [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Add updated art assets for Modern Industrialization [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Add updated art assets for Extended Industrialization [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Add updated art assets for Simple Magnets [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+
+#### 🦟 Bugs Fixed
+
+- Fix output of Essences using Fluix Blocks [(\#152)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/152)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.2.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.2.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.2.0.md)
@@ -12,6 +42,7 @@ NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 - Plants from the Lush Garden now have tooltips to help indicate where they're found [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
 - Imbuement quest now mentions using Source Gems for Essence creation [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
 - The Source Gem version of Essence recipes is now the default recipe in EMI [(\#140)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/140)
+- Add tooltips to bamboo and glow berries to clarify where they come from [(\#148)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/148)
 
 #### 🦟 Bugs Fixed
 

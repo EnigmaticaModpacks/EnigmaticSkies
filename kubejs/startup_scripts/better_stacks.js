@@ -62,6 +62,7 @@ ItemEvents.modification((event) => {
                 'farmersdelight:stuffed_pumpkin_block',
                 'farmersdelight:vegetable_noodles',
                 'farmersdelight:vegetable_soup',
+                'farmersdelight:onion_soup',
 
                 'minecraft:armor_stand',
                 'minecraft:beetroot_soup',

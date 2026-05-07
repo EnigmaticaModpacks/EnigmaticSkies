@@ -760,15 +760,25 @@
 			}
 			id: "15FAB1720AD470A0"
 			min_width: 300
-			rewards: [{
-				count: 8
-				id: "16F200E14F8BF6F4"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
+			rewards: [
+				{
+					count: 8
+					id: "16F200E14F8BF6F4"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "552F105DB2D295AF"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "332A320109CC0BC4"

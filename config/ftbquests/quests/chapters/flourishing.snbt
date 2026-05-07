@@ -255,12 +255,22 @@
 				id: "enigmatica:melon_ball"
 			}
 			id: "3B609B8A4DE93B53"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "71E15B03D6AB80EC"
-				table_id: 8288575923437311930L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71E15B03D6AB80EC"
+					table_id: 8288575923437311930L
+					type: "loot"
+				}
+				{
+					id: "64BC71CD79ECA9BA"
+					item: {
+						count: 1
+						id: "ars_controle:remote"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{

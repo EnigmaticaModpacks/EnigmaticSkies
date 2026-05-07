@@ -720,7 +720,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["32305BE195F77F2F"]
 			icon: {
 				id: "ars_caelum:ritual_conjure_island_geode"
 			}
@@ -745,7 +745,7 @@
 				}
 			]
 			x: -2.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -902,7 +902,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["32305BE195F77F2F"]
 			icon: {
 				id: "ars_caelum:ritual_conjure_island_flourishing"
 			}
@@ -927,10 +927,10 @@
 				}
 			]
 			x: -1.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["32305BE195F77F2F"]
 			icon: {
 				id: "ars_caelum:ritual_conjure_island_cascading"
 			}
@@ -955,10 +955,10 @@
 				}
 			]
 			x: -3.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["32305BE195F77F2F"]
 			icon: {
 				id: "ars_caelum:ritual_conjure_island_blazing"
 			}
@@ -983,10 +983,10 @@
 				}
 			]
 			x: -3.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["32305BE195F77F2F"]
 			icon: {
 				id: "ars_caelum:ritual_conjure_island_sculk"
 			}
@@ -1011,10 +1011,10 @@
 				}
 			]
 			x: -1.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["32305BE195F77F2F"]
 			icon: {
 				id: "ars_caelum:ritual_conjure_island_vexing"
 			}
@@ -1039,7 +1039,7 @@
 				}
 			]
 			x: -2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2F9C801DFAC1C0D9"]
@@ -1195,6 +1195,7 @@
 				id: "cold_sweat:sewing_table"
 			}
 			id: "294B023DD4F19FE3"
+			min_width: 300
 			rewards: [{
 				id: "209C7C89BA3A0B82"
 				item: {
@@ -1218,6 +1219,25 @@
 			]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "32305BE195F77F2F"
+			rewards: [{
+				id: "6D8C66851E17E9DC"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_jar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35B51AD760CF4B5E"
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
 		}
 	]
 }
