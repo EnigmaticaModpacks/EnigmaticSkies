@@ -139,6 +139,9 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
