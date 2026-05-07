@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "modern_industrialization:block/sky_machine_casing_pipe"
+    "side": "modern_industrialization:block/sky_machine_casing_pipe",
+    "end":  "modern_industrialization:block/casings/sky_machine_casing_pipe/ctm/4"
   }
 }
