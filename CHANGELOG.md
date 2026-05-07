@@ -14,6 +14,9 @@ NeoForge-1.21.1-21.1.228
 - Cheaper recipe for Ars Controle Remote [(\#154)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/154)
 - Add a note to the quests that branching smokestacks does not create two heated areas [(\#155)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/155)
 - Add updated art assets for Genetics [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Add updated art assets for Modern Industrialization [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Add updated art assets for Extended Industrialization [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Add updated art assets for Simple Magnets [(\#157)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/157) ([Ridanisaurus](https://github.com/Ridanisaurus))
 
 #### 🦟 Bugs Fixed
 
