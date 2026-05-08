@@ -1,0 +1,115 @@
+{
+    "parent": "apotheosis:progression/haven",
+    "criteria": {
+        "common_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "common_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "common_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "common_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "common_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.frontier.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.frontier.title"
+        }
+    },
+    "requirements": [["common_helm"], ["common_chest"], ["common_legs"], ["common_feet"], ["common_hand"]],
+    "sends_telemetry_event": true
+}

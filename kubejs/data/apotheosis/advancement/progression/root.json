@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.root.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "apotheosis:boss_summoner"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.apotheosis.progression.root.title"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

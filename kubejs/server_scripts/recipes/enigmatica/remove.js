@@ -624,6 +624,10 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:macerator',
             input: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/
         },
+        {
+            type: 'modern_industrialization:macerator',
+            output: 'ae2:fluix_dust'
+        },
         { output: /modern_industrialization:.*_(gear|rotor|ring)$/ },
         { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },
         { output: /modern_industrialization:.*_water_pump/ },

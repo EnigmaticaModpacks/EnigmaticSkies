@@ -1,0 +1,10 @@
+{
+    "advancements.apotheosis.progression.ascent.desc": "Equip a full set of Uncommon gear to begin your Ascent",
+    "advancements.apotheosis.progression.ascent.criteria.kill_wilden_guardian": "Slay a Wilden Defender",
+    "advancements.apotheosis.progression.ascent.criteria.kill_wilden_hunter": "Slay a Wilden Pack Hunter",
+    "advancements.apotheosis.progression.ascent.criteria.kill_wilden_stalker": "Slay a Wilden Stalker",
+    "advancements.apotheosis.progression.summit.desc": "To reach the Summit, slay the Wilden Chimera, and equip a full set of Rare gear",
+    "advancements.apotheosis.progression.summit.criteria.kill_chimera": "Slay the Wilden Chimera",
+    "advancements.apotheosis.progression.pinnacle.desc": "Entering the Pinnacle requires acquiring a full set of Epic gear",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_chimera": "Slay the Wilden Chimera"
+}
