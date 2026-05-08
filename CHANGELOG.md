@@ -4,11 +4,11 @@ NeoForge-1.21.1-21.1.228
 
 #### ⭐ Improvements
 
-- Added more recipe defaults in EMI to help with early game crafting [(\#152)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/152)
+- Added more recipe defaults in EMI to help with early game crafting [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
 
 #### 🦟 Bugs Fixed
 
-- Fix several Farmers Delight and Ars Delight recipes that had broken [(\#152)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/152)
+- Fix several Farmers Delight and Ars Delight recipes that had broken [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
 
 #### ✔️ Added Mods
 
