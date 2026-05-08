@@ -57,6 +57,21 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}beetroot_soup`
         },
         {
+            item_outputs: [
+                { item: 'farmersdelight:onion_soup', amount: 1 },
+                { item: 'minecraft:glass_bottle', amount: 1 }
+            ],
+            item_inputs: [
+                { tag: 'c:crops/onion', amount: 2 },
+                { tag: 'c:foods/bread', amount: 1 },
+                { item: 'farmersdelight:milk_bottle', amount: 1 },
+                { item: 'minecraft:bowl', amount: 1 }
+            ],
+            duration: 10,
+            eu: 16,
+            id: `${id_prefix}onion_soup`
+        },
+        {
             item_outputs: [{ item: 'farmersdelight:dumplings', amount: 4 }],
             item_inputs: [
                 { tag: 'c:foods/dough', amount: 1 },
@@ -370,7 +385,22 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'farmersdelight:cabbage_rolls', amount: 2 }],
             item_inputs: [
                 { tag: 'c:crops/cabbage', amount: 1 },
-                { tag: 'farmersdelight:cabbage_roll_ingredients', amount: 1 },
+                {
+                    type: 'neoforge:compound',
+                    children: [
+                        { tag: 'c:foods/raw_chicken' },
+                        { tag: 'c:foods/raw_pork' },
+                        { tag: 'c:foods/raw_beef' },
+                        { tag: 'c:foods/safe_raw_fish' },
+                        { tag: 'c:foods/raw_mutton' },
+                        { tag: 'c:eggs' },
+                        { tag: 'c:mushrooms' },
+                        { item: 'minecraft:carrot' },
+                        { item: 'minecraft:potato' },
+                        { item: 'minecraft:beetroot' }
+                    ],
+                    amount: 1
+                },
                 { item: 'farmersdelight:rice', amount: 1 }
             ],
             duration: 5,

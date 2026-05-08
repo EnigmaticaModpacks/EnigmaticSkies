@@ -154,7 +154,21 @@ ServerEvents.recipes((event) => {
             result: { id: 'farmersdelight:cabbage_rolls', count: 2 },
             ingredients: [
                 { tag: 'c:crops/cabbage' },
-                { tag: 'farmersdelight:cabbage_roll_ingredients' },
+                {
+                    type: 'neoforge:compound',
+                    children: [
+                        { tag: 'c:foods/raw_chicken' },
+                        { tag: 'c:foods/raw_pork' },
+                        { tag: 'c:foods/raw_beef' },
+                        { tag: 'c:foods/safe_raw_fish' },
+                        { tag: 'c:foods/raw_mutton' },
+                        { tag: 'c:eggs' },
+                        { tag: 'c:mushrooms' },
+                        { item: 'minecraft:carrot' },
+                        { item: 'minecraft:potato' },
+                        { item: 'minecraft:beetroot' }
+                    ]
+                },
                 { item: 'farmersdelight:rice' }
             ],
             recipe_book_tab: 'misc',
