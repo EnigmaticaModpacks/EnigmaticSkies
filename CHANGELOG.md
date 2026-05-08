@@ -12,6 +12,7 @@ NeoForge-1.21.1-21.1.228
 
 - Fix several Farmers Delight and Ars Delight recipes that had broken [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
 - Fix Apotheosis world tier requirements [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+- Fix Energy Quest not completing [(\#162)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/162)
 
 #### ✔️ Added Mods
 
