@@ -516,19 +516,8 @@
 					}
 					id: "ftbquests:custom_icon"
 				}
-				id: "5ABB5D7B054177D0"
-				ignore_dimension: false
-				position: [I;
-					0
-					0
-					0
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
+				id: "1FBFB31F5657696B"
+				type: "dimension"
 			}]
 			x: 2.5d
 			y: 1.0d
