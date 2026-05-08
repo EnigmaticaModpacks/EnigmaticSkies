@@ -1,0 +1,98 @@
+{
+    "parent": "apotheosis:progression/summit",
+    "criteria": {
+        "kill_chimera": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": { "type": "ars_nouveau:wilden_boss" }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "epic_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": ["apotheosis:epic", "apotheosis:mythic"]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "epic_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": ["apotheosis:epic", "apotheosis:mythic"]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "epic_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": ["apotheosis:epic", "apotheosis:mythic"]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "epic_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": ["apotheosis:epic", "apotheosis:mythic"]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "epic_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": ["apotheosis:epic", "apotheosis:mythic"]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.pinnacle.desc"
+        },
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:end_crystal"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.pinnacle.title"
+        }
+    },
+    "requirements": [["epic_helm"], ["epic_chest"], ["epic_legs"], ["epic_feet"], ["epic_hand"], ["kill_chimera"]],
+    "sends_telemetry_event": true
+}

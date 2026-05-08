@@ -1,0 +1,32 @@
+{
+    "parent": "apotheosis:progression/root",
+    "criteria": {
+        "affixed": {
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "apotheosis:affixed_item": {}
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.haven.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:oak_sapling"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.haven.title"
+        }
+    },
+    "requirements": [["affixed"]],
+    "sends_telemetry_event": true
+}

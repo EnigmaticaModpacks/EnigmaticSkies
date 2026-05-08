@@ -135,6 +135,67 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:essences/greater_air' }, { item: 'malum:totemic_staff' }],
             time: 15000,
             id: `${id_prefix}gate_pearl_catching_fire`
+        },
+
+        {
+            results: [
+                {
+                    id: 'gateways:gate_pearl',
+                    components: { 'gateways:gateway': 'apotheosis:tiered/frontier' },
+                    count: 1
+                }
+            ],
+            ingredients: [{ tag: 'c:essences/conjuration' }, { item: 'enigmatica:jaxs_snax' }],
+            time: 500,
+            id: `${id_prefix}gate_pearl_frontier`
+        },
+        {
+            results: [
+                {
+                    id: 'gateways:gate_pearl',
+                    components: { 'gateways:gateway': 'apotheosis:tiered/ascent' },
+                    count: 1
+                }
+            ],
+            ingredients: [{ item: 'naturesaura:calling_spirit' }, { item: 'enigmatica:la_drygmese_poutine' }],
+            time: 1000,
+            id: `${id_prefix}gate_pearl_ascent`
+        },
+        {
+            results: [
+                {
+                    id: 'gateways:gate_pearl',
+                    components: { 'gateways:gateway': 'apotheosis:tiered/summit' },
+                    count: 1
+                }
+            ],
+            ingredients: [{ item: 'naturesaura:calling_spirit' }, { item: 'enigmatica:glazed_and_confused' }],
+            time: 5000,
+            id: `${id_prefix}gate_pearl_summit`
+        },
+        {
+            results: [
+                {
+                    id: 'gateways:gate_pearl',
+                    components: { 'gateways:gateway': 'apotheosis:tiered/pinnacle' },
+                    count: 1
+                }
+            ],
+            ingredients: [{ item: 'ars_nouveau:summon_focus' }, { item: 'enigmatica:glazed_and_confused' }],
+            time: 10000,
+            id: `${id_prefix}gate_pearl_pinnacle`
+        },
+        {
+            results: [
+                {
+                    id: 'gateways:gate_pearl',
+                    components: { 'gateways:gateway': 'apotheosis:endless_invader' },
+                    count: 1
+                }
+            ],
+            ingredients: [{ item: 'ars_elemental:necrotic_focus' }, { item: 'enigmatica:glazed_and_confused' }],
+            time: 15000,
+            id: `${id_prefix}gate_pearl_endless_invader`
         }
     ];
 

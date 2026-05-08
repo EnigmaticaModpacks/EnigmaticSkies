@@ -1,0 +1,156 @@
+{
+    "parent": "apotheosis:progression/frontier",
+    "criteria": {
+        "kill_wilden_guardian": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": { "type": "ars_nouveau:wilden_guardian" }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "kill_wilden_hunter": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": { "type": "ars_nouveau:wilden_hunter" }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "kill_wilden_stalker": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": { "type": "ars_nouveau:wilden_stalker" }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "uncommon_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "uncommon_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "uncommon_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "uncommon_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "uncommon_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.ascent.desc"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.ascent.title"
+        }
+    },
+    "requirements": [
+        ["uncommon_helm"],
+        ["uncommon_chest"],
+        ["uncommon_legs"],
+        ["uncommon_feet"],
+        ["uncommon_hand"],
+        ["kill_wilden_guardian"],
+        ["kill_wilden_hunter"],
+        ["kill_wilden_stalker"]
+    ],
+    "sends_telemetry_event": true
+}

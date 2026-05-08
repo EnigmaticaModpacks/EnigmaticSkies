@@ -189,11 +189,11 @@ ServerEvents.recipes((event) => {
         { id: 'not_enough_glyphs:spell_binder' },
 
         { output: 'arsdelight:source_berry_cookie' },
-        { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
-        { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
-        { id: 'arsdelight:cooking/cooking/wilden_sauce' },
-        { id: 'arsdelight:cooking/cooking/source_berry_tea' },
-        { id: 'arsdelight:cooking/cooking/source_berry_jam' },
+        { id: /arsdelight:cooking\/.*_jelly/ },
+        { id: 'arsdelight:cooking/source_berry_cupcake' },
+        { id: 'arsdelight:cooking/wilden_sauce' },
+        { id: 'arsdelight:cooking/source_berry_tea' },
+        { id: 'arsdelight:cooking/source_berry_jam' },
         { id: 'arsdelight:mendosteen_pie' },
         { id: 'arsdelight:bastion_pie' },
         { id: 'arsdelight:bombegrante_pie' },
@@ -623,6 +623,10 @@ ServerEvents.recipes((event) => {
         {
             type: 'modern_industrialization:macerator',
             input: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/
+        },
+        {
+            type: 'modern_industrialization:macerator',
+            output: 'ae2:fluix_dust'
         },
         { output: /modern_industrialization:.*_(gear|rotor|ring)$/ },
         { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },

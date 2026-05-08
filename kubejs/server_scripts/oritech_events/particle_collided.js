@@ -9,6 +9,7 @@ OritechEvents.particleCollided((event) => {
     if (recipeId == null) return;
     // console.log(collisionPos);
 
+    // Gate Pearl Handling
     if (String(recipeId).includes('gate_pearl')) {
         let entity = level.getBlock(collisionPos).createEntity('minecraft:item');
         entity.item = recipe.results[0];

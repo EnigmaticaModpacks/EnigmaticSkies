@@ -1,3 +1,24 @@
+### Enigmatic Skies 1.4.0
+
+NeoForge-1.21.1-21.1.228
+
+#### ⭐ Improvements
+
+- Added more recipe defaults in EMI to help with early game crafting [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+- Apothic Gateways may now be summoned [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+- Skyroot can now be crushed for pulp [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+
+#### 🦟 Bugs Fixed
+
+- Fix several Farmers Delight and Ars Delight recipes that had broken [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+- Fix Apotheosis world tier requirements [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.3.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.3.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.3.0.md)
