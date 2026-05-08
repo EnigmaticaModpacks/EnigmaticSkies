@@ -222,7 +222,7 @@ ServerEvents.recipes((event) => {
             id_suffix: 'blaze_powder_from_blaze_ember'
         },
         {
-            input: { tag: 'minecraft:logs' },
+            input: { tag: 'enigmatica:logs' },
             outputs: [{ id: 'modern_industrialization:wood_pulp', count: 12 }],
             multiply: 'none',
             exclusions: ['modern_industrialization'],
@@ -242,7 +242,7 @@ ServerEvents.recipes((event) => {
             id_suffix: 'sawdust_from_sticks'
         },
         {
-            input: { tag: 'minecraft:planks' },
+            input: { tag: 'enigmatica:planks' },
             outputs: [{ id: 'modern_industrialization:wood_pulp', count: 3 }],
             multiply: 'none',
             exclusions: ['modern_industrialization'],
