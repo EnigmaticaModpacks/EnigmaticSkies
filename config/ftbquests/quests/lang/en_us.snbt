@@ -108,11 +108,6 @@
 		"&a    from Magebloom!"
 	]
 	quest.03D475AF2266ECB6.title: "Villagers"
-	quest.03DFAA759B4E653E.quest_desc: [
-		"The Tablet of Awakening can infuse inanimate objects with Source, bringing them to some semblance of life. "
-		""
-		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
-	]
 	quest.04107677B244E672.title: "Abra's Open Conjure"
 	quest.0458B6BC887C9725.quest_desc: [
 		"Summon a &7Wolf&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
@@ -966,7 +961,7 @@
 		""
 		"In this case, the &7Steam Kiln&r requires both Item and Fluid Hatches. Multiple hatches may be placed in order to accomodate different inputs. "
 		""
-		"To power this device, at least one Fluid Input is required for &7Steam&r, which can be piped out of your &Decrepit Boiler&r."
+		"To power this device, at least one Fluid Input is required for &7Steam&r, which can be piped out of your &7Decrepit Boiler&r."
 		""
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. &7Steam Kiln&r block) in &7EMI&r. Note that some of the blocks listed will be replaced by Hatches."
 		""
@@ -1447,12 +1442,6 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
-	quest.20C038E5D70CDB52.quest_desc: [
-		"The Wixie Cauldron allows a Wixie to craft either Potions or 3x3 Crafting recipes using Source."
-		""
-		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
-	]
-	quest.20C038E5D70CDB52.title: "Wixie Cauldron"
 	quest.20EBCCCAA99AC19A.quest_desc: [
 		"The Garden Cloche is useful for automating the growth of certain crops, like Hemp, which are used heavily throughout the mod. "
 		""
@@ -4360,14 +4349,6 @@
 		"&6Starbuilder&r"
 		"  • Allows the Starbuncle to place blocks at a location"
 	]
-	quest.6242CD0203DCBDC7.quest_desc: [
-		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
-		""
-		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
-		""
-		"Unlike a normal Enchanting Apparatus, the Arcane Pedestals are only used to specify a recipe. She does not need them for ingredients."
-	]
-	quest.6242CD0203DCBDC7.title: "Wixie Enchanting Apparatus"
 	quest.625AE1AEF37DAE03.quest_desc: [
 		"One of several options for automated farming. It has its quirks, but it’ll do for now. "
 		""
@@ -5967,6 +5948,7 @@
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.1E4E5D2B9B36005C.title: "Brilliant Blocks"
+	task.1FBFB31F5657696B.title: "Energy"
 	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
@@ -6100,7 +6082,6 @@
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
-	task.5ABB5D7B054177D0.title: "Energy"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CA2448AD3D03768.title: "Coke Oven"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
