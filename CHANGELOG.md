@@ -7,6 +7,7 @@ NeoForge-1.21.1-21.1.228
 - Added more recipe defaults in EMI to help with early game crafting [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
 - Apothic Gateways may now be summoned [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
 - Skyroot can now be crushed for pulp [(\#160)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/160)
+- Add updated art assets for Oritech [(\#164)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/164) ([Ridanisaurus](https://github.com/Ridanisaurus))
 
 #### 🦟 Bugs Fixed
 
