@@ -125,6 +125,7 @@
         "enigmatica:simple_alloying/modern_industrialization_electric_kiln/depth_ingot",
         "enigmatica:simple_alloying/modern_industrialization_electric_kiln/iesnium_ingot",
         "enigmatica:simple_alloying/modern_industrialization_electric_kiln/netherite_ingot",
+        "enigmatica:simple_alloying/modern_industrialization_steam_kiln/andesite_alloy_from_pebble",
         "enigmatica:simple_alloying/modern_industrialization_steam_kiln/conductive_alloy_ingot",
         "enigmatica:simple_alloying/modern_industrialization_steam_kiln/energetic_alloy_ingot",
         "enigmatica:simple_alloying/modern_industrialization_steam_kiln/pulsating_alloy_ingot",
@@ -169,7 +170,6 @@
         "minecraft:iron_ingot_from_smelting_raw_iron",
         "modern_industrialization:materials/silicon/smelting/dust_to_ingot_smelting",
         "modern_industrialization:vanilla_recipes/compressor/diamond_from_coal",
-        "theurgy:accumulation/sal_ammoniac_from_water",
-        "enigmatica:simple_alloying/modern_industrialization_steam_kiln/andesite_alloy_from_pebble"
+        "theurgy:accumulation/sal_ammoniac_from_water"
     ]
 }
