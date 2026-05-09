@@ -169,6 +169,7 @@
         "minecraft:iron_ingot_from_smelting_raw_iron",
         "modern_industrialization:materials/silicon/smelting/dust_to_ingot_smelting",
         "modern_industrialization:vanilla_recipes/compressor/diamond_from_coal",
-        "theurgy:accumulation/sal_ammoniac_from_water"
+        "theurgy:accumulation/sal_ammoniac_from_water",
+        "enigmatica:simple_alloying/modern_industrialization_steam_kiln/andesite_alloy_from_pebble"
     ]
 }

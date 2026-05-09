@@ -1164,6 +1164,12 @@
 				id: "enigmatica:source_ink"
 			}
 			id: "1ACB8880980AF206"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A760E3C814A15C3"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "44D58A201923273D"
