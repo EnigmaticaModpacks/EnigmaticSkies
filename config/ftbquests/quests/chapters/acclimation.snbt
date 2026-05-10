@@ -535,6 +535,7 @@
 				id: "farmersdelight:cutting_board"
 			}
 			id: "62C7492F54D80CBA"
+			min_width: 300
 			rewards: [
 				{
 					count: 3
