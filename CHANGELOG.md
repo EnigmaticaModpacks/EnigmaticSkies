@@ -1,3 +1,22 @@
+### Enigmatic Skies 1.5.0
+
+NeoForge-1.21.1-21.1.228
+
+#### ⭐ Improvements
+
+- Added new spell examples to the quests for the cutting board [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
+- Pumpkins can now be compacted in compacting drawers [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
+
+#### 🦟 Bugs Fixed
+
+- Fix Skyroot Milk buckets not working for some recipes [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.4.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.4.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.4.0.md)
