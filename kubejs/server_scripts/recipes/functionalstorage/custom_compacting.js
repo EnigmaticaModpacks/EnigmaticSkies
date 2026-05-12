@@ -53,6 +53,11 @@ ServerEvents.recipes((event) => {
             higher_input: { id: 'malum:blazing_quartz', count: 1 },
             lower_input: { id: 'malum:blazing_quartz_fragment', count: 9 },
             id: `${id_prefix}blazing_quartz_to_blazing_quartz_fragment`
+        },
+        {
+            higher_input: { id: 'minecraft:pumpkin', count: 1 },
+            lower_input: { id: 'farmersdelight:pumpkin_slice', count: 4 },
+            id: `${id_prefix}pumpkin_slice_to_block`
         }
     ];
 
@@ -96,7 +101,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'functionalstorage:custom_compacting';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
