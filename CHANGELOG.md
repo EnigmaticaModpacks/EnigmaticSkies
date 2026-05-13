@@ -8,6 +8,7 @@ NeoForge-1.21.1-21.1.228
 - Pumpkins can now be compacted in compacting drawers [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
 - Added more honey compatibility [(\#172)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/172)
 - Added mention in the blue ice quest that it's very cold! [(\#173)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/173)
+- Clarified Steam Kiln quest [(\#174)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/174)
 
 #### 🦟 Bugs Fixed
 
