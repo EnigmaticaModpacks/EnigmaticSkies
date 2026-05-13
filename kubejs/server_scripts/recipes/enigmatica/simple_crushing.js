@@ -462,6 +462,19 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'wheat_flour'
+        },
+        {
+            input: { tag: 'create:pulpifiable' },
+            outputs: [
+                { id: 'oritech:biomass', count: 2 },
+                { id: 'oritech:biomass', count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'biomass'
         }
     ];
 
