@@ -761,15 +761,25 @@
 			}
 			id: "15FAB1720AD470A0"
 			min_width: 300
-			rewards: [{
-				count: 8
-				id: "16F200E14F8BF6F4"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
+			rewards: [
+				{
+					id: "4619FFA40EA4D076"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "48F582335E3A5EE7"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "332A320109CC0BC4"
@@ -802,16 +812,6 @@
 					count: 14L
 					id: "364BD1972CC00C8B"
 					item: { count: 1, id: "minecraft:polished_andesite" }
-					type: "item"
-				}
-				{
-					id: "0CEFD794AEF4F341"
-					item: { count: 1, id: "create:andesite_alloy" }
-					type: "item"
-				}
-				{
-					id: "7A24B75F25AC966E"
-					item: { count: 1, id: "modern_industrialization:wrench" }
 					type: "item"
 				}
 			]
