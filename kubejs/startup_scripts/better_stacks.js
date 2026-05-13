@@ -81,6 +81,8 @@ ItemEvents.modification((event) => {
 
                 'oritech:heisenberg_compensator',
 
+                'supplementaries:lumisene_bottle',
+
                 'the_bumblezone:pollen_puff',
 
                 //signs
