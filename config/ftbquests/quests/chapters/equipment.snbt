@@ -244,6 +244,12 @@
 		{
 			dependencies: ["3753A3EB1909F923"]
 			id: "5D97DDB66F470605"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73890CEDEFC0E354"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "54F9AD36E2BEBF47"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:neptunium_pickaxe)item(aquaculture:neptunium_shovel)item(aquaculture:neptunium_axe)item(aquaculture:neptunium_hoe)item(aquaculture:neptunium_sword)item(aquaculture:neptunium_bow)item(aquaculture:neptunium_fishing_rod)item(aquaculture:neptunium_helmet)item(aquaculture:neptunium_chestplate)item(aquaculture:neptunium_leggings)item(aquaculture:neptunium_boots)item(aquaculture:neptunium_fillet_knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }

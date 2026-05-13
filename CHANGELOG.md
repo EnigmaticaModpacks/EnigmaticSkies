@@ -6,6 +6,7 @@ NeoForge-1.21.1-21.1.228
 
 - Added new spell examples to the quests for the cutting board [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
 - Pumpkins can now be compacted in compacting drawers [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
+- Added more honey compatibility [(\#172)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/172)
 
 #### 🦟 Bugs Fixed
 
