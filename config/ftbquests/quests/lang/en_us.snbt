@@ -4287,7 +4287,9 @@
 	quest.616862D8ADBE3928.quest_desc: [
 		"Water will freeze, of course, if left out in the cold. But you’ll need some particularly cold, dense ice soon. "
 		""
-		"Freeze a &7Water Bucket&r and then re-freeze it until you get &7Blue Ice&r."
+		"Freeze a &7Water Bucket&r and then re-freeze it until you get &7Blue Ice&r. "
+		""
+		"Be careful, however, it's extremely cold to hold!"
 		""
 		"The &7Freezer&r uses &7Icestone&r as fuel."
 	]
