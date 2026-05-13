@@ -10,6 +10,8 @@ NeoForge-1.21.1-21.1.228
 #### 🦟 Bugs Fixed
 
 - Fix Skyroot Milk buckets not working for some recipes [(\#166)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/166)
+- Fixed a crash with the Dictionary of Spirits [(\#172)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/172)
+- Remove misleading quest requirement in Malum quests [(\#172)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/172)
 
 #### ✔️ Added Mods
 

@@ -77,22 +77,12 @@
 				id: "malum:spirit_altar"
 			}
 			id: "359562022532BAE1"
-			rewards: [
-				{
-					id: "210DDBC5BFE7D9E0"
-					item: {
-						count: 1
-						id: "malum:block_of_soul_stained_steel"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "65A0CC5B161F25D4"
-					table_id: 8024291577720718631L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65A0CC5B161F25D4"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "0A850556620B0740"
@@ -102,11 +92,6 @@
 				{
 					id: "31B1D4D0DBFCDCD6"
 					item: { components: { "ftbfiltersystem:filter": "or(item(malum:runewood_item_stand)item(malum:runewood_item_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "6E8E1014FC37D0F0"
-					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
 					type: "item"
 				}
 			]
