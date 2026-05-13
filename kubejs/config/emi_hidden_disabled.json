@@ -449,7 +449,7 @@
             "/oritech:.*_generator_block/",
             "/oritech:resource_node/",
             "/oritech:(uranium|energite|biosteel|adamant|duratium)_(ingot|dust|block)/",
-            "/oritech:(fluxite|biomass)/",
+            "/oritech:(fluxite)/",
             "oritech:small_platinum_clump",
             "oritech:small_nickel_clump",
             "oritech:pulverizer_block",

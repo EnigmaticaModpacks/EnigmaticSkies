@@ -9,6 +9,7 @@ NeoForge-1.21.1-21.1.228
 - Added more honey compatibility [(\#172)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/172)
 - Added mention in the blue ice quest that it's very cold! [(\#173)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/173)
 - Clarified Steam Kiln quest [(\#174)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/174)
+- Added an improved method of crafting cardboard [(\#175)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/175)
 
 #### 🦟 Bugs Fixed
 
