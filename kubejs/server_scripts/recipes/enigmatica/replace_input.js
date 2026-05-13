@@ -646,6 +646,11 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'laserio' }],
             to_replace: `#c:ender_pearls`,
             replace_with: '#c:gems/pulsating_crystal'
+        },
+        {
+            filter: [{}],
+            to_replace: `the_bumblezone:honey_bucket`,
+            replace_with: `#c:buckets/honey`
         }
     ];
 
