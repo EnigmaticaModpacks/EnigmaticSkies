@@ -10,7 +10,7 @@ NeoForge-1.21.1-21.1.228
 - Added mention in the blue ice quest that it's very cold! [(\#173)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/173)
 - Clarified Steam Kiln quest [(\#174)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/174)
 - Added an improved method of crafting cardboard [(\#176)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/176)
-- Lumisene Bottles now stack [(\#178)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/176)
+- Lumisene Bottles now stack [(\#179)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/179)
 
 #### 🦟 Bugs Fixed
 
