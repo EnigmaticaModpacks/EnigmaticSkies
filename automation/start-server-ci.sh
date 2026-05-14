@@ -24,8 +24,26 @@ FORGE_JAR="libraries/net/neoforged/neoforge/${FORGEVER}/neoforge-${FORGEVER}-ser
 if [ ! -f "$FORGE_JAR" ] || [ ! -d "./libraries" ]; then
   echo "Installing NeoForge ${FORGEVER}..."
   URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/${FORGEVER}/neoforge-${FORGEVER}-installer.jar"
-  curl -fsSL -o installer.jar "$URL"
-  java -jar installer.jar --installServer >> serverstart.log 2>&1
+  
+  # Retry up to 3 times for transient network failures
+  MAX_RETRIES=3
+  RETRY=0
+  while [ $RETRY -lt $MAX_RETRIES ]; do
+    curl -fsSL -o installer.jar "$URL"
+    if java -jar installer.jar --installServer >> serverstart.log 2>&1; then
+      break
+    else
+      RETRY=$((RETRY + 1))
+      if [ $RETRY -lt $MAX_RETRIES ]; then
+        echo "Installation failed, retrying ($RETRY/$MAX_RETRIES)..."
+        sleep 5
+      else
+        echo "Installation failed after $MAX_RETRIES attempts"
+        rm -f installer.jar
+        exit 1
+      fi
+    fi
+  done
   rm -f installer.jar
 fi
 
