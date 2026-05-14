@@ -303,7 +303,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:alloy_smelting\/(redstone|pulsating|conductive)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
-        { id: 'enderio:alloy_smelting/industrial_insulation_block' },
+        { id: 'enderio:alloy_smelting/industrial_insulation' },
         { id: 'enderio:alloy_smelting/ender_pearl' },
         { id: 'enderio:alloy_smelting/cookie' },
         { id: 'enderio:fermenting/fluid_liquid_darkness_still' },
