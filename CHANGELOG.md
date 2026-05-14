@@ -1,3 +1,19 @@
+### Enigmatic Skies 1.6.0
+
+NeoForge-1.21.1-21.1.228
+
+#### ⭐ Improvements
+
+#### 🦟 Bugs Fixed
+
+- Re-remove default Industrial Insulation recipe [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.5.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.5.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.5.0.md)
