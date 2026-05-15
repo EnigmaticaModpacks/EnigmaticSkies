@@ -1481,13 +1481,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.0.7.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.7.jar",
+  "moonlight-neoforge-1.21.1-3.0.9.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.9.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.7",
-    "curseForgeHash": 3090681879,
-    "modrinthHash": "d2a8f9b2a7ddd7dc72cc880a4b2aaaacda72c42c"
+    "version": "1.21.1-3.0.9",
+    "curseForgeHash": 3607646210,
+    "modrinthHash": "a2f27a3a18e548b32d7ec7bbd722bd443e43481f"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
