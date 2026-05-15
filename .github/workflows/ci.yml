@@ -44,6 +44,7 @@ jobs:
           path: |
             mods
             libraries
+            user_jvm_args.txt
           key: ${{ runner.os }}-neoforge-${{ hashFiles('automation/settings.cfg', 'MODLIST.md') }}
           restore-keys: |
             ${{ runner.os }}-neoforge-
