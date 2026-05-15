@@ -5,10 +5,12 @@ NeoForge-1.21.1-21.1.228
 #### ⭐ Improvements
 
 - Silver grates are now pass-through for the Hearth and Create fans [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Potion Melders are now slightly easier [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 
 #### 🦟 Bugs Fixed
 
 - Re-remove default Industrial Insulation recipe [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Removed confusing text in Malum quests [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 
 #### ✔️ Added Mods
 

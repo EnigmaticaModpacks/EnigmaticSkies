@@ -563,6 +563,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}potion_diffuser`
         },
         {
+            result: { id: 'ars_nouveau:potion_melder', count: 1 },
+            reagent: { item: 'ars_nouveau:potion_jar' },
+            pedestalItems: [
+                { tag: 'c:essences/abjuration' },
+                { tag: 'c:essences/abjuration' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { item: 'naturesaura:infused_stone' },
+                { item: 'naturesaura:infused_stone' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}potion_melder`
+        },
+        {
             result: { id: 'minecraft:skeleton_skull', count: 1 },
             reagent: { item: 'create:cardboard_helmet' },
             pedestalItems: [

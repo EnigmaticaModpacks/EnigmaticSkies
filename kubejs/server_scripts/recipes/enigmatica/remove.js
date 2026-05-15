@@ -176,6 +176,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:second_armor_upgrade' },
         { id: 'ars_nouveau:splash_flask_cannon' },
         { id: 'ars_nouveau:potion_diffuser' },
+        { id: 'ars_nouveau:potion_melder' },
         { id: 'ars_nouveau:novice_spell_book' },
         { id: 'ars_nouveau:novice_spellbook_alt' },
         { id: 'ars_nouveau:apprentice_book_upgrade' },
