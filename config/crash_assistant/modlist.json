@@ -820,13 +820,13 @@
     "curseForgeHash": 3059085441,
     "modrinthHash": "5b5fc717242a9eb2d8b4a5e57ea1a38446722864"
   },
-  "energymeter-neoforge-1.21.1-0.4.0.jar": {
-    "jarName": "energymeter-neoforge-1.21.1-0.4.0.jar",
+  "energymeter-neoforge-1.21.1-0.4.1.jar": {
+    "jarName": "energymeter-neoforge-1.21.1-0.4.1.jar",
     "modId": "energymeter",
     "name": "Energy Meter",
-    "version": "1.21.1-0.4.0",
-    "curseForgeHash": 4148431189,
-    "modrinthHash": "c8e8caf063ce9f502cf71a7c6f339b368abf2e76"
+    "version": "1.21.1-0.4.1",
+    "curseForgeHash": 131978321,
+    "modrinthHash": "a0da62682f28ea5550483b6be7c46698a98b1a6a"
   },
   "enigmaticunity-2.2.jar": {
     "jarName": "enigmaticunity-2.2.jar",
@@ -1977,13 +1977,13 @@
     "curseForgeHash": 4290330137,
     "modrinthHash": "2016eed89eac0eb0510d2190c3b0b80bf4346191"
   },
-  "tesseract-api-neoforge-1.11.12-1.21.1.jar": {
-    "jarName": "tesseract-api-neoforge-1.11.12-1.21.1.jar",
+  "tesseract-api-neoforge-1.11.13-1.21.1.jar": {
+    "jarName": "tesseract-api-neoforge-1.11.13-1.21.1.jar",
     "modId": "tesseract_api",
     "name": "Tesseract API",
-    "version": "1.11.12-1.21.1",
-    "curseForgeHash": 1525794971,
-    "modrinthHash": "46cb7ff3658a527d4a26f6927e87ef1e72734219"
+    "version": "1.11.13-1.21.1",
+    "curseForgeHash": 4146796701,
+    "modrinthHash": "f6a6892682f699830ce3224f4539a0326db4a633"
   },
   "the_bumblezone-7.13.2+1.21.1-neoforge.jar": {
     "jarName": "the_bumblezone-7.13.2+1.21.1-neoforge.jar",
