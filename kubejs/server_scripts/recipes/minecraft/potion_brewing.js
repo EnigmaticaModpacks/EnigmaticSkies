@@ -1,6 +1,5 @@
 MoreJS.registerPotionBrewing((event) => {
-    // Documentation: https://github.com/AlmostReliable/morejs/wiki/Potion-Brewing
-
+    // Documentation: https://docs.almostreliable.com/morejs/potion-brewing.html#remove-brewing
     const recipes = [
         {
             reagent: 'ars_nouveau:bastion_pod',
@@ -106,10 +105,21 @@ MoreJS.registerPotionBrewing((event) => {
         });
     });
 
+    const removals = [
+        {
+            ingredient: 'cold_sweat:soul_sprout'
+        },
+        {
+            ingredient: 'minecraft:magma_cream'
+        }
+    ];
+
+    removals.forEach((filter) => {
+        event.removeCustomBrewing(filter);
+        event.removePotionBrewing(filter);
+    });
+
     recipes.forEach((recipe) => {
-        // console.log(
-        //     `Registering recipe for ${recipe.output}. Reagent: ${recipe.reagent}, Input Potion: ${recipe.input}`
-        // );
         event.addPotionBrewing(recipe.reagent, recipe.input, recipe.output);
     });
 });
