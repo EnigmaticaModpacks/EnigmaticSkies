@@ -583,5 +583,36 @@
 			x: -0.5d
 			y: 3.5d
 		}
+		{
+			dependencies: ["19F8B29D38CA31B8"]
+			icon: {
+				id: "entangled:block"
+			}
+			id: "0BB08CCD3FEDEB54"
+			rewards: [{
+				count: 2
+				id: "016BF5DB20694179"
+				item: {
+					count: 1
+					id: "entangled:block"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3106CE198D486192"
+					item: { count: 1, id: "entangled:block" }
+					type: "item"
+				}
+				{
+					id: "347A9A65D52F920F"
+					item: { count: 1, id: "entangled:item" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
 	]
 }
