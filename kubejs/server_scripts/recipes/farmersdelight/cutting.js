@@ -47,6 +47,24 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'minecraft:saplings' }],
             tool: { tag: 'c:tools/knife' },
             id: `${id_prefix}dead_bush`
+        },
+        {
+            result: [{ item: { id: 'malum:azure_runewood_sapling', count: 1 } }],
+            ingredients: [{ item: 'malum:azure_runewood_leaves' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}azure_runewood_sapling`
+        },
+        {
+            result: [{ item: { id: 'aether:golden_oak_sapling', count: 1 } }],
+            ingredients: [{ item: 'aether:golden_oak_leaves' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}golden_oak_sapling`
+        },
+        {
+            result: [{ item: { id: 'sushigocrafting:avocado_sapling', count: 1 } }],
+            ingredients: [{ item: 'sushigocrafting:avocado_leaves' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}avocado_sapling`
         }
     ];
 

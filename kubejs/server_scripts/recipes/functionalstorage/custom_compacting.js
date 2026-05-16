@@ -58,6 +58,76 @@ ServerEvents.recipes((event) => {
             higher_input: { id: 'minecraft:pumpkin', count: 1 },
             lower_input: { id: 'farmersdelight:pumpkin_slice', count: 4 },
             id: `${id_prefix}pumpkin_slice_to_block`
+        },
+        {
+            higher_input: { id: 'farmersdelight:carrot_crate', count: 1 },
+            lower_input: { id: 'minecraft:carrot', count: 9 },
+            id: `${id_prefix}carrot_to_crate`
+        },
+        {
+            higher_input: { id: 'farmersdelight:potato_crate', count: 1 },
+            lower_input: { id: 'minecraft:potato', count: 9 },
+            id: `${id_prefix}potato_to_crate`
+        },
+        {
+            higher_input: { id: 'farmersdelight:beetroot_crate', count: 1 },
+            lower_input: { id: 'minecraft:beetroot', count: 9 },
+            id: `${id_prefix}beetroot_to_crate`
+        },
+        {
+            higher_input: { id: 'farmersdelight:cabbage_crate', count: 1 },
+            lower_input: { id: 'farmersdelight:cabbage', count: 9 },
+            id: `${id_prefix}cabbage_to_crate`
+        },
+        {
+            higher_input: { id: 'farmersdelight:tomato_crate', count: 1 },
+            lower_input: { id: 'farmersdelight:tomato', count: 9 },
+            id: `${id_prefix}tomato_to_crate`
+        },
+        {
+            higher_input: { id: 'farmersdelight:onion_crate', count: 1 },
+            lower_input: { id: 'farmersdelight:onion', count: 9 },
+            id: `${id_prefix}onion_to_crate`
+        },
+        {
+            higher_input: { id: 'farmersdelight:rice_bale', count: 1 },
+            lower_input: { id: 'farmersdelight:rice_panicle', count: 9 },
+            id: `${id_prefix}rice_panicle_to_bale`
+        },
+        {
+            higher_input: { id: 'farmersdelight:rice_bag', count: 1 },
+            lower_input: { id: 'farmersdelight:rice', count: 9 },
+            id: `${id_prefix}rice_to_bag`
+        },
+        {
+            higher_input: { id: 'farmersdelight:straw_bale', count: 1 },
+            lower_input: { id: 'farmersdelight:straw', count: 9 },
+            id: `${id_prefix}straw_to_bale`
+        },
+        {
+            higher_input: { id: 'arsdelight:mendosteen_crate', count: 1 },
+            lower_input: { id: 'ars_nouveau:mendosteen_pod', count: 9 },
+            id: `${id_prefix}mendosteen_to_crate`
+        },
+        {
+            higher_input: { id: 'arsdelight:bastion_crate', count: 1 },
+            lower_input: { id: 'ars_nouveau:bastion_pod', count: 9 },
+            id: `${id_prefix}bastion_to_crate`
+        },
+        {
+            higher_input: { id: 'arsdelight:bombegrante_crate', count: 1 },
+            lower_input: { id: 'ars_nouveau:bombegranate_pod', count: 9 },
+            id: `${id_prefix}bombegranate_to_crate`
+        },
+        {
+            higher_input: { id: 'arsdelight:frostaya_crate', count: 1 },
+            lower_input: { id: 'ars_nouveau:frostaya_pod', count: 9 },
+            id: `${id_prefix}frostaya_to_crate`
+        },
+        {
+            higher_input: { id: 'ars_nouveau:sourceberry_sack', count: 1 },
+            lower_input: { id: 'ars_nouveau:sourceberry_bush', count: 9 },
+            id: `${id_prefix}sourceberry_to_sack`
         }
     ];
 

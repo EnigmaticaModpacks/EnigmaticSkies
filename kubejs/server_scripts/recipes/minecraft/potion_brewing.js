@@ -105,20 +105,6 @@ MoreJS.registerPotionBrewing((event) => {
         });
     });
 
-    // const removals = [
-    //     {
-    //         ingredient: 'cold_sweat:soul_sprout'
-    //     },
-    //     {
-    //         ingredient: 'minecraft:magma_cream'
-    //     }
-    // ];
-
-    // removals.forEach((filter) => {
-    //     event.removeCustomBrewing(filter);
-    //     event.removePotionBrewing(filter);
-    // });
-
     recipes.forEach((recipe) => {
         event.addPotionBrewing(recipe.reagent, recipe.input, recipe.output);
     });
