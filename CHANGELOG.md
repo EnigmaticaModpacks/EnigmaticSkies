@@ -8,6 +8,7 @@ NeoForge-1.21.1-21.1.228
 - Potion Melders are now slightly easier [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 - Saplings may now be cut out of leaves on a cutting board [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 - Dead Bushes may now be cut from saplings on a cutting board [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Crops with some form of crate can now be compacted in drawers [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 
 #### 🦟 Bugs Fixed
 
