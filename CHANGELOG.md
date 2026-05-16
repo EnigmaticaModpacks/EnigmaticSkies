@@ -10,6 +10,7 @@ NeoForge-1.21.1-21.1.228
 - Dead Bushes may now be cut from saplings on a cutting board [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 - Crops with some form of crate can now be compacted in drawers [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 - Add a quest to call out Entangled Blocks [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Hide disabled/unused items from Cold Sweat to avoid confusion [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
 
 #### 🦟 Bugs Fixed
 

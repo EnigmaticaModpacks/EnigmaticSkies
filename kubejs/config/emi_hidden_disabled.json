@@ -72,6 +72,13 @@
             "create:zinc_ore",
             "create:deepslate_zinc_ore",
 
+            "cold_sweat:soulspring_lamp",
+            "cold_sweat:thermometer",
+            "cold_sweat:boiler",
+            "cold_sweat:icebox",
+            "cold_sweat:waterskin",
+            "cold_sweat:filled_waterskin",
+
             "enderio:stirling_generator",
             "enderio:soul_engine",
             "enderio:mind_killer",
