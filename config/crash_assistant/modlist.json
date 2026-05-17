@@ -109,13 +109,13 @@
     "curseForgeHash": 3015221479,
     "modrinthHash": "26eef3e36bd3af25e5122dec2e9b918e26270c4e"
   },
-  "Apotheosis-1.21.1-8.5.2.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.2.jar",
+  "Apotheosis-1.21.1-8.5.3.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.2",
-    "curseForgeHash": 3263674676,
-    "modrinthHash": "eb484177b383dc397bfa37d06ef09ec39053bb50"
+    "version": "8.5.3",
+    "curseForgeHash": 1206032462,
+    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
   },
   "ApothicAttributes-1.21.1-2.9.1.jar": {
     "jarName": "ApothicAttributes-1.21.1-2.9.1.jar",
