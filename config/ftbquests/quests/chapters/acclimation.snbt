@@ -478,6 +478,14 @@
 					only_one: true
 					type: "item"
 				}
+				{
+					id: "3265A5FB97278F4B"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{

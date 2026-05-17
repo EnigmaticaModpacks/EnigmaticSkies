@@ -413,6 +413,13 @@
 		"&a    renewable source of dyes!"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
+	quest.0BB08CCD3FEDEB54.quest_desc: [
+		"Moving materials long distances can be a troublesome task, but with an &7Entangled Block&r you can treat over there as if it were over here."
+		""
+		"Sneak Right-Click an inventory with the &7Binder&r to select it, then Right-Click the &7Entangled Block&r with the wand to bind the two. "
+		""
+		"Once bound, you'll be able to pipe in and out of the &7Entangled Block&r as if it were the bound inventory. Perfect for accessing fluids or items from far away!"
+	]
 	quest.0BB6D2595F99ADB4.quest_desc: [
 		"Now that we can animate blocks and start collecting more varied Spirits, it’s time to delve into genetic manipulation."
 		""
@@ -2189,8 +2196,7 @@
 	quest.356670417C9A6BB8.title: "Foliot Crusher"
 	quest.359562022532BAE1.quest_desc: [
 		"Spirit Infusion is used to enhance items and materials, granting them greater potency. "
-		"&n                                                   &r"
-		"To begin, let’s make some Soulstained Steel. "
+		"&n                                                  &r"
 		""
 		"When viewing Spirit Altar recipes in EMI, the central item and the Spirits shown to the left should be insterted onto the Altar itself. "
 		""

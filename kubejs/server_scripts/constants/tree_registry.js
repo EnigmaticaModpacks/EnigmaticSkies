@@ -37,7 +37,9 @@ Object.keys(wood_types).forEach((mod) => {
                 stripped_log: `${mod}:stripped_${type}_log`,
                 wood: `${mod}:${type}`,
                 stripped_wood: `${mod}:stripped_${type}`,
-                bark: bark
+                bark: bark,
+                sapling: `${mod}:${type}_sapling`,
+                leaves: `${mod}:${type}_leaves`
             });
         } else if (mod == 'malum') {
             tree_registry.push({
@@ -45,7 +47,9 @@ Object.keys(wood_types).forEach((mod) => {
                 stripped_log: `${mod}:stripped_${type}_log`,
                 wood: `${mod}:${type}`,
                 stripped_wood: `${mod}:stripped_${type}`,
-                bark: bark
+                bark: bark,
+                sapling: `${mod}:${type}_sapling`,
+                leaves: `${mod}:${type}_leaves`
             });
         } else {
             tree_registry.push({
@@ -53,7 +57,9 @@ Object.keys(wood_types).forEach((mod) => {
                 stripped_log: `${mod}:stripped_${type}_log`,
                 wood: `${mod}:${type}_wood`,
                 stripped_wood: `${mod}:stripped_${type}_wood`,
-                bark: bark
+                bark: bark,
+                sapling: `${mod}:${type}_sapling`,
+                leaves: `${mod}:${type}_leaves`
             });
         }
     });

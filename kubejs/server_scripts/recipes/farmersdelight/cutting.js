@@ -41,11 +41,42 @@ ServerEvents.recipes((event) => {
             sound: { sound_id: 'minecraft:block.gravel.break' },
             tool: { tag: 'minecraft:shovels' },
             id: `${id_prefix}cardboard`
+        },
+        {
+            result: [{ item: { id: 'minecraft:dead_bush', count: 1 } }],
+            ingredients: [{ tag: 'minecraft:saplings' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}dead_bush`
+        },
+        {
+            result: [{ item: { id: 'malum:azure_runewood_sapling', count: 1 } }],
+            ingredients: [{ item: 'malum:azure_runewood_leaves' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}azure_runewood_sapling`
+        },
+        {
+            result: [{ item: { id: 'aether:golden_oak_sapling', count: 1 } }],
+            ingredients: [{ item: 'aether:golden_oak_leaves' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}golden_oak_sapling`
+        },
+        {
+            result: [{ item: { id: 'sushigocrafting:avocado_sapling', count: 1 } }],
+            ingredients: [{ item: 'sushigocrafting:avocado_leaves' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}avocado_sapling`
         }
     ];
 
     tree_registry.forEach((tree) => {
         let mod = tree.log.split(':')[0];
+
+        recipes.push({
+            result: [{ item: { id: tree.sapling, count: 1 } }],
+            ingredients: [{ item: tree.leaves }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}${getID(tree.sapling)}_from_leaves`
+        });
 
         if (mod !== 'minecraft' && mod !== 'ars_nouveau') {
             recipes.push(

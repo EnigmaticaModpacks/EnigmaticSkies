@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { tag: 'c:crops/cocoa_bean', amount: 1 }
             ],
-            fluid_inputs: [{ tag: `minecraft:milk`, amount: 250 }],
+            fluid_inputs: [{ tag: `c:milk`, amount: 250 }],
             duration: 5,
             eu: 2,
             id: `${id_prefix}chocolate`

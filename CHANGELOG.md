@@ -1,3 +1,29 @@
+### Enigmatic Skies 1.6.0
+
+NeoForge-1.21.1-21.1.228
+
+#### ⭐ Improvements
+
+- Silver grates are now pass-through for the Hearth and Create fans [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Potion Melders are now slightly easier to craft [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Saplings may now be cut out of leaves on a cutting board [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Dead Bushes may now be cut from saplings on a cutting board [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Crops with some form of crate can now be compacted in drawers [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Add a quest to call out Entangled Blocks [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Hide disabled/unused items from Cold Sweat to avoid confusion [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+
+#### 🦟 Bugs Fixed
+
+- Re-remove default Industrial Insulation recipe [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Removed confusing text in Malum quests [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+- Fix Chocolate recipe in the Mixer [(\#181)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/181)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.5.0
 
 NeoForge-1.21.1-21.1.228 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.5.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.5.0.md)

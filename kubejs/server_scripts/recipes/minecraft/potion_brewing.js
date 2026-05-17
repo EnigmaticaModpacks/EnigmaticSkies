@@ -1,6 +1,5 @@
 MoreJS.registerPotionBrewing((event) => {
-    // Documentation: https://github.com/AlmostReliable/morejs/wiki/Potion-Brewing
-
+    // Documentation: https://docs.almostreliable.com/morejs/potion-brewing.html
     const recipes = [
         {
             reagent: 'ars_nouveau:bastion_pod',
@@ -70,7 +69,10 @@ MoreJS.registerPotionBrewing((event) => {
     ];
 
     let greater_potions = [
-        { output: 'kubejs:greater_strength', input: 'minecraft:strong_strength' },
+        {
+            output: 'kubejs:greater_strength',
+            input: 'minecraft:strong_strength'
+        },
         {
             output: 'kubejs:greater_regeneration',
             input: 'minecraft:strong_regeneration'
@@ -91,7 +93,10 @@ MoreJS.registerPotionBrewing((event) => {
             output: 'kubejs:greater_recovery',
             input: 'ars_nouveau:recovery_potion_strong'
         },
-        { output: 'kubejs:greater_resistance', input: 'kubejs:strong_resistance' },
+        {
+            output: 'kubejs:greater_resistance',
+            input: 'kubejs:strong_resistance'
+        },
         {
             output: 'kubejs:greater_instant_damage',
             input: 'minecraft:strong_harming'
@@ -107,9 +112,6 @@ MoreJS.registerPotionBrewing((event) => {
     });
 
     recipes.forEach((recipe) => {
-        // console.log(
-        //     `Registering recipe for ${recipe.output}. Reagent: ${recipe.reagent}, Input Potion: ${recipe.input}`
-        // );
         event.addPotionBrewing(recipe.reagent, recipe.input, recipe.output);
     });
 });
