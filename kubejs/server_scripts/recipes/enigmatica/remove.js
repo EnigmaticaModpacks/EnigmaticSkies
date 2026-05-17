@@ -91,6 +91,8 @@ ServerEvents.recipes((event) => {
         { id: 'aether:enchanted_berry_enchanting' },
         { id: 'aether:accessory_freeze_water' },
         { id: 'aether:icestone_freeze_water' },
+        { id: 'aether:accessory_freeze_lava' },
+        { id: 'aether:icestone_freeze_lava' },
 
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
