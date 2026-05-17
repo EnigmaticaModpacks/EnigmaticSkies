@@ -804,13 +804,13 @@
     "curseForgeHash": 1171734073,
     "modrinthHash": "df830a2c4eae2cd8eaecb3445d10b86a3af0c759"
   },
-  "enderio-8.2.9-beta.jar": {
-    "jarName": "enderio-8.2.9-beta.jar",
+  "enderio-8.2.10-beta.jar": {
+    "jarName": "enderio-8.2.10-beta.jar",
     "modId": "enderio",
     "name": "Ender IO",
-    "version": "8.2.9-beta",
-    "curseForgeHash": 3967605106,
-    "modrinthHash": "67d07c7613ee885f7467fbf73ea9a38bfd435062"
+    "version": "8.2.10-beta",
+    "curseForgeHash": 3415550697,
+    "modrinthHash": "6459bb0f9bae10f3f0da66d98c2a88380413f009"
   },
   "EnderStorage-1.21.1-2.13.0.191.jar": {
     "jarName": "EnderStorage-1.21.1-2.13.0.191.jar",
