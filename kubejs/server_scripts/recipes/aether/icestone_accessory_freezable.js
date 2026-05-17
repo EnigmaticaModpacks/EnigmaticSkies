@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
                 block: 'minecraft:lava',
                 properties: { level: '0' }
             },
-            id: `${id_prefix}lava`
+            id: `${id_prefix}obsidian`
         }
     ];
 
