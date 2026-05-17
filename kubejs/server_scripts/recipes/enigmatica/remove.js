@@ -89,6 +89,8 @@ ServerEvents.recipes((event) => {
         { id: 'aether:swet_lead' },
         { id: 'aether:moa_egg_pumpkin_pie' },
         { id: 'aether:enchanted_berry_enchanting' },
+        { id: 'aether:accessory_freeze_water' },
+        { id: 'aether:icestone_freeze_water' },
 
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
@@ -238,6 +240,10 @@ ServerEvents.recipes((event) => {
         // Cold Sweat
         { output: `cold_sweat:hearth` },
         { output: `cold_sweat:smokestack` },
+        { output: `cold_sweat:soulspring_lamp` },
+        { output: `cold_sweat:thermometer` },
+        { output: `cold_sweat:boiler` },
+        { output: `cold_sweat:icebox` },
         { id: 'cold_sweat:ice_packed_to_normal' },
         { id: 'cold_sweat:ice_blue_to_packed' },
 
