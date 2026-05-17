@@ -1,3 +1,21 @@
+### Enigmatic Skies 1.7.0
+
+NeoForge-1.21.1-21.1.230
+
+#### ⭐ Improvements
+
+- Scarstone may now be crushed for strange crystals [(\#186)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/186)
+
+#### 🦟 Bugs Fixed
+
+- Icestone now only affects source blocks [(\#186)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/186)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.6.0
 
 NeoForge-1.21.1-21.1.230 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.6.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.6.0.md)

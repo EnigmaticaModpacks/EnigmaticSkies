@@ -475,6 +475,19 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'biomass'
+        },
+        {
+            input: { item: 'malum:scarstone' },
+            outputs: [
+                { id: 'naturesaura:infused_stone', count: 1 },
+                { id: 'malum:strange_crystal', count: 1, chance: 0.05 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'strange_crystal'
         }
     ];
 

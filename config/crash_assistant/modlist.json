@@ -109,13 +109,13 @@
     "curseForgeHash": 3015221479,
     "modrinthHash": "26eef3e36bd3af25e5122dec2e9b918e26270c4e"
   },
-  "Apotheosis-1.21.1-8.5.2.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.2.jar",
+  "Apotheosis-1.21.1-8.5.3.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.2",
-    "curseForgeHash": 3263674676,
-    "modrinthHash": "eb484177b383dc397bfa37d06ef09ec39053bb50"
+    "version": "8.5.3",
+    "curseForgeHash": 1206032462,
+    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
   },
   "ApothicAttributes-1.21.1-2.9.1.jar": {
     "jarName": "ApothicAttributes-1.21.1-2.9.1.jar",
@@ -1441,13 +1441,13 @@
     "curseForgeHash": 4070370691,
     "modrinthHash": "b41c4d8c02eadc09f8614c4561384b6854245ff4"
   },
-  "modernfix-neoforge-5.27.7+mc1.21.1.jar": {
-    "jarName": "modernfix-neoforge-5.27.7+mc1.21.1.jar",
+  "modernfix-neoforge-5.27.8+mc1.21.1.jar": {
+    "jarName": "modernfix-neoforge-5.27.8+mc1.21.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.7+mc1.21.1",
-    "curseForgeHash": 233728764,
-    "modrinthHash": "e6aa8b31150c9bae8eded03ba9137d66b7452252"
+    "version": "5.27.8+mc1.21.1",
+    "curseForgeHash": 3496257519,
+    "modrinthHash": "2fbce2437be5a2ac69aa093a388ca43f44245237"
   },
   "modernindustrialrouters-2.1.1.jar": {
     "jarName": "modernindustrialrouters-2.1.1.jar",
