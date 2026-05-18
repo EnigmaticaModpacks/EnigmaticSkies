@@ -4,7 +4,7 @@ LevelEvents.tick((event) => {
     const ticks_per_day = 24000;
     const max_senescence = ticks_per_day * 10;
     const execution_interval = 30 * 20;
-    const senescence_debug = true;
+    const senescence_debug = false;
 
     const dimension = String(level.getDimension());
     const execute = `execute in ${dimension} run`;
