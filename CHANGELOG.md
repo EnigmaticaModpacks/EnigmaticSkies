@@ -5,6 +5,7 @@ NeoForge-1.21.1-21.1.230
 #### ⭐ Improvements
 
 - Scarstone may now be crushed for strange crystals [(\#186)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/186)
+- Improve performance of the Animal Senescence system [(\#189)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/189)
 
 #### 🦟 Bugs Fixed
 

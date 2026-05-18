@@ -74,7 +74,7 @@ LevelEvents.tick((event) => {
 
             if (senescence > max_senescence * 0.5) {
                 if (senescence_debug) {
-                    console.log(`${entity.type} with UUID (${uuid}) is no longer in its prime!`);
+                    console.log(`${entity.type} with UUID (${uuid}) is no longer in its prime! (Age: ${senescence})`);
                 }
 
                 // Reduce Health in middle age
@@ -87,7 +87,7 @@ LevelEvents.tick((event) => {
 
             if (senescence > max_senescence * 0.8) {
                 if (senescence_debug) {
-                    console.log(`${entity.type} with UUID (${uuid}) is looking pretty haggard!`);
+                    console.log(`${entity.type} with UUID (${uuid}) is looking pretty haggard! (Age: ${senescence})`);
                 }
 
                 // Make elderly animals slow, blind, and less healthy
@@ -103,7 +103,7 @@ LevelEvents.tick((event) => {
             if (senescence > max_senescence) {
                 if (senescence_debug) {
                     console.log(
-                        `${entity.type} with UUID (${uuid}) has reached the end of it's life (Age: ${senescence}). Time to go.`
+                        `${entity.type} with UUID (${uuid}) has reached the end of it's life. Time to go. (Age: ${senescence})`
                     );
                 }
 
