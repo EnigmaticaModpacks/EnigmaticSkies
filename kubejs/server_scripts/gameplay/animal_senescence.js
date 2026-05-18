@@ -23,18 +23,18 @@ LevelEvents.tick((event) => {
 
         // Check if it matches our tag
         if (!entityData.isSenescent) {
-            if (senescence_debug) {
-                console.log(`${entity.type} with UUID (${uuid}) isn't registered yet...`);
-            }
             let hasTag = entity
                 .getEntityType()
                 .getTags()
                 .anyMatch((tag) => tag.location() == 'enigmatica:senescence');
 
-            if (senescence_debug && hasTag) {
-                console.log(`...Meets requirements!`);
-            } else {
-                console.log(`...Doesn't meet requirements!`);
+            if (senescence_debug) {
+                console.log(`${entity.type} with UUID (${uuid}) isn't registered yet...`);
+                if (hasTag) {
+                    console.log(`...Meets requirements!`);
+                } else {
+                    console.log(`...Doesn't meet requirements!`);
+                }
             }
 
             // Register it to prevent rechecking tags
@@ -43,7 +43,7 @@ LevelEvents.tick((event) => {
 
         // Mark the mob for senescence system
         if (entityData.getBoolean('isSenescent') && !entityData.getInt('senescence')) {
-            if (entity.nbt.Age == 0) {
+            if (entity.age == 0) {
                 if (senescence_debug) {
                     console.log(`${entity.type} with UUID (${uuid}) is old enough to start contributing!`);
                 }
