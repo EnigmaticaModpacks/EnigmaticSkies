@@ -14,7 +14,7 @@ LevelEvents.tick((event) => {
     }
 
     level.level.entities.forEach((entity) => {
-        if (!entity.isLiving() || entity.isPlayer()) {
+        if (!entity.isLiving() || !entity.isAnimal() || entity.isPlayer()) {
             return;
         }
 
@@ -24,13 +24,20 @@ LevelEvents.tick((event) => {
         // Check if it matches our tag
         if (!entityData.isSenescent) {
             if (senescence_debug) {
-                console.log(`${entity.type} with UUID (${uuid}) isn't registered yet, adding!`);
+                console.log(`${entity.type} with UUID (${uuid}) isn't registered yet...`);
             }
             let hasTag = entity
                 .getEntityType()
                 .getTags()
                 .anyMatch((tag) => tag.location() == 'enigmatica:senescence');
 
+            if (senescence_debug && hasTag) {
+                console.log(`...Meets requirements!`);
+            } else {
+                console.log(`...Doesn't meet requirements!`);
+            }
+
+            // Register it to prevent rechecking tags
             entityData.putBoolean('isSenescent', hasTag);
         }
 
