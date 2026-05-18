@@ -356,15 +356,28 @@ ServerEvents.recipes((event) => {
                 { id: 'create:crafting/kinetics/large_cogwheel_from_little' },
                 { id: 'create:crafting/kinetics/water_wheel' },
                 { id: 'create:crafting/kinetics/large_water_wheel' },
-                { id: 'cold_sweat:sewing_table' }
+                { id: 'cold_sweat:sewing_table' },
+                { mod: 'framedblocks' }
             ],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
         },
         {
-            filter: [{ id: 'farmersdelight:cutting_board' }, { mod: 'crafting_on_a_stick' }],
+            filter: [
+                { id: 'farmersdelight:cutting_board' },
+                { mod: 'crafting_on_a_stick' },
+                { mod: 'framedblocks' },
+                { mod: 'handcrafted' },
+                { mod: 'arts_and_crafts' },
+                { id: /^mcw.*:/ }
+            ],
             to_replace: `minecraft:stick`,
             replace_with: `#c:rods/wooden`
+        },
+        {
+            filter: [{ id: /^mcw.*:/ }, { mod: 'betterblockz' }],
+            to_replace: `minecraft:glass`,
+            replace_with: `#c:glass_blocks/colorless`
         },
         {
             filter: [{ mod: 'pneumaticcraft' }],
