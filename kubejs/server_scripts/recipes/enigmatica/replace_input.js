@@ -367,13 +367,15 @@ ServerEvents.recipes((event) => {
                 { id: 'farmersdelight:cutting_board' },
                 { mod: 'crafting_on_a_stick' },
                 { mod: 'framedblocks' },
+                { mod: 'handcrafted' },
+                { mod: 'arts_and_crafts' },
                 { id: /^mcw.*:/ }
             ],
             to_replace: `minecraft:stick`,
             replace_with: `#c:rods/wooden`
         },
         {
-            filter: [{ id: /^mcw.*:/ }],
+            filter: [{ id: /^mcw.*:/ }, { mod: 'betterblockz' }],
             to_replace: `minecraft:glass`,
             replace_with: `#c:glass_blocks/colorless`
         },
