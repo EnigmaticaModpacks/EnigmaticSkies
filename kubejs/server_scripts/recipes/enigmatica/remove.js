@@ -246,6 +246,7 @@ ServerEvents.recipes((event) => {
         { output: `cold_sweat:thermometer` },
         { output: `cold_sweat:boiler` },
         { output: `cold_sweat:icebox` },
+        { output: `cold_sweat:waterskin` },
         { id: 'cold_sweat:ice_packed_to_normal' },
         { id: 'cold_sweat:ice_blue_to_packed' },
 
