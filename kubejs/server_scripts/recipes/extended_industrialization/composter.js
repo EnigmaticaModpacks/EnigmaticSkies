@@ -130,6 +130,17 @@ ServerEvents.recipes((event) => {
             duration: 4,
             eu: 2,
             id: `${id_prefix}emerald_dust_from_sea_lantern`
+        },
+        {
+            item_outputs: [{ item: 'theurgy:fermentation_starter', amount: 32 }],
+            item_inputs: [
+                { tag: 'c:mushrooms', amount: 1 },
+                { tag: 'c:sugars', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 4,
+            eu: 2,
+            id: `${id_prefix}fermentation_starter`
         }
     ];
 
@@ -137,7 +148,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'extended_industrialization:composter';
         recipe.duration *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

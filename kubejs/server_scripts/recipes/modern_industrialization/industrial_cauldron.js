@@ -854,18 +854,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}wilden_sauce`
         },
         {
-            item_outputs: [{ item: 'theurgy:fermentation_starter', amount: 40 }],
-            item_inputs: [
-                { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
-                { tag: 'c:mushrooms', amount: 1 },
-                { tag: 'c:sugars', amount: 1 }
-            ],
-            no_batch: true,
-            duration: 2,
-            eu: 16,
-            id: `${id_prefix}fermentation_starter`
-        },
-        {
             item_outputs: [{ item: 'enigmatica:qulliq_vessel', amount: 1 }],
             item_inputs: [
                 { item: 'enigmatica:borrowed_flame', amount: 1 },
