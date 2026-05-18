@@ -51,7 +51,9 @@ LevelEvents.tick((event) => {
                 entityData.putInt('original_max_health', entity.getMaxHealth());
             } else {
                 if (senescence_debug) {
-                    console.log(`${entity.type} with UUID (${uuid}) is too young to contribute!`);
+                    console.log(
+                        `${entity.type} with UUID (${uuid}) is too young to contribute! Current Age: ${entity.age}`
+                    );
                 }
             }
         }
