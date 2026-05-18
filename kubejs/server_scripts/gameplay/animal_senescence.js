@@ -23,7 +23,9 @@ LevelEvents.tick((event) => {
 
         // Check if it matches our tag
         if (!entityData.isSenescent) {
-            if (senescence_debug) console.log(`${entity.type} with UUID (${uuid}) isn't registered yet, adding!`);
+            if (senescence_debug) {
+                console.log(`${entity.type} with UUID (${uuid}) isn't registered yet, adding!`);
+            }
             let hasTag = entity
                 .getEntityType()
                 .getTags()
@@ -62,6 +64,10 @@ LevelEvents.tick((event) => {
             let commands = [];
 
             if (senescence > max_senescence * 0.5) {
+                if (senescence_debug) {
+                    console.log(`${entity.type} with UUID (${uuid}) is no longer in its prime!`);
+                }
+
                 // Reduce Health in middle age
                 commands = commands.concat([
                     `data merge entity ${uuid} {attributes:[{id:"minecraft:generic.max_health",base:${
@@ -71,6 +77,10 @@ LevelEvents.tick((event) => {
             }
 
             if (senescence > max_senescence * 0.8) {
+                if (senescence_debug) {
+                    console.log(`${entity.type} with UUID (${uuid}) is looking pretty haggard!`);
+                }
+
                 // Make elderly animals slow, blind, and less healthy
                 commands = commands.concat([
                     `effect give ${uuid} minecraft:slowness infinite 0`,
@@ -82,13 +92,13 @@ LevelEvents.tick((event) => {
             }
 
             if (senescence > max_senescence) {
-                // Clear the loot table and ensure the creatures dies by various effects. This should convey better to the player what is happening.
                 if (senescence_debug) {
                     console.log(
                         `${entity.type} with UUID (${uuid}) has reached the end of it's life (Age: ${senescence}). Time to go.`
                     );
                 }
 
+                // Clear the loot table and ensure the creatures dies by various effects. This should convey better to the player what is happening.
                 commands = commands.concat([
                     `data merge entity ${uuid} {DeathLootTable:"minecraft:empty"}`,
                     `data merge entity ${uuid} {attributes:[{id:"minecraft:generic.max_absorption",base:0}]}`,
