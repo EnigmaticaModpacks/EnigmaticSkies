@@ -233,7 +233,7 @@ ServerEvents.recipes((event) => {
             replace_with: 'oritech:flux_gate'
         },
         {
-            filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
+            filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }, { id: /create_connected:.*copycat/ }],
             to_replace: `#c:ingots/zinc`,
             replace_with: '#c:ingots/andesite_alloy'
         },
@@ -651,6 +651,11 @@ ServerEvents.recipes((event) => {
             filter: [{}],
             to_replace: `the_bumblezone:honey_bucket`,
             replace_with: `#c:buckets/honey`
+        },
+        {
+            filter: [{ mod: 'create_connected' }],
+            to_replace: `create_connected:control_chip`,
+            replace_with: `ars_technica:calibrated_precision_mechanism`
         }
     ];
 

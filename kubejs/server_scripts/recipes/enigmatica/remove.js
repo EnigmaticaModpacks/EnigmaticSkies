@@ -290,6 +290,10 @@ ServerEvents.recipes((event) => {
 
         { id: 'trading_floor:trading_depot' },
 
+        { id: 'create_connected:sequenced_assembly/control_chip' },
+        { input: /create_connected:fan_(seeth|end|freez|wither|sand)ing_catalyst/ },
+        { input: 'create_connected:fan_enriched_catalyst' },
+
         // EnderIO
         { type: 'enderio:fire_crafting' },
         { type: 'enderio:soul_binding' },

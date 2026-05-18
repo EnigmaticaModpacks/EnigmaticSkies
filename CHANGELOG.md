@@ -13,6 +13,8 @@ NeoForge-1.21.1-21.1.230
 
 #### ✔️ Added Mods
 
+- [Create: Connected](https://www.curseforge.com/minecraft/mc-mods/create-connected) (by [Lysine](https://www.curseforge.com/members/lysine/projects))
+
 #### ❌ Removed Mods
 
 ---
