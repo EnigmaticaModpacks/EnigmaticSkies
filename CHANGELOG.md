@@ -5,12 +5,15 @@ NeoForge-1.21.1-21.1.230
 #### ⭐ Improvements
 
 - Scarstone may now be crushed for strange crystals [(\#186)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/186)
+- Improve performance of the Animal Senescence system [(\#189)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/189)
 
 #### 🦟 Bugs Fixed
 
 - Icestone now only affects source blocks [(\#186)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/186)
 
 #### ✔️ Added Mods
+
+- [Create: Connected](https://www.curseforge.com/minecraft/mc-mods/create-connected) (by [Lysine](https://www.curseforge.com/members/lysine/projects))
 
 #### ❌ Removed Mods
 

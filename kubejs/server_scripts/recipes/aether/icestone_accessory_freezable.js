@@ -21,11 +21,11 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        let types = ['aether:accessory_freezable', 'aether:icestone_freezable'];
+        let types = ['accessory_freezable', 'icestone_freezable'];
 
         types.forEach((type) => {
-            recipe.type = type;
-            event.custom(recipe).id(recipe.id);
+            recipe.type = `aether:${type}`;
+            event.custom(recipe).id(`${type}_${recipe.id}`);
         });
     });
 });
