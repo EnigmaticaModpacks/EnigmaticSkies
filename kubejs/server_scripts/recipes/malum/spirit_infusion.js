@@ -45,14 +45,8 @@ ServerEvents.recipes((event) => {
                 items: 'naturesaura:aura_bottle',
                 components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:overworld' } }
             },
-            extraInputs: [
-                { tag: 'c:essences/conjuration', count: 1 },
-                { tag: 'c:essences/manipulation', count: 1 }
-            ],
-            spirits: [
-                { type: 'malum:arcane', count: 2 },
-                { type: 'malum:sacred', count: 2 }
-            ],
+            extraInputs: [{ tag: 'c:essences/conjuration', count: 1 }],
+            spirits: [{ type: 'malum:sacred', count: 4 }],
             id: `${id_prefix}birth_spirit`
         },
         {
@@ -62,10 +56,7 @@ ServerEvents.recipes((event) => {
                 items: 'naturesaura:aura_bottle',
                 components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:nether' } }
             },
-            extraInputs: [
-                { tag: 'c:essences/conjuration', count: 1 },
-                { tag: 'c:essences/manipulation', count: 1 }
-            ],
+            extraInputs: [{ tag: 'c:essences/conjuration', count: 1 }],
             spirits: [
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:wicked', count: 2 }
