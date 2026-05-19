@@ -1245,5 +1245,33 @@
 			x: -2.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["5550423B6E6BDBAF"]
+			icon: {
+				id: "aether:holystone"
+			}
+			id: "1A9CC0DF3D43189C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04084DA1CB03A3F6"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7D1901FFFCD104DF"
+					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+					type: "item"
+				}
+				{
+					id: "32E54A7A766FC29C"
+					item: { count: 1, id: "aether:holystone" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.5d
+		}
 	]
 }
