@@ -125,6 +125,33 @@ ServerEvents.recipes((event) => {
                 ])
             },
             id: `${id_prefix}slime_block`
+        },
+        {
+            output: 'minecraft:chain',
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: '#c:nuggets/iron',
+                B: '#c:ingots/andesite_alloy'
+            },
+            id: `${id_prefix}chain_from_andesite_alloy`
+        },
+        {
+            output: '2x minecraft:chain',
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: '#c:nuggets/iron',
+                B: '#c:ingots/iron'
+            },
+            id: `${id_prefix}chain_from_iron`
+        },
+        {
+            output: '4x minecraft:chain',
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: '#c:nuggets/iron',
+                B: '#c:ingots/steel'
+            },
+            id: `${id_prefix}chain_from_steel`
         }
     ];
 

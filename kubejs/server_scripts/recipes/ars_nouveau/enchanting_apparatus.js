@@ -763,6 +763,24 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    let elements = ['air', 'fire', 'earth', 'water'];
+
+    elements.forEach((element) => {
+        recipes.push({
+            result: { id: `ars_elemental:${element}_turret`, count: 1 },
+            reagent: { item: `ars_nouveau:spell_turret` },
+            pedestalItems: [
+                { tag: `c:essences/${element}` },
+                { tag: `c:essences/${element}` },
+                { item: `ars_technica:calibrated_precision_mechanism` },
+                { tag: `c:essences/${element}` }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}${element}_turret`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:enchanting_apparatus';
         event.custom(recipe).id(recipe.id);

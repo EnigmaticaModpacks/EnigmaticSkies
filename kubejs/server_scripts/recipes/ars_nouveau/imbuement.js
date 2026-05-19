@@ -177,6 +177,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}piercing_prism_lens`
         }
     ];
+
     const essences = [
         {
             output: 'ars_nouveau:air_essence',

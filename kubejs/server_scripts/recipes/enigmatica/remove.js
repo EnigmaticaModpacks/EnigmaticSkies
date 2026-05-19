@@ -210,6 +210,10 @@ ServerEvents.recipes((event) => {
         { id: 'ars_elemental:wool_to_string' },
         { id: 'ars_elemental:flashing_sapling' },
         { id: 'ars_elemental:everfull_urn' },
+        { id: 'ars_elemental:fire_turret' },
+        { id: 'ars_elemental:air_turret' },
+        { id: 'ars_elemental:earth_turret' },
+        { id: 'ars_elemental:water_turret' },
 
         { id: /ars_caelum:ritual_conjure_island_(vexing|geode|sculk|village|end_portal)/ },
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing)/ },
@@ -599,6 +603,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:wind_charge' },
         { id: 'minecraft:turtle_egg' },
         { id: 'minecraft:observer' },
+        { id: 'minecraft:chain' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
