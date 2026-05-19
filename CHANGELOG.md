@@ -9,6 +9,8 @@ NeoForge-1.21.1-21.1.230
 - Various decorative mods now accept stick, plank and/or glass tags where appropriate [(\#192)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/192)
 - Fermentation Starter moved from the Industrial Cauldron to the Composter [(\#193)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/193)
 - Tuff may now be crushed to Gravel [(\#193)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/193)
+- Imbued Turrets are now accessible earlier [(\#195)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/195)
+- Chains are now a little cheaper to support Create logistics [(\#195)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/195)
 
 #### 🦟 Bugs Fixed
 
