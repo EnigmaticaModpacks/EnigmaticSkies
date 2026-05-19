@@ -1108,6 +1108,12 @@
 		"&6    step must be specified separately."
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
+	quest.1A9CC0DF3D43189C.quest_desc: [
+		"Each of these islands convert their respective areas to their own biome type when summoned, enabling new block conversions and opening up new resources. "
+		""
+		"To reset an area to the Void biome type, however, simply Right-Click &7Holystone&r with a &7Conjuration Essence&r to convert a &n21x11x21&r area to this biome!"
+	]
+	quest.1A9CC0DF3D43189C.title: "Biome Conversion"
 	quest.1AB4455F15DF1F84.quest_desc: [
 		"The &7Natural Altar&r is the primary Aura consuming device you'll be using."
 		""

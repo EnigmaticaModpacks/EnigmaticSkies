@@ -11,6 +11,8 @@ NeoForge-1.21.1-21.1.230
 - Tuff may now be crushed to Gravel [(\#193)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/193)
 - Imbued Turrets are now accessible earlier [(\#195)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/195)
 - Chains are now a little cheaper to support Create logistics [(\#195)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/195)
+- Spirits of Birthing are now a little cheaper [(\#199)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/199)
+- It's now possible to revert an area to Void biome [(\#199)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/199)
 
 #### 🦟 Bugs Fixed
 
