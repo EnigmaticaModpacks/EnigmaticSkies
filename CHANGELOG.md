@@ -8,6 +8,7 @@ NeoForge-1.21.1-21.1.230
 - Improve performance of the Animal Senescence system [(\#189)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/189)
 - Various decorative mods now accept stick, plank and/or glass tags where appropriate [(\#192)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/192)
 - Fermentation Starter moved from the Industrial Cauldron to the Composter [(\#193)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/193)
+- Tuff may now be crushed to Gravel [(\#193)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/193)
 
 #### 🦟 Bugs Fixed
 

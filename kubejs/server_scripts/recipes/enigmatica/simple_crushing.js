@@ -338,6 +338,16 @@ ServerEvents.recipes((event) => {
             id_suffix: 'gravel_from_cobblestones'
         },
         {
+            input: { item: 'minecraft:tuff' },
+            outputs: [{ id: 'minecraft:gravel', count: 1 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'gravel_from_tuff'
+        },
+        {
             input: { item: 'aether:icestone' },
             outputs: [{ id: 'minecraft:gravel', count: 1 }],
             multiply: 'none',
