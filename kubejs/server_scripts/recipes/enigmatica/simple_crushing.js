@@ -458,8 +458,22 @@ ServerEvents.recipes((event) => {
             fe: 2400,
             eu: 2,
             duration: 5,
-            id_suffix: 'rice_panicle'
+            id_suffix: 'rice_from_rice_panicle'
         },
+        {
+            input: { item: 'farmersdelight:rice_bale' },
+            outputs: [
+                { id: 'farmersdelight:rice', count: 9 },
+                { id: 'farmersdelight:straw', count: 9 }
+            ],
+            multiply: 'none',
+            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization', 'enderio'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'rice_from_rice_bale'
+        },
+
         {
             input: { item: 'minecraft:wheat' },
             outputs: [
@@ -467,24 +481,51 @@ ServerEvents.recipes((event) => {
                 { id: 'pneumaticcraft:wheat_flour', count: 1, chance: 0.5 }
             ],
             multiply: 'chance_only',
-            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization'],
+            exclusions: ['modern_industrialization'],
             fe: 2400,
             eu: 2,
             duration: 5,
-            id_suffix: 'wheat_flour'
+            id_suffix: 'wheat_flour_from_wheat'
         },
+        {
+            input: { item: 'minecraft:hay_block' },
+            outputs: [
+                { id: 'pneumaticcraft:wheat_flour', count: 9 },
+                { id: 'pneumaticcraft:wheat_flour', count: 9, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization', 'enderio'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wheat_flour_from_hay_block'
+        },
+
         {
             input: { item: 'supplementaries:flax' },
             outputs: [
                 { id: 'minecraft:string', count: 1 },
-                { id: 'minecraft:string', count: 2, chance: 0.25 }
+                { id: 'minecraft:string', count: 1, chance: 0.5 }
             ],
             multiply: 'chance_only',
-            exclusions: ['create:milling', 'create:crushing'],
+            exclusions: [],
             fe: 2400,
             eu: 2,
             duration: 5,
             id_suffix: 'string_from_flax'
+        },
+        {
+            input: { item: 'supplementaries:flax_block' },
+            outputs: [
+                { id: 'minecraft:string', count: 9 },
+                { id: 'minecraft:string', count: 9, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization', 'enderio'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'string_from_flax_block'
         },
         {
             input: { tag: 'create:pulpifiable' },

@@ -272,6 +272,8 @@ ServerEvents.recipes((event) => {
         { id: 'create:crushing/netherrack' },
         { id: 'create:mixing/compat/ae2/fluix_crystal' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle|terracotta)/ },
+        { id: 'create:milling/wheat' },
+        { id: 'create:milling/compat/supplementaries/flax' },
         { id: 'create:crafting/kinetics/large_cogwheel' },
         { id: 'create:crafting/kinetics/propeller' },
         { id: 'create:crafting/kinetics/whisk' },

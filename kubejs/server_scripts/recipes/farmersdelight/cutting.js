@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
         {
             result: [
                 { item: { id: 'pneumaticcraft:wheat_flour', count: 1 } },
-                { item: { id: 'pneumaticcraft:wheat_flour', count: 1 }, chance: 0.25 }
+                { item: { id: 'pneumaticcraft:wheat_flour', count: 1 }, chance: 0.5 }
             ],
             ingredients: [{ item: 'minecraft:wheat' }],
             sound: { sound_id: 'minecraft:block.gravel.break' },
@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
         {
             result: [
                 { item: { id: 'minecraft:string', count: 1 } },
-                { item: { id: 'minecraft:string', count: 1 }, chance: 0.25 }
+                { item: { id: 'minecraft:string', count: 1 }, chance: 0.5 }
             ],
             ingredients: [{ item: 'supplementaries:flax' }],
             sound: { sound_id: 'minecraft:block.gravel.break' },

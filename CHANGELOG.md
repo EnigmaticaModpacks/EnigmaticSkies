@@ -4,7 +4,7 @@ NeoForge-1.21.1-21.1.230
 
 #### ⭐ Improvements
 
-- Flax is now crushable with more machines [(\#205)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/205)
+- Flax is now crushable with more machines [(\#207)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/207)
 
 #### 🦟 Bugs Fixed
 
