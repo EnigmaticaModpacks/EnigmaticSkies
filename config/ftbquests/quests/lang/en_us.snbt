@@ -888,7 +888,7 @@
 		"Up this far, it is &overy efficient&r."
 		"&n                                                              &r"
 		""
-		"[\"An example of the structure required for this compressor can be found on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/schematic/f0d838f5-6460-4f3d-aaf0-ab6590df20e5\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints.io\",\"underlined\":true},\". Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the menu!\"]"
+		"[\"An example of the structure required for this compressor can be found on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/schematic/f0d838f5-6460-4f3d-aaf0-ab6590df20e5\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints.io\",\"underlined\":true},\". Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"translate\":\"key.blockprints.open_menu\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the menu!\"]"
 		""
 		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover "
 		"&a    valid blocks for an Electrostatic Grid."
