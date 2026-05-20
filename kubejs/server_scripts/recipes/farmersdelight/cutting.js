@@ -29,6 +29,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}wheat_flour`
         },
         {
+            result: [
+                { item: { id: 'minecraft:string', count: 1 } },
+                { item: { id: 'minecraft:string', count: 1 }, chance: 0.25 }
+            ],
+            ingredients: [{ item: 'supplementaries:flax' }],
+            sound: { sound_id: 'minecraft:block.gravel.break' },
+            tool: { tag: 'minecraft:shovels' },
+            id: `${id_prefix}string_from_flax`
+        },
+        {
             result: [{ item: { id: 'ae2:charged_certus_quartz_crystal', count: 1 } }],
             ingredients: [{ item: 'ae2:certus_quartz_crystal' }],
             sound: { sound_id: 'minecraft:block.wool.break' },

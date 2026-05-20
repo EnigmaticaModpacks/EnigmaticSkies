@@ -21,11 +21,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}snow_block`
         },
         {
-            output: [{ stack: { id: 'minecraft:packed_mud', count: 1 }, chance: 1.0, maxRange: 1 }],
-            input: { item: 'minecraft:mud' },
-            id: `${id_prefix}packed_mud`
-        },
-        {
             output: [
                 { stack: { id: 'aether:ambrosium_shard', count: 1 }, chance: 0.5, maxRange: 3 },
                 { stack: { id: 'enigmatica:andesite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
