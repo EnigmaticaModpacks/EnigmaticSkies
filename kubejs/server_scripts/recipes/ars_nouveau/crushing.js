@@ -3,14 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: [
-                { stack: { id: 'create:wheat_flour', count: 2 }, chance: 1.0, maxRange: 1 },
-                { stack: { id: 'create:wheat_flour', count: 1 }, chance: 0.5, maxRange: 1 }
-            ],
-            input: { item: 'minecraft:wheat' },
-            id: `${id_prefix}wheat_flour_from_wheat`
-        },
-        {
             output: [{ stack: { id: 'minecraft:black_dye', count: 2 }, chance: 1.0, maxRange: 1 }],
             input: { item: 'minecraft:ink_sac' },
             id: `${id_prefix}black_dye`
