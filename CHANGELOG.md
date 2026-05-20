@@ -4,6 +4,8 @@ NeoForge-1.21.1-21.1.230
 
 #### ⭐ Improvements
 
+- Flax is now crushable with more machines [(\#205)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/205)
+
 #### 🦟 Bugs Fixed
 
 - Fixed incorrect translation key in electrostatic quest [(\#204)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/204)

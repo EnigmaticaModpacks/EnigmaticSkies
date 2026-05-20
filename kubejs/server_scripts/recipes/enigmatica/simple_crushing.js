@@ -474,6 +474,19 @@ ServerEvents.recipes((event) => {
             id_suffix: 'wheat_flour'
         },
         {
+            input: { item: 'supplementaries:flax' },
+            outputs: [
+                { id: 'minecraft:string', count: 1 },
+                { id: 'minecraft:string', count: 2, chance: 0.25 }
+            ],
+            multiply: 'chance_only',
+            exclusions: ['create:milling', 'create:crushing'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'string_from_flax'
+        },
+        {
             input: { tag: 'create:pulpifiable' },
             outputs: [
                 { id: 'oritech:biomass', count: 2 },
