@@ -6,7 +6,7 @@ NeoForge-1.21.1-21.1.230 |
 
 - Bales may now be crushed directly with Ars Nouveau [(\#208)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/208)
 - Ars Nouveau's storage lectern default scroll direction changed. Only impacts new installs. [(\#212)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/212)
-- Transfer labels are now cheaper [(\#212)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/212)
+- Transfer labels are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 
 #### 🦟 Bugs Fixed
 
