@@ -8,6 +8,8 @@ NeoForge-1.21.1-21.1.230 |
 
 #### 🦟 Bugs Fixed
 
+- Karkis are no longer allowed in Create seats since it breaks them [(\#208)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/208)
+
 #### ✔️ Added Mods
 
 #### ❌ Removed Mods
