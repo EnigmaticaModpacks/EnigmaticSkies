@@ -3,8 +3,8 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'sophisticatedstorage:upgrade_base',
-            pattern: ['CAC', 'ABA', 'CAC'],
+            output: '4x sophisticatedstorage:upgrade_base',
+            pattern: ['BAB', 'ACA', 'BAB'],
             key: {
                 A: '#enigmatica:planks',
                 B: 'prettypipes:blank_module',
