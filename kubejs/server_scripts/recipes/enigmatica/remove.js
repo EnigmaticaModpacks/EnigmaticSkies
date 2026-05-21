@@ -1306,6 +1306,9 @@ ServerEvents.recipes((event) => {
         { id: 'toolbelt:pouch' },
         { id: 'toolbelt:belt' },
 
+        // Transfer Labels
+        { id: /transfer_labels:.*_transfer_label$/ },
+
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },
         { output: /soliciting_carpet/ },
