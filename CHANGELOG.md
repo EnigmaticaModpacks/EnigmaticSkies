@@ -11,6 +11,7 @@ NeoForge-1.21.1-21.1.230 |
 #### 🦟 Bugs Fixed
 
 - Karkis are no longer allowed in Create seats since it breaks them [(\#209)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/209)
+- Fixed formatting on Shooting Mark's info pane [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 
 #### ✔️ Added Mods
 
