@@ -58,12 +58,12 @@ MIMachineEvents.registerMachines((event) => {
         mbShape,
         /* RECIPE VIEWER DISPLAY CONFIGURATION */
         // Recipe Viewer progress bar
-        event.progressBar(65, 33, 'arrow'),
+        event.progressBar(65, 33, 'extract'),
         // Recipe Viewer item inputs, item outputs, fluid inputs, fluid outputs
-        (itemInputs) => itemInputs.addSlot(42, 27),
+        (itemInputs) => itemInputs.addSlots(41, 27, 1, 2),
         (itemOutputs) => itemOutputs.addSlots(93, 27, 2, 2),
-        (fluidInputs) => fluidInputs.addSlot(42, 45),
-        (fluidOutputs) => fluidOutputs.addSlot(131, 27),
+        (fluidInputs) => fluidInputs.addSlots(21, 27, 1, 2),
+        (fluidOutputs) => fluidOutputs.addSlots(131, 27, 1, 2),
         /* MODEL CONFIGUATION */
         // casing of the controller, overlay folder, front overlay?, top overlay?, side overlay?
         'heatproof_machine_casing',

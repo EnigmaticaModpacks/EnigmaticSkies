@@ -211,7 +211,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}superconductor_cable`
         },
         {
-            results: [{ id: 'pneumaticcraft:transistor', count: 1 }],
+            results: [{ id: 'pneumaticcraft:transistor', count: 3 }],
             inputs: [
                 { item: 'modern_industrialization:conductive_cable', count: 3 },
                 { tag: 'c:nuggets/redstone_alloy', count: 3 },
@@ -221,7 +221,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}transistor`
         },
         {
-            results: [{ id: 'enderio:basic_capacitor', count: 1 }],
+            results: [{ id: 'enderio:basic_capacitor', count: 2 }],
             inputs: [
                 { item: 'modern_industrialization:conductive_cable', count: 2 },
                 { tag: 'c:dusts/grains_of_infinity', count: 3 },
