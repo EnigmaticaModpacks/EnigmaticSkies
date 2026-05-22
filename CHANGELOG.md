@@ -19,6 +19,9 @@ NeoForge-1.21.1-21.1.230 |
 
 #### ✔️ Added Mods
 
+- [Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco) (by [talrey](https://www.curseforge.com/members/talrey/projects))
+- [Sign Plates: Letters & Symbols](https://www.curseforge.com/minecraft/mc-mods/sign-plates-letters-symbols) (by [MacatMovie](https://www.curseforge.com/members/macatmovie/projects))
+
 #### ❌ Removed Mods
 
 ---

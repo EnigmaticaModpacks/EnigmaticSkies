@@ -692,6 +692,14 @@
     "curseForgeHash": 1763179859,
     "modrinthHash": "adbd8f617928af37b286cadf7b45707e2498f25a"
   },
+  "createdeco-2.1.3.jar": {
+    "jarName": "createdeco-2.1.3.jar",
+    "modId": "createdeco",
+    "name": "Create Deco",
+    "version": "2.1.3",
+    "curseForgeHash": 2186625105,
+    "modrinthHash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
+  },
   "createfiltersanywhere-1.21.1-2.5.0.jar": {
     "jarName": "createfiltersanywhere-1.21.1-2.5.0.jar",
     "modId": "createfiltersanywhere",
@@ -1800,6 +1808,14 @@
     "version": "2.0.1.47",
     "curseForgeHash": 1087700708,
     "modrinthHash": "17407b525c0c70a0f6f03a08024a14058f645d01"
+  },
+  "SignPlates-NeoForge-1.21.1-1.1.1.jar": {
+    "jarName": "SignPlates-NeoForge-1.21.1-1.1.1.jar",
+    "modId": "sign_plates",
+    "name": "Sign Plates",
+    "version": "1.1.1",
+    "curseForgeHash": 3508326084,
+    "modrinthHash": "0a847e6bc65761f2f7700305ab4da9e549b7f459"
   },
   "simplemagnets-1.1.12c-neoforge-mc1.21.jar": {
     "jarName": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
