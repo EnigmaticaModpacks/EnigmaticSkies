@@ -5,10 +5,14 @@ NeoForge-1.21.1-21.1.230 |
 #### ⭐ Improvements
 
 - Bales may now be crushed directly with Ars Nouveau [(\#208)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/208)
+- Ars Nouveau's storage lectern default scroll direction changed. Only impacts new installs. [(\#212)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/212)
+- Transfer labels are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
+- Sophisticated Upgrade Bases are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 
 #### 🦟 Bugs Fixed
 
 - Karkis are no longer allowed in Create seats since it breaks them [(\#209)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/209)
+- Fixed formatting on Shooting Mark's info pane [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 
 #### ✔️ Added Mods
 

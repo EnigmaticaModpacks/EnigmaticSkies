@@ -3,8 +3,8 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'sophisticatedbackpacks:upgrade_base',
-            pattern: ['CAC', 'ABA', 'CAC'],
+            output: '4x sophisticatedbackpacks:upgrade_base',
+            pattern: ['BAB', 'ACA', 'BAB'],
             key: {
                 A: '#c:leathers',
                 B: 'prettypipes:blank_module',
@@ -16,7 +16,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });
