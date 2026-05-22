@@ -8,9 +8,9 @@ NeoForge-1.21.1-21.1.230 |
 - Ars Nouveau's storage lectern default scroll direction changed. Only impacts new installs. [(\#212)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/212)
 - Transfer labels are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 - Sophisticated Upgrade Bases are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
-- AE2 Processors are now somewhat cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
-- Elemental Matrixes can now be used to dupe Skeletal Contractors and Zombie Electrodes [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
-- Transistors and Capacitors are now slightly cheaper to craft [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
+- AE2 Processors are now somewhat cheaper [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Elemental Matrixes can now be used to dupe Skeletal Contractors and Zombie Electrodes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Transistors and Capacitors are now slightly cheaper to craft [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 
 #### 🦟 Bugs Fixed
 
