@@ -11,6 +11,8 @@ NeoForge-1.21.1-21.1.230 |
 - AE2 Processors are now somewhat cheaper [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 - Elemental Matrixes can now be used to dupe Skeletal Contractors and Zombie Electrodes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 - Transistors and Capacitors are now slightly cheaper to craft [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Zinc is now craftable to support Create Deco recipes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Bowls can now by made from Skyroot Planks [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 
 #### 🦟 Bugs Fixed
 
