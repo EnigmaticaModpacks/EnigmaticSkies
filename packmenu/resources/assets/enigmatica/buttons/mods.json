@@ -1,29 +1,25 @@
 {
-    "x": 20,
-    "y": 210,
-    "width": 170,
+    "x": 170,
+    "y": 115,
+    "width": 22,
     "height": 20,
-    "icon": {
-        "texture": "enigmatica:icon/mods",
-        "width": 170,
-        "height": 20
-    },
     "action": {
         "type": "packmenu:open_screen",
         "screen": "mods"
     },
+    "icon": {
+        "texture": "enigmatica:icon/mods",
+        "width": 22,
+        "height": 20
+    },
+    "hover_icon": {
+        "texture": "enigmatica:icon/mods_hover",
+        "width": 22,
+        "height": 20
+    },
     "anchor": "top_left",
-    "text": {
-        "key": "packmenu.enigmatica.mods",
-        "x_offset": 11
-    },
-    "hover_text": {
-        "key": "packmenu.enigmatica.mods",
-        "y_offset": 1,
-        "x_offset": 11
-    },
     "sprites": {
-        "enabled": "enigmatica:widget/button_normal",
-        "enabled_focused": "enigmatica:widget/button_hover"
+        "enabled": "enigmatica:widget/small_button_normal",
+        "enabled_focused": "enigmatica:widget/small_button_hover"
     }
 }
