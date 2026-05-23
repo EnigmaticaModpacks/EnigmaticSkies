@@ -1,29 +1,25 @@
 {
-    "x": 20,
-    "y": 235,
-    "width": 170,
+    "x": 70,
+    "y": 115,
+    "width": 22,
     "height": 20,
-    "icon": {
-        "texture": "enigmatica:icon/bug",
-        "width": 170,
-        "height": 20
-    },
     "action": {
         "type": "packmenu:open_url",
         "url": "https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues"
     },
+    "icon": {
+        "texture": "enigmatica:icon/bug",
+        "width": 22,
+        "height": 20
+    },
+    "hover_icon": {
+        "texture": "enigmatica:icon/bug_hover",
+        "width": 22,
+        "height": 20
+    },
     "anchor": "top_left",
-    "text": {
-        "key": "packmenu.enigmatica.github",
-        "x_offset": 11
-    },
-    "hover_text": {
-        "key": "packmenu.enigmatica.github",
-        "y_offset": 1,
-        "x_offset": 11
-    },
     "sprites": {
-        "enabled": "enigmatica:widget/button_normal",
-        "enabled_focused": "enigmatica:widget/button_hover"
+        "enabled": "enigmatica:widget/small_button_normal",
+        "enabled_focused": "enigmatica:widget/small_button_hover"
     }
 }
