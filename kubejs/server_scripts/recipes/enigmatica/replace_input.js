@@ -233,7 +233,7 @@ ServerEvents.recipes((event) => {
             replace_with: 'oritech:flux_gate'
         },
         {
-            filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }, { id: /create_connected:.*copycat/ }],
+            filter: [{ id: 'create:rose_quartz_lamp' }],
             to_replace: `#c:ingots/zinc`,
             replace_with: '#c:ingots/andesite_alloy'
         },
@@ -357,6 +357,7 @@ ServerEvents.recipes((event) => {
                 { id: 'create:crafting/kinetics/water_wheel' },
                 { id: 'create:crafting/kinetics/large_water_wheel' },
                 { id: 'cold_sweat:sewing_table' },
+                { id: 'minecraft:bowl' },
                 { mod: 'framedblocks' }
             ],
             to_replace: `#minecraft:planks`,

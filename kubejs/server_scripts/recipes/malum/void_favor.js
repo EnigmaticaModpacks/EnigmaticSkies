@@ -89,6 +89,11 @@ ServerEvents.recipes((event) => {
             result: { id: 'occultism:otherworld_sapling' },
             input: { item: 'malum:soulwood_sapling' },
             id: `${id_prefix}otherworld_sapling`
+        },
+        {
+            result: { id: 'create:zinc_block' },
+            input: { tag: 'c:ingots/ferricore' },
+            id: `${id_prefix}zinc_block`
         }
     ];
 

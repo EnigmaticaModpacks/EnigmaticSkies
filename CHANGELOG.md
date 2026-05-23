@@ -8,6 +8,11 @@ NeoForge-1.21.1-21.1.230 |
 - Ars Nouveau's storage lectern default scroll direction changed. Only impacts new installs. [(\#212)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/212)
 - Transfer labels are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 - Sophisticated Upgrade Bases are now cheaper [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
+- AE2 Processors are now somewhat cheaper [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Elemental Matrixes can now be used to dupe Skeletal Contractors and Zombie Electrodes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Transistors and Capacitors are now slightly cheaper to craft [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Zinc is now craftable to support Create Deco recipes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Bowls can now by made from Skyroot Planks [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 
 #### 🦟 Bugs Fixed
 
@@ -15,6 +20,9 @@ NeoForge-1.21.1-21.1.230 |
 - Fixed formatting on Shooting Mark's info pane [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 
 #### ✔️ Added Mods
+
+- [Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco) (by [talrey](https://www.curseforge.com/members/talrey/projects))
+- [Sign Plates: Letters & Symbols](https://www.curseforge.com/minecraft/mc-mods/sign-plates-letters-symbols) (by [MacatMovie](https://www.curseforge.com/members/macatmovie/projects))
 
 #### ❌ Removed Mods
 

@@ -51,22 +51,22 @@ ServerEvents.recipes((event) => {
         // Replicatable Components
         {
             input: { item: 'ae2:logic_processor' },
-            matter_types: { fire: 16, air: 8, earth: 8 },
+            matter_types: { fire: 8, air: 4, earth: 4 },
             id: `${id_prefix}logic_processor`
         },
         {
             input: { item: 'ae2:calculation_processor' },
-            matter_types: { water: 16, air: 8, earth: 8 },
+            matter_types: { water: 8, air: 4, earth: 4 },
             id: `${id_prefix}calculation_processor`
         },
         {
             input: { item: 'ae2:engineering_processor' },
-            matter_types: { earth: 16, water: 8, fire: 8 },
+            matter_types: { earth: 8, water: 4, fire: 4 },
             id: `${id_prefix}engineering_processor`
         },
         {
             input: { item: 'modern_industrialization:quantum_circuit' },
-            matter_types: { air: 16, water: 8, fire: 8 },
+            matter_types: { air: 8, water: 4, fire: 4 },
             id: `${id_prefix}quantum_circuit`
         },
         {

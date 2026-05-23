@@ -28,6 +28,30 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}coffee_cup`
         },
         {
+            item_outputs: [{ item: 'enderio:skeletal_contractor', amount: 4 }],
+            item_inputs: [
+                { item: 'enderio:skeletal_contractor', amount: 1, probability: 0 },
+                { item: 'enigmatica:elemental_matrix', amount: 1 }
+            ],
+            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 100 },
+            starbuncle: true,
+            duration: 10,
+            eu: 64,
+            id: `${id_prefix}skeletal_contractor`
+        },
+        {
+            item_outputs: [{ item: 'enderio:zombie_electrode', amount: 2 }],
+            item_inputs: [
+                { item: 'enderio:zombie_electrode', amount: 1, probability: 0 },
+                { item: 'enigmatica:elemental_matrix', amount: 1 }
+            ],
+            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 100 },
+            starbuncle: true,
+            duration: 10,
+            eu: 64,
+            id: `${id_prefix}zombie_electrode`
+        },
+        {
             item_outputs: [
                 { item: 'theurgy:crystallized_water', amount: 6 },
                 { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 3 }
