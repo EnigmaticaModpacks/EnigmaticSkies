@@ -1349,7 +1349,7 @@
 	]
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
 	quest.1DB63D0AAD1F0E11.quest_desc: [
-		"Made from &7Crushed Basalt&r, &7Volcanic Dorodangos&r may be processed down into new materials!"
+		"Made from &7Smooth Basalt&r, &7Volcanic Dorodangos&r may be processed down into new materials!"
 		""
 		"                   &n&6Materials&r"
 		""
@@ -6048,7 +6048,7 @@
 	task.3B0B23FDA1D77572.title: "d"
 	task.3B6A2E42A7F4D6C2.title: "Tools of the Trade"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
-	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3C9F8F7D407AC253.title: "Puller Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D17C42035FE93C1.title: "Fluid Transfer Labels"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
@@ -6077,7 +6077,7 @@
 	task.4775BC243353527B.title: "Any Mining Gadget"
 	task.47D22C2E34E9A099.title: "Sourcelinks"
 	task.47FABFA3F238464E.title: "Sawmill"
-	task.484FF1BEA9145D5F.title: "Puller Modules"
+	task.484FF1BEA9145D5F.title: "Sender Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
 	task.4927D2345C71AAA4.title: "Fluid Storage"
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
