@@ -12,13 +12,15 @@ NeoForge-1.21.1-21.1.230 |
 - Elemental Matrixes can now be used to dupe Skeletal Contractors and Zombie Electrodes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 - Transistors and Capacitors are now slightly cheaper to craft [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 - Zinc is now craftable to support Create Deco recipes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
-- Bowls can now by made from Skyroot Planks [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
+- Stabilized Warp Index is now craftable earlier [(\#221)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/221)
+- A new ritual has been added to summon squid for ink sacs and other goodies [(\#221)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/221)
 
 #### 🦟 Bugs Fixed
 
 - Karkis are no longer allowed in Create seats since it breaks them [(\#209)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/209)
 - Fixed formatting on Shooting Mark's info pane [(\#213)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/213)
 - Fix some small quest typos [(\#219)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/219)
+- Many recipe conflicts have been resolved [(\#221)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/221)
 
 #### ✔️ Added Mods
 

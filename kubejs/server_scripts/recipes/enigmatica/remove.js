@@ -187,6 +187,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:archmage_book_upgrade' },
 
         { id: 'ars_additions:apparatus/source_spawner' },
+        { id: 'ars_additions:apparatus/stabilized_warp_index' },
 
         { id: 'ars_controle:scryers_linkage' },
         { id: 'ars_controle:remote' },
