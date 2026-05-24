@@ -14,7 +14,7 @@ NeoForge-1.21.1-21.1.230 |
 - Zinc is now craftable to support Create Deco recipes [(\#214)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/214)
 - Stabilized Warp Index is now craftable earlier [(\#221)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/221)
 - A new ritual has been added to summon squid for ink sacs and other goodies [(\#221)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/221)
-- Select Sophisticated upgrades now use Blank Modules to be more on par with Functional Storage [(\#221)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/221)
+- Select Sophisticated upgrades now use Blank Modules to be more on par with Functional Storage [(\#222)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/222)
 
 #### 🦟 Bugs Fixed
 
