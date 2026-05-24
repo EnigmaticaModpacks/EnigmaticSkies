@@ -1457,13 +1457,13 @@
     "curseForgeHash": 4070370691,
     "modrinthHash": "b41c4d8c02eadc09f8614c4561384b6854245ff4"
   },
-  "modernfix-neoforge-5.27.8+mc1.21.1.jar": {
-    "jarName": "modernfix-neoforge-5.27.8+mc1.21.1.jar",
+  "modernfix-neoforge-5.27.9+mc1.21.1.jar": {
+    "jarName": "modernfix-neoforge-5.27.9+mc1.21.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.8+mc1.21.1",
-    "curseForgeHash": 3496257519,
-    "modrinthHash": "2fbce2437be5a2ac69aa093a388ca43f44245237"
+    "version": "5.27.9+mc1.21.1",
+    "curseForgeHash": 1767091025,
+    "modrinthHash": "9e54f2cc44d57b32bb4dc9e5a5ad976ff6cb44bb"
   },
   "modernindustrialrouters-2.1.1.jar": {
     "jarName": "modernindustrialrouters-2.1.1.jar",
@@ -1697,13 +1697,13 @@
     "curseForgeHash": 1056016325,
     "modrinthHash": "9b1886d39303cd7f295f743687318c0a28b5778c"
   },
-  "PuzzlesLib-v21.1.44-1.21.1-NeoForge.jar": {
-    "jarName": "PuzzlesLib-v21.1.44-1.21.1-NeoForge.jar",
+  "PuzzlesLib-v21.1.46-1.21.1-NeoForge.jar": {
+    "jarName": "PuzzlesLib-v21.1.46-1.21.1-NeoForge.jar",
     "modId": "puzzleslib",
     "name": "Puzzles Lib",
-    "version": "21.1.44",
-    "curseForgeHash": 714560884,
-    "modrinthHash": "0d34e4093a9d0c74115306ad601461004d09c97a"
+    "version": "21.1.46",
+    "curseForgeHash": 872577551,
+    "modrinthHash": "7f454c3602fb68f087d20f6435bb3dccc3e48de2"
   },
   "redstonepen-1.21-neoforge-1.11.42.jar": {
     "jarName": "redstonepen-1.21-neoforge-1.11.42.jar",
@@ -1865,13 +1865,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.49.1768.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.49.1768.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.49.1781.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.49.1781.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
     "version": "3.25.49",
-    "curseForgeHash": 922449100,
-    "modrinthHash": "b4ef5b6463f15bcb813ac69c6a952816ebb49855"
+    "curseForgeHash": 1841503746,
+    "modrinthHash": "2db393f41293c21f2a962cd05fa5646506a65ae9"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar",
@@ -2009,13 +2009,13 @@
     "curseForgeHash": 4234690778,
     "modrinthHash": "8201612a69622706e2c06ed736ccdc7237099d79"
   },
-  "the_bumblezone-7.13.3+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.13.3+1.21.1-neoforge.jar",
+  "the_bumblezone-7.13.2+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.13.2+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.13.3+1.21.1-neoforge",
-    "curseForgeHash": 3203635310,
-    "modrinthHash": "1be5313c13c742076a97c86ca468880aa219940a"
+    "version": "7.13.2+1.21.1-neoforge",
+    "curseForgeHash": 3719098417,
+    "modrinthHash": "821517b21a003afaea2ed39e6c1172fa19637f37"
   },
   "thesilverage-neoforge-1.21.1-1.2.0.jar": {
     "jarName": "thesilverage-neoforge-1.21.1-1.2.0.jar",
