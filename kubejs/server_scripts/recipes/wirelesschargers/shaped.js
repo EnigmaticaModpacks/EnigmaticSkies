@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             output: `wirelesschargers:basic_wireless_block_charger`,
             pattern: [' A ', 'BCB'],
             key: {
-                A: 'modern_industrialization:conductive_coil',
+                A: 'modern_industrialization:copper_coil',
                 B: '#c:plates/steel',
                 C: 'actuallyadditions:energizer'
             },

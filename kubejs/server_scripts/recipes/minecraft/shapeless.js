@@ -33,11 +33,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}yellow_dye_from_glow_berries`
         },
         {
-            output: '4x minecraft:amethyst_shard',
-            inputs: ['#c:storage_blocks/amethyst'],
-            id: `${id_prefix}amethyst_shard`
-        },
-        {
             output: 'minecraft:dead_bush',
             inputs: ['#minecraft:saplings', 'minecraft:shears'],
             damage: { item: 'minecraft:shears', amount: 1 },

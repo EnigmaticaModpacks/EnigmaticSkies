@@ -82,6 +82,24 @@ ServerEvents.recipes((event) => {
             ritual_dummy: { id: `occultism:ritual_dummy/transmute_drygmy`, count: 1 },
             duration: 30,
             id: `${id_prefix}transmute_drygmy`
+        },
+        {
+            ritual_type: 'occultism:craft',
+            result: {
+                id: 'gateways:gate_pearl',
+                components: { 'gateways:gateway': 'gateways:psychic_squid_rift' },
+                count: 1
+            },
+            activation_item: { item: 'arsdelight:source_berry_jelly' },
+            ingredients: [
+                { tag: 'c:gems/mnemonic_fragment' },
+                { item: 'oritech:wither_crop_block' },
+                { item: 'naturesaura:calling_spirit' },
+                { item: 'oritech:wither_crop_block' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/psychic_squid_rift`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}psychic_squid_rift`
         }
     ];
 

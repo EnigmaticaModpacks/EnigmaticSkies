@@ -376,5 +376,13 @@
     "ritual.enigmatica.ritual/transmute_cockatrice.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_cockatrice.finished": "Successfully transmuted Cockatrice.",
     "ritual.enigmatica.ritual/transmute_cockatrice.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_cockatrice.started": "Started transmuting Cockatrice."
+    "ritual.enigmatica.ritual/transmute_cockatrice.started": "Started transmuting Cockatrice.",
+
+    "item.occultism.ritual_dummy.sm/ritual/psychic_squid_rift": "Summon Psychic Squid",
+    "item.occultism.ritual_dummy.psychic_squid_rift": "§6Ritual: Summon Psychic Squid",
+    "item.occultism.ritual_dummy.psychic_squid_rift.tooltip": "§5Call forth fifth-dimensional psychic squid.",
+    "ritual.enigmatica.ritual/psychic_squid_rift.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/psychic_squid_rift.finished": "Successfully summoned Psychic Squid.",
+    "ritual.enigmatica.ritual/psychic_squid_rift.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/psychic_squid_rift.started": "Started summoning Psychic Squid."
 }

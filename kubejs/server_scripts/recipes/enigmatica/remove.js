@@ -236,6 +236,9 @@ ServerEvents.recipes((event) => {
         { id: 'starbunclemania:star_build' },
         { id: 'starbunclemania:star_battery' },
 
+        // Arts and Crafts
+        { id: /arts_and_crafts:dye_.*_with_bleached_(wool|bed|carpet)/ },
+
         // Building Gadgets
         { output: 'buildinggadgets2:gadget_building' },
         { output: 'buildinggadgets2:gadget_exchanging' },
@@ -301,6 +304,8 @@ ServerEvents.recipes((event) => {
         { id: 'create_connected:sequenced_assembly/control_chip' },
         { input: /create_connected:fan_(seeth|end|freez|wither|sand)ing_catalyst/ },
         { input: 'create_connected:fan_enriched_catalyst' },
+
+        { id: /createdeco:.*_sheet_metal/ },
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
@@ -449,6 +454,7 @@ ServerEvents.recipes((event) => {
         { output: 'handcrafted:witch_trophy' },
         { output: 'handcrafted:evoker_trophy' },
         { output: 'handcrafted:pillager_trophy' },
+        { output: 'handcrafted:wood_plate' },
 
         // Industrial Foregoing
         { type: 'industrialforegoing:fluid_extractor' },
@@ -1132,6 +1138,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:motor/motorcraft' },
         { id: 'oritech:motor/overchargedcrystal' },
         { id: 'oritech:dirt_from_sand_and_biomass' },
+        { id: 'oritech:silicon_blockblockinv' },
         { id: 'oritech:crafting/alloy/steel' },
         { id: 'oritech:crafting/plating' },
         { id: 'oritech:crafting/carbon' },
@@ -1268,6 +1275,7 @@ ServerEvents.recipes((event) => {
         { id: 'supplementaries:ash_brick' },
         { id: 'supplementaries:bellows' },
         { id: 'supplementaries:soap' },
+        { id: 'supplementaries:spiky_bomb_2' },
         { output: 'supplementaries:faucet' },
         { output: 'supplementaries:cannon' },
         { output: 'supplementaries:cannonball' },
@@ -1315,6 +1323,7 @@ ServerEvents.recipes((event) => {
         { output: /soliciting_carpet/ },
         { output: 'utilitarian:drit' },
         { output: 'utilitarian:grrass' },
+        { id: /utilitarian:utility\/redying/ },
         { id: 'utilitarian:utility/green_dye' },
         { id: 'utilitarian:utility/bread' },
         { id: 'utilitarian:utility/dispenser' },
@@ -1322,6 +1331,7 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/ice' },
         { id: 'utilitarian:utility/packed_ice' },
         { id: 'utilitarian:utility/logs_to_sticks' },
+
         { output: 'utilitarian:angel_block' },
 
         // Wireless Chargers

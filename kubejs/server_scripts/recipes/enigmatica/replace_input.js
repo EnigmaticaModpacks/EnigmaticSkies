@@ -232,11 +232,7 @@ ServerEvents.recipes((event) => {
             to_replace: `oritech:pulverizer_block`,
             replace_with: 'oritech:flux_gate'
         },
-        {
-            filter: [{ id: 'create:rose_quartz_lamp' }],
-            to_replace: `#c:ingots/zinc`,
-            replace_with: '#c:ingots/andesite_alloy'
-        },
+
         {
             filter: {},
             to_replace: `modern_industrialization:tin_cable`,
@@ -357,7 +353,6 @@ ServerEvents.recipes((event) => {
                 { id: 'create:crafting/kinetics/water_wheel' },
                 { id: 'create:crafting/kinetics/large_water_wheel' },
                 { id: 'cold_sweat:sewing_table' },
-                { id: 'minecraft:bowl' },
                 { mod: 'framedblocks' }
             ],
             to_replace: `#minecraft:planks`,
@@ -670,6 +665,41 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'create_connected' }],
             to_replace: `create_connected:control_chip`,
             replace_with: `ars_technica:calibrated_precision_mechanism`
+        },
+        {
+            filter: [{ id: 'malum:runic_twisted_rock_bricks_wall' }],
+            to_replace: `malum:twisted_rock_bricks`,
+            replace_with: `malum:runic_twisted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_small_twisted_rock_bricks_wall' }],
+            to_replace: `malum:small_twisted_rock_bricks`,
+            replace_with: `malum:runic_small_twisted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_tainted_rock_bricks_wall' }],
+            to_replace: `malum:tainted_rock_bricks`,
+            replace_with: `malum:runic_tainted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_small_tainted_rock_bricks_wall' }],
+            to_replace: `malum:small_tainted_rock_bricks`,
+            replace_with: `malum:runic_small_tainted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_twisted_rock_tiles_wall' }],
+            to_replace: `malum:twisted_rock_tiles`,
+            replace_with: `malum:runic_twisted_rock_tiles`
+        },
+        {
+            filter: [{ id: 'malum:runic_tainted_rock_tiles_wall' }],
+            to_replace: `malum:tainted_rock_tiles`,
+            replace_with: `malum:runic_tainted_rock_tiles`
+        },
+        {
+            filter: [{ id: 'mcwwindows:bamboo_shutter' }],
+            to_replace: `minecraft:bamboo`,
+            replace_with: `minecraft:bamboo_trapdoor`
         }
     ];
 

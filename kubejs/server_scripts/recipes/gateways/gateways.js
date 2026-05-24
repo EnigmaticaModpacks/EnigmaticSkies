@@ -417,6 +417,73 @@ ServerEvents.generateData('before_mods', (event) => {
                     ]
                 }
             ]
+        },
+        {
+            type: 'gateways:normal',
+            name: 'psychic_squid_rift',
+            size: 'large',
+            color: '#3ed6fc',
+            spawn_algorithm: 'gateways:inward_spiral',
+            rewards: [
+                {
+                    type: 'gateways:stack_list',
+                    stacks: [
+                        { id: 'minecraft:ink_sac', count: 10 },
+                        { id: 'minecraft:glow_ink_sac', count: 10 }
+                    ]
+                }
+            ],
+            waves: [
+                {
+                    max_wave_time: 100,
+                    setup_time: 20,
+                    entities: [
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:squid',
+                            count: 10,
+                            nbt: {
+                                CustomName: '{"color":"dark_aqua","translate":"enigmatica.gateways.psychic_squid"}',
+                                active_effects: [
+                                    { id: 'minecraft:levitation', amplifier: 0, duration: 100 },
+                                    { id: 'ars_nouveau:bounce', amplifier: 0, duration: 200 }
+                                ],
+                                attributes: [{ id: 'minecraft:generic.scale', base: 0.2 }]
+                            },
+                            finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:glow_squid',
+                            count: 10,
+                            nbt: {
+                                CustomName: '{"color":"dark_aqua","translate":"gateways.entities.psychic_squid"}',
+                                active_effects: [
+                                    { id: 'minecraft:levitation', amplifier: 1, duration: 100 },
+                                    { id: 'ars_nouveau:bounce', amplifier: 0, duration: 200 }
+                                ],
+                                attributes: [{ id: 'minecraft:generic.scale', base: 0.2 }]
+                            },
+                            finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:glow_squid',
+                            count: 1,
+                            nbt: {
+                                CustomName: '{"color":"dark_aqua","translate":"gateways.entities.psychic_squid"}',
+                                active_effects: [{ id: 'minecraft:levitation', amplifier: 2, duration: 100 }],
+                                attributes: [{ id: 'minecraft:generic.scale', base: 10.0 }]
+                            },
+                            finalize_spawn: false
+                        }
+                    ],
+                    rewards: [{ type: 'gateways:experience', experience: 10, orb_size: 2 }]
+                }
+            ],
+            rules: {
+                remove_mobs_on_failure: false
+            }
         }
     ];
 

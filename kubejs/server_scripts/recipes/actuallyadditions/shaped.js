@@ -265,7 +265,7 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/enori',
                 B: 'supplementaries:crystal_display',
                 C: 'ae2:formation_core',
-                D: '#c:gems/emerald',
+                D: '#c:gems/emeradic',
                 E: 'oritech:flux_gate'
             },
             id: `${id_prefix}handheld_filler`
