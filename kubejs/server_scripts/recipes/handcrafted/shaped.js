@@ -9,6 +9,14 @@ ServerEvents.recipes((event) => {
                 A: 'minecraft:terracotta'
             },
             id: 'handcrafted:terracotta_thin_pot'
+        },
+        {
+            output: '6x handcrafted:wood_plate',
+            pattern: ['AAA', 'AAA'],
+            key: {
+                A: '#minecraft:wooden_slabs'
+            },
+            id: 'handcrafted:wood_plate'
         }
     ];
 
@@ -31,7 +39,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

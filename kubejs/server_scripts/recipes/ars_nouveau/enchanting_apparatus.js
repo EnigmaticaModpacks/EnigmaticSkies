@@ -760,6 +760,18 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}remote`
+        },
+        {
+            result: { id: 'ars_additions:stabilized_warp_index', count: 1 },
+            reagent: { item: 'ars_additions:warp_index' },
+            pedestalItems: [
+                { item: 'ars_nouveau:stable_warp_scroll' },
+                { tag: 'c:essences/conjuration' },
+                { item: 'ars_technica:calibrated_precision_mechanism' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}stabilized_warp_index`
         }
     ];
 

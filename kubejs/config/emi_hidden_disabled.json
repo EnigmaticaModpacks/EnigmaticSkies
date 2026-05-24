@@ -69,6 +69,8 @@
             "create:crushed_raw_lead",
             "create:crushed_raw_uranium",
             "create:crushed_raw_nickel",
+            "create:raw_zinc",
+            "create:raw_zinc_block",
             "create:zinc_ore",
             "create:deepslate_zinc_ore",
 

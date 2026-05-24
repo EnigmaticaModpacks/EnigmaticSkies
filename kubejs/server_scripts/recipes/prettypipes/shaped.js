@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             pattern: [' H ', 'RMR', ' R '],
             key: {
                 R: '#c:dusts/redstone',
-                H: 'minecraft:paper',
+                H: 'create:cardboard',
                 M: 'prettypipes:blank_module'
             },
             id: `${id_prefix}tag_filter_modifier`

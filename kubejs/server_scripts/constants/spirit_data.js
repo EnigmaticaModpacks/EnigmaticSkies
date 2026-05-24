@@ -626,9 +626,9 @@ const spiritData = [
     {
         registry_name: 'minecraft:glow_squid',
         spirits: [
+            { spirit: 'malum:arcane', count: 2 },
             { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:sacred', count: 1 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:eldritch', count: 2 }
         ]
     },
     {
@@ -855,8 +855,9 @@ const spiritData = [
     {
         registry_name: 'minecraft:squid',
         spirits: [
+            { spirit: 'malum:arcane', count: 2 },
             { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:sacred', count: 1 }
+            { spirit: 'malum:eldritch', count: 2 }
         ]
     },
     {
