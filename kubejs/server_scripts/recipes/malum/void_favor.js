@@ -92,8 +92,13 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'create:zinc_block' },
-            input: { tag: 'c:ingots/ferricore' },
+            input: { tag: 'c:ingots/iron' },
             id: `${id_prefix}zinc_block`
+        },
+        {
+            result: { id: 'create:zinc_ingot' },
+            input: { tag: 'c:nuggets/iron' },
+            id: `${id_prefix}zinc_ingot`
         }
     ];
 
