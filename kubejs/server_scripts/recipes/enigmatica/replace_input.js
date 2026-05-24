@@ -700,6 +700,20 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'mcwwindows:bamboo_shutter' }],
             to_replace: `minecraft:bamboo`,
             replace_with: `minecraft:bamboo_trapdoor`
+        },
+        {
+            filter: [
+                { id: 'sophisticatedstorage:stack_upgrade_tier_1' },
+                { id: 'sophisticatedstorage:stack_downgrade_tier_1' },
+                { id: 'sophisticatedstorage:stack_downgrade_tier_2' },
+                { id: 'sophisticatedstorage:stack_downgrade_tier_3' },
+                { id: 'sophisticatedstorage:compacting_upgrade' },
+                { id: 'sophisticatedstorage:void_upgrade' },
+                { id: 'sophisticatedstorage:hopper_upgrade' },
+                { id: 'sophisticatedstorage:compression_upgrade' }
+            ],
+            to_replace: `sophisticatedstorage:upgrade_base`,
+            replace_with: `prettypipes:blank_module`
         }
     ];
 
