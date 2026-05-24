@@ -365,7 +365,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 8 } },
             inputs: { item: { tag: 'c:pebbles' } },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(700) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}alchemical_salt_mineral_from_pebbles`
@@ -373,7 +373,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 32 } },
             inputs: { item: { tag: 'c:gravels' } },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(700) },
             pressure: -0.75,
             time: 1.0,
             id: `${id_prefix}alchemical_salt_mineral_from_gravels`
@@ -381,7 +381,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'justdirethings:coal_t1', count: 2 } },
             inputs: { item: { tag: 'minecraft:logs_that_burn' } },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(700) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}coal_t1`
@@ -389,7 +389,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
             inputs: { item: { item: 'minecraft:bone' } },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(700) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}grim_talc_from_bone`
@@ -397,7 +397,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
             inputs: { item: { item: 'aquaculture:fish_bones' } },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(700) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}grim_talc_from_fish_bones`
@@ -405,7 +405,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'malum:rotting_essence', count: 1 } },
             inputs: { item: { item: 'minecraft:rotten_flesh' } },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(700) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}rotting_essence_from_rotten_flesh`
