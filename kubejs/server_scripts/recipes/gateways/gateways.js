@@ -443,10 +443,10 @@ ServerEvents.generateData('before_mods', (event) => {
                             entity: 'minecraft:squid',
                             count: 10,
                             nbt: {
-                                CustomName: '{"color":"dark_aqua","translate":"enigmatica.gateways.psychic_squid"}',
+                                CustomName: '{"color":"dark_aqua","translate":"gateways.entities.psychic_squid"}',
                                 active_effects: [
                                     { id: 'minecraft:levitation', amplifier: 0, duration: 100 },
-                                    { id: 'ars_nouveau:bounce', amplifier: 0, duration: 200 }
+                                    { id: 'ars_nouveau:bounce', amplifier: 0, duration: -1 }
                                 ],
                                 attributes: [{ id: 'minecraft:generic.scale', base: 0.2 }]
                             },
@@ -460,7 +460,7 @@ ServerEvents.generateData('before_mods', (event) => {
                                 CustomName: '{"color":"dark_aqua","translate":"gateways.entities.psychic_squid"}',
                                 active_effects: [
                                     { id: 'minecraft:levitation', amplifier: 1, duration: 100 },
-                                    { id: 'ars_nouveau:bounce', amplifier: 0, duration: 200 }
+                                    { id: 'ars_nouveau:bounce', amplifier: 0, duration: -1 }
                                 ],
                                 attributes: [{ id: 'minecraft:generic.scale', base: 0.2 }]
                             },
