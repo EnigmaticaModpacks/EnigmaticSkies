@@ -956,13 +956,13 @@
     "curseForgeHash": 4035878788,
     "modrinthHash": "edb3e8d90992aae937c79827282f854f4cc5939c"
   },
-  "FramedBlocks-10.5.3.jar": {
-    "jarName": "FramedBlocks-10.5.3.jar",
+  "FramedBlocks-10.6.0.jar": {
+    "jarName": "FramedBlocks-10.6.0.jar",
     "modId": "framedblocks",
     "name": "FramedBlocks",
-    "version": "10.5.3",
-    "curseForgeHash": 2592242677,
-    "modrinthHash": "bbbd02f99ab559bc68a72e3441e821c5cf81d8f1"
+    "version": "10.6.0",
+    "curseForgeHash": 3017729851,
+    "modrinthHash": "eb96e6983845daee8d6ac84544ba1df55d4a6fae"
   },
   "ftb-chunks-neoforge-2101.1.14.jar": {
     "jarName": "ftb-chunks-neoforge-2101.1.14.jar",
@@ -1092,13 +1092,13 @@
     "curseForgeHash": 564987377,
     "modrinthHash": "127c33df3a3a1715e0f882c7340d9fcbab1d3812"
   },
-  "Glassential-renewed-1.21.1-3.4.3.jar": {
-    "jarName": "Glassential-renewed-1.21.1-3.4.3.jar",
+  "Glassential-renewed-1.21.1-3.4.4.jar": {
+    "jarName": "Glassential-renewed-1.21.1-3.4.4.jar",
     "modId": "glassential",
     "name": "Glassential-renewed",
-    "version": "3.4.3",
-    "curseForgeHash": 3338156854,
-    "modrinthHash": "2bbd6e9cdced2855b2370d4c36e066bb87ec2ce2"
+    "version": "3.4.4",
+    "curseForgeHash": 3617907641,
+    "modrinthHash": "11732168ab3fe461e885996fd5ba592c8b9a159f"
   },
   "Glodium-1.21-2.2-neoforge.jar": {
     "jarName": "Glodium-1.21-2.2-neoforge.jar",
@@ -1457,13 +1457,13 @@
     "curseForgeHash": 4070370691,
     "modrinthHash": "b41c4d8c02eadc09f8614c4561384b6854245ff4"
   },
-  "modernfix-neoforge-5.27.9+mc1.21.1.jar": {
-    "jarName": "modernfix-neoforge-5.27.9+mc1.21.1.jar",
+  "modernfix-neoforge-5.27.11+mc1.21.1.jar": {
+    "jarName": "modernfix-neoforge-5.27.11+mc1.21.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.9+mc1.21.1",
-    "curseForgeHash": 1767091025,
-    "modrinthHash": "9e54f2cc44d57b32bb4dc9e5a5ad976ff6cb44bb"
+    "version": "5.27.11+mc1.21.1",
+    "curseForgeHash": 3758087832,
+    "modrinthHash": "89414e19d8372c838ad945c8eab2b828e427d948"
   },
   "modernindustrialrouters-2.1.1.jar": {
     "jarName": "modernindustrialrouters-2.1.1.jar",
@@ -1881,13 +1881,13 @@
     "curseForgeHash": 2555194351,
     "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
   },
-  "sophisticatedcore-1.21.1-1.4.41.1871.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.41.1871.jar",
+  "sophisticatedcore-1.21.1-1.4.42.1878.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.42.1878.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.41",
-    "curseForgeHash": 1024357872,
-    "modrinthHash": "49f969e1a22d68dc0442d6ce871ac7bc7fc77625"
+    "version": "1.4.42",
+    "curseForgeHash": 43026441,
+    "modrinthHash": "2752e842b2c9adb231307c6b3d07d49d01e8b675"
   },
   "sophisticatedstorage-1.21.1-1.5.50.1743.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.50.1743.jar",
