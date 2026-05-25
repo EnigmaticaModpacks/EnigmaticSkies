@@ -1,0 +1,19 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.occultism.fracture_soul"
+    },
+    "max_cost": {
+        "base": 18,
+        "per_level_above_first": 3
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 200,
+        "per_level_above_first": 2
+    },
+    "primary_items": "#enigmatica:enchantable/fracture_soul",
+    "slots": ["mainhand"],
+    "supported_items": "#minecraft:enchantable/fracture_soul",
+    "weight": 1
+}
