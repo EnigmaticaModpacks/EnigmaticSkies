@@ -5,8 +5,13 @@ NeoForge-1.21.1-21.1.230 |
 #### ⭐ Improvements
 
 - TPP Calcination Recipes now require lower temps [(\#223)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/223)
+- Cleaned up enchantment tags scripts [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
+- Soul Fracture should no longer come up as a random enchant. It already was disabled to do nothing. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
+- Capturing is now gated to late game [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 
 #### 🦟 Bugs Fixed
+
+- Fixed some more quest typos [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 
 #### ✔️ Added Mods
 
