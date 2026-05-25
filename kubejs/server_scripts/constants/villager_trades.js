@@ -117,7 +117,7 @@ const villagerTrades = {
         },
         {
             result: { id: 'the_bumblezone:royal_jelly_bottle', count: 1 },
-            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 5
         }
     ],
@@ -474,6 +474,12 @@ const villagerTrades = {
         {
             result: { id: 'ars_nouveau:ritual_flight', count: 1 },
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+
+        {
+            result: { id: 'ars_nouveau:ritual_containment', count: 1 },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
             level: 5
         }
     ],

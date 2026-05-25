@@ -17,6 +17,6 @@
     },
     "primary_items": "#enigmatica:enchantable/capturing",
     "slots": ["mainhand"],
-    "supported_items": "#minecraft:enchantable/capturing",
+    "supported_items": "#enigmatica:enchantable/capturing",
     "weight": 1
 }
