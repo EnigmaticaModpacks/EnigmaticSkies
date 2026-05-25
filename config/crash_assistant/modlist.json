@@ -676,13 +676,13 @@
     "curseForgeHash": 2265047861,
     "modrinthHash": "58326378dac966d664ae827dcc76e4b3a284d747"
   },
-  "create_connected-1.1.16-mc1.21.1.jar": {
-    "jarName": "create_connected-1.1.16-mc1.21.1.jar",
+  "create_connected-1.2.0-mc1.21.1.jar": {
+    "jarName": "create_connected-1.2.0-mc1.21.1.jar",
     "modId": "create_connected",
     "name": "Create: Connected",
-    "version": "1.1.16-mc1.21.1",
-    "curseForgeHash": 1570071740,
-    "modrinthHash": "34387f129eaef1799d60e67ace7da73564f41339"
+    "version": "1.2.0-mc1.21.1",
+    "curseForgeHash": 3403467653,
+    "modrinthHash": "70b02826b3ce03db83c5234f54012f55b409c5da"
   },
   "create_hypertube-0.4.0-COMPAT-NEOFORGE.jar": {
     "jarName": "create_hypertube-0.4.0-COMPAT-NEOFORGE.jar",
@@ -1889,13 +1889,13 @@
     "curseForgeHash": 43026441,
     "modrinthHash": "2752e842b2c9adb231307c6b3d07d49d01e8b675"
   },
-  "sophisticatedstorage-1.21.1-1.5.50.1743.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.50.1743.jar",
+  "sophisticatedstorage-1.21.1-1.5.51.1755.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.51.1755.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.50",
-    "curseForgeHash": 802165513,
-    "modrinthHash": "515a5525a83033014b2a954a085805de50887139"
+    "version": "1.5.51",
+    "curseForgeHash": 4054389551,
+    "modrinthHash": "5d023af304d988464a78e42c20bbc722d3992e35"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
