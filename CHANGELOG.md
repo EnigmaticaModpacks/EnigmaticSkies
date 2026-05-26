@@ -10,6 +10,7 @@ NeoForge-1.21.1-21.1.230 |
 - Containment Ritual has been re-enabled and can be purchased from high level Cleric villagers. This requires a newly leveled villager. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 - Senescent animals and villagers are blacklisted from Containment [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 - Royal Jelly's cost has been reduced. This requires a newly leveled villager. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
+- Players will no longer be prevented from sleeping if too cold. [(\#227)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/227)
 
 #### 🦟 Bugs Fixed
 
