@@ -15,6 +15,7 @@ NeoForge-1.21.1-21.1.230 |
 #### 🦟 Bugs Fixed
 
 - Fixed some more quest typos [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
+- Psychic Squid now drop Eldritch Spirits as intended [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 
 #### ✔️ Added Mods
 
