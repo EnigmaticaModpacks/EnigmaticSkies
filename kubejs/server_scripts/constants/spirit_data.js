@@ -152,146 +152,146 @@ const spiritData = [
             { spirit: 'malum:aerial', count: 4 }
         ]
     },
-    {
-        registry_name: 'aquaculture:arapaima',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:arrau_turtle',
-        spirits: [
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:sacred', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'aquaculture:atlantic_cod',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:atlantic_halibut',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:atlantic_herring',
-        spirits: [
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:sacred', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'aquaculture:bayad',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:blackfish',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:bluegill',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:boulti',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:box_turtle',
-        spirits: [
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:sacred', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'aquaculture:brown_shrooma',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:brown_trout',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:capitaine',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:carp',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:catfish',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:gar',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:jellyfish',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:minnow',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:muskellunge',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:pacific_halibut',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:perch',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:pink_salmon',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:piranha',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:pollock',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:rainbow_trout',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:red_grouper',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:red_shrooma',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:smallmouth_bass',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:starshell_turtle',
-        spirits: [
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:sacred', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'aquaculture:synodontis',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:tambaqui',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'aquaculture:tuna',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
+    // {
+    //     registry_name: 'aquaculture:arapaima',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:arrau_turtle',
+    //     spirits: [
+    //         { spirit: 'malum:aqueous', count: 2 },
+    //         { spirit: 'malum:sacred', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aquaculture:atlantic_cod',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:atlantic_halibut',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:atlantic_herring',
+    //     spirits: [
+    //         { spirit: 'malum:aqueous', count: 2 },
+    //         { spirit: 'malum:sacred', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aquaculture:bayad',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:blackfish',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:bluegill',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:boulti',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:box_turtle',
+    //     spirits: [
+    //         { spirit: 'malum:aqueous', count: 2 },
+    //         { spirit: 'malum:sacred', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aquaculture:brown_shrooma',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:brown_trout',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:capitaine',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:carp',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:catfish',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:gar',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:jellyfish',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:minnow',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:muskellunge',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:pacific_halibut',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:perch',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:pink_salmon',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:piranha',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:pollock',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:rainbow_trout',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:red_grouper',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:red_shrooma',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:smallmouth_bass',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:starshell_turtle',
+    //     spirits: [
+    //         { spirit: 'malum:aqueous', count: 2 },
+    //         { spirit: 'malum:sacred', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aquaculture:synodontis',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:tambaqui',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'aquaculture:tuna',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
     {
         registry_name: 'ars_elemental:flashing_weald_walker',
         spirits: [
@@ -626,9 +626,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:glow_squid',
         spirits: [
-            { spirit: 'malum:arcane', count: 2 },
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:eldritch', count: 2 }
+            { spirit: 'malum:eldritch', count: 2 },
+            { spirit: 'malum:aqueous', count: 2 }
         ]
     },
     {
@@ -855,9 +854,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:squid',
         spirits: [
-            { spirit: 'malum:arcane', count: 2 },
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:eldritch', count: 2 }
+            { spirit: 'malum:eldritch', count: 2 },
+            { spirit: 'malum:aqueous', count: 2 }
         ]
     },
     {
@@ -997,14 +995,14 @@ const spiritData = [
         ]
     },
 
-    {
-        registry_name: 'sushigocrafting:shrimp',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
-    {
-        registry_name: 'sushigocrafting:tuna',
-        spirits: [{ spirit: 'malum:aqueous', count: 1 }]
-    },
+    // {
+    //     registry_name: 'sushigocrafting:shrimp',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'sushigocrafting:tuna',
+    //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
+    // },
     {
         registry_name: 'the_bumblezone:bee_queen',
         spirits: [

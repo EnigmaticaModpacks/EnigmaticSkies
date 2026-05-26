@@ -49,7 +49,7 @@
             "aether:zanite_ore",
             "aether:gravitite_ore",
 
-            "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation|containment)/",
+            "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
             "ars_nouveau:ritual_wilden_summon",

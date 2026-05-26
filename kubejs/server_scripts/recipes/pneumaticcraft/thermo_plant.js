@@ -257,7 +257,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'supplementaries:lumisene', amount: 1000 },
                 item: { item: 'enderio:infinity_rod' }
             },
-            temperature: { min: CtoK(1500) },
+            temperature: { min: CtoK(1000) },
             id: `${id_prefix}blaze_rod`
         },
         {
