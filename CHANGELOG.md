@@ -6,8 +6,7 @@ NeoForge-1.21.1-21.1.230 |
 
 - TPP Calcination Recipes now require lower temps [(\#223)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/223)
 - Cleaned up enchantment tags scripts [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
-- Soul Fracture should no longer come up as a random enchant. It already was disabled to do nothing. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
-- Capturing is now gated to late game [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
+- Soul Fracture (Occultism) should no longer come up as a random enchant. It already was disabled to do nothing. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 - Containment Ritual has been re-enabled and can be purchased from high level Cleric villagers. This requires a newly leveled villager. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 - Senescent animals and villagers are blacklisted from Containment [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 - Royal Jelly's cost has been reduced. This requires a newly leveled villager. [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
@@ -16,6 +15,7 @@ NeoForge-1.21.1-21.1.230 |
 
 - Fixed some more quest typos [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 - Psychic Squid now drop Eldritch Spirits as intended [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
+- Patched resource exploit [(\#224)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/224)
 
 #### ✔️ Added Mods
 

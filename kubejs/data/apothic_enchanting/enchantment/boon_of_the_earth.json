@@ -1,0 +1,73 @@
+{
+    "anvil_cost": 10,
+    "description": {
+        "color": "dark_green",
+        "translate": "enchantment.apothic_enchanting.boon_of_the_earth"
+    },
+    "effects": {
+        "apothic_enchanting:earths_boon": {
+            "entries": [
+                {
+                    "drop_chance": [
+                        {
+                            "effect": {
+                                "type": "minecraft:add",
+                                "value": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.015,
+                                    "per_level_above_first": 0.015
+                                }
+                            }
+                        }
+                    ],
+                    "loot_table": "apothic_enchanting:boon_deepslate_drops",
+                    "target": "#minecraft:deepslate_ore_replaceables"
+                },
+                {
+                    "drop_chance": [
+                        {
+                            "effect": {
+                                "type": "minecraft:add",
+                                "value": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.01,
+                                    "per_level_above_first": 0.01
+                                }
+                            }
+                        }
+                    ],
+                    "loot_table": "apothic_enchanting:boon_stone_drops",
+                    "target": "#minecraft:stone_ore_replaceables"
+                },
+                {
+                    "drop_chance": [
+                        {
+                            "effect": {
+                                "type": "minecraft:add",
+                                "value": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.01,
+                                    "per_level_above_first": 0.01
+                                }
+                            }
+                        }
+                    ],
+                    "loot_table": "apothic_enchanting:boon_netherrack_drops",
+                    "target": "#minecraft:base_stone_nether"
+                }
+            ]
+        }
+    },
+    "max_cost": {
+        "base": 200,
+        "per_level_above_first": 0
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 55,
+        "per_level_above_first": 25
+    },
+    "slots": ["mainhand"],
+    "supported_items": "#enigmatica:enchantable/boon_of_the_earth",
+    "weight": 1
+}
