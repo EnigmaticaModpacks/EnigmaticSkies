@@ -412,13 +412,13 @@
     "curseForgeHash": 905028723,
     "modrinthHash": "acd114fabe85bf819087c8fc9a5db6306ffb4b31"
   },
-  "cable_facades-1.21.1-NeoForge-2.0.2.jar": {
-    "jarName": "cable_facades-1.21.1-NeoForge-2.0.2.jar",
+  "cable_facades-1.21.1-NeoForge-2.1.0.jar": {
+    "jarName": "cable_facades-1.21.1-NeoForge-2.1.0.jar",
     "modId": "cable_facades",
     "name": "Cable Facades",
-    "version": "2.0.2",
-    "curseForgeHash": 1801643054,
-    "modrinthHash": "04a696e8439c3a43162fb99984502b20882bb9bc"
+    "version": "2.1.0",
+    "curseForgeHash": 1114937750,
+    "modrinthHash": "628a90c44a9d2bc68dc9d2f93307e386b61e6575"
   },
   "catjammies-1.21-1.7.1.jar": {
     "jarName": "catjammies-1.21-1.7.1.jar",
