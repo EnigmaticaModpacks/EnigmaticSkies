@@ -398,7 +398,6 @@
             "/occultism:otherstone_pedestal/",
             "/occultism:debug/",
             "/occultism:.*_wormhole/",
-            "occultism:flame_of_automation",
             "occultism:dimensional_mineshaft",
             "occultism:iesnium_ore",
             "occultism:iesnium_ore_natural",
