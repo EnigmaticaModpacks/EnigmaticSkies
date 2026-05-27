@@ -1,3 +1,19 @@
+### Enigmatic Skies 1.10.0
+
+NeoForge-1.21.1-21.1.230
+
+#### ⭐ Improvements
+
+#### 🦟 Bugs Fixed
+
+- Flame of Automation has been unhidden, removing the 'disabled' text from it [(\#230)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/230)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.9.0
 
 NeoForge-1.21.1-21.1.230 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.9.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.9.0.md)
