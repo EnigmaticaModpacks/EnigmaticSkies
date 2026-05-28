@@ -237,13 +237,13 @@
     "curseForgeHash": 2445792967,
     "modrinthHash": "2354710ea312e2a6e0fbc3eb2dbafb8e06f10cf4"
   },
-  "ars_nouveau-1.21.1-5.11.5.jar": {
-    "jarName": "ars_nouveau-1.21.1-5.11.5.jar",
+  "ars_nouveau-1.21.1-5.11.6.jar": {
+    "jarName": "ars_nouveau-1.21.1-5.11.6.jar",
     "modId": "ars_nouveau",
     "name": "Ars Nouveau",
-    "version": "5.11.5",
-    "curseForgeHash": 2711572095,
-    "modrinthHash": "202512e3a48c169ea4c68c85c2208f1813a92f26"
+    "version": "5.11.6",
+    "curseForgeHash": 2923805987,
+    "modrinthHash": "b424f6b0dfd77d1803d1de3cde792e04bf26be40"
   },
   "ars_ocultas-1.21.1-2.4.1.jar": {
     "jarName": "ars_ocultas-1.21.1-2.4.1.jar",
@@ -1497,13 +1497,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.0.14.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.14.jar",
+  "moonlight-neoforge-1.21.1-3.0.16.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.16.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.14",
-    "curseForgeHash": 135195502,
-    "modrinthHash": "a865d9a00a595038d35b908c42565930189be68a"
+    "version": "1.21.1-3.0.16",
+    "curseForgeHash": 1133303824,
+    "modrinthHash": "494ac7255ab0321f01a980cc21f1a3a5e4c0cf74"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
@@ -1697,13 +1697,13 @@
     "curseForgeHash": 1056016325,
     "modrinthHash": "9b1886d39303cd7f295f743687318c0a28b5778c"
   },
-  "PuzzlesLib-v21.1.46-1.21.1-NeoForge.jar": {
-    "jarName": "PuzzlesLib-v21.1.46-1.21.1-NeoForge.jar",
+  "PuzzlesLib-v21.1.49-1.21.1-NeoForge.jar": {
+    "jarName": "PuzzlesLib-v21.1.49-1.21.1-NeoForge.jar",
     "modId": "puzzleslib",
     "name": "Puzzles Lib",
-    "version": "21.1.46",
-    "curseForgeHash": 872577551,
-    "modrinthHash": "7f454c3602fb68f087d20f6435bb3dccc3e48de2"
+    "version": "21.1.49",
+    "curseForgeHash": 1865167064,
+    "modrinthHash": "069c099076dc72a07ceb4861175e73a81f1e101c"
   },
   "redstonepen-1.21-neoforge-1.11.42.jar": {
     "jarName": "redstonepen-1.21-neoforge-1.11.42.jar",
@@ -1889,13 +1889,13 @@
     "curseForgeHash": 696262703,
     "modrinthHash": "c96bc37fac2de3a76ce2bffe3881c5f08d04264c"
   },
-  "sophisticatedstorage-1.21.1-1.5.51.1755.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.51.1755.jar",
+  "sophisticatedstorage-1.21.1-1.5.52.1756.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.52.1756.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.51",
-    "curseForgeHash": 4054389551,
-    "modrinthHash": "5d023af304d988464a78e42c20bbc722d3992e35"
+    "version": "1.5.52",
+    "curseForgeHash": 3606107375,
+    "modrinthHash": "163b04fa1a3ccee1c91697aa17889dc0ef8ca257"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",

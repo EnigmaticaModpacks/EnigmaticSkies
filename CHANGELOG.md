@@ -4,6 +4,8 @@ NeoForge-1.21.1-21.1.230
 
 #### ⭐ Improvements
 
+- Slime may now be crafted in the Composter [(\#230)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/230)
+
 #### 🦟 Bugs Fixed
 
 - Flame of Automation has been unhidden, removing the 'disabled' text from it [(\#230)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/230)
