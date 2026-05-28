@@ -145,13 +145,13 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [
                 { item: 'minecraft:slime_ball', amount: 4 },
-                { item: 'minecraft:slime_ball', amount: 2, probablity: 0.5 }
+                { item: 'minecraft:slime_ball', amount: 2, probability: 0.5 }
             ],
             item_inputs: [
-                { tag: 'c:doughs', amount: 1 },
+                { tag: 'c:doughs', amount: 1, probability: 0.1 },
                 { item: 'theurgy:fermentation_starter', amount: 1 }
             ],
-            fluid_inputs: [{ fluid: 'minecraft:water', amount: 10 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
             duration: 4,
             eu: 2,
             id: `${id_prefix}slime_ball`
