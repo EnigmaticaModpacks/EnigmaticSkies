@@ -102,7 +102,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'occultism:spirit_attuned_gem' },
-            input: { tag: 'c:gems/zanite' },
+            input: { tag: 'aether:gems/zanite' },
             id: `${id_prefix}spirit_attuned_gem`
         }
     ];
