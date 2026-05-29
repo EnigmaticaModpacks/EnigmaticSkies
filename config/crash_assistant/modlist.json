@@ -221,13 +221,13 @@
     "curseForgeHash": 360998666,
     "modrinthHash": "22a6afd4fbe76354acc9c1ba076c89a94d120d94"
   },
-  "ars_elemental-1.21.1-0.7.9.3.jar": {
-    "jarName": "ars_elemental-1.21.1-0.7.9.3.jar",
+  "ars_elemental-1.21.1-0.7.9.4.jar": {
+    "jarName": "ars_elemental-1.21.1-0.7.9.4.jar",
     "modId": "ars_elemental",
     "name": "Ars Elemental",
-    "version": "0.7.9.3",
-    "curseForgeHash": 1750997273,
-    "modrinthHash": "a5fd95e27f4ab150e2c5fa445ffc4b7076493298"
+    "version": "0.7.9.4",
+    "curseForgeHash": 2788328032,
+    "modrinthHash": "2c68a37fa122bdf80b57d3cd583483c0445770d6"
   },
   "ars_hex-1.21.1-5.0.4b.jar": {
     "jarName": "ars_hex-1.21.1-5.0.4b.jar",
