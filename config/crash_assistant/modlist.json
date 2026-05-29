@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.230 (modloader)": {
-    "jarName": "neoforge-21.1.230 (modloader)",
+  "neoforge-21.1.232 (modloader)": {
+    "jarName": "neoforge-21.1.232 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.230"
+    "version": "neoforge-21.1.232"
   },
   "aaron-1.21.1-1.12.0-build.274.jar": {
     "jarName": "aaron-1.21.1-1.12.0-build.274.jar",
@@ -1236,13 +1236,13 @@
     "curseForgeHash": 3452596422,
     "modrinthHash": "e8d4564ea93a3d6c2004e7bf1501b754af377f87"
   },
-  "kleeslabs-neoforge-1.21.1-21.1.10.jar": {
-    "jarName": "kleeslabs-neoforge-1.21.1-21.1.10.jar",
+  "kleeslabs-neoforge-1.21.1-21.1.11.jar": {
+    "jarName": "kleeslabs-neoforge-1.21.1-21.1.11.jar",
     "modId": "kleeslabs",
     "name": "KleeSlabs",
-    "version": "21.1.10",
-    "curseForgeHash": 4143622422,
-    "modrinthHash": "f47500ef008022daa0dce2ae804d2795a12e58f6"
+    "version": "21.1.11",
+    "curseForgeHash": 1506018453,
+    "modrinthHash": "6b357c38c09620d7494da94a03470d5fbb4eade6"
   },
   "kotlinforforge-5.11.0-all.jar": {
     "jarName": "kotlinforforge-5.11.0-all.jar",
@@ -2009,13 +2009,13 @@
     "curseForgeHash": 1560695399,
     "modrinthHash": "774b2d610a78d23a810c1ee173189a79358985a1"
   },
-  "the_bumblezone-7.13.5+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.13.5+1.21.1-neoforge.jar",
+  "the_bumblezone-7.13.6+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.13.6+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.13.5+1.21.1-neoforge",
-    "curseForgeHash": 2834535388,
-    "modrinthHash": "c4550debfda5e8790627bbd4634e0ee9abb528e1"
+    "version": "7.13.6+1.21.1-neoforge",
+    "curseForgeHash": 1141333698,
+    "modrinthHash": "0c6e419c2b72df72c0db37a36973fd914f6562b8"
   },
   "thesilverage-neoforge-1.21.1-1.2.0.jar": {
     "jarName": "thesilverage-neoforge-1.21.1-1.2.0.jar",
@@ -2089,13 +2089,13 @@
     "curseForgeHash": 4070200547,
     "modrinthHash": "8e853e0784b01b36b4503ef5599be2724be74b07"
   },
-  "trashslot-neoforge-1.21.1-21.1.10.jar": {
-    "jarName": "trashslot-neoforge-1.21.1-21.1.10.jar",
+  "trashslot-neoforge-1.21.1-21.1.11.jar": {
+    "jarName": "trashslot-neoforge-1.21.1-21.1.11.jar",
     "modId": "trashslot",
     "name": "TrashSlot",
-    "version": "21.1.10",
-    "curseForgeHash": 4178182728,
-    "modrinthHash": "ee869412c35848757ced95b1ac84f4c132ebbe7b"
+    "version": "21.1.11",
+    "curseForgeHash": 2532295503,
+    "modrinthHash": "7343e4b563feb79122c8373a0d5416182ca436a8"
   },
   "utilitarian-1.21.1-0.19.2.jar": {
     "jarName": "utilitarian-1.21.1-0.19.2.jar",

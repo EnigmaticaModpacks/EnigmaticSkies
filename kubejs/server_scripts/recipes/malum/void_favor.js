@@ -99,6 +99,11 @@ ServerEvents.recipes((event) => {
             result: { id: 'create:zinc_ingot' },
             input: { tag: 'c:nuggets/iron' },
             id: `${id_prefix}zinc_ingot`
+        },
+        {
+            result: { id: 'occultism:spirit_attuned_gem' },
+            input: { tag: 'c:gems/zanite' },
+            id: `${id_prefix}spirit_attuned_gem`
         }
     ];
 
