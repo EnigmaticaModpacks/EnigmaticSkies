@@ -5,11 +5,13 @@ NeoForge-1.21.1-21.1.230
 #### ⭐ Improvements
 
 - Slime may now be crafted in the Composter [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- PNC Assembly Program may now be toggled between the three programs [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 
 #### 🦟 Bugs Fixed
 
 - Flame of Automation has been unhidden, removing the 'disabled' text from it [(\#230)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/230)
 - Spirit Attuned Gem re-enabled to allow controlling Void/Rainbow chalk [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Removed a duplicate pie recipe [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 
 #### ✔️ Added Mods
 

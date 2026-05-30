@@ -1181,6 +1181,7 @@ ServerEvents.recipes((event) => {
         { output: 'pneumaticcraft:empty_spawner' },
         { output: 'pneumaticcraft:uv_light_box' },
         { output: 'pneumaticcraft:spawner_core_shell' },
+        { output: 'pneumaticcraft:assembly_program_drill_laser' },
         { id: /pneumaticcraft:thermo_plant\/(vegetable_oil|ethanol)/ },
         { id: /pneumaticcraft:thermo_plant\/(chips|salmon_tempura)/ },
         { id: /pneumaticcraft:thermo_plant\/(plastic|lubricant)/ },
