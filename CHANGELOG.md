@@ -16,6 +16,7 @@ Cold Sweat's temperature system has seen some internal changes. As a result, our
 - Cold Sweat's water effects are now disabled [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - GMO mutations for Rabbits are now available on Aerbunnies as well [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Elder Guardians may now be summoned [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Ars Techinca armor sets now all grant Cold Sweat thermal protection [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### 🦟 Bugs Fixed
 
