@@ -8,6 +8,7 @@ NeoForge-1.21.1-21.1.230
 - PNC Assembly Program may now be toggled between the three programs [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Cold Sweat's water effects are now disabled [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - GMO mutations for Rabbits are now available on Aerbunnies as well [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Elder Guardians may now be summoned [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 
 #### 🦟 Bugs Fixed
 

@@ -68,11 +68,19 @@
 
     "item.occultism.ritual_dummy.sm/ritual/animate_guardian": "Animate Guardian",
     "item.occultism.ritual_dummy.animate_guardian": "§6Ritual: Animate Guardian",
-    "item.occultism.ritual_dummy.animate_guardian.tooltip": "§5Infuse prismarine with magic to bring it to life.",
+    "item.occultism.ritual_dummy.animate_guardian.tooltip": "§5Infuse a Guardian Diode with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_guardian.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/animate_guardian.finished": "Successfully animated a Guardian.",
     "ritual.enigmatica.ritual/animate_guardian.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_guardian.started": "Started animating Guardian.",
+
+    "item.occultism.ritual_dummy.sm/ritual/animate_elder_guardian": "Animate Elder Guardian",
+    "item.occultism.ritual_dummy.animate_elder_guardian": "§6Ritual: Animate Elder Guardian",
+    "item.occultism.ritual_dummy.animate_elder_guardian.tooltip": "§5Infuse Guardian Diode with magic to bring it to life.",
+    "ritual.enigmatica.ritual/animate_elder_guardian.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_elder_guardian.finished": "Successfully animated an Elder Guardian.",
+    "ritual.enigmatica.ritual/animate_elder_guardian.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_elder_guardian.started": "Started animating Elder Guardian.",
 
     "item.occultism.ritual_dummy.sm/ritual/animate_honey_slime": "Animate Honey Slime",
     "item.occultism.ritual_dummy.animate_honey_slime": "§6Ritual: Animate Honey Slime",
