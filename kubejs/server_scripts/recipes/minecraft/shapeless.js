@@ -82,6 +82,11 @@ ServerEvents.recipes((event) => {
             output: '2x minecraft:moss_block',
             inputs: ['minecraft:moss_carpet', 'minecraft:moss_carpet', 'minecraft:moss_carpet'],
             id: `${id_prefix}moss_block_from_moss_carpet`
+        },
+        {
+            output: '9x minecraft:bamboo',
+            inputs: ['minecraft:bamboo_block'],
+            id: `${id_prefix}bamboo_from_bamboo_block`
         }
     ];
 

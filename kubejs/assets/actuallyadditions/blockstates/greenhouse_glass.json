@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "": {
+      "model": "actuallyadditions:block/greenhouse_glass"
+    }
+  },
+  "athena:loader": "athena:ctm",
+  "ctm_textures": {
+    "default": {
+      "center": "actuallyadditions:block/greenhouse_glass/ctm/3",
+      "empty": "actuallyadditions:block/greenhouse_glass/ctm/0",
+      "horizontal": "actuallyadditions:block/greenhouse_glass/ctm/2",
+      "particle": "actuallyadditions:block/greenhouse_glass/ctm/4",
+      "vertical": "actuallyadditions:block/greenhouse_glass/ctm/1"
+    }
+  }
+}

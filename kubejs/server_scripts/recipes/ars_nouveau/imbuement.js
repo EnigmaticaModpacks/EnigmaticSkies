@@ -53,11 +53,11 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            output: { id: 'minecraft:ice', count: 1 },
+            output: { id: 'minecraft:packed_ice', count: 1 },
             input: { item: 'theurgy:crystallized_water' },
             pedestalItems: [{ tag: 'c:essences/water' }, { tag: 'c:essences/water' }],
             source: 100,
-            id: `${id_prefix}ice_from_crystallized_water`
+            id: `${id_prefix}packed_ice_from_crystallized_water`
         },
         {
             output: { id: 'minecraft:pitcher_pod', count: 1 },

@@ -17,6 +17,9 @@ Cold Sweat's temperature system has seen some internal changes. As a result, our
 - GMO mutations for Rabbits are now available on Aerbunnies as well [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Elder Guardians may now be summoned [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Ars Techinca armor sets now all grant Cold Sweat thermal protection [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Imbuement now makes Packed Ice instead of Ice [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Greenhouse texture updated to use connected textures [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Bamboo blocks may now be split back to bamboo [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### 🦟 Bugs Fixed
 

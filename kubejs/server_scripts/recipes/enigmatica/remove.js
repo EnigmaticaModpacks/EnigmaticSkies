@@ -622,6 +622,7 @@ ServerEvents.recipes((event) => {
         { output: 'minecraft:dispenser' },
         { output: 'minecraft:slime_block' },
         { output: 'minecraft:enchanting_table' },
+        { output: 'minecraft:repeater' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
         { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },
