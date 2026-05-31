@@ -587,6 +587,8 @@
     },
     "fluids": {
         "hidden": [
+            "/create_dragons_plus:.*/",
+
             "modern_industrialization:crude_oil",
             "modern_industrialization:vinyl_chloride",
             "modern_industrialization:tritium",

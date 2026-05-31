@@ -6,6 +6,7 @@ NeoForge-1.21.1-21.1.230
 
 - Slime may now be crafted in the Composter [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - PNC Assembly Program may now be toggled between the three programs [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Cold Sweat's water effects are now disabled [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 
 #### 🦟 Bugs Fixed
 
@@ -15,6 +16,11 @@ NeoForge-1.21.1-21.1.230
 - Backpacks are no longer allowed in the Tool Belt due to a crash [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 
 #### ✔️ Added Mods
+
+- [Create More: Parallel Pipes](https://www.curseforge.com/minecraft/mc-mods/create-more-parallel-pipes) (by [Kreiii](https://www.curseforge.com/members/kreiii/projects))
+- [Create: Central Kitchen](https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen) (by [DragonsPlus](https://www.curseforge.com/members/dragonsplus/projects))
+- [Create: Dragons Plus](https://www.curseforge.com/minecraft/mc-mods/create-dragons-plus) (by [DragonsPlus](https://www.curseforge.com/members/dragonsplus/projects))
+- [Weather Refined](https://www.curseforge.com/minecraft/mc-mods/weather-refined) (by [Norevy](https://www.curseforge.com/members/norevy/projects))
 
 #### ❌ Removed Mods
 
