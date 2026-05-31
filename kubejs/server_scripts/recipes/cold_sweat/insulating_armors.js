@@ -197,6 +197,68 @@ ServerEvents.generateData('before_mods', (event) => {
             },
             hint: { key: 'tooltip.hint.enigmatica.ars_technica_technomancer_armor_set' },
             id: `${id_prefix}ars_technica_technomancer_armor_set`
+        },
+        {
+            item: { items: ['ars_technica:machinaguard_chestplate'] },
+            insulation: { heat: 0, cold: 0 },
+            entity: {
+                entities: ['*'],
+                equipment: {
+                    head: { items: ['ars_technica:machinaguard_helmet'] },
+                    chest: { items: ['ars_technica:machinaguard_chestplate'] },
+                    legs: { items: ['ars_technica:machinaguard_leggings'] },
+                    feet: { items: ['ars_technica:machinaguard_boots'] }
+                }
+            },
+            attributes: {
+                'cold_sweat:cold_dampening': [
+                    {
+                        name: 'enigmatica:cold_dampening_set_bonus',
+                        operation: 'add_value',
+                        amount: 0.375
+                    }
+                ],
+                'cold_sweat:heat_dampening': [
+                    {
+                        name: 'enigmatica:heat_dampening_set_bonus',
+                        operation: 'add_value',
+                        amount: 0.375
+                    }
+                ]
+            },
+            hint: { key: 'tooltip.hint.enigmatica.ars_technica_machinaguard_armor_set' },
+            id: `${id_prefix}ars_technica_machinaguard_armor_set`
+        },
+        {
+            item: { items: ['ars_technica:artificer_tunic'] },
+            insulation: { heat: 0, cold: 0 },
+            entity: {
+                entities: ['*'],
+                equipment: {
+                    head: { items: ['ars_technica:artificer_cap'] },
+                    chest: { items: ['ars_technica:artificer_tunic'] },
+                    legs: { items: ['ars_technica:artificer_pants'] },
+                    feet: { items: ['ars_technica:artificer_shoes'] }
+                }
+            },
+            attributes: {
+                'cold_sweat:cold_dampening': [
+                    {
+                        name: 'enigmatica:cold_dampening_set_bonus',
+                        operation: 'add_value',
+                        amount: 0.375
+                    }
+                ],
+                'cold_sweat:heat_dampening': [
+                    {
+                        name: 'enigmatica:heat_dampening_set_bonus',
+                        operation: 'add_value',
+                        amount: 0.375
+                    }
+                ]
+            },
+            hint: { key: 'tooltip.hint.enigmatica.ars_technica_artificer_armor_set' },
+            id: `${id_prefix}ars_technica_artificer_armor_set`
         }
     ];
 
