@@ -12,6 +12,7 @@ NeoForge-1.21.1-21.1.230
 - Flame of Automation has been unhidden, removing the 'disabled' text from it [(\#230)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/230)
 - Spirit Attuned Gem re-enabled to allow controlling Void/Rainbow chalk [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Removed a duplicate pie recipe [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Backpacks are no longer allowed in the Tool Belt due to a crash [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 
 #### ✔️ Added Mods
 

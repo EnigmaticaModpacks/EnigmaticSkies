@@ -516,13 +516,13 @@
     "curseForgeHash": 872213290,
     "modrinthHash": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
   },
-  "ColdSweat-2.4.jar": {
-    "jarName": "ColdSweat-2.4.jar",
+  "ColdSweat-2.4.1.jar": {
+    "jarName": "ColdSweat-2.4.1.jar",
     "modId": "cold_sweat",
     "name": "Cold Sweat",
-    "version": "2.4",
-    "curseForgeHash": 1038032476,
-    "modrinthHash": "7a6dc6fb42f7e75249b2938765f800082ad4997b"
+    "version": "2.4.1",
+    "curseForgeHash": 1570404555,
+    "modrinthHash": "e5747f58e71bc910ece678ca5f58c38b4f89857c"
   },
   "colorfulhearts-neoforge-1.21.1-10.5.9.jar": {
     "jarName": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
@@ -1697,13 +1697,13 @@
     "curseForgeHash": 1056016325,
     "modrinthHash": "9b1886d39303cd7f295f743687318c0a28b5778c"
   },
-  "PuzzlesLib-v21.1.50-1.21.1-NeoForge.jar": {
-    "jarName": "PuzzlesLib-v21.1.50-1.21.1-NeoForge.jar",
+  "PuzzlesLib-v21.1.51-1.21.1-NeoForge.jar": {
+    "jarName": "PuzzlesLib-v21.1.51-1.21.1-NeoForge.jar",
     "modId": "puzzleslib",
     "name": "Puzzles Lib",
-    "version": "21.1.50",
-    "curseForgeHash": 2515128730,
-    "modrinthHash": "641db715038b9cbb95351d7070c88665e7ccf42e"
+    "version": "21.1.51",
+    "curseForgeHash": 986404996,
+    "modrinthHash": "035de52d3eb18ceeca4e4e63516af873c0975060"
   },
   "redstonepen-1.21-neoforge-1.11.42.jar": {
     "jarName": "redstonepen-1.21-neoforge-1.11.42.jar",
@@ -2009,13 +2009,13 @@
     "curseForgeHash": 1560695399,
     "modrinthHash": "774b2d610a78d23a810c1ee173189a79358985a1"
   },
-  "the_bumblezone-7.13.6+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.13.6+1.21.1-neoforge.jar",
+  "the_bumblezone-7.14.0+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.14.0+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.13.6+1.21.1-neoforge",
-    "curseForgeHash": 1141333698,
-    "modrinthHash": "0c6e419c2b72df72c0db37a36973fd914f6562b8"
+    "version": "7.14.0+1.21.1-neoforge",
+    "curseForgeHash": 4262098722,
+    "modrinthHash": "6396de5a49d7133511a45a820192a9726a4a018f"
   },
   "thesilverage-neoforge-1.21.1-1.2.0.jar": {
     "jarName": "thesilverage-neoforge-1.21.1-1.2.0.jar",

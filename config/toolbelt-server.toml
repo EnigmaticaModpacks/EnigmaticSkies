@@ -2,6 +2,13 @@
 	#List of items to force-allow placing in the belt. Takes precedence over blacklist.
 	whitelist = []
 	#List of items to disallow from placing in the belt. (whitelist takes precedence)
-	blacklist = []
+	blacklist = [
+		'sophisticatedbackpacks:backpack',
+		'sophisticatedbackpacks:copper_backpack',
+		'sophisticatedbackpacks:iron_backpack',
+		'sophisticatedbackpacks:gold_backpack',
+		'sophisticatedbackpacks:diamond_backpack',
+		'sophisticatedbackpacks:netherite_backpack'
+		]
 	#When set to false, stackable items will no longer be allowed by default.
 	allowAllNonStackableItems = true
