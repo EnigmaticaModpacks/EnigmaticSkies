@@ -100,6 +100,29 @@ ServerEvents.recipes((event) => {
             ritual_dummy: { id: `occultism:ritual_dummy/psychic_squid_rift`, count: 1 },
             duration: 30,
             id: `${id_prefix}psychic_squid_rift`
+        },
+        {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: 'minecraft:elder_guardian',
+            result: {
+                id: 'minecraft:elder_guardian_spawn_egg',
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_elder_guardian"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_elder_guardian.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: Ingredient.of('enderio:guardian_diode').toJson(),
+            ingredients: [
+                { tag: 'c:gems/mnemonic_fragment' },
+                { item: 'oritech:wither_crop_block' },
+                { item: 'naturesaura:calling_spirit' },
+                { item: 'oritech:wither_crop_block' },
+                { tag: 'c:gems/time' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_elder_guardian`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}animate_elder_guardian`
         }
     ];
 

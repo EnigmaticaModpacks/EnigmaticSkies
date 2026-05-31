@@ -22,11 +22,11 @@
 	# ⌄ 
 	# Default: 3
 	# Range: 0 ~ 3
-	"Show Water Effect" = 3
+	"Show Water Effect" = 0
 	#─────────────────────────────────────────────────────────────────────────
 	# The scale of the water droplets on-screen, in scaled "pixels"
 	# ⌄ 
-	"Water Droplet Scale" = [40, 48]
+	"Water Droplet Scale" = [5, 9]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the primary (right-click) action for the waterskin
 	# Can be one of "drink", "pour", or "none"

@@ -216,6 +216,7 @@ StartupEvents.registry('item', (event) => {
         { id: 'animate_sentry', type: 'possess' },
         { id: 'animate_rootmin', type: 'possess' },
         { id: 'animate_guardian', type: 'possess' },
+        { id: 'animate_elder_guardian', type: 'possess' },
         { id: 'animate_honey_slime', type: 'possess' },
         { id: 'animate_shulker', type: 'possess' },
         { id: 'animate_mimic', type: 'possess' },

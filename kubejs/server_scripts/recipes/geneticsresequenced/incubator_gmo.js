@@ -87,6 +87,21 @@ ServerEvents.recipes((event) => {
             gene_chance: 0.5,
             needs_mutation_potion: true,
             id: `${id_prefix}wilden_4_from_wilden_boss`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:speed',
+            ingredient: { item: 'minecraft:golden_boots' },
+            entity_type: 'aether:aerbunny',
+            gene_chance: 0.65,
+            id: `${id_prefix}speed_from_aerbunny`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:haste_2',
+            ingredient: { item: 'minecraft:netherite_pickaxe' },
+            entity_type: 'aether:aerbunny',
+            gene_chance: 0.35,
+            needs_mutation_potion: true,
+            id: `${id_prefix}haste_2_from_aerbunny`
         }
     ];
 

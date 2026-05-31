@@ -394,6 +394,7 @@ ServerEvents.recipes((event) => {
         { output: 'farmersdelight:organic_compost' },
         { output: 'farmersdelight:sweet_berry_cookie' },
         { output: 'farmersdelight:honey_cookie' },
+        { id: /farmersdelight:cutting\/.*_(door|sign|trapdoor)/ },
         { id: 'farmersdelight:wheat_dough_from_water' },
         { id: 'farmersdelight:wheat_dough_from_egg' },
         { id: 'farmersdelight:cooking/dumplings' },
@@ -403,8 +404,8 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:chocolate_pie' },
         { id: 'farmersdelight:paper_from_tree_bark' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
-        { id: /farmersdelight:cutting\/.*_(door|sign|trapdoor)/ },
         { id: 'farmersdelight:cutting/gravel' },
+        { id: 'farmersdelight:pumpkin_pie_from_pie_crust' },
 
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },
@@ -1180,6 +1181,7 @@ ServerEvents.recipes((event) => {
         { output: 'pneumaticcraft:empty_spawner' },
         { output: 'pneumaticcraft:uv_light_box' },
         { output: 'pneumaticcraft:spawner_core_shell' },
+        { output: 'pneumaticcraft:assembly_program_drill_laser' },
         { id: /pneumaticcraft:thermo_plant\/(vegetable_oil|ethanol)/ },
         { id: /pneumaticcraft:thermo_plant\/(chips|salmon_tempura)/ },
         { id: /pneumaticcraft:thermo_plant\/(plastic|lubricant)/ },
