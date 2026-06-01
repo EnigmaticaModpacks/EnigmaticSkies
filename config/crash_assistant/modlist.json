@@ -884,13 +884,13 @@
     "curseForgeHash": 388147335,
     "modrinthHash": "72d63d64ee774b89302e0d6b220757ba11b6ec4f"
   },
-  "extended-industrialization-1.15.38-1.21.1.jar": {
-    "jarName": "extended-industrialization-1.15.38-1.21.1.jar",
+  "extended-industrialization-1.15.39-1.21.1.jar": {
+    "jarName": "extended-industrialization-1.15.39-1.21.1.jar",
     "modId": "extended_industrialization",
     "name": "Extended Industrialization",
-    "version": "1.15.38-1.21.1",
-    "curseForgeHash": 1364975962,
-    "modrinthHash": "dcff934543076a50b3b50780e4c8c9bc5d1f9387"
+    "version": "1.15.39-1.21.1",
+    "curseForgeHash": 4114583403,
+    "modrinthHash": "bd5cf2fa5a009dedbdf658aaa740b15f0f8d5b08"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -1889,13 +1889,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.49.1791.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.49.1791.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.51.1801.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.51.1801.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.49",
-    "curseForgeHash": 2319230096,
-    "modrinthHash": "829afe4b75db0ea5a52c548fb8a3d8cfcf738d44"
+    "version": "3.25.51",
+    "curseForgeHash": 4199988580,
+    "modrinthHash": "383b1bbf6add783eef5ea99ec90b8a14284ddc87"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar",
@@ -1905,21 +1905,21 @@
     "curseForgeHash": 2555194351,
     "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
   },
-  "sophisticatedcore-1.21.1-1.4.42.1892.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.42.1892.jar",
+  "sophisticatedcore-1.21.1-1.4.43.1912.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.43.1912.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.42",
-    "curseForgeHash": 696262703,
-    "modrinthHash": "c96bc37fac2de3a76ce2bffe3881c5f08d04264c"
+    "version": "1.4.43",
+    "curseForgeHash": 2490561369,
+    "modrinthHash": "a15abe7de2c15ea3a55a0d8b3b6bcaf066e6a1a7"
   },
-  "sophisticatedstorage-1.21.1-1.5.52.1756.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.52.1756.jar",
+  "sophisticatedstorage-1.21.1-1.5.54.1762.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.54.1762.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.52",
-    "curseForgeHash": 3606107375,
-    "modrinthHash": "163b04fa1a3ccee1c91697aa17889dc0ef8ca257"
+    "version": "1.5.54",
+    "curseForgeHash": 738625566,
+    "modrinthHash": "41859d4122b41c63f9c8fc61730300d42686b5d4"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
