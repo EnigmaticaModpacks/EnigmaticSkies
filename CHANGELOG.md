@@ -27,6 +27,7 @@ Cold Sweat's temperature system has seen some internal changes. As a result, our
 - Spirit Attuned Gem re-enabled to allow controlling Void/Rainbow chalk [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Removed a duplicate pie recipe [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Backpacks are no longer allowed in the Tool Belt due to a crash [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Oritech's tree cutter can now cut Malum Runewood Trees [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### ✔️ Added Mods
 
