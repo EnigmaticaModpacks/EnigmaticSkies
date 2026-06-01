@@ -21,6 +21,7 @@ Cold Sweat's temperature system has seen some internal changes. As a result, our
 - Greenhouse texture updated to use connected textures [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240) ([Ridanisaurus](https://github.com/Ridanisaurus))
 - Bamboo blocks may now be split back to bamboo [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 - Barrels are now slightly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Brass is now significantly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### 🦟 Bugs Fixed
 

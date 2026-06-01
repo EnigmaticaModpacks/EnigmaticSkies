@@ -47,19 +47,19 @@ ServerEvents.recipes((event) => {
         {
             result: { id: AlmostUnified.getTagTargetItem('c:nuggets/brass').getId() },
             ingredient: { item: 'aquaculture:neptunium_nugget' },
-            energy: 1000,
+            energy: 100,
             id: `${id_prefix}brass_nugget_from_neptunium`
         },
         {
             result: { id: AlmostUnified.getTagTargetItem('c:ingots/brass').getId() },
             ingredient: { item: 'aquaculture:neptunium_ingot' },
-            energy: 8000,
+            energy: 800,
             id: `${id_prefix}brass_ingot_from_neptunium`
         },
         {
             result: { id: AlmostUnified.getTagTargetItem('c:storage_blocks/brass').getId() },
             ingredient: { item: 'aquaculture:neptunium_block' },
-            energy: 64000,
+            energy: 6400,
             id: `${id_prefix}brass_block_from_neptunium`
         },
         {
