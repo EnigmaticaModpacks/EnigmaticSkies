@@ -28,6 +28,7 @@ Cold Sweat's temperature system has seen some internal changes. As a result, our
 - Removed a duplicate pie recipe [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Backpacks are no longer allowed in the Tool Belt due to a crash [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Oritech's tree cutter can now cut Malum Runewood Trees [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Added an entry for Flying Cow IOUs in en_us [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### ✔️ Added Mods
 
