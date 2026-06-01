@@ -4,10 +4,9 @@ NeoForge-1.21.1-21.1.230
 
 #### ⚠️Important Note
 
-Cold Sweat's temperature system has seen some internal changes. As a result, our customizations have been adjusted to compensate.
+Cold Sweat's temperature system will be seeing some internal changes in a future version. As a result, our customizations have been adjusted.
 
 - Held items now affect your environmental temperature. This has the benefit that insulated armor will have more impact on protecting you against very hot/cold items in your inventory. If you've been keeping warm items on you to protect you from the cold, you may need to adjust how many you're holding.
-- Items that can affect your temperature in this way now have precise values showing the expected impact.
 
 #### ⭐ Improvements
 
