@@ -303,7 +303,9 @@ ServerEvents.recipes((event) => {
         { id: 'trading_floor:trading_depot' },
 
         { id: 'create_connected:sequenced_assembly/control_chip' },
-        { input: /create_connected:fan_(seeth|end|freez|wither|sand)ing_catalyst/ },
+        { id: /create_connected:.*ending_catalyst_(dragon|sanding|freezing)/ },
+        { input: /create_connected:fan_(seeth|end|freez|wither|gloom|skulk|purify|sand)ing_catalyst/ },
+        { input: /create_connected:fan_(transmutation|resonance|chocolate_coating|soul_striping)_catalyst/ },
         { input: 'create_connected:fan_enriched_catalyst' },
 
         { id: /createdeco:.*_sheet_metal/ },
@@ -622,6 +624,7 @@ ServerEvents.recipes((event) => {
         { output: 'minecraft:dispenser' },
         { output: 'minecraft:slime_block' },
         { output: 'minecraft:enchanting_table' },
+        { output: 'minecraft:repeater' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
         { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },

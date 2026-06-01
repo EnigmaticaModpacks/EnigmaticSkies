@@ -152,6 +152,46 @@ ServerEvents.recipes((event) => {
                 B: '#c:ingots/steel'
             },
             id: `${id_prefix}chain_from_steel`
+        },
+        {
+            output: 'minecraft:repeater',
+            pattern: ['ABA', 'CCC'],
+            key: {
+                A: 'minecraft:redstone_torch',
+                B: '#c:dusts/redstone',
+                C: 'minecraft:andesite'
+            },
+            id: `${id_prefix}repeater`
+        },
+        {
+            output: 'minecraft:repeater',
+            pattern: ['B B', 'ABA', 'CCC'],
+            key: {
+                A: '#c:rods/wooden',
+                B: '#c:dusts/redstone',
+                C: 'minecraft:andesite'
+            },
+            id: `${id_prefix}repeater_simple`
+        },
+        {
+            output: '2x minecraft:repeater',
+            pattern: [' A ', 'BCB', ' A '],
+            key: {
+                A: '#c:plates/silver',
+                B: '#c:dusts/redstone',
+                C: '#c:rods/wooden'
+            },
+            id: `${id_prefix}repeater_silver`
+        },
+        {
+            output: '2x minecraft:comparator',
+            pattern: [' A ', 'BCB', ' A '],
+            key: {
+                A: '#c:plates/silver',
+                B: '#c:dusts/redstone',
+                C: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
+            },
+            id: `${id_prefix}comparator_silver`
         }
     ];
 

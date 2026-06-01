@@ -11,7 +11,7 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'minecraft:barrel', count: 1 },
+            result: { id: 'minecraft:barrel', count: 2 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },

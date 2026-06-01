@@ -128,6 +128,11 @@ ServerEvents.recipes((event) => {
             higher_input: { id: 'ars_nouveau:sourceberry_sack', count: 1 },
             lower_input: { id: 'ars_nouveau:sourceberry_bush', count: 9 },
             id: `${id_prefix}sourceberry_to_sack`
+        },
+        {
+            higher_input: { id: 'minecraft:bamboo_block', count: 1 },
+            lower_input: { id: 'minecraft:bamboo', count: 9 },
+            id: `${id_prefix}bamboo_to_block`
         }
     ];
 

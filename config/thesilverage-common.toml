@@ -1,5 +1,5 @@
 silverfish_drop_silver = false
-override_vanilla_recipes = false
+override_vanilla_recipes = true
 enable_villager_trades = false
 enable_wandering_trader_trades = false
 generate_structure_loot = false

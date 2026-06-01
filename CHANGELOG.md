@@ -2,6 +2,12 @@
 
 NeoForge-1.21.1-21.1.230
 
+#### ⚠️Important Note
+
+Cold Sweat's temperature system will be seeing some internal changes in a future version. As a result, our customizations have been adjusted.
+
+- Held items now affect your environmental temperature. This has the benefit that insulated armor will have more impact on protecting you against very hot/cold items in your inventory. If you've been keeping warm items on you to protect you from the cold, you may need to adjust how many you're holding.
+
 #### ⭐ Improvements
 
 - Slime may now be crafted in the Composter [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
@@ -9,6 +15,12 @@ NeoForge-1.21.1-21.1.230
 - Cold Sweat's water effects are now disabled [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - GMO mutations for Rabbits are now available on Aerbunnies as well [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Elder Guardians may now be summoned [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Ars Techinca armor sets now all grant Cold Sweat thermal protection [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Imbuement now makes Packed Ice instead of Ice [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Greenhouse texture updated to use connected textures [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Bamboo blocks may now be split back to bamboo [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Barrels are now slightly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Brass is now significantly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### 🦟 Bugs Fixed
 
@@ -16,6 +28,8 @@ NeoForge-1.21.1-21.1.230
 - Spirit Attuned Gem re-enabled to allow controlling Void/Rainbow chalk [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Removed a duplicate pie recipe [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
 - Backpacks are no longer allowed in the Tool Belt due to a crash [(\#232)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/232)
+- Oritech's tree cutter can now cut Malum Runewood Trees [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Added an entry for Flying Cow IOUs in en_us [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### ✔️ Added Mods
 
