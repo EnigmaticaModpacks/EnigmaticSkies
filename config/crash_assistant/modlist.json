@@ -524,13 +524,13 @@
     "curseForgeHash": 872213290,
     "modrinthHash": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
   },
-  "ColdSweat-2.4.1.jar": {
-    "jarName": "ColdSweat-2.4.1.jar",
+  "ColdSweat-2.4.jar": {
+    "jarName": "ColdSweat-2.4.jar",
     "modId": "cold_sweat",
     "name": "Cold Sweat",
-    "version": "2.4.1",
-    "curseForgeHash": 1570404555,
-    "modrinthHash": "e5747f58e71bc910ece678ca5f58c38b4f89857c"
+    "version": "2.4",
+    "curseForgeHash": 1038032476,
+    "modrinthHash": "7a6dc6fb42f7e75249b2938765f800082ad4997b"
   },
   "colorfulhearts-neoforge-1.21.1-10.5.9.jar": {
     "jarName": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
