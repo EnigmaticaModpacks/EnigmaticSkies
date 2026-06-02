@@ -365,6 +365,7 @@ ServerEvents.recipes((event) => {
                 { mod: 'framedblocks' },
                 { mod: 'handcrafted' },
                 { mod: 'arts_and_crafts' },
+                { mod: 'sophisticatedstorage' },
                 { id: /^mcw.*:/ }
             ],
             to_replace: `minecraft:stick`,

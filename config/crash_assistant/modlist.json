@@ -109,13 +109,13 @@
     "curseForgeHash": 3015221479,
     "modrinthHash": "26eef3e36bd3af25e5122dec2e9b918e26270c4e"
   },
-  "Apotheosis-1.21.1-8.5.3.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
+  "Apotheosis-1.21.1-8.5.4.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.4.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.3",
-    "curseForgeHash": 1206032462,
-    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
+    "version": "8.5.4",
+    "curseForgeHash": 2047241094,
+    "modrinthHash": "24c28cdf26514148a92f7b8c620ec54a2cd2c9ca"
   },
   "ApothicAttributes-1.21.1-2.9.1.jar": {
     "jarName": "ApothicAttributes-1.21.1-2.9.1.jar",
@@ -1905,21 +1905,21 @@
     "curseForgeHash": 2555194351,
     "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
   },
-  "sophisticatedcore-1.21.1-1.4.43.1912.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.43.1912.jar",
+  "sophisticatedcore-1.21.1-1.4.44.1923.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.44.1923.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.43",
-    "curseForgeHash": 2490561369,
-    "modrinthHash": "a15abe7de2c15ea3a55a0d8b3b6bcaf066e6a1a7"
+    "version": "1.4.44",
+    "curseForgeHash": 3048315302,
+    "modrinthHash": "a20903b6c99dc2e6c0412488b97cb6972128121c"
   },
-  "sophisticatedstorage-1.21.1-1.5.54.1762.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.54.1762.jar",
+  "sophisticatedstorage-1.21.1-1.5.55.1772.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.55.1772.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.54",
-    "curseForgeHash": 738625566,
-    "modrinthHash": "41859d4122b41c63f9c8fc61730300d42686b5d4"
+    "version": "1.5.55",
+    "curseForgeHash": 948762039,
+    "modrinthHash": "6b1ce54c3e39fd006cf61428718e56df6aa0746c"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
