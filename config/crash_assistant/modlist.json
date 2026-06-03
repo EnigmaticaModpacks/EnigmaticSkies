@@ -1601,13 +1601,13 @@
     "curseForgeHash": 728845744,
     "modrinthHash": "1ab999bac46ff84e90c3bbfaa4923286df4b870a"
   },
-  "occultism-1.21.1-neoforge-1.215.0.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.215.0.jar",
+  "occultism-1.21.1-neoforge-1.218.0.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.218.0.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.215.0",
-    "curseForgeHash": 4237482295,
-    "modrinthHash": "63b4b96a0ca9079dbcc4b4c02dbf055254999881"
+    "version": "1.218.0",
+    "curseForgeHash": 3587035468,
+    "modrinthHash": "4ab280781d97f256374749d9e0995ff63c1ef796"
   },
   "occultism_kubejs-1.21.1-neoforge-1.11.0.jar": {
     "jarName": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
@@ -2041,13 +2041,13 @@
     "curseForgeHash": 4262098722,
     "modrinthHash": "6396de5a49d7133511a45a820192a9726a4a018f"
   },
-  "thesilverage-neoforge-1.21.1-1.3.0.jar": {
-    "jarName": "thesilverage-neoforge-1.21.1-1.3.0.jar",
+  "thesilverage-neoforge-1.21.1-1.3.1.jar": {
+    "jarName": "thesilverage-neoforge-1.21.1-1.3.1.jar",
     "modId": "thesilverage",
     "name": "The Silver Age",
-    "version": "1.3.0",
-    "curseForgeHash": 280072584,
-    "modrinthHash": "253733267c62bb34fe629fbcc12ce118cd644564"
+    "version": "1.3.1",
+    "curseForgeHash": 34239584,
+    "modrinthHash": "46aad3a4779f575611e6b28deb5b7bdcb27a0602"
   },
   "theurgy-1.21.1-neoforge-1.73.1.jar": {
     "jarName": "theurgy-1.21.1-neoforge-1.73.1.jar",
