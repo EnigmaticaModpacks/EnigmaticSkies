@@ -150,7 +150,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
             alakarkinos: true,
-            duration: 5,
+            duration: 3,
             eu: 2,
             id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_sal_ammoniac`
         };
@@ -163,7 +163,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 25 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
             alakarkinos: true,
-            duration: 5,
+            duration: 3,
             eu: 64,
             id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_strange_matter`
         };
@@ -184,7 +184,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: { fluid: 'enigmatica:vapours_of_nyx', amount: 5 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 1000 },
             alakarkinos: true,
-            duration: 5,
+            duration: 3,
             eu: 128,
             id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_vapours_of_nyx`
         };

@@ -168,15 +168,45 @@ ServerEvents.generateData('before_mods', (event) => {
             id: `${id_prefix}ars_nouveau_armor_tier_3`
         },
         {
-            item: { items: ['ars_technica:technomancer_chestplate'] },
+            item: {
+                items: [
+                    'ars_technica:technomancer_chestplate',
+                    'ars_technica:machinaguard_chestplate',
+                    'ars_technica:artificer_tunic'
+                ]
+            },
             insulation: { heat: 0, cold: 0 },
             entity: {
                 entities: ['*'],
                 equipment: {
-                    head: { items: ['ars_technica:technomancer_helmet'] },
-                    chest: { items: ['ars_technica:technomancer_chestplate'] },
-                    legs: { items: ['ars_technica:technomancer_leggings'] },
-                    feet: { items: ['ars_technica:technomancer_boots'] }
+                    head: {
+                        items: [
+                            'ars_technica:technomancer_helmet',
+                            'ars_technica:machinaguard_helmet',
+                            'ars_technica:artificer_cap'
+                        ]
+                    },
+                    chest: {
+                        items: [
+                            'ars_technica:technomancer_chestplate',
+                            'ars_technica:machinaguard_chestplate',
+                            'ars_technica:artificer_tunic'
+                        ]
+                    },
+                    legs: {
+                        items: [
+                            'ars_technica:technomancer_leggings',
+                            'ars_technica:machinaguard_leggings',
+                            'ars_technica:artificer_pants'
+                        ]
+                    },
+                    feet: {
+                        items: [
+                            'ars_technica:technomancer_boots',
+                            'ars_technica:machinaguard_boots',
+                            'ars_technica:artificer_shoes'
+                        ]
+                    }
                 }
             },
             attributes: {

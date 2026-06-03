@@ -75,6 +75,10 @@
             "create:deepslate_zinc_ore",
 
             "create_connected:control_chip",
+            "create_connected:fan_ending_catalyst_dragons_breath",
+            "create_connected:fan_ending_catalyst_dragon_head",
+            "create_connected:fan_sanding_catalyst",
+            "create_connected:fan_freezing_catalyst",
 
             "cold_sweat:soulspring_lamp",
             "cold_sweat:thermometer",

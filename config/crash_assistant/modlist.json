@@ -109,13 +109,13 @@
     "curseForgeHash": 3015221479,
     "modrinthHash": "26eef3e36bd3af25e5122dec2e9b918e26270c4e"
   },
-  "Apotheosis-1.21.1-8.5.3.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
+  "Apotheosis-1.21.1-8.5.4.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.4.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.3",
-    "curseForgeHash": 1206032462,
-    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
+    "version": "8.5.4",
+    "curseForgeHash": 2047241094,
+    "modrinthHash": "24c28cdf26514148a92f7b8c620ec54a2cd2c9ca"
   },
   "ApothicAttributes-1.21.1-2.9.1.jar": {
     "jarName": "ApothicAttributes-1.21.1-2.9.1.jar",
@@ -476,13 +476,13 @@
     "curseForgeHash": 2239256942,
     "modrinthHash": "1aeae5774513fdc82fa52d544edcd72b26c498b8"
   },
-  "clientsort-neoforge-2.2.1+1.21.1.jar": {
-    "jarName": "clientsort-neoforge-2.2.1+1.21.1.jar",
+  "clientsort-neoforge-2.2.2+1.21.1.jar": {
+    "jarName": "clientsort-neoforge-2.2.2+1.21.1.jar",
     "modId": "clientsort",
     "name": "ClientSort",
-    "version": "2.2.1+1.21.1",
-    "curseForgeHash": 3816111235,
-    "modrinthHash": "84f74e5473e369aabb1242b0fa7efcb6c1df1471"
+    "version": "2.2.2+1.21.1",
+    "curseForgeHash": 3792132118,
+    "modrinthHash": "9d13b8315b03bda4bc6f5637c51f25a99cdcacd3"
   },
   "clienttweaks-neoforge-1.21.1-21.1.11.jar": {
     "jarName": "clienttweaks-neoforge-1.21.1-21.1.11.jar",
@@ -524,13 +524,13 @@
     "curseForgeHash": 872213290,
     "modrinthHash": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
   },
-  "ColdSweat-2.4.1.jar": {
-    "jarName": "ColdSweat-2.4.1.jar",
+  "ColdSweat-2.4.jar": {
+    "jarName": "ColdSweat-2.4.jar",
     "modId": "cold_sweat",
     "name": "Cold Sweat",
-    "version": "2.4.1",
-    "curseForgeHash": 1570404555,
-    "modrinthHash": "e5747f58e71bc910ece678ca5f58c38b4f89857c"
+    "version": "2.4",
+    "curseForgeHash": 1038032476,
+    "modrinthHash": "7a6dc6fb42f7e75249b2938765f800082ad4997b"
   },
   "colorfulhearts-neoforge-1.21.1-10.5.9.jar": {
     "jarName": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
@@ -884,13 +884,13 @@
     "curseForgeHash": 388147335,
     "modrinthHash": "72d63d64ee774b89302e0d6b220757ba11b6ec4f"
   },
-  "extended-industrialization-1.15.38-1.21.1.jar": {
-    "jarName": "extended-industrialization-1.15.38-1.21.1.jar",
+  "extended-industrialization-1.15.39-1.21.1.jar": {
+    "jarName": "extended-industrialization-1.15.39-1.21.1.jar",
     "modId": "extended_industrialization",
     "name": "Extended Industrialization",
-    "version": "1.15.38-1.21.1",
-    "curseForgeHash": 1364975962,
-    "modrinthHash": "dcff934543076a50b3b50780e4c8c9bc5d1f9387"
+    "version": "1.15.39-1.21.1",
+    "curseForgeHash": 4114583403,
+    "modrinthHash": "bd5cf2fa5a009dedbdf658aaa740b15f0f8d5b08"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -1601,13 +1601,13 @@
     "curseForgeHash": 728845744,
     "modrinthHash": "1ab999bac46ff84e90c3bbfaa4923286df4b870a"
   },
-  "occultism-1.21.1-neoforge-1.215.0.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.215.0.jar",
+  "occultism-1.21.1-neoforge-1.218.0.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.218.0.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.215.0",
-    "curseForgeHash": 4237482295,
-    "modrinthHash": "63b4b96a0ca9079dbcc4b4c02dbf055254999881"
+    "version": "1.218.0",
+    "curseForgeHash": 3587035468,
+    "modrinthHash": "4ab280781d97f256374749d9e0995ff63c1ef796"
   },
   "occultism_kubejs-1.21.1-neoforge-1.11.0.jar": {
     "jarName": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
@@ -1833,13 +1833,13 @@
     "curseForgeHash": 1087700708,
     "modrinthHash": "17407b525c0c70a0f6f03a08024a14058f645d01"
   },
-  "SignPlates-NeoForge-1.21.1-1.1.1.jar": {
-    "jarName": "SignPlates-NeoForge-1.21.1-1.1.1.jar",
+  "SignPlates-NeoForge-1.21.1-1.1.2.jar": {
+    "jarName": "SignPlates-NeoForge-1.21.1-1.1.2.jar",
     "modId": "sign_plates",
     "name": "Sign Plates",
-    "version": "1.1.1",
-    "curseForgeHash": 3508326084,
-    "modrinthHash": "0a847e6bc65761f2f7700305ab4da9e549b7f459"
+    "version": "1.1.2",
+    "curseForgeHash": 964919886,
+    "modrinthHash": "68323a2db6a86f6031cac2a3ba942cb390f6f1ef"
   },
   "simplemagnets-1.1.12c-neoforge-mc1.21.jar": {
     "jarName": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
@@ -1889,13 +1889,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.49.1791.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.49.1791.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.51.1801.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.51.1801.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.49",
-    "curseForgeHash": 2319230096,
-    "modrinthHash": "829afe4b75db0ea5a52c548fb8a3d8cfcf738d44"
+    "version": "3.25.51",
+    "curseForgeHash": 4199988580,
+    "modrinthHash": "383b1bbf6add783eef5ea99ec90b8a14284ddc87"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar",
@@ -1905,21 +1905,21 @@
     "curseForgeHash": 2555194351,
     "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
   },
-  "sophisticatedcore-1.21.1-1.4.42.1892.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.42.1892.jar",
+  "sophisticatedcore-1.21.1-1.4.44.1923.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.44.1923.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.42",
-    "curseForgeHash": 696262703,
-    "modrinthHash": "c96bc37fac2de3a76ce2bffe3881c5f08d04264c"
+    "version": "1.4.44",
+    "curseForgeHash": 3048315302,
+    "modrinthHash": "a20903b6c99dc2e6c0412488b97cb6972128121c"
   },
-  "sophisticatedstorage-1.21.1-1.5.52.1756.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.52.1756.jar",
+  "sophisticatedstorage-1.21.1-1.5.55.1772.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.55.1772.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.52",
-    "curseForgeHash": 3606107375,
-    "modrinthHash": "163b04fa1a3ccee1c91697aa17889dc0ef8ca257"
+    "version": "1.5.55",
+    "curseForgeHash": 948762039,
+    "modrinthHash": "6b1ce54c3e39fd006cf61428718e56df6aa0746c"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
@@ -2001,13 +2001,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-neoforge-1.21.1-3.6.5.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.6.5.jar",
+  "supplementaries-neoforge-1.21.1-3.6.6.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.6.6.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.6.5",
-    "curseForgeHash": 155777381,
-    "modrinthHash": "3ed53e2480eea26271f10eff7777feff4af3c415"
+    "version": "1.21.1-3.6.6",
+    "curseForgeHash": 766871703,
+    "modrinthHash": "c19d5c44ef86c16a1214189e7684024436a544fa"
   },
   "sushigocrafting-1.21-0.6.5.jar": {
     "jarName": "sushigocrafting-1.21-0.6.5.jar",
@@ -2041,13 +2041,13 @@
     "curseForgeHash": 4262098722,
     "modrinthHash": "6396de5a49d7133511a45a820192a9726a4a018f"
   },
-  "thesilverage-neoforge-1.21.1-1.2.0.jar": {
-    "jarName": "thesilverage-neoforge-1.21.1-1.2.0.jar",
+  "thesilverage-neoforge-1.21.1-1.3.1.jar": {
+    "jarName": "thesilverage-neoforge-1.21.1-1.3.1.jar",
     "modId": "thesilverage",
     "name": "The Silver Age",
-    "version": "1.2.0",
-    "curseForgeHash": 669655427,
-    "modrinthHash": "bb57e581042fc93c2ef9c38c8787d2b09bbc4f5a"
+    "version": "1.3.1",
+    "curseForgeHash": 34239584,
+    "modrinthHash": "46aad3a4779f575611e6b28deb5b7bdcb27a0602"
   },
   "theurgy-1.21.1-neoforge-1.73.1.jar": {
     "jarName": "theurgy-1.21.1-neoforge-1.73.1.jar",
