@@ -21,6 +21,7 @@ Cold Sweat's temperature system will be seeing some internal changes in a future
 - Bamboo blocks may now be split back to bamboo [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 - Barrels are now slightly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 - Brass is now significantly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Alembics are now slightly faster [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 
 #### 🦟 Bugs Fixed
 
