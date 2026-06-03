@@ -22,6 +22,7 @@ Cold Sweat's temperature system will be seeing some internal changes in a future
 - Barrels are now slightly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 - Brass is now significantly cheaper [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 - Alembics are now slightly faster [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
+- Crushing Gravel now gives Flint in more recipes [(\#243)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/243)
 
 #### 🦟 Bugs Fixed
 
