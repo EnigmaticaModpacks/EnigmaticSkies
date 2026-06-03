@@ -319,9 +319,12 @@ ServerEvents.recipes((event) => {
         },
         {
             input: { tag: 'c:gravels' },
-            outputs: [{ id: 'minecraft:sand', count: 1 }],
+            outputs: [
+                { id: 'minecraft:sand', count: 1 },
+                { id: 'minecraft:flint', count: 1, chance: 0.25 }
+            ],
             multiply: 'none',
-            exclusions: ['enderio', 'modern_industrialization', 'create:milling'],
+            exclusions: ['enderio', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,

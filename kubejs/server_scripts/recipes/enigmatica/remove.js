@@ -871,6 +871,7 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:vanilla_recipes/packer/blue_ice' },
         { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { id: 'modern_industrialization:vanilla_recipes/mixer/paper' },
+        { id: 'modern_industrialization:vanilla_recipes/macerator/sand' },
         { id: `modern_industrialization:oil/mixer/lubricant_from_plant_oil` },
         { id: `modern_industrialization:oil/vacuum_freezer/styrene_butadiene_rubber` },
         { id: `modern_industrialization:oil/mixer/sugar_solution` },
