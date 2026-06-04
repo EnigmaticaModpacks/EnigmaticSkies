@@ -1041,7 +1041,7 @@
 			tasks: [
 				{
 					id: "55ED1F84FB9AF06D"
-					item: { count: 1, id: "occultism:ritual_dummy/animate_vexing_weald_walker" }
+					item: { count: 1, id: "occultism:ritual_dummy/psychic_squid_rift" }
 					optional_task: true
 					type: "item"
 				}

@@ -25,6 +25,7 @@ Cold Sweat's temperature system will be seeing some internal changes in a future
 - Crushing Gravel now gives Flint in more recipes [(\#243)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/243)
 - Fire Proof Gene now protects against Cold Sweat heat [(\#245)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/245)
 - Bottled Ghosts now requires soul chains instead of soul powder [(\#246)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/246)
+- Psychic Squid now have a smaller spawn radius [(\#247)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/247)
 
 #### 🦟 Bugs Fixed
 
