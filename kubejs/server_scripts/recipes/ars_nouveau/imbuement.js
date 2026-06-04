@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
                 components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:overworld' } }
             },
             pedestalItems: [{ item: 'enderio:soul_chain' }, { item: 'enderio:soul_chain' }],
-            source: 1000,
+            source: 100,
             id: `${id_prefix}bottled_ghosts`
         },
         {
