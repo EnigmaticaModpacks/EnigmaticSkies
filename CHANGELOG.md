@@ -24,7 +24,7 @@ Cold Sweat's temperature system will be seeing some internal changes in a future
 - Alembics are now slightly faster [(\#240)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/240)
 - Crushing Gravel now gives Flint in more recipes [(\#243)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/243)
 - Fire Proof Gene now protects against Cold Sweat heat [(\#245)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/245)
-- Bottled Ghosts now requires soul chains instead of soul powder [(\#248)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/248)
+- Bottled Ghosts now requires soul chains instead of soul powder [(\#246)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/246)
 
 #### 🦟 Bugs Fixed
 
