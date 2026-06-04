@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
                 items: 'naturesaura:aura_bottle',
                 components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:overworld' } }
             },
-            pedestalItems: [{ item: 'enderio:soul_powder' }, { item: 'minecraft:netherrack' }],
+            pedestalItems: [{ item: 'enderio:soul_chain' }, { item: 'enderio:soul_chain' }],
             source: 1000,
             id: `${id_prefix}bottled_ghosts`
         },
