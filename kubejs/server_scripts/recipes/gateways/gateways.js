@@ -473,7 +473,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             nbt: {
                                 CustomName: '{"color":"dark_aqua","translate":"gateways.entities.psychic_squid"}',
                                 active_effects: [{ id: 'minecraft:levitation', amplifier: 2, duration: 100 }],
-                                attributes: [{ id: 'minecraft:generic.scale', base: 10.0 }]
+                                attributes: [{ id: 'minecraft:generic.scale', base: 8.0 }]
                             },
                             finalize_spawn: false
                         }
@@ -482,7 +482,8 @@ ServerEvents.generateData('before_mods', (event) => {
                 }
             ],
             rules: {
-                remove_mobs_on_failure: false
+                remove_mobs_on_failure: false,
+                spawn_range: 2
             }
         }
     ];
