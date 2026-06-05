@@ -1,5 +1,21 @@
 ### Enigmatic Skies 1.10.0
 
+NeoForge-1.21.1-21.1.232 |
+
+#### ⭐ Improvements
+
+#### 🦟 Bugs Fixed
+
+- Identification Chamber quest has been removed [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
+### Enigmatic Skies 1.10.0
+
 NeoForge-1.21.1-21.1.232 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.10.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.10.0.md)
 
 #### ⚠️Important Note
