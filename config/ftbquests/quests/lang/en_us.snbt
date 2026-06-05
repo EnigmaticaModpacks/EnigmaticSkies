@@ -2016,6 +2016,13 @@
 		""
 		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
 	]
+	quest.2FEEB23C631857C3.quest_desc: [
+		"Up this far, there’s no lack of space. However, it may be helpful to keep certain processes contained. "
+		""
+		"A &7Planarium&r may seem small, but it’s considerably bigger on the inside. As such, they can make an excellent place to put various farms and automations. "
+		""
+		"Sneak-Right click with an empty hand to enter. To leave, break the outer wall with any tool and you’ll be teleported back outside. "
+	]
 	quest.300AE428F98F97AF.title: "Afrit Crusher"
 	quest.304838EDEC32DE97.quest_desc: [
 		"Thank you for playing &n&6Enigmatic Skies&r! We hope you enjoyed your time here!"
