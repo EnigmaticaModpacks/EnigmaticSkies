@@ -1061,5 +1061,23 @@
 			x: 5.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["3282293AB6B43287"]
+			id: "2FEEB23C631857C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62FB4A1586D08A1F"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4496C7E1F6602B04"
+				item: { count: 1, id: "ars_nouveau:planarium" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
 	]
 }
