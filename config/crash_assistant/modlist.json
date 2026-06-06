@@ -237,13 +237,13 @@
     "curseForgeHash": 2445792967,
     "modrinthHash": "2354710ea312e2a6e0fbc3eb2dbafb8e06f10cf4"
   },
-  "ars_nouveau-1.21.1-5.11.6.jar": {
-    "jarName": "ars_nouveau-1.21.1-5.11.6.jar",
+  "ars_nouveau-1.21.1-5.11.7.jar": {
+    "jarName": "ars_nouveau-1.21.1-5.11.7.jar",
     "modId": "ars_nouveau",
     "name": "Ars Nouveau",
-    "version": "5.11.6",
-    "curseForgeHash": 2923805987,
-    "modrinthHash": "b424f6b0dfd77d1803d1de3cde792e04bf26be40"
+    "version": "5.11.7",
+    "curseForgeHash": 3644830935,
+    "modrinthHash": "8e64d8120a900bbe7897b23119d8b50e2f2001e1"
   },
   "ars_ocultas-1.21.1-2.4.1.jar": {
     "jarName": "ars_ocultas-1.21.1-2.4.1.jar",
@@ -716,13 +716,13 @@
     "curseForgeHash": 2186625105,
     "modrinthHash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
   },
-  "CreateDragonsPlus-1.11.0c.jar": {
-    "jarName": "CreateDragonsPlus-1.11.0c.jar",
+  "CreateDragonsPlus-1.11.1.jar": {
+    "jarName": "CreateDragonsPlus-1.11.1.jar",
     "modId": "create_dragons_plus",
     "name": "Create: Dragons Plus",
-    "version": "1.11.0c",
-    "curseForgeHash": 514931463,
-    "modrinthHash": "36a45caee583b57e054e873a3bb94ca1cc4fa11a"
+    "version": "1.11.1",
+    "curseForgeHash": 2031005700,
+    "modrinthHash": "5706804f5bb8e0d9a4602c27570072adcd1102c3"
   },
   "createfiltersanywhere-1.21.1-2.5.0.jar": {
     "jarName": "createfiltersanywhere-1.21.1-2.5.0.jar",
@@ -1505,13 +1505,13 @@
     "curseForgeHash": 2559059527,
     "modrinthHash": "e127c8ba3d194678e11a00af6422394a7ed476b1"
   },
-  "modular-routers-13.2.4+mc1.21.1.jar": {
-    "jarName": "modular-routers-13.2.4+mc1.21.1.jar",
+  "modular-routers-13.2.5+mc1.21.1.jar": {
+    "jarName": "modular-routers-13.2.5+mc1.21.1.jar",
     "modId": "modularrouters",
     "name": "Modular Routers",
-    "version": "13.2.4",
-    "curseForgeHash": 1604937896,
-    "modrinthHash": "f4d535579462dc6436e4896daac4d2dd4ce8e428"
+    "version": "13.2.5",
+    "curseForgeHash": 1582266717,
+    "modrinthHash": "20fdf4da5776954bdb9608732c703362acbfaa9e"
   },
   "monocle-0.2.3.ms.jar": {
     "jarName": "monocle-0.2.3.ms.jar",
@@ -1569,13 +1569,13 @@
     "curseForgeHash": 164804057,
     "modrinthHash": "1eeb2aad79e2d9bac1b1d793768eb0d3483358fe"
   },
-  "neruina-3.3.1+1.21.1-neoforge.jar": {
-    "jarName": "neruina-3.3.1+1.21.1-neoforge.jar",
+  "neruina-3.3.2+1.21.1-neoforge.jar": {
+    "jarName": "neruina-3.3.2+1.21.1-neoforge.jar",
     "modId": "neruina",
     "name": "Neruina",
-    "version": "3.3.1",
-    "curseForgeHash": 3303545469,
-    "modrinthHash": "fa4e7bac51700c89e3514f86789966f5b48f5c8c"
+    "version": "3.3.2",
+    "curseForgeHash": 1010597623,
+    "modrinthHash": "e988a2760fe4465e78e8980ba8283ecb2ced6b9e"
   },
   "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar": {
     "jarName": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
@@ -1905,21 +1905,21 @@
     "curseForgeHash": 2555194351,
     "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
   },
-  "sophisticatedcore-1.21.1-1.4.45.1938.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.45.1938.jar",
+  "sophisticatedcore-1.21.1-1.4.46.1946.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.46.1946.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.45",
-    "curseForgeHash": 1160664941,
-    "modrinthHash": "7184d46fc76c419a2f79bc7d039335fd9eedcbaa"
+    "version": "1.4.46",
+    "curseForgeHash": 824849511,
+    "modrinthHash": "b0a45f55b690a93d04032677902a3436a4c493d6"
   },
-  "sophisticatedstorage-1.21.1-1.5.56.1782.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.56.1782.jar",
+  "sophisticatedstorage-1.21.1-1.5.57.1790.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.57.1790.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.56",
-    "curseForgeHash": 3774305338,
-    "modrinthHash": "353cac20e6b3c9407edf30739be038455c931919"
+    "version": "1.5.57",
+    "curseForgeHash": 2542059794,
+    "modrinthHash": "4a5f14d65c1ccc2273fd778bad2921490f646f22"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
