@@ -41,7 +41,7 @@
 					id: "6CA06EEB4813A544"
 					item: {
 						components: {
-							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Cloud Burst\"}"
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"translate\":\"item.enigmatica.caster_tome.cloud_burst\"}"
 							"sauce:school_tome_caster": {
 								flavor_text: "Conjures a single fluffy cloud provided it's cold enough."
 								hidden_text: "the demon free galvanize "
@@ -283,7 +283,7 @@
 					id: "37389C4060D19A21"
 					item: {
 						components: {
-							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Brawndo\"}"
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"translate\":\"item.enigmatica.caster_tome.brawndo\"}"
 							"sauce:school_tome_caster": {
 								flavor_text: "It's got what plants crave!"
 								hidden_text: "eldritch demon gargleblaster"
@@ -461,7 +461,7 @@
 									}
 								}
 							}
-							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Holdfast\"}"
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"translate\":\"item.enigmatica.caster_tome.holdfast\"}"
 						}
 						count: 1
 						id: "ars_nouveau:caster_tome"
