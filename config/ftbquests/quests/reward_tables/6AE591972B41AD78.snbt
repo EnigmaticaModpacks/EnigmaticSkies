@@ -134,5 +134,14 @@
 		}
 		{ id: "365FADF58BA80F7B", item: { count: 1, id: "aether:life_shard" } }
 		{ id: "527410A9C7948C30", item: { components: { "minecraft:custom_data": { 1: { Amplifier: 3, Duration: 600, ID: "ars_nouveau:mana_regen" }, 2: { Amplifier: 0, Duration: 600, ID: "cold_sweat:ice_resistance" }, Counter: 2 } }, count: 1, id: "actuallyadditions:coffee_cup" } }
+		{
+			count: 2
+			id: "0B794911B883CBE8"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+			random_bonus: 2
+		}
 	]
 }

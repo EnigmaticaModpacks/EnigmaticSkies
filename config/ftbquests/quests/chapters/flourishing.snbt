@@ -672,14 +672,26 @@
 			}
 			id: "37C965C1FA40221E"
 			min_width: 250
-			rewards: [{
-				id: "3556F91F22039C8B"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_jar"
+			rewards: [
+				{
+					id: "3556F91F22039C8B"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "49368ED274502B32"
+					item: {
+						count: 1
+						id: "ars_nouveau:item_detector"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{

@@ -309,10 +309,10 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'minecraft:lava', amount: 1000 },
                 item: { item: 'arsdelight:bombegrante_jelly' }
             },
-            air_use_multiplier: 20.0,
+            air_use_multiplier: 6.66,
             temperature: { min: CtoK(1666) },
             pressure: 6.66,
-            time: 4.0,
+            time: 1.0,
             id: `${id_prefix}still_sheol_fire`
         },
         {
@@ -321,10 +321,10 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
                 item: { item: 'malum:strange_crystal' }
             },
-            air_use_multiplier: 20.0,
+            air_use_multiplier: 6.66,
             temperature: { min: CtoK(1666) },
             pressure: 6.66,
-            time: 4.0,
+            time: 1.0,
             id: `${id_prefix}still_strange_matter`
         },
         {
