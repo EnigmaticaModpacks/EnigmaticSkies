@@ -431,6 +431,18 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}quantum_bridge_card`
+        },
+        {
+            results: [{ id: 'modern_industrialization:carbon_plate', count: 1 }],
+            inputs: [{ tag: 'c:dusts/carbon', count: 1 }],
+            pressure: 2.0,
+            id: `${id_prefix}carbon_plate`
+        },
+        {
+            results: [{ id: 'aether:blue_aercloud', count: 1 }],
+            inputs: [{ item: 'aether:cold_aercloud', count: 1 }],
+            pressure: 1.0,
+            id: `${id_prefix}blue_aercloud`
         }
     ];
 

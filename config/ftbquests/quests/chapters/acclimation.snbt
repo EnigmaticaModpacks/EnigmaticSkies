@@ -865,12 +865,23 @@
 			}
 			id: "49E18B07D6E4A5EB"
 			min_width: 300
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "68B7C21542AEB978"
-				table_id: 3040523701833752443L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68B7C21542AEB978"
+					table_id: 3040523701833752443L
+					type: "choice"
+				}
+				{
+					count: 40
+					id: "56AB15EFDA4900B8"
+					item: {
+						count: 1
+						id: "theurgy:fermentation_starter"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2A0E860B2F2A9332"

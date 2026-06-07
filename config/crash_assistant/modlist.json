@@ -700,13 +700,13 @@
     "curseForgeHash": 3403467653,
     "modrinthHash": "70b02826b3ce03db83c5234f54012f55b409c5da"
   },
-  "create_hypertube-0.4.0-COMPAT-NEOFORGE.jar": {
-    "jarName": "create_hypertube-0.4.0-COMPAT-NEOFORGE.jar",
+  "create_hypertube-0.4.0-SABLE-COMPAT-NEOFORGE.jar": {
+    "jarName": "create_hypertube-0.4.0-SABLE-COMPAT-NEOFORGE.jar",
     "modId": "create_hypertube",
     "name": "Create Hypertube",
-    "version": "0.4.0-COMPAT",
-    "curseForgeHash": 1763179859,
-    "modrinthHash": "adbd8f617928af37b286cadf7b45707e2498f25a"
+    "version": "0.4.0-SABLE-COMPAT",
+    "curseForgeHash": 3759416099,
+    "modrinthHash": "bd06f6dd344b93a77c1ea0720b6961ffc1dfb9b8"
   },
   "createdeco-2.1.3.jar": {
     "jarName": "createdeco-2.1.3.jar",
@@ -716,13 +716,13 @@
     "curseForgeHash": 2186625105,
     "modrinthHash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
   },
-  "CreateDragonsPlus-1.11.1.jar": {
-    "jarName": "CreateDragonsPlus-1.11.1.jar",
+  "CreateDragonsPlus-1.11.1b.jar": {
+    "jarName": "CreateDragonsPlus-1.11.1b.jar",
     "modId": "create_dragons_plus",
     "name": "Create: Dragons Plus",
-    "version": "1.11.1",
-    "curseForgeHash": 2031005700,
-    "modrinthHash": "5706804f5bb8e0d9a4602c27570072adcd1102c3"
+    "version": "1.11.1b",
+    "curseForgeHash": 1403396812,
+    "modrinthHash": "0ec28d9412af7f2debf90bbe9fed1fe8aee14b1c"
   },
   "createfiltersanywhere-1.21.1-2.5.0.jar": {
     "jarName": "createfiltersanywhere-1.21.1-2.5.0.jar",
@@ -1889,13 +1889,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.52.1813.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.52.1813.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.53.1822.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.53.1822.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.52",
-    "curseForgeHash": 2163206436,
-    "modrinthHash": "bc04ade44c82a11094ef7ccbd503aac38eb281ab"
+    "version": "3.25.53",
+    "curseForgeHash": 1395348502,
+    "modrinthHash": "ccf6971767ab04fb85ded27259c439ef6178ff34"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar",
