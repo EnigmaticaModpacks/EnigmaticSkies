@@ -9,6 +9,7 @@ NeoForge-1.21.1-21.1.232 |
 #### 🦟 Bugs Fixed
 
 - Identification Chamber quest has been removed [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Applied Replicatics now uses replica ingots instead of silicon plates [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 
 #### ✔️ Added Mods
 
