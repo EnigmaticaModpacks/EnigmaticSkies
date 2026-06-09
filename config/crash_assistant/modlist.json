@@ -5,13 +5,13 @@
     "name": "neoforge",
     "version": "neoforge-21.1.233"
   },
-  "aaron-1.21.1-1.13.0-build.278.jar": {
-    "jarName": "aaron-1.21.1-1.13.0-build.278.jar",
+  "aaron-1.21.1-1.14.0-build.283.jar": {
+    "jarName": "aaron-1.21.1-1.14.0-build.283.jar",
     "modId": "aaron",
     "name": "Aaron",
-    "version": "1.13.0",
-    "curseForgeHash": 2218999310,
-    "modrinthHash": "830d327acf8acf9983371e985dc46d8a17f95336"
+    "version": "1.14.0",
+    "curseForgeHash": 793900891,
+    "modrinthHash": "6866b33f104d9f9886daebe2d4cfdd11e04d1784"
   },
   "accelerated-decay-neoforge-21.0.0.jar": {
     "jarName": "accelerated-decay-neoforge-21.0.0.jar",
@@ -1521,13 +1521,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.0.16.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.16.jar",
+  "moonlight-neoforge-1.21.1-3.0.17.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.17.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.16",
-    "curseForgeHash": 1133303824,
-    "modrinthHash": "494ac7255ab0321f01a980cc21f1a3a5e4c0cf74"
+    "version": "1.21.1-3.0.17",
+    "curseForgeHash": 1446505159,
+    "modrinthHash": "fb9ff01231bc99aee1769b06a4b2987e6a6a518b"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
@@ -1625,13 +1625,13 @@
     "curseForgeHash": 2546963881,
     "modrinthHash": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c"
   },
-  "oritech-neoforge-1.21.1-1.2.6.jar": {
-    "jarName": "oritech-neoforge-1.21.1-1.2.6.jar",
+  "oritech-neoforge-1.21.1-1.2.7.jar": {
+    "jarName": "oritech-neoforge-1.21.1-1.2.7.jar",
     "modId": "oritech",
     "name": "Oritech",
-    "version": "1.2.6",
-    "curseForgeHash": 4192386342,
-    "modrinthHash": "f5b5b6713c221ac976c9174104d07e7b3b29b8dc"
+    "version": "1.2.7",
+    "curseForgeHash": 3114380915,
+    "modrinthHash": "ed8f4f3c49c5ac42f34fa8d52d7038c1eca13688"
   },
   "overloadedarmorbar-neoforge-1.21-2.jar": {
     "jarName": "overloadedarmorbar-neoforge-1.21-2.jar",
@@ -1889,29 +1889,29 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.53.1822.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.53.1822.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.55.1843.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.55.1843.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.53",
-    "curseForgeHash": 1395348502,
-    "modrinthHash": "ccf6971767ab04fb85ded27259c439ef6178ff34"
+    "version": "3.25.55",
+    "curseForgeHash": 4078220526,
+    "modrinthHash": "b65843585f5332d1543aee1df33f59092baaa2b7"
   },
-  "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar": {
-    "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar",
+  "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar": {
+    "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar",
     "modId": "sophisticatedbackpackscreateintegration",
     "name": "Sophisticated Backpacks Create Integration",
-    "version": "0.1.5",
-    "curseForgeHash": 2555194351,
-    "modrinthHash": "51851c61e8be5b799b5ad8aa109b3416509605b7"
+    "version": "0.1.6",
+    "curseForgeHash": 3859949395,
+    "modrinthHash": "f314e04a27c699d4fea7bb338ddcb5296b0e9515"
   },
-  "sophisticatedcore-1.21.1-1.4.46.1946.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.46.1946.jar",
+  "sophisticatedcore-1.21.1-1.4.49.1966.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.49.1966.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.46",
-    "curseForgeHash": 824849511,
-    "modrinthHash": "b0a45f55b690a93d04032677902a3436a4c493d6"
+    "version": "1.4.49",
+    "curseForgeHash": 1898473975,
+    "modrinthHash": "6da3665337625b390d56664d62780bdf5269f899"
   },
   "sophisticatedstorage-1.21.1-1.5.57.1790.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.57.1790.jar",
@@ -2033,13 +2033,13 @@
     "curseForgeHash": 1560695399,
     "modrinthHash": "774b2d610a78d23a810c1ee173189a79358985a1"
   },
-  "the_bumblezone-7.14.0+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.14.0+1.21.1-neoforge.jar",
+  "the_bumblezone-7.14.1+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.14.1+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.14.0+1.21.1-neoforge",
-    "curseForgeHash": 4262098722,
-    "modrinthHash": "6396de5a49d7133511a45a820192a9726a4a018f"
+    "version": "7.14.1+1.21.1-neoforge",
+    "curseForgeHash": 1217167617,
+    "modrinthHash": "8f8bdb9d0ac9d369e331e6a964f09eaf4b43a061"
   },
   "thesilverage-neoforge-1.21.1-1.3.1.jar": {
     "jarName": "thesilverage-neoforge-1.21.1-1.3.1.jar",
