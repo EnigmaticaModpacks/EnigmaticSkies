@@ -1012,13 +1012,13 @@
     "curseForgeHash": 1958225968,
     "modrinthHash": "a48e54edeacc59aaba29a1b627799c052112ee0b"
   },
-  "ftb-library-neoforge-2101.1.31.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.31.jar",
+  "ftb-library-neoforge-2101.1.32.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.32.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.31",
-    "curseForgeHash": 2049429281,
-    "modrinthHash": "686d4e784c28c14f7760cc22b2de6a8573b56b74"
+    "version": "2101.1.32",
+    "curseForgeHash": 3562733026,
+    "modrinthHash": "836411988409e166020db2914cab5d4f93466fc4"
   },
   "ftb-quests-neoforge-2101.1.26.jar": {
     "jarName": "ftb-quests-neoforge-2101.1.26.jar",
@@ -1481,13 +1481,13 @@
     "curseForgeHash": 4070370691,
     "modrinthHash": "b41c4d8c02eadc09f8614c4561384b6854245ff4"
   },
-  "modernfix-neoforge-5.27.11+mc1.21.1.jar": {
-    "jarName": "modernfix-neoforge-5.27.11+mc1.21.1.jar",
+  "modernfix-neoforge-5.27.12+mc1.21.1.jar": {
+    "jarName": "modernfix-neoforge-5.27.12+mc1.21.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.11+mc1.21.1",
-    "curseForgeHash": 3758087832,
-    "modrinthHash": "89414e19d8372c838ad945c8eab2b828e427d948"
+    "version": "5.27.12+mc1.21.1",
+    "curseForgeHash": 199686729,
+    "modrinthHash": "eb7a14dd6024d694d56d38297be208cf3d91f1a9"
   },
   "modernindustrialrouters-2.1.1.jar": {
     "jarName": "modernindustrialrouters-2.1.1.jar",
@@ -1905,13 +1905,13 @@
     "curseForgeHash": 3859949395,
     "modrinthHash": "f314e04a27c699d4fea7bb338ddcb5296b0e9515"
   },
-  "sophisticatedcore-1.21.1-1.4.49.1976.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.49.1976.jar",
+  "sophisticatedcore-1.21.1-1.4.51.1992.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.51.1992.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.49",
-    "curseForgeHash": 2581570748,
-    "modrinthHash": "858eb48f55a0128a95d96f0d194c48f4878e89c6"
+    "version": "1.4.51",
+    "curseForgeHash": 1172426184,
+    "modrinthHash": "3479d691b4e015a37abcbead91f6cd6d1064c45c"
   },
   "sophisticatedstorage-1.21.1-1.5.57.1814.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.57.1814.jar",

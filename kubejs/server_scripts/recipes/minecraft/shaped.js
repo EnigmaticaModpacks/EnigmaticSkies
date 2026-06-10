@@ -192,6 +192,33 @@ ServerEvents.recipes((event) => {
                 C: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
             },
             id: `${id_prefix}comparator_silver`
+        },
+        {
+            output: '8x minecraft:crimson_nylium',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:netherrack',
+                B: '#c:essences/manipulation'
+            },
+            id: `${id_prefix}transmute_crimson_nylium`
+        },
+        {
+            output: '8x minecraft:warped_nylium',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:crimson_nylium',
+                B: '#c:essences/manipulation'
+            },
+            id: `${id_prefix}transmute_warped_nylium`
+        },
+        {
+            output: '8x minecraft:netherrack',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:warped_nylium',
+                B: '#c:essences/manipulation'
+            },
+            id: `${id_prefix}transmute_netherrack`
         }
     ];
 
