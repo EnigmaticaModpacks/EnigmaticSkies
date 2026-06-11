@@ -8,7 +8,6 @@ ServerEvents.recipes((event) => {
         {
             outputs: { fluid_output: { id: 'actuallyadditions:canola_oil', amount: 160 } },
             inputs: { item: { item: 'actuallyadditions:canola' } },
-            temperature: { min: CtoK(0) },
             pressure: 2.0,
             time: 0.05,
             id: `${id_prefix}canola_oil`
@@ -29,7 +28,6 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:refined_canola_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:crystallized_canola_seed' }
             },
-            temperature: { min: CtoK(0) },
             time: 1,
             id: `${id_prefix}crystallized_oil`
         },
@@ -39,7 +37,6 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:crystallized_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:empowered_canola_seed' }
             },
-            temperature: { min: CtoK(0) },
             time: 1,
             id: `${id_prefix}empowered_oil`
         },
@@ -61,7 +58,6 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
             inputs: { item: { item: 'minecraft:glow_berries' } },
             pressure: 1.0,
-            temperature: { min: CtoK(0) },
             id: `${id_prefix}lumisene`
         },
         {
@@ -92,7 +88,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}lubricant`
         },
         {
-            outputs: { fluid_output: { amount: 500, id: 'pneumaticcraft:plastic' } },
+            outputs: { fluid_output: { id: 'pneumaticcraft:plastic', amount: 500 } },
             inputs: {
                 fluid: { amount: 100, fluid: 'enigmatica:light_oil' },
                 item: { tag: 'c:gems/primal_coal' }
@@ -101,7 +97,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}plastic`
         },
         {
-            outputs: { item_output: { count: 1, id: 'pneumaticcraft:drill_bit_iron' } },
+            outputs: { item_output: { id: 'pneumaticcraft:drill_bit_iron', count: 1 } },
             inputs: {
                 fluid: { fluid: 'modern_industrialization:lubricant', amount: 2000 },
                 item: { tag: 'c:ingots/iron' }
@@ -112,7 +108,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}drill_bit_iron`
         },
         {
-            outputs: { item_output: { count: 1, id: 'pneumaticcraft:drill_bit_compressed_iron' } },
+            outputs: { item_output: { id: 'pneumaticcraft:drill_bit_compressed_iron', count: 1 } },
             inputs: {
                 fluid: { fluid: 'modern_industrialization:lubricant', amount: 4000 },
                 item: { tag: 'c:ingots/compressed_iron' }
@@ -124,7 +120,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}drill_bit_compressed_iron`
         },
         {
-            outputs: { item_output: { count: 1, id: 'pneumaticcraft:drill_bit_diamond' } },
+            outputs: { item_output: { id: 'pneumaticcraft:drill_bit_diamond', count: 1 } },
             inputs: {
                 fluid: { fluid: 'modern_industrialization:lubricant', amount: 8000 },
                 item: { tag: 'c:storage_blocks/diamond' }
@@ -155,8 +151,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'pneumaticcraft:plastic', amount: 500 },
                 item: { item: 'oritech:carbon_fibre_strands' }
             },
-            pressure: 7.5,
-            temperature: { min: CtoK(500) },
+            pressure: 2.0,
             time: 32,
             id: `${id_prefix}reinforced_carbon_sheet`
         },
@@ -173,7 +168,6 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'minecraft:water', amount: 4000 } },
             inputs: { item: { item: 'theurgy:crystallized_water' } },
             pressure: 1.0,
-            temperature: { min: CtoK(0) },
             time: 1.5,
             id: `${id_prefix}water`
         },
@@ -333,7 +327,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
                 item: { tag: 'c:dusts/netherite_scrap' }
             },
-            air_use_multiplier: 20.0,
+            air_use_multiplier: 6.66,
             temperature: { min: CtoK(1666) },
             pressure: 6.66,
             time: 4.0,
@@ -345,7 +339,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
                 item: { tag: 'c:storage_blocks/hallowed_gold' }
             },
-            air_use_multiplier: 20.0,
+            air_use_multiplier: 6.66,
             temperature: { min: CtoK(1666) },
             pressure: 6.66,
             time: 4.0,
@@ -365,7 +359,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 8 } },
             inputs: { item: { tag: 'c:pebbles' } },
-            temperature: { min: CtoK(700) },
+            temperature: { min: CtoK(500) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}alchemical_salt_mineral_from_pebbles`
@@ -373,7 +367,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 32 } },
             inputs: { item: { tag: 'c:gravels' } },
-            temperature: { min: CtoK(700) },
+            temperature: { min: CtoK(500) },
             pressure: -0.75,
             time: 1.0,
             id: `${id_prefix}alchemical_salt_mineral_from_gravels`
@@ -381,7 +375,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'justdirethings:coal_t1', count: 2 } },
             inputs: { item: { tag: 'minecraft:logs_that_burn' } },
-            temperature: { min: CtoK(700) },
+            temperature: { min: CtoK(500) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}coal_t1`
@@ -389,7 +383,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
             inputs: { item: { item: 'minecraft:bone' } },
-            temperature: { min: CtoK(700) },
+            temperature: { min: CtoK(500) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}grim_talc_from_bone`
@@ -397,7 +391,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
             inputs: { item: { item: 'aquaculture:fish_bones' } },
-            temperature: { min: CtoK(700) },
+            temperature: { min: CtoK(500) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}grim_talc_from_fish_bones`
@@ -405,7 +399,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { id: 'malum:rotting_essence', count: 1 } },
             inputs: { item: { item: 'minecraft:rotten_flesh' } },
-            temperature: { min: CtoK(700) },
+            temperature: { min: CtoK(500) },
             pressure: -0.75,
             time: 0.05,
             id: `${id_prefix}rotting_essence_from_rotten_flesh`

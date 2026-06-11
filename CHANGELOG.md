@@ -6,6 +6,7 @@ NeoForge-1.21.1-21.1.232 |
 
 - Pink Slime output has been increased slightly [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Add recipes for Nylium [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Several TPP recipes have had their requirements reduced [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 
 #### 🦟 Bugs Fixed
 
