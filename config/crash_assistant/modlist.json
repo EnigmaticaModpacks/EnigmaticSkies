@@ -1084,14 +1084,6 @@
     "curseForgeHash": 3178451079,
     "modrinthHash": "c0910f9b975aaab8545ce950539748fb33d704d1"
   },
-  "gaboulibs-neoforge-1.4.jar": {
-    "jarName": "gaboulibs-neoforge-1.4.jar",
-    "modId": "gaboulibs",
-    "name": "gaboulibs",
-    "version": "1.4",
-    "curseForgeHash": 1943490665,
-    "modrinthHash": "05be02b0f8d28473eeab05aea2a39c327d0c4bf4"
-  },
   "GatewaysToEternity-1.21.1-5.1.0.jar": {
     "jarName": "GatewaysToEternity-1.21.1-5.1.0.jar",
     "modId": "gateways",
@@ -1585,13 +1577,13 @@
     "curseForgeHash": 1237891864,
     "modrinthHash": "9edfc7861277ff661141304dc8216f83eacdd9af"
   },
-  "not_enough_glyphs-1.21.1-4.4.0.jar": {
-    "jarName": "not_enough_glyphs-1.21.1-4.4.0.jar",
+  "not_enough_glyphs-1.21.1-4.5.1.jar": {
+    "jarName": "not_enough_glyphs-1.21.1-4.5.1.jar",
     "modId": "not_enough_glyphs",
     "name": "Not Enough Glyphs",
-    "version": "4.4.0",
-    "curseForgeHash": 4006777900,
-    "modrinthHash": "ab184795e98b8d2eb35d0135d87ce44bd2000111"
+    "version": "4.5.1",
+    "curseForgeHash": 3945820752,
+    "modrinthHash": "9540858c34c5858b63090b8afb9dacb40318f45d"
   },
   "Notes-1.21.1-3.0.1-neoforge.jar": {
     "jarName": "Notes-1.21.1-3.0.1-neoforge.jar",
@@ -1601,13 +1593,13 @@
     "curseForgeHash": 728845744,
     "modrinthHash": "1ab999bac46ff84e90c3bbfaa4923286df4b870a"
   },
-  "occultism-1.21.1-neoforge-1.220.0.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.220.0.jar",
+  "occultism-1.21.1-neoforge-1.220.1.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.220.1.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.220.0",
-    "curseForgeHash": 492754579,
-    "modrinthHash": "39e6586cfc6692582329375558fecd24f580bfa4"
+    "version": "1.220.1",
+    "curseForgeHash": 1860448407,
+    "modrinthHash": "06a9698889e961d100ad03980b38a1570c612cb6"
   },
   "occultism_kubejs-1.21.1-neoforge-1.11.0.jar": {
     "jarName": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
@@ -1889,13 +1881,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.55.1852.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.55.1852.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.57.1871.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.57.1871.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.55",
-    "curseForgeHash": 3818345761,
-    "modrinthHash": "777dbaaf656125827cdff0018c1ad886f2c06f6a"
+    "version": "3.25.57",
+    "curseForgeHash": 2774122784,
+    "modrinthHash": "e2e63bfbd3f8d2b0ee937b0ddcd13bc2fd15b970"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar",
@@ -1905,13 +1897,13 @@
     "curseForgeHash": 3859949395,
     "modrinthHash": "f314e04a27c699d4fea7bb338ddcb5296b0e9515"
   },
-  "sophisticatedcore-1.21.1-1.4.51.1992.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.51.1992.jar",
+  "sophisticatedcore-1.21.1-1.4.53.2003.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.53.2003.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.51",
-    "curseForgeHash": 1172426184,
-    "modrinthHash": "3479d691b4e015a37abcbead91f6cd6d1064c45c"
+    "version": "1.4.53",
+    "curseForgeHash": 1067464038,
+    "modrinthHash": "d73bc50514a7a8af18d5e5b562334eb2671cf5ca"
   },
   "sophisticatedstorage-1.21.1-1.5.57.1814.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.57.1814.jar",

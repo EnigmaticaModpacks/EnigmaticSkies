@@ -17,6 +17,8 @@ NeoForge-1.21.1-21.1.232 |
 
 #### ❌ Removed Mods
 
+- [Gabou's Libs](https://www.curseforge.com/minecraft/mc-mods/gabous-libs) (by [Gaboouu](https://www.curseforge.com/members/gaboouu/projects))
+
 ---
 
 ### Enigmatic Skies 1.10.0

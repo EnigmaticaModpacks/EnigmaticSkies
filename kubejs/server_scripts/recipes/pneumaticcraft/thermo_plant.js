@@ -19,7 +19,8 @@ ServerEvents.recipes((event) => {
                 item: { item: 'theurgy:fermentation_starter' }
             },
             temperature: { min: CtoK(30), max: CtoK(100) },
-            time: 1,
+            pressure: 2.0,
+            time: 0.05,
             id: `${id_prefix}refined_canola_oil`
         },
         {
@@ -28,7 +29,8 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:refined_canola_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:crystallized_canola_seed' }
             },
-            time: 1,
+            pressure: 2.0,
+            time: 0.05,
             id: `${id_prefix}crystallized_oil`
         },
         {
@@ -37,7 +39,8 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:crystallized_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:empowered_canola_seed' }
             },
-            time: 1,
+            pressure: 2.0,
+            time: 0.05,
             id: `${id_prefix}empowered_oil`
         },
         {

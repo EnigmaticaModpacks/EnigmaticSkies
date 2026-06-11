@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             ],
             fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
             eu: 2,
-            duration: 5,
+            duration: 1,
             id: `${id_prefix}manure`
         },
         {
