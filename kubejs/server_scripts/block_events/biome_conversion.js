@@ -25,6 +25,10 @@ BlockEvents.rightClicked((event) => {
         convertToBiome(event, 'minecraft:the_void', 'minecraft:soul_fire_flame', 10);
     }
 
+    if (item.id == 'ars_nouveau:conjuration_essence' && block.id == 'minecraft:diamond_block') {
+        convertToBiome(event, 'ars_nouveau:jar', 'minecraft:soul_fire_flame', 10);
+    }
+
     if (item.id == 'enigmatica:forest_essentia' && block.id == 'naturesaura:sky_ingot_block') {
         convertToBiome(event, 'minecraft:dark_forest', 'supplementaries:green_flame', 64);
     }

@@ -34,10 +34,10 @@ ServerEvents.recipes((event) => {
             result: { id: 'justdirethings:gooblock_tier3', count: 1 },
             base: { item: 'justdirethings:gooblock_tier2' },
             modifiers: [
-                { tag: 'c:storage_blocks/empowered_void' },
-                { tag: 'c:storage_blocks/dark_steel' },
-                { tag: 'c:storage_blocks/empowered_void' },
-                { tag: 'c:storage_blocks/dark_steel' }
+                { tag: 'c:gems/empowered_void' },
+                { item: 'minecraft:dragon_breath' },
+                { tag: 'c:gems/empowered_void' },
+                { item: 'minecraft:dragon_breath' }
             ],
             color: '#520f5f',
             energy: 50000,

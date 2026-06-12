@@ -2022,6 +2022,11 @@
 		"A &7Planarium&r may seem small, but it’s considerably bigger on the inside. As such, they can make an excellent place to put various farms and automations. "
 		""
 		"Sneak-Right click with an empty hand to enter. To leave, break the outer wall with any tool and you’ll be teleported back outside. "
+		""
+		"&a🛈 Tip: Right-clicking a Conjuration "
+		"&a    Essence on a Diamond Block will "
+		"&a    convert the local biome back to "
+		"&a    the Planarium's Jar biome."
 	]
 	quest.300AE428F98F97AF.title: "Afrit Crusher"
 	quest.304838EDEC32DE97.quest_desc: [

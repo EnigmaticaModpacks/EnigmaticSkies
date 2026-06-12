@@ -884,13 +884,13 @@
     "curseForgeHash": 388147335,
     "modrinthHash": "72d63d64ee774b89302e0d6b220757ba11b6ec4f"
   },
-  "extended-industrialization-1.15.39-1.21.1.jar": {
-    "jarName": "extended-industrialization-1.15.39-1.21.1.jar",
+  "extended-industrialization-1.15.40-1.21.1.jar": {
+    "jarName": "extended-industrialization-1.15.40-1.21.1.jar",
     "modId": "extended_industrialization",
     "name": "Extended Industrialization",
-    "version": "1.15.39-1.21.1",
-    "curseForgeHash": 4114583403,
-    "modrinthHash": "bd5cf2fa5a009dedbdf658aaa740b15f0f8d5b08"
+    "version": "1.15.40-1.21.1",
+    "curseForgeHash": 2927885728,
+    "modrinthHash": "134b633dfb309b0e59f2bf6e6f18e320741c38b5"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -1060,13 +1060,13 @@
     "curseForgeHash": 697946099,
     "modrinthHash": "0c25fc1a43c99eaa68c883dc77e3ebf4539629e6"
   },
-  "functionalstorage-1.21.1-1.5.5.jar": {
-    "jarName": "functionalstorage-1.21.1-1.5.5.jar",
+  "functionalstorage-1.21.1-1.5.7.jar": {
+    "jarName": "functionalstorage-1.21.1-1.5.7.jar",
     "modId": "functionalstorage",
     "name": "Functional Storage",
-    "version": "1.21.1-1.5.5",
-    "curseForgeHash": 3666380235,
-    "modrinthHash": "52ce3f093bb069eb551e47377b328b612b2f18c2"
+    "version": "1.21.1-1.5.7",
+    "curseForgeHash": 1511937694,
+    "modrinthHash": "19ed7ed8edfddf26c5fc29fe66084b2c3b313981"
   },
   "fusion-1.2.12-neoforge-mc1.21.1.jar": {
     "jarName": "fusion-1.2.12-neoforge-mc1.21.1.jar",
@@ -1593,13 +1593,13 @@
     "curseForgeHash": 728845744,
     "modrinthHash": "1ab999bac46ff84e90c3bbfaa4923286df4b870a"
   },
-  "occultism-1.21.1-neoforge-1.220.1.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.220.1.jar",
+  "occultism-1.21.1-neoforge-1.220.2.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.220.2.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.220.1",
-    "curseForgeHash": 1860448407,
-    "modrinthHash": "06a9698889e961d100ad03980b38a1570c612cb6"
+    "version": "1.220.2",
+    "curseForgeHash": 1458554661,
+    "modrinthHash": "a8881911ba45f6a57625fa545d5a4fcd04a9fd52"
   },
   "occultism_kubejs-1.21.1-neoforge-1.11.0.jar": {
     "jarName": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
@@ -2017,13 +2017,13 @@
     "curseForgeHash": 4290330137,
     "modrinthHash": "2016eed89eac0eb0510d2190c3b0b80bf4346191"
   },
-  "tesseract-api-neoforge-1.12.1-1.21.1.jar": {
-    "jarName": "tesseract-api-neoforge-1.12.1-1.21.1.jar",
+  "tesseract-api-neoforge-1.12.2-1.21.1.jar": {
+    "jarName": "tesseract-api-neoforge-1.12.2-1.21.1.jar",
     "modId": "tesseract_api",
     "name": "Tesseract API",
-    "version": "1.12.1-1.21.1",
-    "curseForgeHash": 3138481103,
-    "modrinthHash": "1644582adbd40c891ebe13d104c5390a6ab09348"
+    "version": "1.12.2-1.21.1",
+    "curseForgeHash": 2367067050,
+    "modrinthHash": "daf12e2e4cedd7d3cc066cb809bff810af863d9e"
   },
   "the_bumblezone-7.14.1+1.21.1-neoforge.jar": {
     "jarName": "the_bumblezone-7.14.1+1.21.1-neoforge.jar",

@@ -354,6 +354,10 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['#enigmatica:super_hot'],
             text: [Text.translate('tooltip.enigmatica.burning_to_touch').red()]
+        },
+        {
+            items: [/enigmatica:.*_essentia$/],
+            text: [Text.translate('tooltip.enigmatica.biome_conversion_essentia').gold()]
         }
     ];
 
