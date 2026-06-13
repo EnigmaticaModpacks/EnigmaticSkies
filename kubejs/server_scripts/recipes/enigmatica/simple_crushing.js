@@ -466,7 +466,7 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'farmersdelight:rice_bale' },
             outputs: [
-                { id: 'farmersdelight:rice', count: 9 },
+                { id: 'farmersdelight:rice_bag', count: 1 },
                 { id: 'farmersdelight:straw', count: 9 }
             ],
             multiply: 'none',
