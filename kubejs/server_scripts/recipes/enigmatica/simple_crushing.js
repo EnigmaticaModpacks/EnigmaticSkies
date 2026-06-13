@@ -467,7 +467,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'farmersdelight:rice_bale' },
             outputs: [
                 { id: 'farmersdelight:rice_bag', count: 1 },
-                { id: 'farmersdelight:straw', count: 9 }
+                { id: 'farmersdelight:straw_bale', count: 9 }
             ],
             multiply: 'none',
             exclusions: ['create:milling', 'create:crushing', 'modern_industrialization', 'enderio'],
