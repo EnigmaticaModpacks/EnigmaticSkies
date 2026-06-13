@@ -359,6 +359,8 @@
     "tooltip.enigmatica.hot_to_touch": "Hot to the Touch",
     "tooltip.enigmatica.burning_to_touch": "Burning to the Touch",
 
+    "tooltip.enigmatica.biome_conversion_essentia": "Right-Click on a Block of the Skies to convert the biome.",
+
     "tooltip.enigmatica.wixie_conversion": "Sneak Right-Click on the block to convert.",
     "tooltip.enigmatica.worm_from_grass": "Small chance when tilling Grass",
     "tooltip.enigmatica.armadillo_scute": "Obtained by brushing Armadillos",

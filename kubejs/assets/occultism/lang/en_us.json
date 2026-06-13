@@ -100,7 +100,7 @@
 
     "item.occultism.ritual_dummy.sm/ritual/animate_mimic": "Animate Mimic",
     "item.occultism.ritual_dummy.animate_mimic": "§6Ritual: Animate Mimic",
-    "item.occultism.ritual_dummy.animate_mimic.tooltip": "§5Infuse purpur with magic to bring it to life.",
+    "item.occultism.ritual_dummy.animate_mimic.tooltip": "§5Infuse Pink Slime with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_mimic.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/animate_mimic.finished": "Successfully animated a Mimic.",
     "ritual.enigmatica.ritual/animate_mimic.interrupted": "Animation ritual interrupted.",

@@ -672,14 +672,26 @@
 			}
 			id: "37C965C1FA40221E"
 			min_width: 250
-			rewards: [{
-				id: "3556F91F22039C8B"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_jar"
+			rewards: [
+				{
+					id: "3556F91F22039C8B"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "49368ED274502B32"
+					item: {
+						count: 1
+						id: "ars_nouveau:item_detector"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1060,6 +1072,34 @@
 			]
 			x: 5.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3282293AB6B43287"]
+			id: "2FEEB23C631857C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62FB4A1586D08A1F"
+					table_id: 7158856082002081942L
+					type: "loot"
+				}
+				{
+					id: "515675832AA37168"
+					item: {
+						count: 1
+						id: "entangled:block"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4496C7E1F6602B04"
+				item: { count: 1, id: "ars_nouveau:planarium" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 }

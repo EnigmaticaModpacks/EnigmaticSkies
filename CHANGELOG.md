@@ -1,3 +1,30 @@
+### Enigmatic Skies 1.11.0
+
+NeoForge-1.21.1-21.1.232 |
+
+#### ⭐ Improvements
+
+- Pink Slime output has been increased slightly [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Add recipes for Nylium [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Several TPP recipes have had their requirements reduced [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Particle Accelerator is now earlier in progression, no longer requiring Celestigems [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- It's now possible to set a biome back to the Planarium's default biome [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Voidshimmer Goo is now easier to obtain [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+
+#### 🦟 Bugs Fixed
+
+- Identification Chamber quest has been removed [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Applied Replicatics now uses replica ingots instead of silicon plates [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- Rice Bales now crush to Rice Bags to avoid a water glitch [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+- [Gabou's Libs](https://www.curseforge.com/minecraft/mc-mods/gabous-libs) (by [Gaboouu](https://www.curseforge.com/members/gaboouu/projects))
+
+---
+
 ### Enigmatic Skies 1.10.0
 
 NeoForge-1.21.1-21.1.232 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.10.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.10.0.md)

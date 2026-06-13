@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             output: `apprep:replication_connector`,
             pattern: ['ABA', 'ACA', 'ADA'],
             key: {
-                A: '#c:plates/silicon',
+                A: '#c:ingots/replica',
                 B: 'ae2:pattern_provider',
                 C: 'replication:matter_tank',
                 D: 'ae2:interface'
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             output: `apprep:matter_cell_housing`,
             pattern: ['ABA', 'DCD', 'ABA'],
             key: {
-                A: '#c:plates/silicon',
+                A: '#c:ingots/replica',
                 B: '#c:gems/empowered_void',
                 C: 'ae2:item_cell_housing',
                 D: '#c:gems/empowered_emeradic'

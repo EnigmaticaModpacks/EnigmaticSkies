@@ -490,6 +490,7 @@
 						id: "ars_nouveau:wixie_cauldron"
 					}
 					id: "241DC4DBEF1C8648"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "ars_nouveau:wixie_cauldron"
@@ -523,6 +524,7 @@
 						id: "starbunclemania:cooking_pot_wixie_cauldron"
 					}
 					id: "605834F92F6F384F"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "starbunclemania:cooking_pot_wixie_cauldron"
@@ -556,6 +558,7 @@
 						id: "starbunclemania:cutting_wixie_cauldron"
 					}
 					id: "7559C9E4BA735703"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "starbunclemania:cutting_wixie_cauldron"
@@ -589,6 +592,7 @@
 						id: "starbunclemania:smelting_wixie_cauldron"
 					}
 					id: "573110BB52169A48"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "starbunclemania:smelting_wixie_cauldron"
@@ -622,6 +626,7 @@
 						id: "starbunclemania:stonecutting_wixie_cauldron"
 					}
 					id: "210DF794EE1D714A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "starbunclemania:stonecutting_wixie_cauldron"
@@ -655,6 +660,7 @@
 						id: "ars_additions:enchanting_wixie_cauldron"
 					}
 					id: "264F4FA6B354C01A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "ars_additions:enchanting_wixie_cauldron"
@@ -846,6 +852,7 @@
 					id: "naturesaura:animal_spawner"
 				}
 				id: "1A49508B81A230E6"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "naturesaura:animal_spawner"

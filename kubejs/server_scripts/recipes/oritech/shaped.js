@@ -26,10 +26,10 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}accelerator_controller`
         },
         {
-            output: `oritech:accelerator_motor`,
+            output: `2x oritech:accelerator_motor`,
             pattern: ['BAB', 'CDC'],
             key: {
-                A: '#c:gems/celestigem',
+                A: 'malum:resonance_tuner',
                 B: 'modern_industrialization:energetic_coil',
                 C: 'oritech:metal_beam_block',
                 D: 'enigmatica:pulsating_mechanism'

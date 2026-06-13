@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             ],
             fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
             eu: 2,
-            duration: 5,
+            duration: 1,
             id: `${id_prefix}manure`
         },
         {
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            fluid_outputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
+            fluid_outputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 250 }],
             item_inputs: [{ tag: 'c:foods/cooked_meat', amount: 1 }],
             eu: 2,
             duration: 5,

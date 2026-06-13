@@ -243,10 +243,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"1BDCA4CF5ED739BA"
-				"768869D763EC54EB"
-			]
+			dependencies: ["768869D763EC54EB"]
 			icon: {
 				id: "oritech:accelerator_motor"
 			}

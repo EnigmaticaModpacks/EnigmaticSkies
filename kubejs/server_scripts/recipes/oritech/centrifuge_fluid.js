@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [],
-            fluidOutputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
+            fluidOutputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 250 }],
             ingredients: [{ tag: 'c:foods/cooked_meat' }],
             time: 5,
             id: `${id_prefix}pink_slime`
