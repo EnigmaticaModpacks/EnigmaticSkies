@@ -1111,6 +1111,7 @@
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
 	]
+	quest.2498E93D32A45AB0.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE based energy."]
 	quest.25570E19FFABD951.quest_desc: [
 		"The &7Arcane Catalyst&r and &7Stabilized Enchanter&r will allow you to over enchant your tools, weapons, and armor to truly absurd levels of power. "
 		""

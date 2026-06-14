@@ -711,5 +711,27 @@
 			x: 4.5d
 			y: 0.5d
 		}
+		{
+			dependencies: [
+				"16BFB19411FE195F"
+				"235D7EF41916E480"
+			]
+			id: "2498E93D32A45AB0"
+			rewards: [{
+				id: "339FCC1B95C09F48"
+				item: {
+					count: 1
+					id: "laserio:laser_node"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E3352096E2D632"
+				item: { count: 1, id: "laserio:card_energy" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
 	]
 }
