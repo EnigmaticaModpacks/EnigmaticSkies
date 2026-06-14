@@ -632,31 +632,18 @@ ServerEvents.recipes((event) => {
             to_replace: `pneumaticcraft:capacitor`,
             replace_with: `enderio:basic_capacitor`
         },
+
         {
             filter: [{ mod: 'laserio' }],
             to_replace: `laserio:logic_chip`,
-            replace_with: `enderio:z_logic_controller`
+            replace_with: `enderio:skeletal_contractor`
         },
         {
             filter: [{ mod: 'laserio' }],
             to_replace: `#c:ingots/iron`,
             replace_with: '#c:gems/empowered_enori'
         },
-        {
-            filter: [{ mod: 'laserio' }],
-            to_replace: `#c:dusts/redstone`,
-            replace_with: '#c:gems/empowered_restonia'
-        },
-        {
-            filter: [{ mod: 'laserio' }],
-            to_replace: `#c:gems/lapis`,
-            replace_with: '#c:gems/empowered_palis'
-        },
-        {
-            filter: [{ mod: 'laserio' }],
-            to_replace: `#c:ender_pearls`,
-            replace_with: '#c:gems/pulsating_crystal'
-        },
+
         {
             filter: [{}],
             to_replace: `the_bumblezone:honey_bucket`,

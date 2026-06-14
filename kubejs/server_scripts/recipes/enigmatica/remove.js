@@ -564,7 +564,17 @@ ServerEvents.recipes((event) => {
         { id: 'justdirethings:raw_eclipsealloy_ore-goospread' },
 
         // LaserIO
-        // { output: 'laserio:card_energy' },
+        { output: 'laserio:laser_connector' },
+        { output: 'laserio:laser_node' },
+        { output: 'laserio:laser_connector_advanced' },
+        { output: 'laserio:card_item' },
+        { output: 'laserio:card_fluid' },
+        { output: 'laserio:card_energy' },
+        { output: 'laserio:card_redstone' },
+        { output: 'laserio:overclocker_card' },
+        { output: 'laserio:overclocker_node' },
+        { output: 'laserio:logic_chip_raw' },
+        { output: 'laserio:logic_chip' },
 
         // Malum
         { output: 'malum:refined_soulstone' },
@@ -942,18 +952,13 @@ ServerEvents.recipes((event) => {
         { output: 'mi_tweaks:eu_transformer' },
         { output: 'mi_tweaks:flux_transformer' },
 
-        // LaserIO
-        { output: 'laserio:laser_connector' },
-        { output: 'laserio:logic_chip_raw' },
-        { output: 'laserio:logic_chip' },
-        { output: 'laserio:card_energy' },
-
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },
         { id: 'modularrouters:modular_router' },
         { id: 'modularrouters:blank_module' },
         { id: 'modularrouters:blank_upgrade' },
         { id: 'modularrouters:sender_module_3' },
+        { id: 'modularrouters:speed_upgrade' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
