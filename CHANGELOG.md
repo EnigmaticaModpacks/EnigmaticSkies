@@ -10,6 +10,7 @@ NeoForge-1.21.1-21.1.232 |
 - Particle Accelerator is now earlier in progression, no longer requiring Celestigems [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - It's now possible to set a biome back to the Planarium's default biome [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Voidshimmer Goo is now easier to obtain [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
+- LaserIO and Modular Router crafts have been slightly re-balanced [(\#253)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/253)
 
 #### 🦟 Bugs Fixed
 

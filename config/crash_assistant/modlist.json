@@ -428,13 +428,13 @@
     "curseForgeHash": 2260974458,
     "modrinthHash": "9ce39347637e6209e031402e054d7cc93b1e1a03"
   },
-  "chat_heads-0.15.1-neoforge-1.21.jar": {
-    "jarName": "chat_heads-0.15.1-neoforge-1.21.jar",
+  "chat_heads-0.15.2-neoforge-1.21.jar": {
+    "jarName": "chat_heads-0.15.2-neoforge-1.21.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.1",
-    "curseForgeHash": 3209447745,
-    "modrinthHash": "650ff9d879051196c8c46b5718342db46c745cc9"
+    "version": "0.15.2",
+    "curseForgeHash": 3913145737,
+    "modrinthHash": "86abc08fbfa8eb3e2a41aa4403a6bd52543ea665"
   },
   "Chimes-v2.1.1-1.21.1-NeoForge.jar": {
     "jarName": "Chimes-v2.1.1-1.21.1-NeoForge.jar",
@@ -1881,13 +1881,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.58.1880.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.58.1880.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.62.1904.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.62.1904.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.58",
-    "curseForgeHash": 2343770234,
-    "modrinthHash": "a77b27f14de61d9f57db74a993a52624b13ad49e"
+    "version": "3.25.62",
+    "curseForgeHash": 5322473,
+    "modrinthHash": "737bc0fa7a4b4eb3d038792d90307ae2cf531860"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar",
@@ -1897,21 +1897,21 @@
     "curseForgeHash": 3859949395,
     "modrinthHash": "f314e04a27c699d4fea7bb338ddcb5296b0e9515"
   },
-  "sophisticatedcore-1.21.1-1.4.54.2004.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.54.2004.jar",
+  "sophisticatedcore-1.21.1-1.4.56.2019.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.56.2019.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.54",
-    "curseForgeHash": 2792083402,
-    "modrinthHash": "141a04f9b936722d3dbbf461b95d5affc89c0f60"
+    "version": "1.4.56",
+    "curseForgeHash": 1284951539,
+    "modrinthHash": "bd9559d847c67cd50e651843f988d57bf8d01960"
   },
-  "sophisticatedstorage-1.21.1-1.5.58.1835.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.58.1835.jar",
+  "sophisticatedstorage-1.21.1-1.5.59.1843.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.59.1843.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.58",
-    "curseForgeHash": 3450778300,
-    "modrinthHash": "91f72a0946a1753145e013cad4f6f1e8e898ed54"
+    "version": "1.5.59",
+    "curseForgeHash": 1884793878,
+    "modrinthHash": "2299eb394c55207a351c59d800f6cc0791f8511f"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
@@ -1937,13 +1937,13 @@
     "curseForgeHash": 3447435049,
     "modrinthHash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
   },
-  "starbunclemania-1.21.1-1.5.6.jar": {
-    "jarName": "starbunclemania-1.21.1-1.5.6.jar",
+  "starbunclemania-1.21.1-1.5.7.jar": {
+    "jarName": "starbunclemania-1.21.1-1.5.7.jar",
     "modId": "starbunclemania",
     "name": "Starbunclemania",
-    "version": "1.5.6",
-    "curseForgeHash": 2355331776,
-    "modrinthHash": "9e1c635c3d2ea1fd014368adc704f49a3f004e3f"
+    "version": "1.5.7",
+    "curseForgeHash": 3814407823,
+    "modrinthHash": "4c8e4e31e1478ed437fbb5f69c6c209fa664ebda"
   },
   "stickit-1.21.1-NeoForge-1.0.3.jar": {
     "jarName": "stickit-1.21.1-NeoForge-1.0.3.jar",
@@ -1993,13 +1993,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-neoforge-1.21.1-3.6.7.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.6.7.jar",
+  "supplementaries-neoforge-1.21.1-3.6.8.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.6.8.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.6.7",
-    "curseForgeHash": 951745060,
-    "modrinthHash": "a2a0d9bb5170b779863c2743f18c04b0964c9875"
+    "version": "1.21.1-3.6.8",
+    "curseForgeHash": 3502383935,
+    "modrinthHash": "4e8559283a4f32110d7c4f230016ca65355b63e4"
   },
   "sushigocrafting-1.21-0.6.5.jar": {
     "jarName": "sushigocrafting-1.21-0.6.5.jar",

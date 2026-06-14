@@ -613,9 +613,9 @@
 		hostileMultiplier = 2.0
 		#When true, mobs that expose inventories or container menus are not capturable.
 		disallowInventoryEntities = false
-		#Entity types that cannot be captured.
+		#Entity types or entity tags prefixed with # that cannot be captured.
 		entityBlockList = []
-		#Entity types treated as hostile by mob catcher slot cost and tier rules.
+		#Entity types or entity tags prefixed with # treated as hostile by mob catcher slot cost and tier rules.
 		hostileOverrides = []
-		#Entity types treated as passive by mob catcher slot cost and tier rules.
+		#Entity types or entity tags prefixed with # treated as passive by mob catcher slot cost and tier rules.
 		passiveOverrides = []

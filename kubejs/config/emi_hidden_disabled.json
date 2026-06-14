@@ -143,7 +143,6 @@
 
             "laserio:logic_chip_raw",
             "laserio:logic_chip",
-            "laserio:card_energy",
 
             "/malum:.*(aluminum|cobalt|lead|nickel|osmium|silver|tin|uranium|zinc)_(impetus|node)/",
             "malum:brilliant_deepslate",
