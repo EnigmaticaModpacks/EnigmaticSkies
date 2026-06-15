@@ -17,7 +17,7 @@ NeoForge-1.21.1-21.1.232 |
 - Identification Chamber quest has been removed [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Applied Replicatics now uses replica ingots instead of silicon plates [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Rice Bales now crush to Rice Bags to avoid a water glitch [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
-- Jet Boot Upgrades are now craftable [(\#253)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/253)
+- Jet Boot Upgrades are now craftable [(\#255)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/255)
 
 #### ✔️ Added Mods
 
