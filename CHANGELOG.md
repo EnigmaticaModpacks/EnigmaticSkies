@@ -19,6 +19,7 @@ NeoForge-1.21.1-21.1.232 |
 - Applied Replicatics now uses replica ingots instead of silicon plates [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Rice Bales now crush to Rice Bags to avoid a water glitch [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Jet Boot Upgrades are now craftable [(\#255)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/255)
+- Aerbunnies may now be scraped for genes [(\#258)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/258)
 
 #### ✔️ Added Mods
 
