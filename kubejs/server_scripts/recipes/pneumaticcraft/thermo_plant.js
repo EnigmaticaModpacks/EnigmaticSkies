@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 },
                 item: { item: 'theurgy:fermentation_starter' }
             },
-            temperature: { min: CtoK(30), max: CtoK(100) },
+            temperature: { min: CtoK(100) },
             pressure: 2.0,
             time: 0.05,
             id: `${id_prefix}refined_canola_oil`
