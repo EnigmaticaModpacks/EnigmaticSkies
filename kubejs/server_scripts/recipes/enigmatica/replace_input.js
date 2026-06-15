@@ -382,6 +382,11 @@ ServerEvents.recipes((event) => {
             replace_with: 'pneumaticcraft:upgrade_matrix'
         },
         {
+            filter: [{ id: 'pneumaticcraft:jet_boots_upgrade_1' }],
+            to_replace: `pneumaticcraft:advanced_air_compressor`,
+            replace_with: 'malum:wind_nucleus'
+        },
+        {
             filter: [{ mod: 'ae2' }, { mod: 'ae2importexportcard' }, { mod: 'merequester' }, { mod: 'ae2netanalyser' }],
             to_replace: `#c:ingots/iron`,
             replace_with: `#c:ingots/compressed_iron`
