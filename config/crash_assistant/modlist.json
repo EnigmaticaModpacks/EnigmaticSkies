@@ -325,13 +325,13 @@
     "curseForgeHash": 664412636,
     "modrinthHash": "e01709c880b0602b7a306201a25866e76c44f5c0"
   },
-  "balm-neoforge-1.21.1-21.0.56.jar": {
-    "jarName": "balm-neoforge-1.21.1-21.0.56.jar",
+  "balm-neoforge-1.21.1-21.0.59.jar": {
+    "jarName": "balm-neoforge-1.21.1-21.0.59.jar",
     "modId": "balm",
     "name": "Balm",
-    "version": "21.0.56",
-    "curseForgeHash": 1850182331,
-    "modrinthHash": "c1c1d4859c7943c7d1c181c07fa7273a1d56df15"
+    "version": "21.0.59",
+    "curseForgeHash": 3969738133,
+    "modrinthHash": "b0bf4bed336237bfbe35879c33f30357b53e8664"
   },
   "better-compatability-checker-neoforge-21.1.8.jar": {
     "jarName": "better-compatability-checker-neoforge-21.1.8.jar",
@@ -1020,13 +1020,13 @@
     "curseForgeHash": 3562733026,
     "modrinthHash": "836411988409e166020db2914cab5d4f93466fc4"
   },
-  "ftb-quests-neoforge-2101.1.26.jar": {
-    "jarName": "ftb-quests-neoforge-2101.1.26.jar",
+  "ftb-quests-neoforge-2101.1.27.jar": {
+    "jarName": "ftb-quests-neoforge-2101.1.27.jar",
     "modId": "ftbquests",
     "name": "FTB Quests",
-    "version": "2101.1.26",
-    "curseForgeHash": 1482015807,
-    "modrinthHash": "831328b1f1aefc3b9ce5b7ff8c799a6610ccc1ab"
+    "version": "2101.1.27",
+    "curseForgeHash": 3178076391,
+    "modrinthHash": "baf3a7f173d09c2b9800626109cf6ca5a52a6c19"
   },
   "ftb-ranks-neoforge-2101.1.3.jar": {
     "jarName": "ftb-ranks-neoforge-2101.1.3.jar",
@@ -1593,13 +1593,13 @@
     "curseForgeHash": 728845744,
     "modrinthHash": "1ab999bac46ff84e90c3bbfaa4923286df4b870a"
   },
-  "occultism-1.21.1-neoforge-1.220.4.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.220.4.jar",
+  "occultism-1.21.1-neoforge-1.221.0.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.221.0.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.220.4",
-    "curseForgeHash": 4240941191,
-    "modrinthHash": "2e6f0bd6b4caa0159abcba9be5870d1b39fcc276"
+    "version": "1.221.0",
+    "curseForgeHash": 2566747226,
+    "modrinthHash": "15ca8aeabd2b1a12c2bc0d93c3d09f1e4ac6a4c6"
   },
   "occultism_kubejs-1.21.1-neoforge-1.11.0.jar": {
     "jarName": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
@@ -1713,13 +1713,13 @@
     "curseForgeHash": 1056016325,
     "modrinthHash": "9b1886d39303cd7f295f743687318c0a28b5778c"
   },
-  "PuzzlesLib-v21.1.51-1.21.1-NeoForge.jar": {
-    "jarName": "PuzzlesLib-v21.1.51-1.21.1-NeoForge.jar",
+  "PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar": {
+    "jarName": "PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar",
     "modId": "puzzleslib",
     "name": "Puzzles Lib",
-    "version": "21.1.51",
-    "curseForgeHash": 986404996,
-    "modrinthHash": "035de52d3eb18ceeca4e4e63516af873c0975060"
+    "version": "21.1.52",
+    "curseForgeHash": 2149074619,
+    "modrinthHash": "66182c3affb9f99624d1d770ca168d2a63af83f6"
   },
   "redstonepen-1.21-neoforge-1.11.42.jar": {
     "jarName": "redstonepen-1.21-neoforge-1.11.42.jar",
@@ -1881,13 +1881,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.62.1904.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.62.1904.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.63.1912.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.63.1912.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.62",
-    "curseForgeHash": 5322473,
-    "modrinthHash": "737bc0fa7a4b4eb3d038792d90307ae2cf531860"
+    "version": "3.25.63",
+    "curseForgeHash": 3966682777,
+    "modrinthHash": "e7e8458e1bf2f52d457e0eb2efcd8c3194a653fa"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar",
@@ -1897,21 +1897,21 @@
     "curseForgeHash": 3859949395,
     "modrinthHash": "f314e04a27c699d4fea7bb338ddcb5296b0e9515"
   },
-  "sophisticatedcore-1.21.1-1.4.56.2019.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.56.2019.jar",
+  "sophisticatedcore-1.21.1-1.4.58.2026.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.58.2026.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.56",
-    "curseForgeHash": 1284951539,
-    "modrinthHash": "bd9559d847c67cd50e651843f988d57bf8d01960"
+    "version": "1.4.58",
+    "curseForgeHash": 1412583346,
+    "modrinthHash": "da2706b73728f935502a51752484c11117c06037"
   },
-  "sophisticatedstorage-1.21.1-1.5.59.1843.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.59.1843.jar",
+  "sophisticatedstorage-1.21.1-1.5.60.1851.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.60.1851.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.59",
-    "curseForgeHash": 1884793878,
-    "modrinthHash": "2299eb394c55207a351c59d800f6cc0791f8511f"
+    "version": "1.5.60",
+    "curseForgeHash": 4227245305,
+    "modrinthHash": "f57483944090eb847d8e9af00f6dd4dae72dc276"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
