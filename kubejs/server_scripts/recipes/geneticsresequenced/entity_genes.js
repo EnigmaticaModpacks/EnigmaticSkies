@@ -187,8 +187,10 @@ ServerEvents.generateData('before_mods', (event) => {
         {
             entities: ['ribbits:ribbit'],
             genes: {
-                'geneticsresequenced:water_breathing': 8,
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:water_breathing': 2,
                 'geneticsresequenced:slimy_death': 1,
+                'geneticsresequenced:jump_boost': 1,
                 'geneticsresequenced:oozing': 1
             }
         }

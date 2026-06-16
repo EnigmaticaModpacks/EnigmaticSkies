@@ -20,6 +20,9 @@ NeoForge-1.21.1-21.1.232 |
 - Rice Bales now crush to Rice Bags to avoid a water glitch [(\#249)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/249)
 - Jet Boot Upgrades are now craftable [(\#255)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/255)
 - Aerbunnies may now be scraped for genes [(\#258)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/258)
+- Ribbits now spawn on the Flourishing Island when it is summoned [(\#260)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/260)
+- More Ribbits may be crafted using the Imbuement Chamber. They can offer some useful items such as buckets of fish. [(\#260)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/260)
+- Cascading, Blazing, and Flashing islands now also have some friends that spawn in with the island [(\#260)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/260)
 
 #### ✔️ Added Mods
 
