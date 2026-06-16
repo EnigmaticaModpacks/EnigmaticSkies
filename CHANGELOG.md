@@ -1,6 +1,6 @@
 ### Enigmatic Skies 1.11.0
 
-NeoForge-1.21.1-21.1.232 |
+NeoForge-1.21.1-21.1.233 |
 
 #### ⭐ Improvements
 
