@@ -183,6 +183,14 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:stone_skin': 3,
                 'geneticsresequenced:efficiency': 1
             }
+        },
+        {
+            entities: ['ribbits:ribbit'],
+            genes: {
+                'geneticsresequenced:water_breathing': 8,
+                'geneticsresequenced:slimy_death': 1,
+                'geneticsresequenced:oozing': 1
+            }
         }
     ];
 

@@ -995,6 +995,14 @@ const spiritData = [
         ]
     },
 
+    {
+        registry_name: 'ribbits:ribbit',
+        spirits: [
+            { spirit: 'malum:sacred', count: 1 },
+            { spirit: 'malum:aqueous', count: 2 }
+        ]
+    },
+
     // {
     //     registry_name: 'sushigocrafting:shrimp',
     //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
@@ -1003,6 +1011,7 @@ const spiritData = [
     //     registry_name: 'sushigocrafting:tuna',
     //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
     // },
+
     {
         registry_name: 'the_bumblezone:bee_queen',
         spirits: [

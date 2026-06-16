@@ -23,6 +23,9 @@ NeoForge-1.21.1-21.1.232 |
 
 #### ✔️ Added Mods
 
+- [Ribbits](https://www.curseforge.com/minecraft/mc-mods/ribbits) (by [joosh_7889](https://www.curseforge.com/members/joosh_7889/projects))
+- [YUNG's API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/yungnickyoung/projects))
+
 #### ❌ Removed Mods
 
 - [Gabou's Libs](https://www.curseforge.com/minecraft/mc-mods/gabous-libs) (by [Gaboouu](https://www.curseforge.com/members/gaboouu/projects))

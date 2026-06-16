@@ -175,6 +175,21 @@ ServerEvents.recipes((event) => {
             pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'ars_nouveau:wilden_spike' }],
             source: 2000,
             id: `${id_prefix}piercing_prism_lens`
+        },
+        {
+            output: {
+                id: 'occultism:fragile_soul_gem',
+                components: { 'minecraft:entity_data': { id: 'ribbits:ribbit' } },
+                count: 1
+            },
+            input: { item: 'minecraft:amethyst_shard' },
+            pedestalItems: [
+                { item: 'minecraft:slime_ball' },
+                { item: 'minecraft:brown_mushroom' },
+                { item: 'minecraft:brown_mushroom' }
+            ],
+            source: 100,
+            id: `${id_prefix}ribbit_nitwit`
         }
     ];
 
@@ -244,6 +259,44 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${essence.output.split(':')[1]}_from_fluix_block`
             }
         );
+    });
+
+    const ribbits = {
+        professions: [
+            { input: 'aether:skyroot_hoe', type: 'gardener' },
+            { input: 'ars_nouveau:wixie_hat', type: 'sorcerer' },
+            { input: 'minecraft:fishing_rod', type: 'fisherman' },
+            { input: 'minecraft:chest', type: 'merchant' }
+        ],
+        umbrellas: [
+            { input: 'ribbits:umbrella_leaf', type: 'umbrella_1' },
+            { input: 'ribbits:swamp_daisy', type: 'umbrella_2' },
+            { input: 'minecraft:lily_pad', type: 'umbrella_3' }
+        ]
+    };
+    ribbits.professions.forEach((profession) => {
+        ribbits.umbrellas.forEach((umbrella) => {
+            recipes.push({
+                output: {
+                    id: 'occultism:fragile_soul_gem',
+                    components: {
+                        'minecraft:entity_data': {
+                            id: 'ribbits:ribbit',
+                            RibbitData: {
+                                instrument: 'ribbits:none',
+                                profession: `ribbits:${profession.type}`,
+                                umbrella: `ribbits:${umbrella.type}`
+                            }
+                        }
+                    },
+                    count: 1
+                },
+                input: { item: 'minecraft:amethyst_shard' },
+                pedestalItems: [{ item: 'minecraft:slime_ball' }, { item: profession.input }, { item: umbrella.input }],
+                source: 100,
+                id: `${id_prefix}ribbit_${profession.type}_with_${umbrella.type}`
+            });
+        });
     });
 
     recipes.forEach((recipe) => {
