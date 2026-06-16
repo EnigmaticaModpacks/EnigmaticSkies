@@ -10,19 +10,19 @@ const reapingData = [
         drops: [{ ingredient: { item: 'malum:wind_nucleus' }, chance: '1.0', min: '1', max: '2' }]
     },
 
-    {
-        registry_name: 'minecraft:enderman',
-        drops: [{ ingredient: { item: 'malum:warp_flux' }, chance: '1.0', min: '1', max: '2' }]
-    },
+    // {
+    //     registry_name: 'minecraft:enderman',
+    //     drops: [{ ingredient: { item: 'malum:warp_flux' }, chance: '1.0', min: '1', max: '2' }]
+    // },
     {
         registry_name: 'minecraft:shulker',
         drops: [{ ingredient: { item: 'malum:warp_flux' }, chance: '1.0', min: '1', max: '2' }]
     },
 
-    {
-        registry_name: 'minecraft:ghast',
-        drops: [{ ingredient: { item: 'malum:astral_weave' }, chance: '1.0', min: '1', max: '3' }]
-    },
+    // {
+    //     registry_name: 'minecraft:ghast',
+    //     drops: [{ ingredient: { item: 'malum:astral_weave' }, chance: '1.0', min: '1', max: '3' }]
+    // },
     {
         registry_name: 'minecraft:phantom',
         drops: [{ ingredient: { item: 'malum:astral_weave' }, chance: '1.0', min: '1', max: '3' }]

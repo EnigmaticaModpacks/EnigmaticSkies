@@ -49,13 +49,13 @@ const spiritData = [
             { spirit: 'malum:aerial', count: 2 }
         ]
     },
-    {
-        registry_name: 'aether:evil_whirlwind',
-        spirits: [
-            { spirit: 'malum:aerial', count: 3 },
-            { spirit: 'malum:wicked', count: 1 }
-        ]
-    },
+    // {
+    //     registry_name: 'aether:evil_whirlwind',
+    //     spirits: [
+    //         { spirit: 'malum:aerial', count: 3 },
+    //         { spirit: 'malum:wicked', count: 1 }
+    //     ]
+    // },
     {
         registry_name: 'aether:fire_minion',
         spirits: [
@@ -140,10 +140,10 @@ const spiritData = [
     //         { spirit: 'malum:aerial', count: 5 }
     //     ]
     // },
-    {
-        registry_name: 'aether:whirlwind',
-        spirits: [{ spirit: 'malum:aerial', count: 3 }]
-    },
+    // {
+    //     registry_name: 'aether:whirlwind',
+    //     spirits: [{ spirit: 'malum:aerial', count: 3 }]
+    // },
     {
         registry_name: 'aether:zephyr',
         spirits: [
@@ -588,17 +588,17 @@ const spiritData = [
             { spirit: 'malum:aqueous', count: 12 }
         ]
     },
-    {
-        registry_name: 'minecraft:enderman',
-        spirits: [
-            { spirit: 'malum:eldritch', count: 4 },
-            { spirit: 'malum:arcane', count: 4 }
-        ]
-    },
-    {
-        registry_name: 'minecraft:endermite',
-        spirits: [{ spirit: 'malum:eldritch', count: 1 }]
-    },
+    // {
+    //     registry_name: 'minecraft:enderman',
+    //     spirits: [
+    //         { spirit: 'malum:eldritch', count: 4 },
+    //         { spirit: 'malum:arcane', count: 4 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'minecraft:endermite',
+    //     spirits: [{ spirit: 'malum:eldritch', count: 1 }]
+    // },
     {
         registry_name: 'minecraft:evoker',
         spirits: [
@@ -918,13 +918,13 @@ const spiritData = [
             { spirit: 'malum:infernal', count: 12 }
         ]
     },
-    {
-        registry_name: 'minecraft:wandering_trader',
-        spirits: [
-            { spirit: 'malum:sacred', count: 2 },
-            { spirit: 'malum:arcane', count: 1 }
-        ]
-    },
+    // {
+    //     registry_name: 'minecraft:wandering_trader',
+    //     spirits: [
+    //         { spirit: 'malum:sacred', count: 2 },
+    //         { spirit: 'malum:arcane', count: 1 }
+    //     ]
+    // },
     {
         registry_name: 'minecraft:warden',
         spirits: [{ spirit: 'malum:eldritch', count: 6 }]
@@ -995,6 +995,14 @@ const spiritData = [
         ]
     },
 
+    {
+        registry_name: 'ribbits:ribbit',
+        spirits: [
+            { spirit: 'malum:sacred', count: 1 },
+            { spirit: 'malum:aqueous', count: 2 }
+        ]
+    },
+
     // {
     //     registry_name: 'sushigocrafting:shrimp',
     //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
@@ -1003,6 +1011,7 @@ const spiritData = [
     //     registry_name: 'sushigocrafting:tuna',
     //     spirits: [{ spirit: 'malum:aqueous', count: 1 }]
     // },
+
     {
         registry_name: 'the_bumblezone:bee_queen',
         spirits: [
