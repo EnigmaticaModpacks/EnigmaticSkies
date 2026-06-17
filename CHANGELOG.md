@@ -1,5 +1,21 @@
 ### Enigmatic Skies 1.11.0
 
+NeoForge-1.21.1-21.1.233 |
+
+#### ⭐ Improvements
+
+#### 🦟 Bugs Fixed
+
+- Fixed bark outputs for Ars Nouveau logs in the Create sawmill [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
+### Enigmatic Skies 1.11.0
+
 NeoForge-1.21.1-21.1.233 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.11.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.11.0.md)
 
 #### ⭐ Improvements
