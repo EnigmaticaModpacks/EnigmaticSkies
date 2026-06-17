@@ -5,13 +5,13 @@
     "name": "neoforge",
     "version": "neoforge-21.1.233"
   },
-  "aaron-1.21.1-1.14.0-build.283.jar": {
-    "jarName": "aaron-1.21.1-1.14.0-build.283.jar",
+  "aaron-1.21.1-1.16.0-build.300.jar": {
+    "jarName": "aaron-1.21.1-1.16.0-build.300.jar",
     "modId": "aaron",
     "name": "Aaron",
-    "version": "1.14.0",
-    "curseForgeHash": 793900891,
-    "modrinthHash": "6866b33f104d9f9886daebe2d4cfdd11e04d1784"
+    "version": "1.16.0",
+    "curseForgeHash": 1218687562,
+    "modrinthHash": "4b66c365a5b6e056ef86ffe61c5b6601a7afe31f"
   },
   "accelerated-decay-neoforge-21.0.0.jar": {
     "jarName": "accelerated-decay-neoforge-21.0.0.jar",
@@ -237,13 +237,13 @@
     "curseForgeHash": 2445792967,
     "modrinthHash": "2354710ea312e2a6e0fbc3eb2dbafb8e06f10cf4"
   },
-  "ars_nouveau-1.21.1-5.11.7.jar": {
-    "jarName": "ars_nouveau-1.21.1-5.11.7.jar",
+  "ars_nouveau-1.21.1-5.12.0.jar": {
+    "jarName": "ars_nouveau-1.21.1-5.12.0.jar",
     "modId": "ars_nouveau",
     "name": "Ars Nouveau",
-    "version": "5.11.7",
-    "curseForgeHash": 3644830935,
-    "modrinthHash": "8e64d8120a900bbe7897b23119d8b50e2f2001e1"
+    "version": "5.12.0",
+    "curseForgeHash": 385019997,
+    "modrinthHash": "54dae46e18838fff0fd522a57365fb20f2583295"
   },
   "ars_ocultas-1.21.1-2.4.1.jar": {
     "jarName": "ars_ocultas-1.21.1-2.4.1.jar",
@@ -644,13 +644,13 @@
     "curseForgeHash": 3268862051,
     "modrinthHash": "ff4b3d9ca8e8452a7a0362153c3108634ad2297c"
   },
-  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar": {
-    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar",
+  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar": {
+    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar",
     "modId": "crash_assistant",
     "name": "Crash Assistant",
-    "version": "1.11.9",
-    "curseForgeHash": 3256624676,
-    "modrinthHash": "a7a2945e8544a3a109ddb01f9c32574fc1e4b902"
+    "version": "1.11.10",
+    "curseForgeHash": 3170815324,
+    "modrinthHash": "2787616596ee00b1acca5b543d38525e7afbbb3e"
   },
   "crashutilities-9.0.4.jar": {
     "jarName": "crashutilities-9.0.4.jar",
@@ -748,13 +748,13 @@
     "curseForgeHash": 3538634606,
     "modrinthHash": "45b7240ad5cd561511ae3f80eea4cbfc110dae70"
   },
-  "cupboard-1.21-3.7.jar": {
-    "jarName": "cupboard-1.21-3.7.jar",
+  "cupboard-1.21.1-3.8.jar": {
+    "jarName": "cupboard-1.21.1-3.8.jar",
     "modId": "cupboard",
     "name": "Cupboard mod",
-    "version": "3.7",
-    "curseForgeHash": 2693967035,
-    "modrinthHash": "428c992f2c01bb84f3da14db244728695117b0a0"
+    "version": "3.8",
+    "curseForgeHash": 843677085,
+    "modrinthHash": "39df849e5a338dfe9ccb7632b1849c20357e597b"
   },
   "curios-neoforge-9.5.1+1.21.1.jar": {
     "jarName": "curios-neoforge-9.5.1+1.21.1.jar",
@@ -988,13 +988,13 @@
     "curseForgeHash": 3017729851,
     "modrinthHash": "eb96e6983845daee8d6ac84544ba1df55d4a6fae"
   },
-  "ftb-chunks-neoforge-2101.1.18.jar": {
-    "jarName": "ftb-chunks-neoforge-2101.1.18.jar",
+  "ftb-chunks-neoforge-2101.1.19.jar": {
+    "jarName": "ftb-chunks-neoforge-2101.1.19.jar",
     "modId": "ftbchunks",
     "name": "FTB Chunks",
-    "version": "2101.1.18",
-    "curseForgeHash": 2280456872,
-    "modrinthHash": "72126131e1d356c16cc6f73be9661624d50dced1"
+    "version": "2101.1.19",
+    "curseForgeHash": 2140516882,
+    "modrinthHash": "2fd5eeaff04af5096ff1ad6f8df15053c10269ca"
   },
   "ftb-essentials-neoforge-2101.1.9.jar": {
     "jarName": "ftb-essentials-neoforge-2101.1.9.jar",
@@ -1513,13 +1513,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.0.17.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.17.jar",
+  "moonlight-neoforge-1.21.1-3.0.18.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.18.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.17",
-    "curseForgeHash": 1446505159,
-    "modrinthHash": "fb9ff01231bc99aee1769b06a4b2987e6a6a518b"
+    "version": "1.21.1-3.0.18",
+    "curseForgeHash": 223638153,
+    "modrinthHash": "b4c44b7cdcbbabec325f2d90f1a2efad92a522e8"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
