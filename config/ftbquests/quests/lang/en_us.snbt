@@ -445,7 +445,7 @@
 	quest.0DE5D9ADB947B171.quest_desc: [
 		"Animate a &7Wilden Chimera&r and defeat it to obtain a &7Wilden Tribute&r."
 		""
-		"&7Chimera Meat&r may be obtained through &7Soul Shattering&r or by trading extra &7Wilden Tributes&r to a &7Butcher&r. "
+		"&7Chimera Meat&r may be obtained by killing the creature with a &7Knife&r or by trading extra &7Wilden Tributes&r to a &7Butcher&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -680,7 +680,7 @@
 		""
 		"These benefits range from increased spell damage and higher looting rates, to buffed speed and ranged item collection. "
 		""
-		"Check the tooltips on each &7Bound Script&r to see what it has to offer you!"
+		"Check the &7Worn Notebook&r to see what each &7Bound Script&r has to offer you!"
 	]
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
