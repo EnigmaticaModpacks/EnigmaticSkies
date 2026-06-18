@@ -1,4 +1,4 @@
-### Enigmatic Skies 1.11.0
+### Enigmatic Skies 1.12.0
 
 NeoForge-1.21.1-21.1.233 |
 
@@ -7,6 +7,7 @@ NeoForge-1.21.1-21.1.233 |
 #### 🦟 Bugs Fixed
 
 - Fixed bark outputs for Ars Nouveau logs in the Create sawmill [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Fixed erroneous straw bale output from crushing rice bags [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 
 #### ✔️ Added Mods
 
