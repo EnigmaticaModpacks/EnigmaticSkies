@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/hallowed_gold', count: 1 },
                 { item: 'malum:strange_crystal', count: 1 }
             ],
-            tier: 1,
+            tier: 2,
             exclusions: [],
             id_suffix: `energetic_alloy_ingot`
         },

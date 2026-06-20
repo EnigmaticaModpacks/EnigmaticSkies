@@ -4,6 +4,11 @@ NeoForge-1.21.1-21.1.233 |
 
 #### ⭐ Improvements
 
+- Glassential colorable glass and brush no longer need quartz to craft [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Create Packagers are now slightly cheaper [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- MI Cables may now be crafted in smaller batches [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Enderio energy conduits have been re-enabled [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+
 #### 🦟 Bugs Fixed
 
 - Fixed bark outputs for Ars Nouveau logs in the Create sawmill [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)

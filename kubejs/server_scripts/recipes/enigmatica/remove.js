@@ -305,8 +305,10 @@ ServerEvents.recipes((event) => {
 
         { id: 'create_connected:sequenced_assembly/control_chip' },
         { id: /create_connected:.*ending_catalyst_(dragon|sanding|freezing)/ },
-        { input: /create_connected:fan_(seeth|end|freez|wither|gloom|skulk|purify|sand)ing_catalyst/ },
+        { input: /create_connected:fan_(seeth|end|freez|wither|gloom|sculk|purify|sand)ing_catalyst/ },
         { input: /create_connected:fan_(transmutation|resonance|chocolate_coating|soul_striping)_catalyst/ },
+        { input: /create_connected:fan_(honey_coating|exploding|soul_stripping)_catalyst/ },
+        { input: /create_connected:.*_dyeing_catalyst/ },
         { input: 'create_connected:fan_enriched_catalyst' },
 
         { id: /createdeco:.*_sheet_metal/ },
@@ -323,7 +325,6 @@ ServerEvents.recipes((event) => {
         { output: /enderio:.*photovoltaic_module/ },
         { output: /enderio:.*capacitor/ },
         { output: /enderio:.*capacitor_bank/ },
-        { id: /enderio:.*energy_conduit/ },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/flower_pot' },
         { id: 'enderio:sag_milling/ender_crystal' },
