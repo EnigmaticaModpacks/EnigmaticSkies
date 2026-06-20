@@ -9,6 +9,7 @@ NeoForge-1.21.1-21.1.233 |
 - MI Cables may now be crafted in smaller batches [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Enderio energy conduits have been re-enabled [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Blink is now Tier 2 [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Archwood Forest biome (volcano island) no longer has rain [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 
 #### 🦟 Bugs Fixed
 

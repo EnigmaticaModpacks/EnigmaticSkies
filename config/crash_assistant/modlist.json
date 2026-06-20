@@ -708,6 +708,14 @@
     "curseForgeHash": 3758804167,
     "modrinthHash": "5cf87526e5e02b569b3efd0fadc1677026b802ef"
   },
+  "create_mobile_packages-1.21.1-0.7.6.jar": {
+    "jarName": "create_mobile_packages-1.21.1-0.7.6.jar",
+    "modId": "create_mobile_packages",
+    "name": "Create: Mobile Packages",
+    "version": "0.7.6",
+    "curseForgeHash": 3501085201,
+    "modrinthHash": "69f0fa17e88b0b9f6a372df478811c71c9b3ef2f"
+  },
   "createdeco-2.1.3.jar": {
     "jarName": "createdeco-2.1.3.jar",
     "modId": "createdeco",
