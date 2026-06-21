@@ -20,6 +20,8 @@ NeoForge-1.21.1-21.1.233 |
 
 #### ✔️ Added Mods
 
+- [Create: Mobile Packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages) (by [timplay33](https://www.curseforge.com/members/timplay33/projects))
+
 #### ❌ Removed Mods
 
 ---
