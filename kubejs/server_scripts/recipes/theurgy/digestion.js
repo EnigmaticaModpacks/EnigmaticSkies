@@ -101,6 +101,16 @@ ServerEvents.recipes((event) => {
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
             id: `${id_prefix}emerald_dust_from_sea_lantern`
+        },
+        {
+            result: { id: 'minecraft:rotten_flesh', count: 8 },
+            ingredients: [
+                { ingredient: { item: 'malum:blighted_gunk' }, count: 1 },
+                { ingredient: { tag: 'c:foods/raw_meat' }, count: 8 }
+            ],
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 150 },
+            time: 5,
+            id: `${id_prefix}rotten_flesh`
         }
     ];
 
@@ -111,7 +121,5 @@ ServerEvents.recipes((event) => {
         recipe.time *= 20;
         recipe.fluid = { ingredient: { fluid: recipe.fluid.id }, amount: recipe.fluid.amount };
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

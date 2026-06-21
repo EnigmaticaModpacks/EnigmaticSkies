@@ -384,7 +384,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}coal_t1`
         },
         {
-            outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
+            outputs: { item_output: { id: 'malum:grim_talc', count: 2 } },
             inputs: { item: { item: 'minecraft:bone' } },
             temperature: { min: CtoK(500) },
             pressure: -0.75,
@@ -400,7 +400,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}grim_talc_from_fish_bones`
         },
         {
-            outputs: { item_output: { id: 'malum:rotting_essence', count: 1 } },
+            outputs: { item_output: { id: 'malum:rotting_essence', count: 2 } },
             inputs: { item: { item: 'minecraft:rotten_flesh' } },
             temperature: { min: CtoK(500) },
             pressure: -0.75,

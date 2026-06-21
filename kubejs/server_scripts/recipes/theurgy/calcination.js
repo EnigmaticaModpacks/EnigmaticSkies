@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:grim_talc', count: 1 },
-            ingredient: { ingredient: { item: 'minecraft:bone' }, count: 2 },
+            ingredient: { ingredient: { item: 'minecraft:bone' }, count: 1 },
             time: 5,
             id: `${id_prefix}grim_talc_from_bone`
         },
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:rotting_essence', count: 1 },
-            ingredient: { ingredient: { item: 'minecraft:rotten_flesh' }, count: 2 },
+            ingredient: { ingredient: { item: 'minecraft:rotten_flesh' }, count: 1 },
             time: 5,
             id: `${id_prefix}rotting_essence_from_rotten_flesh`
         }

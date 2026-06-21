@@ -144,6 +144,20 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
+                { item: 'minecraft:rotten_flesh', amount: 1 },
+                { item: 'minecraft:rotten_flesh', amount: 1, probability: 0.5 }
+            ],
+            item_inputs: [
+                { tag: 'c:foods/raw_meat', amount: 1 },
+                { item: 'malum:blighted_gunk', amount: 1, probability: 0.05 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}rotten_flesh`
+        },
+        {
+            item_outputs: [
                 { item: 'minecraft:slime_ball', amount: 4 },
                 { item: 'minecraft:slime_ball', amount: 2, probability: 0.5 }
             ],

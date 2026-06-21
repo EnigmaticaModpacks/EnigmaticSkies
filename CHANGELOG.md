@@ -10,6 +10,9 @@ NeoForge-1.21.1-21.1.233 |
 - Enderio energy conduits have been re-enabled [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Blink is now Tier 2 [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Archwood Forest biome (volcano island) no longer has rain [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Boggy Dorodangos now give Blighted Gunk instead of Rotten Flesh [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Rotten Flesh is now made from Blighted Gunk and raw meat. This dramatically increases the Rotten Flesh output from each dorodango. [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Calcination recipes have been adjusted to have better output rates [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 
 #### 🦟 Bugs Fixed
 

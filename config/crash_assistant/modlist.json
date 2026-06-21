@@ -1585,13 +1585,13 @@
     "curseForgeHash": 1237891864,
     "modrinthHash": "9edfc7861277ff661141304dc8216f83eacdd9af"
   },
-  "not_enough_glyphs-1.21.1-4.6.0.jar": {
-    "jarName": "not_enough_glyphs-1.21.1-4.6.0.jar",
+  "not_enough_glyphs-1.21.1-4.5.1.jar": {
+    "jarName": "not_enough_glyphs-1.21.1-4.5.1.jar",
     "modId": "not_enough_glyphs",
     "name": "Not Enough Glyphs",
-    "version": "4.6.0",
-    "curseForgeHash": 3505981371,
-    "modrinthHash": "53bddd0b94147095bacacfb48ad52b7e007c626b"
+    "version": "4.5.1",
+    "curseForgeHash": 3945820752,
+    "modrinthHash": "9540858c34c5858b63090b8afb9dacb40318f45d"
   },
   "Notes-1.21.1-3.0.1-neoforge.jar": {
     "jarName": "Notes-1.21.1-3.0.1-neoforge.jar",
@@ -1617,13 +1617,13 @@
     "curseForgeHash": 1182471328,
     "modrinthHash": "d48b97b0cc58c9c75292a1d8eab2b7c1469ed8f7"
   },
-  "oracle_index-neoforge-1.3.0.jar": {
-    "jarName": "oracle_index-neoforge-1.3.0.jar",
+  "oracle_index-neoforge-1.2.0.jar": {
+    "jarName": "oracle_index-neoforge-1.2.0.jar",
     "modId": "oracle_index",
     "name": "Oracle Index",
-    "version": "1.3.0",
-    "curseForgeHash": 2038541308,
-    "modrinthHash": "cd3f553fcb22e72442fe52783e326991c32123b5"
+    "version": "1.2.0",
+    "curseForgeHash": 2546963881,
+    "modrinthHash": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c"
   },
   "oritech-neoforge-1.21.1-1.2.7.jar": {
     "jarName": "oritech-neoforge-1.21.1-1.2.7.jar",
