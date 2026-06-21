@@ -452,13 +452,13 @@
     "curseForgeHash": 527531260,
     "modrinthHash": "6f5395f58139802edfde7cb9170279f92f291971"
   },
-  "chisel-neoforge-2.0.0+mc1.21.1.jar": {
-    "jarName": "chisel-neoforge-2.0.0+mc1.21.1.jar",
+  "chisel-neoforge-2.0.1+mc1.21.1.jar": {
+    "jarName": "chisel-neoforge-2.0.1+mc1.21.1.jar",
     "modId": "chisel",
     "name": "Chisel Reborn",
-    "version": "2.0.0+mc1.21.1",
-    "curseForgeHash": 3369430390,
-    "modrinthHash": "44e432ddc1f6fa9cf05201a9aef3ae4c5784cc9d"
+    "version": "2.0.1+mc1.21.1",
+    "curseForgeHash": 1522232597,
+    "modrinthHash": "def703bf88cb3bb2960260418e8b36fe47a53dfd"
   },
   "cleanswing-1.9.jar": {
     "jarName": "cleanswing-1.9.jar",
@@ -1076,13 +1076,13 @@
     "curseForgeHash": 1511937694,
     "modrinthHash": "19ed7ed8edfddf26c5fc29fe66084b2c3b313981"
   },
-  "fusion-1.3.1-neoforge-mc1.21.1.jar": {
-    "jarName": "fusion-1.3.1-neoforge-mc1.21.1.jar",
+  "fusion-1.3.2-neoforge-mc1.21.1.jar": {
+    "jarName": "fusion-1.3.2-neoforge-mc1.21.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.1",
-    "curseForgeHash": 1771342217,
-    "modrinthHash": "654864c263a0f8a40e5277330518199cd630c23b"
+    "version": "1.3.2",
+    "curseForgeHash": 3899251611,
+    "modrinthHash": "17d820452a9cbe2fe0dc35152d7fbe1fa1351c81"
   },
   "fzzy_config-0.7.6+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+1.21+neoforge.jar",

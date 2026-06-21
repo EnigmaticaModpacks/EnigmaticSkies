@@ -769,7 +769,7 @@
 		#Allow to right click with a compass to display current coordinates in numerical form
 		compass_right_click = false
 		#Allow these features to work in dimensions like nether or end where normally clocks don't work
-		works_in_unnatural_dimensions = false
+		works_in_unnatural_dimensions = true
 
 	[tweaks.ai_tweaks]
 		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well

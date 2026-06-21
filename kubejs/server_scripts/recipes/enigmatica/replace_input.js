@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
                 { output: `minecraft:hopper` },
                 { output: `utilitarian:fluid_hopper` },
                 { output: `minecraft:smithing_table` },
-                { output: 'crate:packager' }
+                { output: 'create:packager' }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: '#c:ingots/andesite_alloy'
