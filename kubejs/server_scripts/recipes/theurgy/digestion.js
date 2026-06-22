@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
                 { ingredient: { item: 'malum:blighted_gunk' }, count: 1 },
                 { ingredient: { tag: 'c:foods/raw_meat' }, count: 8 }
             ],
-            fluid: { id: 'theurgy:sal_ammoniac', amount: 150 },
+            fluid: { id: 'minecraft:water', amount: 100 },
             time: 5,
             id: `${id_prefix}rotten_flesh`
         }

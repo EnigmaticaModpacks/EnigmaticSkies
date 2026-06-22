@@ -144,15 +144,15 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'minecraft:rotten_flesh', amount: 1 },
-                { item: 'minecraft:rotten_flesh', amount: 1, probability: 0.5 }
+                { item: 'minecraft:rotten_flesh', amount: 4 },
+                { item: 'minecraft:rotten_flesh', amount: 2, probability: 0.5 }
             ],
             item_inputs: [
-                { tag: 'c:foods/raw_meat', amount: 1 },
-                { item: 'malum:blighted_gunk', amount: 1, probability: 0.05 }
+                { tag: 'c:foods/raw_meat', amount: 4 },
+                { item: 'malum:blighted_gunk', amount: 1, probability: 0.25 }
             ],
-            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
-            duration: 5,
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
+            duration: 4,
             eu: 2,
             id: `${id_prefix}rotten_flesh`
         },

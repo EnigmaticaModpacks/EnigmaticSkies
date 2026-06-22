@@ -1035,6 +1035,7 @@ ServerEvents.recipes((event) => {
         { output: 'occultism:spirit_attuned_crystal' },
         { output: 'occultism:otherworld_goggles' },
         { output: 'occultism:otherglass_natural' },
+        { input: 'occultism:nature_paste' },
         { input: 'occultism:netherite_scrap_dust' },
         { input: 'occultism:gray_paste' },
         { input: 'occultism:raw_iesnium' },
