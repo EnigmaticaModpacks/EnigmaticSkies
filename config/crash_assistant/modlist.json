@@ -1100,13 +1100,13 @@
     "curseForgeHash": 1661329890,
     "modrinthHash": "f91a593378209f527fe81e731ca60fe8f8da2319"
   },
-  "geckolib-neoforge-1.21.1-4.9.jar": {
-    "jarName": "geckolib-neoforge-1.21.1-4.9.jar",
+  "geckolib-neoforge-1.21.1-4.8.4.jar": {
+    "jarName": "geckolib-neoforge-1.21.1-4.8.4.jar",
     "modId": "geckolib",
     "name": "GeckoLib 4",
-    "version": "4.9",
-    "curseForgeHash": 4191431486,
-    "modrinthHash": "05596e6f9735d896ca9dae8173210dc1c428c0df"
+    "version": "4.8.4",
+    "curseForgeHash": 396384696,
+    "modrinthHash": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce"
   },
   "geneticsresequenced-1.21.1-1.13.1-build.268.jar": {
     "jarName": "geneticsresequenced-1.21.1-1.13.1-build.268.jar",
