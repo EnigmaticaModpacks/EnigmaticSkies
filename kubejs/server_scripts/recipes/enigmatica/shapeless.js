@@ -157,6 +157,8 @@ ServerEvents.recipes((event) => {
         { item: 'oritech:machine_acceptor_addon', matrix: 1 },
         { item: 'oritech:machine_redstone_addon', matrix: 1 },
         { item: 'oritech:machine_burst_addon', matrix: 1 },
+        { item: 'oritech:machine_capacitor_addon', matrix: 1 },
+        { item: 'oritech:machine_inventory_proxy_addon', matrix: 1 },
 
         { item: 'pneumaticcraft:security_upgrade', matrix: 1 },
         { item: 'pneumaticcraft:speed_upgrade', matrix: 1 },
