@@ -1168,6 +1168,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:compat/ae2/charger/fluxite' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:compat/create/rawsheol/zinc' },
+        { id: 'oritech:crushing/compat/create/coal' },
         { id: 'oritech:laser/compat/ae2/chargedquartz' },
         { id: 'oritech:crushing/compat/create/nickelingot' },
         { id: 'oritech:cooler/compat/pneumaticcraft/plastic' },
