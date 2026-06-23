@@ -100,6 +100,22 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}frostaya_jelly`
         },
         {
+            result: { id: 'arsdelight:flashpine_jelly', count: 1 },
+            ingredients: [
+                { item: 'ars_elemental:flashpine_pod' },
+                { item: 'ars_elemental:flashpine_pod' },
+                { item: 'arsdelight:blazing_bark' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'minecraft:slime_ball' },
+                { tag: 'c:sugars' }
+            ],
+            container: { id: 'minecraft:bowl', count: 1 },
+            recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
+            id: `${id_prefix}flashpine_jelly`
+        },
+        {
             result: { id: 'arsdelight:source_berry_jelly', count: 1 },
             ingredients: [
                 { item: 'arsdelight:source_berry_jam' },

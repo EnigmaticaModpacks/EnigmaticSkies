@@ -125,6 +125,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}frostaya_to_crate`
         },
         {
+            higher_input: { id: 'arsdelight:flashpine_crate', count: 1 },
+            lower_input: { id: 'ars_elemental:flashpine_pod', count: 9 },
+            id: `${id_prefix}flashpine_to_crate`
+        },
+        {
             higher_input: { id: 'ars_nouveau:sourceberry_sack', count: 1 },
             lower_input: { id: 'ars_nouveau:sourceberry_bush', count: 9 },
             id: `${id_prefix}sourceberry_to_sack`

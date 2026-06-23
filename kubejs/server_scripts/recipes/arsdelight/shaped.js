@@ -49,12 +49,22 @@ ServerEvents.recipes((event) => {
                 E: '#c:sugars'
             },
             id: `${id_prefix}frostaya_pie`
+        },
+        {
+            output: 'arsdelight:flashpine_pie',
+            pattern: [' A ', 'BCB', 'EDE'],
+            key: {
+                A: 'ars_elemental:flashpine_pod',
+                B: 'arsdelight:neutralized_flashpine_jam',
+                C: 'arsdelight:source_berry_jam',
+                D: 'farmersdelight:pie_crust',
+                E: '#c:sugars'
+            },
+            id: `${id_prefix}flashpine_pie`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

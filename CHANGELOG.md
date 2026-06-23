@@ -14,6 +14,8 @@ NeoForge-1.21.1-21.1.233 |
 - Rotten Flesh is now made from Blighted Gunk and raw meat. This dramatically increases the Rotten Flesh output from each dorodango. [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Calcination recipes have been adjusted to have better output rates [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Apotheosis reforging has been made less expensive [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Honey Slime Ritual now uses Flashpine Jelly, keeping in line with the other slime summons [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- T3 Goo may now accept pie slices instead of only whole pies [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 
 #### 🦟 Bugs Fixed
 
