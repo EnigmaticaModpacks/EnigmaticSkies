@@ -169,7 +169,7 @@ ServerEvents.recipes((event) => {
         {
             entity: 'the_bumblezone:honey_slime',
             egg: 'the_bumblezone:honey_slime_spawn_egg',
-            block: 'minecraft:honey_block',
+            block: 'arsdelight:flashpine_jelly',
             spirit: 'naturesaura:calling_spirit'
         },
         {

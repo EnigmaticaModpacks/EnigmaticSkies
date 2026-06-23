@@ -507,6 +507,19 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}frostaya_tea`
         },
         {
+            item_outputs: [{ item: 'arsdelight:flashpine_tea', amount: 1 }],
+            item_inputs: [
+                { item: 'ars_elemental:flashpine_pod', amount: 2 },
+                { item: 'arsdelight:cascading_bark', amount: 1 },
+                { item: 'ars_nouveau:blue_archwood_leaves', amount: 1 },
+                { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
+                { item: 'minecraft:glass_bottle', amount: 1 }
+            ],
+            duration: 10,
+            eu: 16,
+            id: `${id_prefix}flashpine_tea`
+        },
+        {
             item_outputs: [{ item: 'arsdelight:source_berry_tea', amount: 1 }],
             item_inputs: [
                 { item: 'ars_nouveau:sourceberry_bush', amount: 3 },
@@ -565,6 +578,18 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 16,
             id: `${id_prefix}neutralized_frostaya_jam`
+        },
+        {
+            item_outputs: [{ item: 'arsdelight:neutralized_flashpine_jam', amount: 1 }],
+            item_inputs: [
+                { item: 'ars_elemental:flashpine_pod', amount: 2 },
+                { item: 'arsdelight:cascading_bark', amount: 1 },
+                { tag: 'c:sugars', amount: 1 },
+                { item: 'minecraft:glass_bottle', amount: 1 }
+            ],
+            duration: 10,
+            eu: 16,
+            id: `${id_prefix}activated_flashpine_jam`
         },
         {
             item_outputs: [{ item: 'arsdelight:source_berry_jam', amount: 1 }],
@@ -680,6 +705,19 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 16,
             id: `${id_prefix}frostaya_hornbeer`
+        },
+        {
+            item_outputs: [{ item: 'arsdelight:flashpine_hornbeer', amount: 1 }],
+            item_inputs: [
+                { item: 'ars_elemental:flashpine_pod', amount: 2 },
+                { item: 'arsdelight:cascading_bark', amount: 1 },
+                { item: 'ars_nouveau:magebloom', amount: 1 },
+                { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
+                { item: 'arsdelight:chimera_horn', amount: 1 }
+            ],
+            duration: 10,
+            eu: 16,
+            id: `${id_prefix}flashpine_hornbeer`
         },
         {
             item_outputs: [{ item: 'arsdelight:bombegrante_hornbeer', amount: 1 }],
@@ -810,6 +848,20 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 16,
             id: `${id_prefix}frostaya_jelly`
+        },
+        {
+            item_outputs: [{ item: 'arsdelight:flashpine_jelly', amount: 1 }],
+            item_inputs: [
+                { item: 'ars_elemental:flashpine_pod', amount: 2 },
+                { item: 'arsdelight:blazing_bark', amount: 1 },
+                { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
+                { item: 'minecraft:slime_ball', amount: 1 },
+                { tag: 'c:sugars', amount: 1 },
+                { item: 'minecraft:bowl', amount: 1 }
+            ],
+            duration: 10,
+            eu: 16,
+            id: `${id_prefix}flashpine_jelly`
         },
         {
             item_outputs: [{ item: 'arsdelight:source_berry_jelly', amount: 1 }],

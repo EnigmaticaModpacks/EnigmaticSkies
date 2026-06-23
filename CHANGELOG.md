@@ -1,3 +1,37 @@
+### Enigmatic Skies 1.12.0
+
+NeoForge-1.21.1-21.1.233 |
+
+#### ⭐ Improvements
+
+- Glassential colorable glass and brush no longer need quartz to craft [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Create Packagers are now slightly cheaper [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- MI Cables may now be crafted in smaller batches [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Enderio energy conduits have been re-enabled [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Blink is now Tier 2 [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Archwood Forest biome (volcano island) no longer has rain [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Boggy Dorodangos now give Blighted Gunk instead of Rotten Flesh [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Rotten Flesh is now made from Blighted Gunk and raw meat. This dramatically increases the Rotten Flesh output from each dorodango. [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Calcination recipes have been adjusted to have better output rates [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Apotheosis reforging has been made less expensive [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Honey Slime Ritual now uses Flashpine Jelly, keeping in line with the other slime summons [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- T3 Goo may now accept pie slices instead of only whole pies [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+
+#### 🦟 Bugs Fixed
+
+- Fixed bark outputs for Ars Nouveau logs in the Create sawmill [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Fixed erroneous straw bale output from crushing rice bags [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Oritech Refinery can now accept power as fast as it uses it [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Fix Astral Weave drop rate from Phantoms [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+
+#### ✔️ Added Mods
+
+- [Create: Mobile Packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages) (by [timplay33](https://www.curseforge.com/members/timplay33/projects))
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.11.0
 
 NeoForge-1.21.1-21.1.233 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.11.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.11.0.md)

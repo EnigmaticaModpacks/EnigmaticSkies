@@ -44,6 +44,11 @@
     "x": 0.0,
     "y": 0.0
   },
+  "minecraft:sheep": {
+    "scale": 1.0,
+    "x": 1.0,
+    "y": 0.0
+  },
   "minecraft:mule": {
     "scale": -1.0,
     "x": 0.0,

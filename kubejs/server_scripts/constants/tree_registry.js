@@ -27,6 +27,9 @@ Object.keys(wood_types).forEach((mod) => {
             case 'red_archwood':
                 bark = 'arsdelight:blazing_bark';
                 break;
+            case 'yellow_archwood':
+                bark = 'arsdelight:flashing_bark';
+                break;
             default:
                 bark = 'farmersdelight:tree_bark';
         }

@@ -114,7 +114,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [
                 { item: 'aquaculture:fish_bones', amount: 3, probability: 1 / 3 },
                 { item: 'actuallyadditions:black_quartz', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:rotten_flesh', amount: 1, probability: 1 / 3 }
+                { item: 'malum:blighted_gunk', amount: 1, probability: 1 / 3 }
             ]
         },
         {

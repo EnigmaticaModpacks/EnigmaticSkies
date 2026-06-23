@@ -80,7 +80,8 @@ ServerEvents.recipes((event) => {
                 { output: 'farmersdelight:stove' },
                 { output: `minecraft:hopper` },
                 { output: `utilitarian:fluid_hopper` },
-                { output: `minecraft:smithing_table` }
+                { output: `minecraft:smithing_table` },
+                { output: 'create:packager' }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: '#c:ingots/andesite_alloy'
@@ -387,6 +388,20 @@ ServerEvents.recipes((event) => {
             replace_with: 'malum:wind_nucleus'
         },
         {
+            filter: [{ mod: 'glassential' }],
+            to_replace: `minecraft:quartz`,
+            replace_with: 'malum:refined_brilliance'
+        },
+        {
+            filter: [
+                { id: 'glassential:colorable_glass' },
+                { id: 'glassential:colorable_stained_glass' },
+                { id: 'glassential:glass_painter' }
+            ],
+            to_replace: `minecraft:green_dye`,
+            replace_with: `minecraft:yellow_dye`
+        },
+        {
             filter: [{ mod: 'ae2' }, { mod: 'ae2importexportcard' }, { mod: 'merequester' }, { mod: 'ae2netanalyser' }],
             to_replace: `#c:ingots/iron`,
             replace_with: `#c:ingots/compressed_iron`
@@ -621,6 +636,21 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'enderio' }],
             to_replace: '#c:gears/iron',
             replace_with: '#c:gears/compressed_iron'
+        },
+        {
+            filter: [{ id: 'enderio:energy_conduit' }],
+            to_replace: '#c:ingots/conductive_alloy',
+            replace_with: 'modern_industrialization:conductive_cable'
+        },
+        {
+            filter: [{ id: 'enderio:enhanced_energy_conduit' }, { id: 'enderio:enhanced_energy_conduit_upgrade' }],
+            to_replace: '#c:ingots/energetic_alloy',
+            replace_with: 'modern_industrialization:energetic_cable'
+        },
+        {
+            filter: [{ id: 'enderio:ender_energy_conduit' }, { id: 'enderio:ender_energy_conduit_upgrade' }],
+            to_replace: '#c:ingots/vibrant_alloy',
+            replace_with: 'modern_industrialization:vibrant_cable'
         },
         {
             filter: [{ mod: 'enderio' }],

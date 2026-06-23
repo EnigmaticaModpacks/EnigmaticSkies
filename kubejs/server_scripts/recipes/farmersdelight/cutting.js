@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}${getID(tree.sapling)}_from_leaves`
         });
 
-        if (mod !== 'minecraft' && mod !== 'ars_nouveau') {
+        if (mod !== 'minecraft' && mod !== 'ars_nouveau' && mod !== 'ars_elemental') {
             recipes.push(
                 {
                     ingredients: [{ item: tree.log }],

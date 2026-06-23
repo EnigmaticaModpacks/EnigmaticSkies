@@ -28,7 +28,8 @@ ServerEvents.tags('item', (event) => {
             'arsdelight:mendosteen_tea',
             'arsdelight:frostaya_tea',
             'arsdelight:bombegrante_tea',
-            'arsdelight:bastion_tea'
+            'arsdelight:bastion_tea',
+            'arsdelight:flashpine_tea'
         ]
     };
 

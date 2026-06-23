@@ -139,6 +139,9 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "create_mobile_packages": {
+    "bee_port": true
+  },
   "enderio": {
     "soul_bound": true
   },

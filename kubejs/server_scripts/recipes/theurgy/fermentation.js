@@ -53,7 +53,5 @@ ServerEvents.recipes((event) => {
         recipe.time *= 20;
         recipe.fluid = { ingredient: { fluid: recipe.fluid.id }, amount: recipe.fluid.amount };
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

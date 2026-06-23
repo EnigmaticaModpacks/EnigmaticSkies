@@ -174,38 +174,38 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}machine_core_7`
         },
         {
-            results: [{ id: 'modern_industrialization:conductive_cable', count: 6 }],
+            results: [{ id: 'modern_industrialization:conductive_cable', count: 2 }],
             inputs: [
-                { tag: 'c:ingots/conductive_alloy', count: 3 },
-                { item: 'modern_industrialization:rubber_sheet', count: 12 }
+                { tag: 'c:ingots/conductive_alloy', count: 1 },
+                { item: 'modern_industrialization:rubber_sheet', count: 4 }
             ],
             pressure: 4.0,
             id: `${id_prefix}conductive_cable`
         },
         {
-            results: [{ id: 'modern_industrialization:energetic_cable', count: 6 }],
+            results: [{ id: 'modern_industrialization:energetic_cable', count: 2 }],
             inputs: [
-                { tag: 'c:ingots/energetic_alloy', count: 3 },
-                { item: 'modern_industrialization:rubber_sheet', count: 12 }
+                { tag: 'c:ingots/energetic_alloy', count: 1 },
+                { item: 'modern_industrialization:rubber_sheet', count: 4 }
             ],
             pressure: 4.0,
             id: `${id_prefix}energetic_cable`
         },
         {
-            results: [{ id: 'modern_industrialization:vibrant_cable', count: 6 }],
+            results: [{ id: 'modern_industrialization:vibrant_cable', count: 2 }],
             inputs: [
-                { tag: 'c:ingots/vibrant_alloy', count: 3 },
-                { item: 'pneumaticcraft:plastic', count: 12 }
+                { tag: 'c:ingots/vibrant_alloy', count: 1 },
+                { item: 'pneumaticcraft:plastic', count: 4 }
             ],
             pressure: 10.0,
             id: `${id_prefix}vibrant_cable`
         },
         {
-            results: [{ id: 'modern_industrialization:superconductor_cable', count: 6 }],
+            results: [{ id: 'modern_industrialization:superconductor_cable', count: 2 }],
             inputs: [
-                { tag: 'c:ingots/sky', count: 3 },
-                { item: 'pneumaticcraft:plastic', count: 12 },
-                { item: 'modern_industrialization:cooling_cell', count: 3 }
+                { tag: 'c:ingots/sky', count: 1 },
+                { item: 'pneumaticcraft:plastic', count: 4 },
+                { item: 'modern_industrialization:cooling_cell', count: 1 }
             ],
             pressure: 19.0,
             id: `${id_prefix}superconductor_cable`

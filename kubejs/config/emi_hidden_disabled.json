@@ -79,6 +79,7 @@
             "create_connected:fan_ending_catalyst_dragon_head",
             "create_connected:fan_sanding_catalyst",
             "create_connected:fan_freezing_catalyst",
+            "/create_connected:.*_fan_dyeing_catalyst/",
 
             "cold_sweat:soulspring_lamp",
             "cold_sweat:thermometer",
@@ -93,9 +94,6 @@
             "enderio:broken_spawner",
             "enderio:powered_spawner",
 
-            "enderio:conduit[enderio:conduit=\"enderio:ender_energy\"]",
-            "enderio:conduit[enderio:conduit=\"enderio:enhanced_energy\"]",
-            "enderio:conduit[enderio:conduit=\"enderio:energy\"]",
             "/enderio:.*capacitor_bank/",
             "/enderio:.*photovoltaic_module/",
 
