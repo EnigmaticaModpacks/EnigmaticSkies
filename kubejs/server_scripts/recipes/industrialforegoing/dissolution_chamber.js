@@ -274,10 +274,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}black_laser_lens`
         },
         {
-            outputFluid: { id: 'industrialforegoing:essence', amount: 250 },
-            input: [{ tag: 'c:gems/brilliance' }],
-            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            processingTime: 5,
+            output: { id: 'apotheosis:gem_dust', count: 1 },
+            outputFluid: { id: 'industrialforegoing:essence', amount: 2000 },
+            input: [
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' }
+            ],
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 100 },
+            processingTime: 40,
             id: `${id_prefix}essence`
         },
         {

@@ -16,6 +16,7 @@ NeoForge-1.21.1-21.1.233 |
 - Apotheosis reforging has been made less expensive [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Honey Slime Ritual now uses Flashpine Jelly, keeping in line with the other slime summons [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - T3 Goo may now accept pie slices instead of only whole pies [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Apotheosis Gem Dust may now be crafted [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 
 #### 🦟 Bugs Fixed
 
