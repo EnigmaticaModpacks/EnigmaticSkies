@@ -6,6 +6,7 @@ ServerEvents.tags('entity_type', (event) => {
             /pneumaticcraft.*drone/,
             /ars_elemental:.*_familiar/,
             /ars_elemental:summon_/,
+            /ars_elemental:.*_weald_walker/,
             /occultism/,
 
             'tiab:accelerator',
