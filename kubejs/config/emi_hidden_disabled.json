@@ -516,6 +516,7 @@
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
             "pneumaticcraft:pressurized_spawner",
             "pneumaticcraft:spawner_extractor",
+            "pneumaticcraft:vacuum_trap",
             "pneumaticcraft:spawner_agitator",
             "pneumaticcraft:empty_spawner",
             "pneumaticcraft:uv_light_box",

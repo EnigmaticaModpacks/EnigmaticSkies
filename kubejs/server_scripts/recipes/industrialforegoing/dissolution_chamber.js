@@ -291,6 +291,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}essence`
         },
         {
+            output: { id: 'supplementaries:ash', count: 1 },
             outputFluid: { id: 'industrialforegoing:biofuel', amount: 1000 },
             input: [{ tag: 'c:dusts/grains_of_infinity' }],
             inputFluid: { fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 },
