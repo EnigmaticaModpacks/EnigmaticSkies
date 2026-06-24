@@ -123,6 +123,29 @@ ServerEvents.recipes((event) => {
             ritual_dummy: { id: `occultism:ritual_dummy/animate_elder_guardian`, count: 1 },
             duration: 30,
             id: `${id_prefix}animate_elder_guardian`
+        },
+        {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: 'minecraft:guardian',
+            result: {
+                id: 'minecraft:guardian_spawn_egg',
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_guardian"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_guardian.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: Ingredient.of('enderio:guardian_diode').toJson(),
+            ingredients: [
+                { tag: 'c:gems/mnemonic_fragment' },
+                { item: 'oritech:wither_crop_block' },
+                { item: 'naturesaura:calling_spirit' },
+                { item: 'oritech:wither_crop_block' },
+                { tag: 'c:gems/prismarine' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_guardian`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}animate_guardian`
         }
     ];
 
@@ -194,12 +217,6 @@ ServerEvents.recipes((event) => {
             entity: 'aether:golden_swet',
             egg: 'aether:golden_swet_spawn_egg',
             block: 'aether:golden_gummy_swet',
-            spirit: 'naturesaura:calling_spirit'
-        },
-        {
-            entity: 'minecraft:guardian',
-            egg: 'minecraft:guardian_spawn_egg',
-            block: 'enderio:guardian_diode',
             spirit: 'naturesaura:calling_spirit'
         },
         {

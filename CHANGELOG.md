@@ -24,6 +24,7 @@ NeoForge-1.21.1-21.1.233 |
 - Fixed erroneous straw bale output from crushing rice bags [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Oritech Refinery can now accept power as fast as it uses it [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
 - Fix Astral Weave drop rate from Phantoms [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Fix Elder Guardian summon [(\#276)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/276)
 
 #### ✔️ Added Mods
 
