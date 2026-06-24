@@ -100,6 +100,8 @@
 [misc]
 	#Allows dying blocks by right clicking them with dye
 	dye_blocks = false
+	#Prevents entities from taking suffocation damage while riding another entity
+	passenger_no_suffocation = false
 
 [torch]
 	#Allows torches to set entities on fire

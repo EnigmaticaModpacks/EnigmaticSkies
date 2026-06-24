@@ -314,6 +314,14 @@
     "ritual.enigmatica.ritual/animate_swamp_creeper.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_swamp_creeper.started": "Started animating Swamp Creeper.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_dark_oak_creeper": "Animate Dark Oak Creeper",
+    "item.occultism.ritual_dummy.animate_dark_oak_creeper": "§6Ritual: Animate Dark Oak Creeper",
+    "item.occultism.ritual_dummy.animate_dark_oak_creeper.tooltip": "§5Infuse a Creeper Head with magic to bring it to life.",
+    "ritual.enigmatica.ritual/animate_dark_oak_creeper.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_dark_oak_creeper.finished": "Successfully animated a Dark Oak Creeper.",
+    "ritual.enigmatica.ritual/animate_dark_oak_creeper.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_dark_oak_creeper.started": "Started animating Dark Oak Creeper.",
+
     "item.occultism.ritual_dummy.sm/ritual/transmute_whirlisprig": "Transmute Whirlisprig",
     "item.occultism.ritual_dummy.transmute_whirlisprig": "§6Ritual: Transmute Whirlisprig",
     "item.occultism.ritual_dummy.transmute_whirlisprig.tooltip": "§5Transmute a Whirlisprig from raw materials.",

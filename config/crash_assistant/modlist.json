@@ -93,13 +93,13 @@
     "curseForgeHash": 1987996700,
     "modrinthHash": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
   },
-  "amendments-neoforge-1.21-2.1.0.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.0.jar",
+  "amendments-neoforge-1.21-2.1.1.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.1.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.0",
-    "curseForgeHash": 2109540126,
-    "modrinthHash": "411d8f82cfe457483699cda7eb1ee11b4521c947"
+    "version": "1.21-2.1.1",
+    "curseForgeHash": 2357983286,
+    "modrinthHash": "30ddc95d62c718a0465eebe2679d5e292c7039d0"
   },
   "animalhatmod-1.1.1-neoforge-1.21.1.jar": {
     "jarName": "animalhatmod-1.1.1-neoforge-1.21.1.jar",
@@ -892,13 +892,13 @@
     "curseForgeHash": 388147335,
     "modrinthHash": "72d63d64ee774b89302e0d6b220757ba11b6ec4f"
   },
-  "extended-industrialization-1.15.40-1.21.1.jar": {
-    "jarName": "extended-industrialization-1.15.40-1.21.1.jar",
+  "extended-industrialization-1.15.42-1.21.1.jar": {
+    "jarName": "extended-industrialization-1.15.42-1.21.1.jar",
     "modId": "extended_industrialization",
     "name": "Extended Industrialization",
-    "version": "1.15.40-1.21.1",
-    "curseForgeHash": 2927885728,
-    "modrinthHash": "134b633dfb309b0e59f2bf6e6f18e320741c38b5"
+    "version": "1.15.42-1.21.1",
+    "curseForgeHash": 3598780179,
+    "modrinthHash": "1f374d6db13d50e29d3055459a81ce47695d72ef"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -2033,13 +2033,13 @@
     "curseForgeHash": 4290330137,
     "modrinthHash": "2016eed89eac0eb0510d2190c3b0b80bf4346191"
   },
-  "tesseract-api-neoforge-1.12.2-1.21.1.jar": {
-    "jarName": "tesseract-api-neoforge-1.12.2-1.21.1.jar",
+  "tesseract-api-neoforge-1.12.3-1.21.1.jar": {
+    "jarName": "tesseract-api-neoforge-1.12.3-1.21.1.jar",
     "modId": "tesseract_api",
     "name": "Tesseract API",
-    "version": "1.12.2-1.21.1",
-    "curseForgeHash": 2367067050,
-    "modrinthHash": "daf12e2e4cedd7d3cc066cb809bff810af863d9e"
+    "version": "1.12.3-1.21.1",
+    "curseForgeHash": 1596660679,
+    "modrinthHash": "a690d62cd8cea989018cdd57874936533e2ae7d7"
   },
   "the_bumblezone-7.15.0+1.21.1-neoforge.jar": {
     "jarName": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
@@ -2089,13 +2089,13 @@
     "curseForgeHash": 3258843963,
     "modrinthHash": "33477c2db0479c9be33d1ca3b2fa47cf6c97988c"
   },
-  "ToolBelt-1.21.1-2.2.9.jar": {
-    "jarName": "ToolBelt-1.21.1-2.2.9.jar",
+  "ToolBelt-1.21.1-2.2.10.jar": {
+    "jarName": "ToolBelt-1.21.1-2.2.10.jar",
     "modId": "toolbelt",
     "name": "Tool Belt",
-    "version": "2.2.9",
-    "curseForgeHash": 4273330175,
-    "modrinthHash": "6ddd0defb32f841dc3303fd6131d8af4103e136f"
+    "version": "2.2.10",
+    "curseForgeHash": 535226735,
+    "modrinthHash": "96862e5d8df67d63b749fc15d18262f3736d1828"
   },
   "trading_floor-3.0.16.jar": {
     "jarName": "trading_floor-3.0.16.jar",
