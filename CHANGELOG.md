@@ -1,6 +1,6 @@
 ### Enigmatic Skies 1.12.0
 
-NeoForge-1.21.1-21.1.233 |
+NeoForge-1.21.1-21.1.233 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.12.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.12.0.md)
 
 #### ⭐ Improvements
 
