@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'malum:soul_stained_steel_ingot', count: 1 },
             input: { tag: 'c:ingots/steel', count: 1 },
-            extraInputs: [{ item: 'enderio:soul_chain', count: 3 }],
+            extraInputs: [{ item: 'enderio:soul_chain', count: 1 }],
             spirits: [
                 { type: 'malum:arcane', count: 6 },
                 { type: 'malum:wicked', count: 6 }
@@ -24,11 +24,11 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:imitation_flesh', count: 8 },
-            input: { item: 'malum:alchemical_calx', count: 8 },
+            input: { item: 'malum:alchemical_calx', count: 1 },
             extraInputs: [
                 { item: 'malum:living_flesh', count: 16 },
                 { item: 'oritech:wither_crop_block', count: 8 },
-                { item: 'modern_industrialization:rubber_sheet', count: 8 }
+                { item: 'modern_industrialization:rubber_sheet', count: 4 }
             ],
             spirits: [
                 { type: 'malum:sacred', count: 32 },

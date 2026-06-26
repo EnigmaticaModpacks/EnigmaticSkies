@@ -1,3 +1,21 @@
+### Enigmatic Skies 1.13.0
+
+NeoForge-1.21.1-21.1.233 |
+
+#### ⭐ Improvements
+
+- Polymer Resin now uses fewer otherworld ashes
+- Imitation Flesh uses fewer Alchemical Calx and Rubber Sheets
+- Soul Stained Ingot uses fewer Soul Chains [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+
+#### 🦟 Bugs Fixed
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.12.0
 
 NeoForge-1.21.1-21.1.233 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.12.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.12.0.md)
