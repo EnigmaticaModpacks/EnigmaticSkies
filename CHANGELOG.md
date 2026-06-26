@@ -4,9 +4,9 @@ NeoForge-1.21.1-21.1.233 |
 
 #### ⭐ Improvements
 
-- Polymer Resin now uses fewer otherworld ashes
-- Imitation Flesh uses fewer Alchemical Calx and Rubber Sheets
-- Soul Stained Ingot uses fewer Soul Chains [(\#264)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/264)
+- Polymer Resin now uses fewer otherworld ashes [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Imitation Flesh uses fewer Alchemical Calx and Rubber Sheets [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Soul Stained Ingot uses fewer Soul Chains [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 
 #### 🦟 Bugs Fixed
 
