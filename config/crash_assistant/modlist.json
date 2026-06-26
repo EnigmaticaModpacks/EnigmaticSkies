@@ -365,13 +365,13 @@
     "curseForgeHash": 905693615,
     "modrinthHash": "848d47200e760cfa566e476257ff863de30d7f8f"
   },
-  "betterfpsdist-1.21-6.0.jar": {
-    "jarName": "betterfpsdist-1.21-6.0.jar",
+  "betterfpsdist-1.21.1-6.1.jar": {
+    "jarName": "betterfpsdist-1.21.1-6.1.jar",
     "modId": "betterfpsdist",
     "name": "betterfpsdist mod",
-    "version": "6.0",
-    "curseForgeHash": 4067530713,
-    "modrinthHash": "5377aae3a0f0eb65aa5dceca4985f53480a73db5"
+    "version": "6.1",
+    "curseForgeHash": 142334810,
+    "modrinthHash": "9c499f5133ebeed43da4ce42d48bf747cead6d24"
   },
   "blockprints-merged-1.21.1-2.4.0.jar": {
     "jarName": "blockprints-merged-1.21.1-2.4.0.jar",
@@ -996,13 +996,13 @@
     "curseForgeHash": 3017729851,
     "modrinthHash": "eb96e6983845daee8d6ac84544ba1df55d4a6fae"
   },
-  "ftb-chunks-neoforge-2101.1.19.jar": {
-    "jarName": "ftb-chunks-neoforge-2101.1.19.jar",
+  "ftb-chunks-neoforge-2101.1.20.jar": {
+    "jarName": "ftb-chunks-neoforge-2101.1.20.jar",
     "modId": "ftbchunks",
     "name": "FTB Chunks",
-    "version": "2101.1.19",
-    "curseForgeHash": 2140516882,
-    "modrinthHash": "2fd5eeaff04af5096ff1ad6f8df15053c10269ca"
+    "version": "2101.1.20",
+    "curseForgeHash": 1163728616,
+    "modrinthHash": "f8fd8b158379015302f7aa234785f29a1353803d"
   },
   "ftb-essentials-neoforge-2101.1.9.jar": {
     "jarName": "ftb-essentials-neoforge-2101.1.9.jar",
@@ -1076,13 +1076,13 @@
     "curseForgeHash": 1511937694,
     "modrinthHash": "19ed7ed8edfddf26c5fc29fe66084b2c3b313981"
   },
-  "fusion-1.3.2b-neoforge-mc1.21.1.jar": {
-    "jarName": "fusion-1.3.2b-neoforge-mc1.21.1.jar",
+  "fusion-1.3.3-neoforge-mc1.21.1.jar": {
+    "jarName": "fusion-1.3.3-neoforge-mc1.21.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.2+b",
-    "curseForgeHash": 3180273342,
-    "modrinthHash": "9545abd0a99a3f0e0c20aa32aa4d4c4a89a3ea4b"
+    "version": "1.3.3",
+    "curseForgeHash": 3566159154,
+    "modrinthHash": "3166e3c93d5854ef5f1f1f1ce1ff4431f93837e3"
   },
   "fzzy_config-0.7.6+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+1.21+neoforge.jar",
@@ -1100,13 +1100,13 @@
     "curseForgeHash": 1661329890,
     "modrinthHash": "f91a593378209f527fe81e731ca60fe8f8da2319"
   },
-  "geckolib-neoforge-1.21.1-4.8.4.jar": {
-    "jarName": "geckolib-neoforge-1.21.1-4.8.4.jar",
+  "geckolib-neoforge-1.21.1-4.9.1.jar": {
+    "jarName": "geckolib-neoforge-1.21.1-4.9.1.jar",
     "modId": "geckolib",
     "name": "GeckoLib 4",
-    "version": "4.8.4",
-    "curseForgeHash": 396384696,
-    "modrinthHash": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce"
+    "version": "4.9.1",
+    "curseForgeHash": 2547967959,
+    "modrinthHash": "b24f275983126d9e8e6c568cd0f2d2d7e92333c8"
   },
   "geneticsresequenced-1.21.1-1.13.1-build.268.jar": {
     "jarName": "geneticsresequenced-1.21.1-1.13.1-build.268.jar",
@@ -1897,13 +1897,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.64.1919.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.64.1919.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
     "version": "3.25.64",
-    "curseForgeHash": 1186664381,
-    "modrinthHash": "ed4abd48cbf727a6c463040101402cb47fba86fb"
+    "curseForgeHash": 522250828,
+    "modrinthHash": "2cfa79f5cc97ce8fea999902612a38d368ac9f83"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
@@ -1913,21 +1913,21 @@
     "curseForgeHash": 3277262592,
     "modrinthHash": "4834cfb16c2f03dac556efa97bb161374adc4827"
   },
-  "sophisticatedcore-1.21.1-1.4.60.2044.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.60.2044.jar",
+  "sophisticatedcore-1.21.1-1.4.60.2057.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.60.2057.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
     "version": "1.4.60",
-    "curseForgeHash": 1878064640,
-    "modrinthHash": "a07cec3c772d53bc1086759dfcb6d436a8ff753e"
+    "curseForgeHash": 2782238642,
+    "modrinthHash": "c2b2f0a0b7255dee170d7b4142a9582bd85febe0"
   },
-  "sophisticatedstorage-1.21.1-1.5.62.1858.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.62.1858.jar",
+  "sophisticatedstorage-1.21.1-1.5.63.1872.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.63.1872.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.62",
-    "curseForgeHash": 2281728369,
-    "modrinthHash": "41b4ecd736441492efc4eb1ec0e1d1d7096d34e6"
+    "version": "1.5.63",
+    "curseForgeHash": 3126844235,
+    "modrinthHash": "4cb5976e32a3978a548dfcf69ef5583ba3c6ec31"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
