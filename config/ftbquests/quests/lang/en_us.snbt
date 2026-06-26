@@ -2157,12 +2157,9 @@
 	]
 	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [
-		"An animate block of Amethyst, these golems will automatically create, grow, and harvest budding blocks. "
+		"An animate block of Amethyst, these golems will automatically create, grow, and harvest &7Budding Amethyst&r blocks. "
 		""
 		"Bind them to an inventory to set the area they’ll work in. Nearby blocks will be converted into budding blocks. As they grow buds, they’ll break them and collect the drops, storing them in their bound inventory."
-		""
-		"&a🛈 Tip: Amethyst Golems works with"
-		"&a   Certus Quartz too!"
 	]
 	quest.454EB146FC67E3D5.quest_desc: [
 		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"

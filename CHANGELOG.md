@@ -1,6 +1,6 @@
 ### Enigmatic Skies 1.13.0
 
-NeoForge-1.21.1-21.1.233 |
+NeoForge-1.21.1-21.1.234 |
 
 #### ⭐ Improvements
 
@@ -13,6 +13,8 @@ NeoForge-1.21.1-21.1.233 |
 #### ✔️ Added Mods
 
 #### ❌ Removed Mods
+
+- Remove confusing reference in Amethyst Golem quests [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 
 ---
 

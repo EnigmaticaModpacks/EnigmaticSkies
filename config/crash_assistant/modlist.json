@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.233 (modloader)": {
-    "jarName": "neoforge-21.1.233 (modloader)",
+  "neoforge-21.1.234 (modloader)": {
+    "jarName": "neoforge-21.1.234 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.233"
+    "version": "neoforge-21.1.234"
   },
   "aaron-1.21.1-1.16.0-build.300.jar": {
     "jarName": "aaron-1.21.1-1.16.0-build.300.jar",
@@ -93,13 +93,13 @@
     "curseForgeHash": 1987996700,
     "modrinthHash": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
   },
-  "amendments-neoforge-1.21-2.1.1.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.1.jar",
+  "amendments-neoforge-1.21-2.1.2.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.2.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.1",
-    "curseForgeHash": 2357983286,
-    "modrinthHash": "30ddc95d62c718a0465eebe2679d5e292c7039d0"
+    "version": "1.21-2.1.2",
+    "curseForgeHash": 1748550977,
+    "modrinthHash": "75b5c7f6a05aa03aca44315e8d80c82eb407c04f"
   },
   "animalhatmod-1.1.1-neoforge-1.21.1.jar": {
     "jarName": "animalhatmod-1.1.1-neoforge-1.21.1.jar",
