@@ -31,7 +31,16 @@ ServerEvents.recipes((event) => {
             time: 60,
             id: `${id_prefix}quantum_upgrade`
         },
-
+        {
+            results: [{ id: 'modern_industrialization:quantum_tank', count: 1 }],
+            ingredients: [
+                { item: 'modern_industrialization:quantum_machine_hull' },
+                { item: 'malum:umbral_spirit' },
+                { item: 'modern_industrialization:stainless_steel_tank' }
+            ],
+            time: 60,
+            id: `${id_prefix}quantum_tank`
+        },
         {
             results: [{ id: 'enderio:frank_n_zombie', count: 1 }],
             ingredients: [

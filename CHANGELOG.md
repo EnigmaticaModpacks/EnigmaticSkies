@@ -8,10 +8,15 @@ NeoForge-1.21.1-21.1.234 |
 - Imitation Flesh uses fewer Alchemical Calx and Rubber Sheets [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Soul Stained Ingot uses fewer Soul Chains [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Fused Consciousness is now faster to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Ender Pearls may now be crafted in a compressor [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Cooling Cells are now cheaper to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- MI's Quantum and Stainless Steel Tanks may now be crafted [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Empowered Canola is now faster to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 
 #### 🦟 Bugs Fixed
 
 - Fix missing archwood plank recipe in Create saw [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Encyclopedia Esoterica has been whitelisted for the Eccentric Tome [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 
 #### ✔️ Added Mods
 
