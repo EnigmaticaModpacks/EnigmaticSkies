@@ -264,7 +264,7 @@ ServerEvents.recipes((event) => {
         { id: /create:mixing\/(andesite_alloy|brass_ingot)/ },
         { id: /create:item_application\/(andesite|brass|copper)_casing/ },
         { id: /create:(smelting|blasting)\/zinc_ingot_from_/ },
-        { id: /create:cutting\/runtime_generated\/compat\/ars_(nouveau|elemental)/ },
+        { id: /create:cutting\/runtime_generated\/compat\/ars_(nouveau|elemental)\/.*(log|wood)_to_stripped/ },
         { id: 'create:crafting/materials/rose_quartz' },
         { id: 'create:crafting/materials/andesite_alloy' },
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },

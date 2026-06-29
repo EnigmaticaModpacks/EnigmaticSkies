@@ -11,6 +11,8 @@ NeoForge-1.21.1-21.1.234 |
 
 #### 🦟 Bugs Fixed
 
+- Fix missing archwood plank recipe in Create saw [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+
 #### ✔️ Added Mods
 
 #### ❌ Removed Mods
