@@ -7,6 +7,7 @@ NeoForge-1.21.1-21.1.234 |
 - Polymer Resin now uses fewer otherworld ashes [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Imitation Flesh uses fewer Alchemical Calx and Rubber Sheets [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Soul Stained Ingot uses fewer Soul Chains [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Fused Consciousness is now faster to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 
 #### 🦟 Bugs Fixed
 

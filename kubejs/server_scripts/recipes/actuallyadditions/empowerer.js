@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:tokens/greater_water' }
             ],
             color: '#0f5f23',
-            energy: 500000,
+            energy: 50000,
             time: 1,
             id: `${id_prefix}fused_consciousness`
         },

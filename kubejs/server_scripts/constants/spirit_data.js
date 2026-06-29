@@ -38,7 +38,7 @@ const spiritData = [
     {
         registry_name: 'aether:blue_swet',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:arcane', count: 3 },
             { spirit: 'malum:aqueous', count: 3 }
         ]
     },
@@ -73,15 +73,15 @@ const spiritData = [
     {
         registry_name: 'aether:golden_swet',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:arcane', count: 3 },
             { spirit: 'malum:aqueous', count: 3 }
         ]
     },
     {
         registry_name: 'aether:mimic',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
-            { spirit: 'malum:wicked', count: 1 }
+            { spirit: 'malum:arcane', count: 6 },
+            { spirit: 'malum:wicked', count: 6 }
         ]
     },
     {
@@ -330,35 +330,39 @@ const spiritData = [
     {
         registry_name: 'ars_nouveau:wilden_boss',
         spirits: [
-            { spirit: 'malum:arcane', count: 12 },
-            { spirit: 'malum:wicked', count: 12 },
-            { spirit: 'malum:aerial', count: 12 },
-            { spirit: 'malum:aqueous', count: 12 },
-            { spirit: 'malum:earthen', count: 12 }
+            { spirit: 'malum:arcane', count: 64 },
+            { spirit: 'malum:wicked', count: 64 },
+            { spirit: 'malum:aerial', count: 64 },
+            { spirit: 'malum:aqueous', count: 64 },
+            { spirit: 'malum:earthen', count: 64 },
+            { spirit: 'malum:infernal', count: 64 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_guardian',
         spirits: [
-            { spirit: 'malum:aqueous', count: 6 },
-            { spirit: 'malum:wicked', count: 6 },
-            { spirit: 'malum:arcane', count: 6 }
+            { spirit: 'malum:aqueous', count: 12 },
+            { spirit: 'malum:infernal', count: 12 },
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:arcane', count: 12 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_hunter',
         spirits: [
-            { spirit: 'malum:earthen', count: 6 },
-            { spirit: 'malum:wicked', count: 6 },
-            { spirit: 'malum:arcane', count: 6 }
+            { spirit: 'malum:earthen', count: 12 },
+            { spirit: 'malum:infernal', count: 12 },
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:arcane', count: 12 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_stalker',
         spirits: [
-            { spirit: 'malum:aerial', count: 6 },
-            { spirit: 'malum:wicked', count: 6 },
-            { spirit: 'malum:arcane', count: 6 }
+            { spirit: 'malum:aerial', count: 12 },
+            { spirit: 'malum:infernal', count: 12 },
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:arcane', count: 12 }
         ]
     },
     {
@@ -505,7 +509,7 @@ const spiritData = [
         registry_name: 'minecraft:blaze',
         spirits: [
             { spirit: 'malum:infernal', count: 3 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:arcane', count: 3 }
         ]
     },
     {
@@ -520,7 +524,7 @@ const spiritData = [
         registry_name: 'minecraft:breeze',
         spirits: [
             { spirit: 'malum:aerial', count: 3 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:arcane', count: 3 }
         ]
     },
     {
@@ -690,7 +694,7 @@ const spiritData = [
         registry_name: 'minecraft:magma_cube',
         spirits: [
             { spirit: 'malum:infernal', count: 3 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:arcane', count: 3 }
         ]
     },
     {
@@ -834,7 +838,7 @@ const spiritData = [
         registry_name: 'minecraft:slime',
         spirits: [
             { spirit: 'malum:earthen', count: 3 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:arcane', count: 3 }
         ]
     },
     {
@@ -1029,14 +1033,14 @@ const spiritData = [
     {
         registry_name: 'the_bumblezone:honey_slime',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:arcane', count: 3 },
             { spirit: 'malum:aqueous', count: 3 }
         ]
     },
     {
         registry_name: 'the_bumblezone:rootmin',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:arcane', count: 4 },
             { spirit: 'malum:earthen', count: 4 }
         ]
     }
