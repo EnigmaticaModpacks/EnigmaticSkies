@@ -12,6 +12,9 @@ NeoForge-1.21.1-21.1.234 |
 - Cooling Cells are now cheaper to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - MI's Quantum and Stainless Steel Tanks may now be crafted [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Empowered Canola is now faster to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Liquid Darkness craft now outputs more per recipe [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Fusion Chambers are now slightly cheaper [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Liquid ir now crafts faster [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 
 #### 🦟 Bugs Fixed
 

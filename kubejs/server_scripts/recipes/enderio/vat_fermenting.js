@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: { id: 'enderio:fluid_liquid_darkness_still', amount: 1000 },
+            output: { id: 'enderio:fluid_liquid_darkness_still', amount: 8000 },
             input: { tag: 'theurgy:sal_ammoniac', amount: 500 },
             left_reagent: 'enigmatica:reagents/darkness',
             right_reagent: 'c:dusts/sky_stone',
@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}fluid_liquid_darkness_still`
         },
         {
-            output: { id: 'enderio:fluid_liquid_sunshine_still', amount: 1000 },
+            output: { id: 'enderio:fluid_liquid_sunshine_still', amount: 8000 },
             input: { tag: 'theurgy:sal_ammoniac', amount: 500 },
             left_reagent: 'enigmatica:reagents/sunshine',
             right_reagent: 'c:dusts/sky_stone',

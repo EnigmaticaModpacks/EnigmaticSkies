@@ -222,7 +222,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 1800.0,
             temperature: { max: CtoK(-175) },
             pressure: 9.0,
-            time: 32.0,
+            time: 16.0,
             id: `${id_prefix}liquid_air`
         },
         {

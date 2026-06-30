@@ -93,13 +93,13 @@
     "curseForgeHash": 1987996700,
     "modrinthHash": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
   },
-  "amendments-neoforge-1.21-2.1.3.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.3.jar",
+  "amendments-neoforge-1.21-2.1.4.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.4.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.3",
-    "curseForgeHash": 1669351449,
-    "modrinthHash": "8b26aec96d9d4c9600639be660b1e267136cc268"
+    "version": "1.21-2.1.4",
+    "curseForgeHash": 3610613696,
+    "modrinthHash": "7c1ca1ba9a5df27131cadd284ca25acec3a99975"
   },
   "animalhatmod-1.1.1-neoforge-1.21.1.jar": {
     "jarName": "animalhatmod-1.1.1-neoforge-1.21.1.jar",
@@ -780,13 +780,13 @@
     "curseForgeHash": 1758534876,
     "modrinthHash": "db89df2f80e8842b4ad0ed634d59f35b53f5061b"
   },
-  "darkmodeeverywhere-1.21-1.3.5.jar": {
-    "jarName": "darkmodeeverywhere-1.21-1.3.5.jar",
+  "darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar": {
+    "jarName": "darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar",
     "modId": "darkmodeeverywhere",
     "name": "Dark Mode Everywhere",
-    "version": "1.21-1.3.5",
-    "curseForgeHash": 8224431,
-    "modrinthHash": "db5a7066cf14dbd1867c1afe6c91a6041009c8c2"
+    "version": "1.21.1-1.4.0",
+    "curseForgeHash": 1715757141,
+    "modrinthHash": "bd9ec6b4cfac259a24748e02e0215b2e72a65968"
   },
   "dummmmmmy-1.21-2.0.12-neoforge.jar": {
     "jarName": "dummmmmmy-1.21-2.0.12-neoforge.jar",
@@ -1473,13 +1473,13 @@
     "curseForgeHash": 2008040170,
     "modrinthHash": "9608b1bff92e075ad8c2feb07f7ef095f6887117"
   },
-  "Modern-Industrialization-2.5.0.jar": {
-    "jarName": "Modern-Industrialization-2.5.0.jar",
+  "Modern-Industrialization-2.5.1.jar": {
+    "jarName": "Modern-Industrialization-2.5.1.jar",
     "modId": "modern_industrialization",
     "name": "Modern Industrialization",
-    "version": "2.5.0",
-    "curseForgeHash": 1947322083,
-    "modrinthHash": "18c67a3389fb7c4be3be7aae3a0a4893b233a0bd"
+    "version": "2.5.1",
+    "curseForgeHash": 3699652379,
+    "modrinthHash": "6f8970f1ad594a9c9f6c10da9aa20f78f6d57786"
   },
   "modernfix-neoforge-5.27.14+mc1.21.1.jar": {
     "jarName": "modernfix-neoforge-5.27.14+mc1.21.1.jar",
@@ -1521,13 +1521,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.0.20.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.20.jar",
+  "moonlight-neoforge-1.21.1-3.0.22.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.22.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.20",
-    "curseForgeHash": 3318350807,
-    "modrinthHash": "d11bf3ef47be313db8804af242a48cd4046268dc"
+    "version": "1.21.1-3.0.22",
+    "curseForgeHash": 3081031545,
+    "modrinthHash": "98f1a1ca3e51d73cae5187a21dec4d0e153c4f01"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
@@ -1897,13 +1897,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.64.1933.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.65.1955.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.65.1955.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.64",
-    "curseForgeHash": 522250828,
-    "modrinthHash": "2cfa79f5cc97ce8fea999902612a38d368ac9f83"
+    "version": "3.25.65",
+    "curseForgeHash": 3570546367,
+    "modrinthHash": "802afddb4839b54ba2c0e90bec7ab3f3951e0daa"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
