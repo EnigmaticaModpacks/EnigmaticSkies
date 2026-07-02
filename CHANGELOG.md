@@ -1,3 +1,37 @@
+### Enigmatic Skies 1.13.0
+
+NeoForge-1.21.1-21.1.234 |
+
+#### ⭐ Improvements
+
+- Polymer Resin now uses fewer otherworld ashes [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Imitation Flesh uses fewer Alchemical Calx and Rubber Sheets [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Soul Stained Ingot uses fewer Soul Chains [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Fused Consciousness is now faster to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Ender Pearls may now be crafted in a compressor [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Cooling Cells are now cheaper to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- MI's Quantum and Stainless Steel Tanks may now be crafted [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Empowered Canola is now faster to craft [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Liquid Darkness craft now outputs more per recipe [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Fusion Chambers are now slightly cheaper [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Liquid Air now crafts faster [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Water Production has been buffed, primarily in the end game [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Buff ether gas production rates [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- SAG Mill now gains extra outputs for certain recipes [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+
+#### 🦟 Bugs Fixed
+
+- Fix missing archwood plank recipe in Create saw [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Encyclopedia Esoterica has been whitelisted for the Eccentric Tome [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+- Remove confusing reference in Amethyst Golem quests [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+
+---
+
 ### Enigmatic Skies 1.12.0
 
 NeoForge-1.21.1-21.1.233 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.12.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.12.0.md)

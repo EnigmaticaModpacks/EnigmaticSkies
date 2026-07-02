@@ -525,7 +525,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}electric_alluvial_trommel`
         },
         {
-            output: 'modern_industrialization:fusion_chamber',
+            output: '2x modern_industrialization:fusion_chamber',
             pattern: ['ABA', 'CDC', 'ABA'],
             key: {
                 A: 'modern_industrialization:superconductor_coil',

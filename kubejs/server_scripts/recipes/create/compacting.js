@@ -8,12 +8,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}canola_oil`
         },
         {
-            results: [{ id: 'industrialforegoing:ether_gas', amount: 60 }],
+            results: [{ id: 'industrialforegoing:ether_gas', amount: 125 }],
             ingredients: [{ item: 'ars_nouveau:frostaya_pod' }],
             id: `${id_prefix}ether_gas`
         },
         {
-            results: [{ id: 'enderio:fluid_vapor_of_levity_still', amount: 60 }],
+            results: [{ id: 'enderio:fluid_vapor_of_levity_still', amount: 125 }],
             ingredients: [{ item: 'ars_elemental:flashpine_pod' }],
             id: `${id_prefix}fluid_vapor_of_levity_still`
         },
@@ -32,7 +32,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'create:compacting';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

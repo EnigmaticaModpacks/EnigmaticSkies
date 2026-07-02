@@ -44,23 +44,24 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}empowered_oil`
         },
         {
-            outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 60 } },
+            outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 125 } },
             inputs: { item: { item: 'ars_nouveau:frostaya_pod' } },
             pressure: 2.0,
-            time: 4,
+            time: 0.05,
             id: `${id_prefix}ether_gas`
         },
         {
-            outputs: { fluid_output: { id: 'enderio:fluid_vapor_of_levity_still', amount: 60 } },
+            outputs: { fluid_output: { id: 'enderio:fluid_vapor_of_levity_still', amount: 125 } },
             inputs: { item: { item: 'ars_elemental:flashpine_pod' } },
             pressure: 2.0,
-            time: 4,
+            time: 0.05,
             id: `${id_prefix}fluid_vapor_of_levity_still`
         },
         {
             outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
             inputs: { item: { item: 'minecraft:glow_berries' } },
             pressure: 1.0,
+            time: 1.0,
             id: `${id_prefix}lumisene`
         },
         {
@@ -222,7 +223,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 1800.0,
             temperature: { max: CtoK(-175) },
             pressure: 9.0,
-            time: 32.0,
+            time: 16.0,
             id: `${id_prefix}liquid_air`
         },
         {
