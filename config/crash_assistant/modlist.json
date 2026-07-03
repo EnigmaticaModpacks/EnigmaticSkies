@@ -93,13 +93,13 @@
     "curseForgeHash": 1987996700,
     "modrinthHash": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
   },
-  "amendments-neoforge-1.21-2.1.4.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.4.jar",
+  "amendments-neoforge-1.21-2.1.5.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.5.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.4",
-    "curseForgeHash": 3610613696,
-    "modrinthHash": "7c1ca1ba9a5df27131cadd284ca25acec3a99975"
+    "version": "1.21-2.1.5",
+    "curseForgeHash": 542999942,
+    "modrinthHash": "a959046cff848f4e2c63487117a4d0146a1cfb4e"
   },
   "animalhatmod-1.1.1-neoforge-1.21.1.jar": {
     "jarName": "animalhatmod-1.1.1-neoforge-1.21.1.jar",
@@ -325,13 +325,13 @@
     "curseForgeHash": 664412636,
     "modrinthHash": "e01709c880b0602b7a306201a25866e76c44f5c0"
   },
-  "balm-neoforge-1.21.1-21.0.59.jar": {
-    "jarName": "balm-neoforge-1.21.1-21.0.59.jar",
+  "balm-neoforge-1.21.1-21.0.60.jar": {
+    "jarName": "balm-neoforge-1.21.1-21.0.60.jar",
     "modId": "balm",
     "name": "Balm",
-    "version": "21.0.59",
-    "curseForgeHash": 3969738133,
-    "modrinthHash": "b0bf4bed336237bfbe35879c33f30357b53e8664"
+    "version": "21.0.60",
+    "curseForgeHash": 3468838223,
+    "modrinthHash": "dd720dad9a416e07dce1ef5e6a6ba0e29b5ac211"
   },
   "better-compatability-checker-neoforge-21.1.8.jar": {
     "jarName": "better-compatability-checker-neoforge-21.1.8.jar",
@@ -484,13 +484,13 @@
     "curseForgeHash": 3792132118,
     "modrinthHash": "9d13b8315b03bda4bc6f5637c51f25a99cdcacd3"
   },
-  "clienttweaks-neoforge-1.21.1-21.1.11.jar": {
-    "jarName": "clienttweaks-neoforge-1.21.1-21.1.11.jar",
+  "clienttweaks-neoforge-1.21.1-21.1.12.jar": {
+    "jarName": "clienttweaks-neoforge-1.21.1-21.1.12.jar",
     "modId": "clienttweaks",
     "name": "Client Tweaks",
-    "version": "21.1.11",
-    "curseForgeHash": 3279909672,
-    "modrinthHash": "ad8d14d4aef0a936bc088749f8f3ca1050f91c2d"
+    "version": "21.1.12",
+    "curseForgeHash": 3435981010,
+    "modrinthHash": "35c7f08af19f2a2833f587fb7b28f9171408bef9"
   },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
@@ -1188,13 +1188,13 @@
     "curseForgeHash": 1550083294,
     "modrinthHash": "79019a59c8023f5883d7a6c2f2308c995f828aa3"
   },
-  "inventoryessentials-neoforge-1.21.1-21.1.16.jar": {
-    "jarName": "inventoryessentials-neoforge-1.21.1-21.1.16.jar",
+  "inventoryessentials-neoforge-1.21.1-21.1.17.jar": {
+    "jarName": "inventoryessentials-neoforge-1.21.1-21.1.17.jar",
     "modId": "inventoryessentials",
     "name": "Inventory Essentials",
-    "version": "21.1.16",
-    "curseForgeHash": 341136468,
-    "modrinthHash": "800d233fb783a9f481eba3455d36a49052891a03"
+    "version": "21.1.17",
+    "curseForgeHash": 478343734,
+    "modrinthHash": "8934250e9dfba5b9b8a395a2d8a601c6b07c4506"
   },
   "iris-neoforge-1.8.12+mc1.21.1.jar": {
     "jarName": "iris-neoforge-1.8.12+mc1.21.1.jar",
@@ -1228,13 +1228,13 @@
     "curseForgeHash": 903616080,
     "modrinthHash": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
   },
-  "jei-1.21.1-neoforge-19.27.0.344.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.27.0.344.jar",
+  "jei-1.21.1-neoforge-19.27.0.346.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.27.0.346.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.27.0.344",
-    "curseForgeHash": 1857713704,
-    "modrinthHash": "cbd9721ee714b00ff35e541c03ea700e83757866"
+    "version": "19.27.0.346",
+    "curseForgeHash": 1154334490,
+    "modrinthHash": "c9b7e1b94121fed6617b72456d4cc1ba18c17f11"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -1481,13 +1481,13 @@
     "curseForgeHash": 3699652379,
     "modrinthHash": "6f8970f1ad594a9c9f6c10da9aa20f78f6d57786"
   },
-  "modernfix-neoforge-5.27.14+mc1.21.1.jar": {
-    "jarName": "modernfix-neoforge-5.27.14+mc1.21.1.jar",
+  "modernfix-neoforge-5.27.15+mc1.21.1.jar": {
+    "jarName": "modernfix-neoforge-5.27.15+mc1.21.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.14+mc1.21.1",
-    "curseForgeHash": 921294442,
-    "modrinthHash": "b8cebae6ea55ed472d5fa55e428a894e296523f1"
+    "version": "5.27.15+mc1.21.1",
+    "curseForgeHash": 1988799683,
+    "modrinthHash": "d73f31081c2dc3e2e55c8f6f969466cb4639b132"
   },
   "modernindustrialrouters-2.1.1.jar": {
     "jarName": "modernindustrialrouters-2.1.1.jar",
@@ -1897,13 +1897,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.65.1955.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.65.1955.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.66.1958.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.66.1958.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.65",
-    "curseForgeHash": 3570546367,
-    "modrinthHash": "802afddb4839b54ba2c0e90bec7ab3f3951e0daa"
+    "version": "3.25.66",
+    "curseForgeHash": 2415535125,
+    "modrinthHash": "d320bbb47c1b5308a42a960b1f1a16807473d63e"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
@@ -1913,13 +1913,13 @@
     "curseForgeHash": 3277262592,
     "modrinthHash": "4834cfb16c2f03dac556efa97bb161374adc4827"
   },
-  "sophisticatedcore-1.21.1-1.4.62.2079.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.62.2079.jar",
+  "sophisticatedcore-1.21.1-1.4.63.2092.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.63.2092.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.62",
-    "curseForgeHash": 110058969,
-    "modrinthHash": "2d29c9be59e26c18d06af11a737893bb9ec7af0c"
+    "version": "1.4.63",
+    "curseForgeHash": 3111043206,
+    "modrinthHash": "194a0f87942c84171a18374c0e28b1a119ce6a85"
   },
   "sophisticatedstorage-1.21.1-1.5.65.1907.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.65.1907.jar",
