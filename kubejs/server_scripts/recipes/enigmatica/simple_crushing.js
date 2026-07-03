@@ -525,7 +525,7 @@ ServerEvents.recipes((event) => {
                 { id: 'malum:crushed_brilliance', count: 2 },
                 { id: 'malum:crushed_brilliance', count: 1, chance: 0.5 }
             ],
-            multiply: 'chance_only',
+            multiply: 'multiply_output',
             exclusions: [],
             fe: 2400,
             eu: 2,
@@ -533,6 +533,21 @@ ServerEvents.recipes((event) => {
             id_suffix: 'crushed_brilliance'
         },
 
+        {
+            input: { tag: 'c:raw_materials/soulstone' },
+            outputs: [
+                { id: 'malum:crushed_soulstone', count: 2, chance: 1.0 },
+                { id: 'malum:crushed_soulstone', count: 1, chance: 0.3 },
+                { id: 'malum:crushed_soulstone', count: 1, chance: 0.15 },
+                { id: 'malum:raw_brilliance', count: 1, chance: 0.05 }
+            ],
+            multiply: 'multiply_output',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'soulstone_raw_to_clump'
+        },
         {
             input: { item: 'farmersdelight:rice_panicle' },
             outputs: [

@@ -119,6 +119,7 @@ ServerEvents.recipes((event) => {
         { item: 'malum:impurity_stabilizer', matrix: 1 },
         { item: 'malum:intricate_assembly', matrix: 1 },
         { item: 'malum:prismatic_focus_lens', matrix: 1 },
+        { item: 'malum:mending_diffuser', matrix: 1 },
         { item: 'malum:resonance_tuner', matrix: 1 },
         { item: 'malum:shielding_apparatus', matrix: 1 },
         { item: 'malum:suspicious_device', matrix: 1 },

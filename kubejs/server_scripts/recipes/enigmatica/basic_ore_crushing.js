@@ -33,17 +33,6 @@ ServerEvents.recipes((event) => {
             ],
             tier: 2,
             id_suffix: 'iron_raw_to_clump'
-        },
-        {
-            input: { tag: 'c:raw_materials/soulstone' },
-            outputs: [
-                { id: 'malum:crushed_soulstone', count: 2, chance: 1.0 },
-                { id: 'malum:crushed_soulstone', count: 1, chance: 0.3 },
-                { id: 'malum:crushed_soulstone', count: 1, chance: 0.15 },
-                { id: 'malum:raw_brilliance', count: 1, chance: 0.05 }
-            ],
-            tier: 2,
-            id_suffix: 'soulstone_raw_to_clump'
         }
     ];
 
