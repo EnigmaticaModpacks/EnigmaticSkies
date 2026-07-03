@@ -5,13 +5,13 @@
     "name": "neoforge",
     "version": "neoforge-21.1.234"
   },
-  "aaron-1.21.1-1.16.0-build.300.jar": {
-    "jarName": "aaron-1.21.1-1.16.0-build.300.jar",
+  "aaron-1.21.1-1.17.0-build.310.jar": {
+    "jarName": "aaron-1.21.1-1.17.0-build.310.jar",
     "modId": "aaron",
     "name": "Aaron",
-    "version": "1.16.0",
-    "curseForgeHash": 1218687562,
-    "modrinthHash": "4b66c365a5b6e056ef86ffe61c5b6601a7afe31f"
+    "version": "1.17.0",
+    "curseForgeHash": 3800330728,
+    "modrinthHash": "9a3af891af286da0ac3ed7e8a6c7d6e4b6a40166"
   },
   "accelerated-decay-neoforge-21.0.0.jar": {
     "jarName": "accelerated-decay-neoforge-21.0.0.jar",
