@@ -1897,13 +1897,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.66.1958.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.66.1958.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.67.1964.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.67.1964.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.66",
-    "curseForgeHash": 2415535125,
-    "modrinthHash": "d320bbb47c1b5308a42a960b1f1a16807473d63e"
+    "version": "3.25.67",
+    "curseForgeHash": 3672947249,
+    "modrinthHash": "619b5cd7cbccf438efda74d55c7afdfa27614a02"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.7.119.jar",
@@ -1913,13 +1913,13 @@
     "curseForgeHash": 3277262592,
     "modrinthHash": "4834cfb16c2f03dac556efa97bb161374adc4827"
   },
-  "sophisticatedcore-1.21.1-1.4.63.2092.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.63.2092.jar",
+  "sophisticatedcore-1.21.1-1.4.64.2097.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.64.2097.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.63",
-    "curseForgeHash": 3111043206,
-    "modrinthHash": "194a0f87942c84171a18374c0e28b1a119ce6a85"
+    "version": "1.4.64",
+    "curseForgeHash": 649370597,
+    "modrinthHash": "77a8023df27365e192bec2fc82478272aba0b559"
   },
   "sophisticatedstorage-1.21.1-1.5.65.1907.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.65.1907.jar",
@@ -1929,13 +1929,13 @@
     "curseForgeHash": 2310851928,
     "modrinthHash": "c0e945bbf6bb481f8e9c782df27548307bb18d1b"
   },
-  "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
-    "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
+  "sophisticatedstoragecreateintegration-1.21.1-0.1.18.178.jar": {
+    "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.18.178.jar",
     "modId": "sophisticatedstoragecreateintegration",
     "name": "Sophisticated Storage Create Integration",
-    "version": "0.1.17",
-    "curseForgeHash": 4198731451,
-    "modrinthHash": "45a0318e8e49e7f3aab213df5cc32b3e7e128b6c"
+    "version": "0.1.18",
+    "curseForgeHash": 365991378,
+    "modrinthHash": "696e412222da6d32e79218588a391069ac4fd643"
   },
   "soulplied_energistics-1.0.3.jar": {
     "jarName": "soulplied_energistics-1.0.3.jar",
@@ -2041,13 +2041,13 @@
     "curseForgeHash": 2660902876,
     "modrinthHash": "fc42c3ec21344513e3737b8bb7b8cd547b13defc"
   },
-  "the_bumblezone-7.15.0+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.15.0+1.21.1-neoforge.jar",
+  "the_bumblezone-7.15.1+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.15.1+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.15.0+1.21.1-neoforge",
-    "curseForgeHash": 1747679599,
-    "modrinthHash": "94c3eca6360f65c641a3b869cc5be27ac4f3d1bd"
+    "version": "7.15.1+1.21.1-neoforge",
+    "curseForgeHash": 12157134,
+    "modrinthHash": "529df1609178a6852dbd71870b6bd6fae5432565"
   },
   "thesilverage-neoforge-1.21.1-1.3.1.jar": {
     "jarName": "thesilverage-neoforge-1.21.1-1.3.1.jar",
