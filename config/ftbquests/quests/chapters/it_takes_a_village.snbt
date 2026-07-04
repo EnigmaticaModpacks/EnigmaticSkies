@@ -1110,7 +1110,7 @@
 				id: "create:large_cogwheel"
 			}
 			id: "63AFE7CB35AE94BF"
-			min_width: 300
+			min_width: 250
 			rewards: [{
 				id: "64AD63EA37C825DE"
 				item: {

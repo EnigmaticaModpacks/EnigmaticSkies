@@ -91,12 +91,18 @@ ServerEvents.recipes((event) => {
                 E: 'ae2:formation_core'
             },
             id: `${id_prefix}molecular_assembler`
+        },
+        {
+            output: `ae2:quartz_block`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: '#c:gems/certus_quartz'
+            },
+            id: `${id_prefix}quartz_block`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

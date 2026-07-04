@@ -308,7 +308,16 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.translate('tooltip.enigmatica.found_flourishing_islands').gold()]
         },
         {
-            items: ['minecraft:allium', 'minecraft:pitcher_plant', 'ars_nouveau:frostaya_pod'],
+            items: [
+                'minecraft:allium',
+                'minecraft:pitcher_plant',
+                'ars_nouveau:frostaya_pod',
+                'minecraft:dead_tube_coral_block',
+                'minecraft:dead_brain_coral_block',
+                'minecraft:dead_bubble_coral_block',
+                'minecraft:dead_fire_coral_block',
+                'minecraft:dead_horn_coral_block'
+            ],
             text: [Text.translate('tooltip.enigmatica.found_cascading_islands').gold()]
         },
         {

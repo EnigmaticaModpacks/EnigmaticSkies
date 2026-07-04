@@ -123,6 +123,11 @@
             "industrialforegoing:resourceful_furnace",
             "industrialforegoing:machine_frame_pity",
             "industrialforegoing:mob_duplicator",
+            "industrialforegoing:sewage_composter",
+            "industrialforegoing:washing_factory",
+            "industrialforegoing:fermentation_station",
+            "industrialforegoing:fluid_sieving_machine",
+            "industrialforegoing:wither_builder",
 
             "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
             "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
@@ -688,6 +693,7 @@
             "industrialforegoing:fermentation_station",
             "industrialforegoing:fluid_sieve",
             "industrialforegoing:bioreactor",
+            "industrialforegoing:sewage_composter",
 
             "modern_industrialization:neutron_interaction",
             "modern_industrialization:thermal_interaction",
