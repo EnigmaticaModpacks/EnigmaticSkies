@@ -114,6 +114,7 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/blocks/interfaces_interface' },
         { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
+        { id: 'ae2:decorative/quartz_block' },
         { id: 'ae2:network/cells/fluid_storage_cell_1k' },
         { id: 'ae2:network/cells/fluid_storage_cell_4k' },
         { id: 'ae2:network/cells/fluid_storage_cell_16k' },
