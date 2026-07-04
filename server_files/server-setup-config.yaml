@@ -79,6 +79,7 @@ install:
             - 455508 # Iris https://www.curseforge.com/minecraft/mc-mods/irisshaders
             - 1133580 # Smithing Template Viewer https://www.curseforge.com/minecraft/mc-mods/smithing-template-viewer
             - 1500089 # Weather Refined https://www.curseforge.com/minecraft/mc-mods/weather-refined
+            - 574123 # Dark Mode Everywhere https://www.curseforge.com/minecraft/mc-mods/dark-mode-everywhere
 
     # The base path where the server should be installed to, ~ for current path
     baseInstallPath: ~

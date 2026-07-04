@@ -38,6 +38,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}emerald`
         },
         {
+            item_outputs: { item: 'minecraft:ender_pearl', amount: 1 },
+            item_inputs: { tag: 'c:dusts/grains_of_the_end', amount: 1 },
+            duration: 10,
+            eu: 4,
+            id: `${id_prefix}ender_pearl`
+        },
+        {
             item_outputs: { item: AlmostUnified.getTagTargetItem(`c:plates/brass`).getId(), amount: 1 },
             item_inputs: { tag: 'c:ingots/brass', amount: 1 },
             duration: 5,
@@ -71,7 +78,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'modern_industrialization:compressor';
         recipe.duration *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

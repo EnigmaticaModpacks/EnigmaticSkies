@@ -805,3 +805,5 @@
 		push_block_entities = false
 		#If true, adjacent pistons facing the same direction can pool their 12-block push budget to move structures larger than a single piston could handle alone (e.g. two side-by-side pistons pushing a 24-block slime contraption). Only triggers when a single piston's vanilla resolve would fail.
 		cooperative_pistons = false
+		#If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
+		moved_cauldron_filling = false

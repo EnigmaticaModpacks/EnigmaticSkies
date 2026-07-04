@@ -53,8 +53,8 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 6 },
-                { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 3 }
+                { item: 'theurgy:crystallized_water', amount: 8 },
+                { item: 'theurgy:crystallized_water', amount: 4, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
@@ -66,12 +66,12 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 18 },
-                { item: 'theurgy:crystallized_water', amount: 6, probability: 1 / 3 }
+                { item: 'theurgy:crystallized_water', amount: 16 },
+                { item: 'theurgy:crystallized_water', amount: 8, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 25 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 6000 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 8000 },
             alakarkinos: true,
             duration: 5,
             eu: 64,
@@ -79,12 +79,12 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 24 },
-                { item: 'theurgy:crystallized_water', amount: 8, probability: 1 / 3 }
+                { item: 'theurgy:crystallized_water', amount: 32 },
+                { item: 'theurgy:crystallized_water', amount: 16, probability: 1 / 3 }
             ],
-            item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1, probability: 1 / 2 }],
+            item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1, probability: 1 / 3 }],
             fluid_inputs: { fluid: 'enigmatica:vapours_of_nyx', amount: 5 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 8000 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 16000 },
             alakarkinos: true,
             duration: 5,
             eu: 128,

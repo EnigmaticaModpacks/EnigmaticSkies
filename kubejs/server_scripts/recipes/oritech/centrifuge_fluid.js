@@ -2,10 +2,10 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/centrifuge_fluid/';
     const recipes = [
         {
-            results: [{ id: 'oritech:polymer_resin', count: 1 }],
+            results: [{ id: 'oritech:polymer_resin', count: 10 }],
             fluidOutputs: [],
             ingredients: [{ item: 'occultism:otherworld_ashes' }],
-            fluidInput: { fluid: 'enigmatica:pitch', amount: 100 },
+            fluidInput: { fluid: 'enigmatica:pitch', amount: 1000 },
             time: 5,
             id: `${id_prefix}polymer_resin`
         },

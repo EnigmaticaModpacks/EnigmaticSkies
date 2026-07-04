@@ -194,7 +194,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}speed_addon_tier_2`
         },
         {
-            output: { id: 'modern_industrialization:cooling_cell', count: 1 },
+            output: { id: 'modern_industrialization:cooling_cell', count: 4 },
             input: [
                 { item: 'pneumaticcraft:advanced_pressure_tube' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },

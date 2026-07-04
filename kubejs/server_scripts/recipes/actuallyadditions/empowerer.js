@@ -12,8 +12,8 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:canola_seeds' }
             ],
             color: '#FF5B4C',
-            energy: 10000,
-            time: 1,
+            energy: 5000,
+            time: 0.5,
             id: `${id_prefix}empowered_canola_seed`
         },
         {
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:tokens/greater_water' }
             ],
             color: '#0f5f23',
-            energy: 500000,
+            energy: 50000,
             time: 1,
             id: `${id_prefix}fused_consciousness`
         },

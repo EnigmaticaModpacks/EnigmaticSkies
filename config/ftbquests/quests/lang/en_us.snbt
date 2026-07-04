@@ -1747,7 +1747,7 @@
 		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
 	]
 	quest.3A7AD25302240A1B.quest_desc: [
-		"dAd-Hoc Networks are the simplest form of network in Applied Energistic; they consist of a length of &7Fluix Cable&r and some connected devices such as &7Storage Buses&r and &7Terminals&r."
+		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; they consist of a length of &7Fluix Cable&r and some connected devices such as &7Storage Buses&r and &7Terminals&r."
 		""
 		"The system will need some power too, which can be provided passively by a &7Crystal Resonance Generator&r, or more actively with an &7Energy Acceptor&r."
 		"&n                                                            "
@@ -2157,12 +2157,9 @@
 	]
 	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [
-		"An animate block of Amethyst, these golems will automatically create, grow, and harvest budding blocks. "
+		"An animate block of Amethyst, these golems will automatically create, grow, and harvest &7Budding Amethyst&r blocks. "
 		""
 		"Bind them to an inventory to set the area they’ll work in. Nearby blocks will be converted into budding blocks. As they grow buds, they’ll break them and collect the drops, storing them in their bound inventory."
-		""
-		"&a🛈 Tip: Amethyst Golems works with"
-		"&a   Certus Quartz too!"
 	]
 	quest.454EB146FC67E3D5.quest_desc: [
 		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"

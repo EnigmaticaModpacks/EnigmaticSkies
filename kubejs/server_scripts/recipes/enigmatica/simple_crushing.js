@@ -107,7 +107,7 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:gems/fluix` },
             outputs: [{ id: 'ae2:fluix_dust', count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing'],
+            exclusions: ['create:milling', 'create:crushing', 'enderio'],
             fe: 2400,
             eu: 2,
             duration: 5,
@@ -122,7 +122,8 @@ ServerEvents.recipes((event) => {
                 'create:milling',
                 'create:crushing',
                 'oritech:pulverizer',
-                'oritech:grinder'
+                'oritech:grinder',
+                'enderio'
             ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
@@ -130,6 +131,48 @@ ServerEvents.recipes((event) => {
             create: { time: { crushing: 200, milling: 100 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'ender_pearl_dust_from_ender_pearl'
+        },
+        {
+            input: { tag: `c:gems/fluix` },
+            outputs: [
+                { id: 'ae2:fluix_dust', count: 1 },
+                { id: 'ae2:fluix_dust', count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [
+                'ars_nouveau',
+                'modern_industrialization',
+                'create:milling',
+                'create:crushing',
+                'oritech:pulverizer',
+                'oritech:grinder'
+            ],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'fluix_dust_from_fluix_bonus'
+        },
+        {
+            input: { item: 'minecraft:ender_pearl' },
+            outputs: [
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 1 },
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [
+                'ars_nouveau',
+                'modern_industrialization',
+                'create:milling',
+                'create:crushing',
+                'oritech:pulverizer',
+                'oritech:grinder'
+            ],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            create: { time: { crushing: 200, milling: 100 } },
+            na: { aura: 5000, time: 20 },
+            id_suffix: 'ender_pearl_dust_from_ender_pearl_bonus'
         },
         {
             input: { item: 'ae2:sky_stone_block' },
@@ -384,7 +427,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'ars_nouveau:wilden_horn' },
             outputs: [{ id: 'arsdelight:wilden_horn_powder', count: 2 }],
             multiply: 'none',
-            exclusions: [],
+            exclusions: ['enderio'],
             fe: 2400,
             eu: 2,
             duration: 5,
@@ -394,11 +437,51 @@ ServerEvents.recipes((event) => {
             input: { item: 'ars_nouveau:wilden_spike' },
             outputs: [{ id: 'arsdelight:wilden_spike_powder', count: 2 }],
             multiply: 'none',
-            exclusions: [],
+            exclusions: ['enderio'],
             fe: 2400,
             eu: 2,
             duration: 5,
             id_suffix: 'wilden_spike_powder'
+        },
+        {
+            input: { item: 'ars_nouveau:wilden_horn' },
+            outputs: [
+                { id: 'arsdelight:wilden_horn_powder', count: 2 },
+                { id: 'arsdelight:wilden_horn_powder', count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [
+                'ars_nouveau',
+                'modern_industrialization',
+                'create:milling',
+                'create:crushing',
+                'oritech:pulverizer',
+                'oritech:grinder'
+            ],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wilden_horn_powder_bonus'
+        },
+        {
+            input: { item: 'ars_nouveau:wilden_spike' },
+            outputs: [
+                { id: 'arsdelight:wilden_spike_powder', count: 2 },
+                { id: 'arsdelight:wilden_spike_powder', count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [
+                'ars_nouveau',
+                'modern_industrialization',
+                'create:milling',
+                'create:crushing',
+                'oritech:pulverizer',
+                'oritech:grinder'
+            ],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wilden_spike_powder_bonus'
         },
         {
             input: { item: 'minecraft:calcite' },
@@ -442,7 +525,7 @@ ServerEvents.recipes((event) => {
                 { id: 'malum:crushed_brilliance', count: 2 },
                 { id: 'malum:crushed_brilliance', count: 1, chance: 0.5 }
             ],
-            multiply: 'chance_only',
+            multiply: 'multiply_output',
             exclusions: [],
             fe: 2400,
             eu: 2,
@@ -450,6 +533,21 @@ ServerEvents.recipes((event) => {
             id_suffix: 'crushed_brilliance'
         },
 
+        {
+            input: { tag: 'c:raw_materials/soulstone' },
+            outputs: [
+                { id: 'malum:crushed_soulstone', count: 2, chance: 1.0 },
+                { id: 'malum:crushed_soulstone', count: 1, chance: 0.3 },
+                { id: 'malum:crushed_soulstone', count: 1, chance: 0.15 },
+                { id: 'malum:raw_brilliance', count: 1, chance: 0.05 }
+            ],
+            multiply: 'multiply_output',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'soulstone_raw_to_clump'
+        },
         {
             input: { item: 'farmersdelight:rice_panicle' },
             outputs: [

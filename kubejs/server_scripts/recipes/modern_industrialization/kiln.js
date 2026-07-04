@@ -34,9 +34,9 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: { item: 'naturesaura:sky_ingot', amount: 1 },
-            fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 1000 }],
+            fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 100 }],
             item_inputs: [
-                { tag: 'c:dusts/sky_stone', amount: 1 },
+                { tag: 'c:dusts/sky_stone', amount: 10 },
                 { tag: 'c:gems/weather_crystal', amount: 1 }
             ],
             duration: 20,
