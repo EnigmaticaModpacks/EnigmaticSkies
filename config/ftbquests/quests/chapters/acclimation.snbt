@@ -523,7 +523,7 @@
 		{
 			dependencies: ["6703E3A9E3571660"]
 			id: "6DBBD5B744B801B1"
-			min_width: 300
+			min_width: 250
 			shape: "diamond"
 			tasks: [{
 				icon: {

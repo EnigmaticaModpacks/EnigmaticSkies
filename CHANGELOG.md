@@ -18,6 +18,7 @@ NeoForge-1.21.1-21.1.234 |
 - Water Production has been buffed, primarily in the end game [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Buff ether gas production rates [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - SAG Mill now gains extra outputs for certain recipes [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Dead Corals now have a tooltip showing they can be found on the Cascading Island [(\#287)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/287)
 
 #### 🦟 Bugs Fixed
 

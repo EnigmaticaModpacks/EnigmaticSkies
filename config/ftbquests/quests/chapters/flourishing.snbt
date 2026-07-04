@@ -17,7 +17,7 @@
 		{
 			dependencies: ["6AC4CADE97CB512F"]
 			id: "6490781066FAE8CF"
-			min_width: 300
+			min_width: 250
 			rewards: [{
 				id: "250E2B002E622617"
 				item: {
