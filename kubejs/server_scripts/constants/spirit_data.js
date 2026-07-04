@@ -478,6 +478,13 @@ const spiritData = [
         ]
     },
     {
+        registry_name: 'minecraft:allay',
+        spirits: [
+            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:aerial', count: 3 }
+        ]
+    },
+    {
         registry_name: 'minecraft:armadillo',
         spirits: [
             { spirit: 'malum:sacred', count: 1 },
