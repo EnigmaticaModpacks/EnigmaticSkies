@@ -23,7 +23,7 @@ NeoForge-1.21.1-21.1.234 |
 
 - Fix missing archwood plank recipe in Create saw [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
 - Encyclopedia Esoterica has been whitelisted for the Eccentric Tome [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
-- Fix Certus Quartz Block recipe [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- Fix Certus Quartz Block recipe [(\#287)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/287)
 
 #### ✔️ Added Mods
 
