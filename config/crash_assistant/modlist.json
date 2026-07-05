@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.234 (modloader)": {
-    "jarName": "neoforge-21.1.234 (modloader)",
+  "neoforge-21.1.235 (modloader)": {
+    "jarName": "neoforge-21.1.235 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.234"
+    "version": "neoforge-21.1.235"
   },
   "aaron-1.21.1-1.17.0-build.310.jar": {
     "jarName": "aaron-1.21.1-1.17.0-build.310.jar",
@@ -892,13 +892,13 @@
     "curseForgeHash": 388147335,
     "modrinthHash": "72d63d64ee774b89302e0d6b220757ba11b6ec4f"
   },
-  "extended-industrialization-1.15.43-1.21.1.jar": {
-    "jarName": "extended-industrialization-1.15.43-1.21.1.jar",
+  "extended-industrialization-1.15.44-1.21.1.jar": {
+    "jarName": "extended-industrialization-1.15.44-1.21.1.jar",
     "modId": "extended_industrialization",
     "name": "Extended Industrialization",
-    "version": "1.15.43-1.21.1",
-    "curseForgeHash": 1860507029,
-    "modrinthHash": "b463e98941cc8e67bc46a6535816e3f8b6ff8d04"
+    "version": "1.15.44-1.21.1",
+    "curseForgeHash": 2004407727,
+    "modrinthHash": "e3b567f9b35b5f0b4be980a33b87d1042877b253"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -1228,13 +1228,13 @@
     "curseForgeHash": 903616080,
     "modrinthHash": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
   },
-  "jei-1.21.1-neoforge-19.27.0.346.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.27.0.346.jar",
+  "jei-1.21.1-neoforge-19.32.0.358.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.32.0.358.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.27.0.346",
-    "curseForgeHash": 1154334490,
-    "modrinthHash": "c9b7e1b94121fed6617b72456d4cc1ba18c17f11"
+    "version": "19.32.0.358",
+    "curseForgeHash": 3670529688,
+    "modrinthHash": "421d80f5a9a0c16e1ee363bfab2d983699bc54d6"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -2033,13 +2033,13 @@
     "curseForgeHash": 4290330137,
     "modrinthHash": "2016eed89eac0eb0510d2190c3b0b80bf4346191"
   },
-  "tesseract-api-neoforge-1.12.4-1.21.1.jar": {
-    "jarName": "tesseract-api-neoforge-1.12.4-1.21.1.jar",
+  "tesseract-api-neoforge-1.12.5-1.21.1.jar": {
+    "jarName": "tesseract-api-neoforge-1.12.5-1.21.1.jar",
     "modId": "tesseract_api",
     "name": "Tesseract API",
-    "version": "1.12.4-1.21.1",
-    "curseForgeHash": 2660902876,
-    "modrinthHash": "fc42c3ec21344513e3737b8bb7b8cd547b13defc"
+    "version": "1.12.5-1.21.1",
+    "curseForgeHash": 4063203909,
+    "modrinthHash": "784c48e3636ec520df76eb08c72ce40133a10198"
   },
   "the_bumblezone-7.15.1+1.21.1-neoforge.jar": {
     "jarName": "the_bumblezone-7.15.1+1.21.1-neoforge.jar",

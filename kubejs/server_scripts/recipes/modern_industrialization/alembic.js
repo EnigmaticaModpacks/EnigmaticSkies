@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             fluid_outputs: { fluid: 'modern_industrialization:heavy_water', amount: 40 },
-            item_inputs: [{ tag: 'c:gems/fluix', amount: 1 }],
+            item_inputs: [{ tag: 'c:gems/fluix', amount: 1, probability: 1 / 8 }],
             fluid_inputs: { fluid: 'minecraft:water', amount: 64000 },
             duration: 10,
             eu: 128,

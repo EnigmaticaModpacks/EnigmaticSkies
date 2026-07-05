@@ -17,7 +17,7 @@ LootJS.lootTables((event) => {
         });
 
         type.rolls = type.rolls.map((r) => {
-            return r * 4;
+            return r * 8;
         });
 
         event.create(`enigmatica:archaeology/brilliant_${type.id}`, LootType.ARCHAEOLOGY).createPool((pool) => {
