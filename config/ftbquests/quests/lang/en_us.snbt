@@ -2185,7 +2185,7 @@
 		"&7Guide Rings&r may be controlled by &cRedstone&r to send a particle out into a larger loop that can handle higher speeds as the particle gains momentum."
 		"&n                                                                          &r"
 		""
-		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" on the Oritech Wiki, which does an excellent job of describing how this system works. \"]"
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.wiki/hu/project/oritech/latest/docs/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" on the Oritech Wiki, which does an excellent job of describing how this system works. \"]"
 		""
 		"To give an idea of scope, however, consider a recipe that requires a collision of &61000J&r. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns."
 		""
