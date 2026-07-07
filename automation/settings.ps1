@@ -29,11 +29,11 @@ $MODPACK_NAME = "EnigmaticSkies"
 $CLIENT_NAME = "EnigmaticSkies"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.12.0"
+$MODPACK_VERSION = "1.13.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.11.0"
+$LAST_MODPACK_VERSION = "1.12.0"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
