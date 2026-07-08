@@ -52,14 +52,14 @@ ServerEvents.recipes((event) => {
         },
         {
             ideal_gene: 'geneticsresequenced:more_hearts',
-            ingredient: { item: 'aether:healing_stone' },
+            ingredient: { item: 'aether:life_shard' },
             entity_type: 'ars_nouveau:wilden_guardian',
             gene_chance: 0.2,
             id: `${id_prefix}more_hearts_from_wilden_guardian`
         },
         {
             ideal_gene: 'geneticsresequenced:more_hearts_2',
-            ingredient: { item: 'aether:healing_stone' },
+            ingredient: { item: 'aether:life_shard' },
             entity_type: 'ars_nouveau:wilden_guardian',
             gene_chance: 0.25,
             needs_mutation_potion: true,
@@ -102,6 +102,20 @@ ServerEvents.recipes((event) => {
             gene_chance: 0.35,
             needs_mutation_potion: true,
             id: `${id_prefix}haste_2_from_aerbunny`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:meaty',
+            ingredient: { item: 'minecraft:porkchop' },
+            entity_type: 'aether:phyg',
+            id: `${id_prefix}meaty_from_phyg`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:meaty_2',
+            ingredient: { item: 'minecraft:blaze_powder' },
+            entity_type: 'aether:phyg',
+            gene_chance: 0.75,
+            needs_mutation_potion: true,
+            id: `${id_prefix}meaty_2_from_phyg`
         }
     ];
 

@@ -1,3 +1,19 @@
+### Enigmatic Skies 1.14.0
+
+NeoForge-1.21.1-21.1.235 |
+
+#### ⭐ Improvements
+
+#### 🦟 Bugs Fixed
+
+- More Hearts mutation now uses Life Shards so as not to conflict with Regeneration [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.13.0
 
 NeoForge-1.21.1-21.1.235 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.13.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.13.0.md)

@@ -446,6 +446,7 @@ ServerEvents.recipes((event) => {
         { output: `geneticsresequenced:metal_syringe` },
         { output: `geneticsresequenced:gene_checker` },
         { output: `geneticsresequenced:overclocker` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/meaty_2_from_pig_with_75_chance` },
         { id: `geneticsresequenced:incubator/gmo/mutation/flight_from_ender_dragon_with_55_chance` },
         { id: `geneticsresequenced:incubator/gmo/mutation/speed_2_from_rabbit_with_50_chance` },
         { id: `geneticsresequenced:incubator/gmo/mutation/efficiency_4_from_silverfish_with_25_chance` },
@@ -458,6 +459,7 @@ ServerEvents.recipes((event) => {
         { id: `geneticsresequenced:incubator/gmo/keep_inventory_from_shulker_with_45_chance` },
         { id: `geneticsresequenced:incubator/gmo/more_hearts_from_enderman_with_20_chance` },
         { id: `geneticsresequenced:incubator/gmo/regeneration_from_iron_golem_with_30_chance` },
+        { id: `geneticsresequenced:incubator/gmo/meaty_from_pig_with_100_chance` },
 
         // Handcrafted
         { output: 'handcrafted:vindicator_trophy' },

@@ -9,5 +9,23 @@
     "info.gene.geneticsresequenced.wilden_4": "Grants the magical potency of the Wilden Chimera.",
 
     "gene.geneticsresequenced.stone_skin": "Stone Skin",
-    "info.gene.geneticsresequenced.stone_skin": "Your skin hardens, granting you extra armor."
+    "info.gene.geneticsresequenced.stone_skin": "Your skin hardens, granting you extra armor.",
+
+    "gene.geneticsresequenced.bovine": "Bovine",
+    "info.gene.geneticsresequenced.bovine": "Causes the affected creature to drop some Beef on death.",
+
+    "gene.geneticsresequenced.galline": "Galline",
+    "info.gene.geneticsresequenced.galline": "Causes the affected creature to drop some Chicken on death.",
+
+    "gene.geneticsresequenced.lapine": "Lapine",
+    "info.gene.geneticsresequenced.lapine": "Causes the affected creature to drop some Rabbit on death.",
+
+    "gene.geneticsresequenced.ovine": "Ovine",
+    "info.gene.geneticsresequenced.ovine": "Causes the affected creature to drop some Mutton on death.",
+
+    "gene.geneticsresequenced.porcine": "Porcine",
+    "info.gene.geneticsresequenced.porcine": "Causes the affected creature to drop some Porkchops on death.",
+
+    "gene.geneticsresequenced.burgeoning": "Burgeoning",
+    "info.gene.geneticsresequenced.burgeoning": "Causes the affected creature to drop some flowers on death."
 }

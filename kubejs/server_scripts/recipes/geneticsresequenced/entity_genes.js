@@ -45,7 +45,8 @@ ServerEvents.generateData('before_mods', (event) => {
             ],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:explosive_exit': 3
+                'geneticsresequenced:explosive_exit': 3,
+                'geneticsresequenced:burgeoning': 1
             }
         },
         {
