@@ -12,20 +12,23 @@
     "info.gene.geneticsresequenced.stone_skin": "Your skin hardens, granting you extra armor.",
 
     "gene.geneticsresequenced.bovine": "Bovine",
-    "info.gene.geneticsresequenced.bovine": "Causes the affected creature to drop some Beef on death.",
+    "info.gene.geneticsresequenced.bovine": "Causes the affected creature to drop some Beef when killed.",
 
     "gene.geneticsresequenced.galline": "Galline",
-    "info.gene.geneticsresequenced.galline": "Causes the affected creature to drop some Chicken on death.",
+    "info.gene.geneticsresequenced.galline": "Causes the affected creature to drop some Chicken when killed.",
 
     "gene.geneticsresequenced.lapine": "Lapine",
-    "info.gene.geneticsresequenced.lapine": "Causes the affected creature to drop some Rabbit on death.",
+    "info.gene.geneticsresequenced.lapine": "Causes the affected creature to drop some Rabbit when killed.",
 
     "gene.geneticsresequenced.ovine": "Ovine",
-    "info.gene.geneticsresequenced.ovine": "Causes the affected creature to drop some Mutton on death.",
+    "info.gene.geneticsresequenced.ovine": "Causes the affected creature to drop some Mutton when killed.",
 
     "gene.geneticsresequenced.porcine": "Porcine",
-    "info.gene.geneticsresequenced.porcine": "Causes the affected creature to drop some Porkchops on death.",
+    "info.gene.geneticsresequenced.porcine": "Causes the affected creature to drop some Porkchops when killed.",
 
     "gene.geneticsresequenced.burgeoning": "Burgeoning",
-    "info.gene.geneticsresequenced.burgeoning": "Causes the affected creature to drop some flowers on death."
+    "info.gene.geneticsresequenced.burgeoning": "Causes the affected creature to drop some Flowers when killed.",
+
+    "gene.geneticsresequenced.saevine": "Saevine",
+    "info.gene.geneticsresequenced.saevine": "Causes the affected creature to drop some Wilden Meat when killed."
 }

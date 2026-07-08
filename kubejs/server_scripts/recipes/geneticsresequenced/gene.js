@@ -19,6 +19,34 @@ ServerEvents.generateData('before_mods', (event) => {
             dna_points_required: 24,
             potion_details: [{ effect: 'malum:stone_ward' }],
             id: 'stone_skin'
+        },
+        {
+            dna_points_required: 50,
+            id: 'bovine'
+        },
+        {
+            dna_points_required: 50,
+            id: 'ovine'
+        },
+        {
+            dna_points_required: 50,
+            id: 'galline'
+        },
+        {
+            dna_points_required: 50,
+            id: 'porcine'
+        },
+        {
+            dna_points_required: 50,
+            id: 'lapine'
+        },
+        {
+            dna_points_required: 50,
+            id: 'burgeoning'
+        },
+        {
+            dna_points_required: 50,
+            id: 'saevine'
         }
     ];
 

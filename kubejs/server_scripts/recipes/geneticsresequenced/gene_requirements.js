@@ -46,6 +46,30 @@ ServerEvents.generateData('after_mods', (event) => {
                 'geneticsresequenced:more_hearts_2',
                 'geneticsresequenced:regeneration_4'
             ]
+        },
+        {
+            gene: 'geneticsresequenced:bovine',
+            requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
+        },
+        {
+            gene: 'geneticsresequenced:ovine',
+            requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
+        },
+        {
+            gene: 'geneticsresequenced:galline',
+            requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
+        },
+        {
+            gene: 'geneticsresequenced:porcine',
+            requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
+        },
+        {
+            gene: 'geneticsresequenced:lapine',
+            requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
+        },
+        {
+            gene: 'geneticsresequenced:saevine',
+            requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
         }
     ];
 

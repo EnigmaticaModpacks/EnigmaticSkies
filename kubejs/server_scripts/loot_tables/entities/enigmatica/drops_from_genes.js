@@ -71,6 +71,17 @@ LootJS.lootTables((event) => {
 });
 
 LootJS.lootTables((event) => {
+    event.create(`enigmatica:entity/saevine`).createPool((pool) => {
+        pool.addEntry(
+            LootEntry.of(`arsdelight:wilden_meat`)
+                .setCount([0, 2])
+                .applyEnchantmentBonus([0, 1])
+                .jsonFunction(smeltWhenBurning)
+        );
+    });
+});
+
+LootJS.lootTables((event) => {
     event.create(`enigmatica:entity/burgeoning`).createPool((pool) => {
         pool.rolls([1, 3]);
 
@@ -92,6 +103,7 @@ LootJS.lootTables((event) => {
         pool.addEntry(LootEntry.of('minecraft:rose_bush').setCount([0, 1]).applyEnchantmentBonus([0, 1]));
         pool.addEntry(LootEntry.of('minecraft:peony').setCount([0, 1]).applyEnchantmentBonus([0, 1]));
         pool.addEntry(LootEntry.of('minecraft:pitcher_plant').setCount([0, 1]).applyEnchantmentBonus([0, 1]));
+        pool.addEntry(LootEntry.of('minecraft:fern').setCount([0, 1]).applyEnchantmentBonus([0, 1]));
 
         pool.addEntry(LootEntry.of('ribbits:swamp_daisy').setCount([0, 1]).applyEnchantmentBonus([0, 1]));
         pool.addEntry(LootEntry.of('aether:purple_flower').setCount([0, 1]).applyEnchantmentBonus([0, 1]));
@@ -100,11 +112,12 @@ LootJS.lootTables((event) => {
 });
 
 // Loot Context: https://docs.almostreliable.com/lootjs/api/loot-context.html
+// Genetics: https://moddedmc.wiki/en/project/geneticsresequenced/latest/docs/devs/kubejs
 LootJS.modifiers((event) => {
     event.addTableModifier(LootType.ENTITY).customAction((context, loot) => {
         const { entity } = context;
 
-        const genes = ['bovine', 'galline', 'lapine', 'ovine', 'porcine', 'burgeoning'];
+        const genes = ['bovine', 'galline', 'lapine', 'ovine', 'porcine', 'saevine', 'burgeoning'];
 
         genes.forEach((gene) => {
             if (GeneticsJS.hasGene(entity, `geneticsresequenced:${gene}`)) {

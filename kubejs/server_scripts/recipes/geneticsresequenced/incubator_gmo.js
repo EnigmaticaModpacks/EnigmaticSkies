@@ -116,6 +116,49 @@ ServerEvents.recipes((event) => {
             gene_chance: 0.75,
             needs_mutation_potion: true,
             id: `${id_prefix}meaty_2_from_phyg`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:bovine',
+            ingredient: { item: 'malum:imitation_flesh' },
+            entity_type: 'aether:flying_cow',
+            gene_chance: 0.75,
+            id: `${id_prefix}bovine_from_flying_cow`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:ovine',
+            ingredient: { item: 'malum:imitation_flesh' },
+            entity_type: 'aether:sheepuff',
+            gene_chance: 0.75,
+            id: `${id_prefix}ovine_from_sheepuff`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:porcine',
+            ingredient: { item: 'malum:imitation_flesh' },
+            entity_type: 'aether:phyg',
+            gene_chance: 0.75,
+            id: `${id_prefix}porcine_from_phyg`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:galline',
+            ingredient: { item: 'malum:imitation_flesh' },
+            entity_type: 'minecraft:chicken',
+            gene_chance: 0.75,
+            id: `${id_prefix}galline_from_chicken`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:lapine',
+            ingredient: { item: 'malum:imitation_flesh' },
+            entity_type: 'aether:aerbunny',
+            gene_chance: 0.75,
+            id: `${id_prefix}lapine_from_aerbunny`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:saevine',
+            ingredient: { item: 'malum:imitation_flesh' },
+            entity_type: 'ars_nouveau:wilden_hunter',
+            gene_chance: 0.75,
+            needs_mutation_potion: true,
+            id: `${id_prefix}saevine_from_wilden_hunter`
         }
     ];
 
