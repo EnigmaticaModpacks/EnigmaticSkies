@@ -4,9 +4,12 @@ NeoForge-1.21.1-21.1.235 |
 
 #### ⭐ Improvements
 
+- New Genes have been added to allow different mobs the ability to drop various meats [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+
 #### 🦟 Bugs Fixed
 
-- More Hearts mutation now uses Life Shards so as not to conflict with Regeneration [(\#279)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/279)
+- More Hearts mutation now uses Life Shards so as not to conflict with Regeneration [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Electrostatic blocks are now properly searchable in EMI by tag [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### ✔️ Added Mods
 
