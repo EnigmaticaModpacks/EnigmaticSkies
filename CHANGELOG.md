@@ -12,6 +12,7 @@ NeoForge-1.21.1-21.1.235 |
 - Electrostatic blocks are now properly searchable in EMI by tag [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Placid may now be obtained from flying cows [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Placable food items are now blocked from forced movement [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### ✔️ Added Mods
 
