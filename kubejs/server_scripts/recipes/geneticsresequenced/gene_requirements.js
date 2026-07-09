@@ -70,6 +70,20 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             gene: 'geneticsresequenced:saevine',
             requirements: ['geneticsresequenced:more_hearts', 'geneticsresequenced:regeneration']
+        },
+        {
+            gene: 'geneticsresequenced:chimeric',
+            requirements: [
+                'geneticsresequenced:bovine',
+                'geneticsresequenced:galline',
+                'geneticsresequenced:lapine',
+                'geneticsresequenced:ovine',
+                'geneticsresequenced:porcine',
+                'geneticsresequenced:saevine',
+                'geneticsresequenced:strength_2',
+                'geneticsresequenced:more_hearts_2',
+                'geneticsresequenced:regeneration_4'
+            ]
         }
     ];
 

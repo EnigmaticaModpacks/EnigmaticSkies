@@ -4,7 +4,7 @@ NeoForge-1.21.1-21.1.235 |
 
 #### ⭐ Improvements
 
-- New Genes have been added to allow different mobs the ability to drop various meats [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- New Genes have been added to allow any mobs the ability to drop various meats. This includes common meats as well as Wilden and Chimera meat [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### 🦟 Bugs Fixed
 

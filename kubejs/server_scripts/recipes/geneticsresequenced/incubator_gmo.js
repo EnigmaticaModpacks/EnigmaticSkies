@@ -159,6 +159,14 @@ ServerEvents.recipes((event) => {
             gene_chance: 0.75,
             needs_mutation_potion: true,
             id: `${id_prefix}saevine_from_wilden_hunter`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:chimeric',
+            ingredient: { item: 'malum:imitation_heart' },
+            entity_type: 'ars_nouveau:wilden_boss',
+            gene_chance: 0.5,
+            needs_mutation_potion: true,
+            id: `${id_prefix}chimeric_from_wilden_boss`
         }
     ];
 

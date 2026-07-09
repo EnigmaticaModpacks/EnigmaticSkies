@@ -30,5 +30,8 @@
     "info.gene.geneticsresequenced.burgeoning": "Causes the affected creature to drop some Flowers when killed.",
 
     "gene.geneticsresequenced.saevine": "Saevine",
-    "info.gene.geneticsresequenced.saevine": "Causes the affected creature to drop some Wilden Meat when killed."
+    "info.gene.geneticsresequenced.saevine": "Causes the affected creature to drop some Wilden Meat when killed.",
+
+    "gene.geneticsresequenced.chimeric": "Chimeric",
+    "info.gene.geneticsresequenced.chimeric": "Causes the affected creature to drop some Chimera Meat when killed."
 }

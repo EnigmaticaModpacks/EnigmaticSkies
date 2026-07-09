@@ -47,6 +47,10 @@ ServerEvents.generateData('before_mods', (event) => {
         {
             dna_points_required: 50,
             id: 'saevine'
+        },
+        {
+            dna_points_required: 50,
+            id: 'chimeric'
         }
     ];
 

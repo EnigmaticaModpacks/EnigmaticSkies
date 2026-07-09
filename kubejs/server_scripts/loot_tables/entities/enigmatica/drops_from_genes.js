@@ -5,12 +5,6 @@ LootJS.lootTables((event) => {
         pool.addEntry(
             LootEntry.of(`minecraft:beef`).setCount([0, 2]).applyEnchantmentBonus([0, 1]).jsonFunction(smeltWhenBurning)
         );
-        pool.addEntry(
-            LootEntry.of('occultism:tallow')
-                .matchMainHand('#occultism:tools/knife')
-                .setCount([0, 1])
-                .applyEnchantmentBonus([0, 1])
-        );
     });
 });
 
@@ -44,12 +38,6 @@ LootJS.lootTables((event) => {
                 .applyEnchantmentBonus([0, 1])
                 .jsonFunction(smeltWhenBurning)
         );
-        pool.addEntry(
-            LootEntry.of('occultism:tallow')
-                .matchMainHand('#occultism:tools/knife')
-                .setCount([0, 1])
-                .applyEnchantmentBonus([0, 1])
-        );
     });
 });
 
@@ -61,6 +49,11 @@ LootJS.lootTables((event) => {
                 .applyEnchantmentBonus([0, 1])
                 .jsonFunction(smeltWhenBurning)
         );
+    });
+});
+
+LootJS.lootTables((event) => {
+    event.create(`enigmatica:entity/tallow`).createPool((pool) => {
         pool.addEntry(
             LootEntry.of('occultism:tallow')
                 .matchMainHand('#occultism:tools/knife')
@@ -74,6 +67,17 @@ LootJS.lootTables((event) => {
     event.create(`enigmatica:entity/saevine`).createPool((pool) => {
         pool.addEntry(
             LootEntry.of(`arsdelight:wilden_meat`)
+                .setCount([0, 2])
+                .applyEnchantmentBonus([0, 1])
+                .jsonFunction(smeltWhenBurning)
+        );
+    });
+});
+
+LootJS.lootTables((event) => {
+    event.create(`enigmatica:entity/chimeric`).createPool((pool) => {
+        pool.addEntry(
+            LootEntry.of(`arsdelight:chimera_meat`)
                 .setCount([0, 2])
                 .applyEnchantmentBonus([0, 1])
                 .jsonFunction(smeltWhenBurning)
@@ -117,12 +121,20 @@ LootJS.modifiers((event) => {
     event.addTableModifier(LootType.ENTITY).customAction((context, loot) => {
         const { entity } = context;
 
-        const genes = ['bovine', 'galline', 'lapine', 'ovine', 'porcine', 'saevine', 'burgeoning'];
+        const genes = ['bovine', 'ovine', 'porcine', 'galline', 'lapine', 'saevine', 'burgeoning'];
 
         genes.forEach((gene) => {
             if (GeneticsJS.hasGene(entity, `geneticsresequenced:${gene}`)) {
                 loot.addEntry(LootEntry.reference(`enigmatica:entity/${gene}`));
             }
         });
+
+        if (
+            GeneticsJS.hasGene(entity, `geneticsresequenced:bovine`) ||
+            GeneticsJS.hasGene(entity, `geneticsresequenced:ovine`) ||
+            GeneticsJS.hasGene(entity, `geneticsresequenced:porcine`)
+        ) {
+            loot.addEntry(LootEntry.reference(`enigmatica:entity/tallow`));
+        }
     });
 });
