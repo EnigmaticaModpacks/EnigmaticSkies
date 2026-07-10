@@ -110,6 +110,8 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/cells/item_cell_housing' },
         { id: 'ae2:network/cells/fluid_cell_housing' },
         { id: 'ae2:network/parts/quartz_fiber_part' },
+        { id: 'ae2:network/parts/energy_level_emitter' },
+        { id: 'ae2:network/parts/level_emittir' },
         { id: 'ae2:network/blocks/controller' },
         { id: 'ae2:network/blocks/interfaces_interface' },
         { id: 'ae2:network/blocks/quantum_ring' },

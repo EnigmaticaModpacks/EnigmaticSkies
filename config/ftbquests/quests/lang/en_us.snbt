@@ -3945,7 +3945,7 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify x2&r > &aSmelt&r"
 	]
 	quest.7893072479F01DC2.quest_desc: [
-		"                   &6&nBiome: Warm Ocean&r&r"
+		"                        &6&nBiome: Ocean&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""

@@ -99,6 +99,25 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/certus_quartz'
             },
             id: `${id_prefix}quartz_block`
+        },
+        {
+            output: `ae2:level_emitter`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'create:electron_tube',
+                B: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}level_emitter`
+        },
+        {
+            output: `ae2:energy_level_emitter`,
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'create:electron_tube',
+                B: '#c:gems/charged_certus',
+                C: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}energy_level_emitter`
         }
     ];
 
