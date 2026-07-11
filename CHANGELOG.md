@@ -9,14 +9,17 @@ NeoForge-1.21.1-21.1.235 |
 - Biome temperatures should be a little more consistent [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Some Island Biomes should have more variety in the flowers they can produce from bone meal [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Warm Ocean has been renamed to Ocean for consistency with the biome's temperature [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Placid may now be obtained from flying cows [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Endstone recipe in the mixer has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Lava to Steam recipe in the heat exchanger has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### 🦟 Bugs Fixed
 
 - More Hearts mutation now uses Life Shards so as not to conflict with Regeneration [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Electrostatic blocks are now properly searchable in EMI by tag [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
-- Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
-- Placid may now be obtained from flying cows [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Placable food items are now blocked from forced movement [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- LaserIO cards can be cleared in a crafting grid again [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### ✔️ Added Mods
 
