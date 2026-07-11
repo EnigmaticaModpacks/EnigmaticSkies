@@ -8,8 +8,8 @@ ServerEvents.recipes((event) => {
                 { item: 'aether:swet_ball', amount: 1 },
                 { tag: 'c:sugars', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}blue_gummy_swet`
         },
         {
@@ -18,8 +18,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/ash', amount: 4 },
                 { tag: 'c:tallow', amount: 1 }
             ],
-            duration: 5,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}soap`
         },
         {
@@ -31,8 +31,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:mushrooms', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}rabbit_stew`
         },
         {
@@ -42,8 +42,8 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:red_mushroom', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}mushroom_stew`
         },
         {
@@ -52,8 +52,8 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:beetroot', amount: 3 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}beetroot_soup`
         },
         {
@@ -67,8 +67,8 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:milk_bottle', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}onion_soup`
         },
         {
@@ -88,8 +88,8 @@ ServerEvents.recipes((event) => {
                     amount: 1
                 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}dumplings`
         },
         {
@@ -100,8 +100,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:crops/tomato', amount: 2 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}pasta_with_mutton_chop`
         },
         {
@@ -112,8 +112,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:crops/tomato', amount: 2 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}pasta_with_meatballs`
         },
         {
@@ -125,8 +125,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:crops/onion', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}fried_rice`
         },
         {
@@ -138,8 +138,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:foods/leafy_green', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}vegetable_soup`
         },
         {
@@ -149,8 +149,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}apple_cider`
         },
         {
@@ -165,8 +165,8 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:milk_bottle', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}pumpkin_soup`
         },
         {
@@ -175,8 +175,8 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:rice', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 5,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}cooked_rice`
         },
         {
@@ -188,8 +188,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:crops/tomato', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}baked_cod_stew`
         },
         {
@@ -198,8 +198,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:crops/tomato', amount: 2 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 5,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}tomato_sauce`
         },
         {
@@ -211,8 +211,8 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:rice', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}dog_food`
         },
         {
@@ -224,8 +224,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:mushrooms', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}beef_stew`
         },
         {
@@ -244,8 +244,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bone_broth`
         },
         {
@@ -257,8 +257,8 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:ink_sac', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}squid_ink_pasta`
         },
         {
@@ -269,8 +269,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:crops/onion', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}fish_stew`
         },
         {
@@ -287,8 +287,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}ratatouille`
         },
         {
@@ -306,8 +306,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}vegetable_noodles`
         },
         {
@@ -317,8 +317,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:cocoa_beans', amount: 2 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}hot_cocoa`
         },
         {
@@ -330,8 +330,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:foods/raw_pork', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}noodle_soup`
         },
         {
@@ -348,8 +348,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}chicken_soup`
         },
         {
@@ -360,8 +360,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:eggs', amount: 1 },
                 { tag: 'c:sugars', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}glow_berry_custard`
         },
         {
@@ -377,8 +377,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}mushroom_rice`
         },
         {
@@ -403,8 +403,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'farmersdelight:rice', amount: 1 }
             ],
-            duration: 5,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}cabbage_rolls`
         },
         {
@@ -423,8 +423,8 @@ ServerEvents.recipes((event) => {
                 },
                 { item: 'minecraft:pumpkin', amount: 1 }
             ],
-            duration: 20,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}stuffed_pumpkin_block`
         },
         {
@@ -436,8 +436,8 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:vexing_bark', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}arch_soup`
         },
         {
@@ -450,8 +450,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:fire_essence', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}unstable_cocktail`
         },
         {
@@ -463,8 +463,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}mendosteen_tea`
         },
         {
@@ -476,8 +476,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bastion_tea`
         },
         {
@@ -489,8 +489,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bombegrante_tea`
         },
         {
@@ -502,8 +502,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}frostaya_tea`
         },
         {
@@ -515,8 +515,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}flashpine_tea`
         },
         {
@@ -527,8 +527,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'arsdelight:barks', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}source_berry_tea`
         },
         {
@@ -539,8 +539,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}activated_mendosteen_jam`
         },
         {
@@ -551,8 +551,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}activated_bastion_jam`
         },
         {
@@ -563,8 +563,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}neutralized_bombegrante_jam`
         },
         {
@@ -575,8 +575,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}neutralized_frostaya_jam`
         },
         {
@@ -587,8 +587,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}activated_flashpine_jam`
         },
         {
@@ -599,8 +599,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}source_berry_jam`
         },
         {
@@ -615,8 +615,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:foods/cabbage', amount: 1 },
                 { item: 'arsdelight:wilden_sauce', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}mendosteen_chicken`
         },
         {
@@ -631,8 +631,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:foods/tomato', amount: 1 },
                 { item: 'arsdelight:wilden_sauce', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bastion_pork`
         },
         {
@@ -647,8 +647,8 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:potato', amount: 1 },
                 { item: 'arsdelight:wilden_sauce', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bombegrante_steak`
         },
         {
@@ -663,8 +663,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:foods/onion', amount: 1 },
                 { item: 'arsdelight:wilden_sauce', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}frostaya_mutton`
         },
         {
@@ -676,8 +676,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'arsdelight:chimera_horn', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}mendosteen_hornbeer`
         },
         {
@@ -689,8 +689,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'arsdelight:chimera_horn', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bastion_hornbeer`
         },
         {
@@ -702,8 +702,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'arsdelight:chimera_horn', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}frostaya_hornbeer`
         },
         {
@@ -715,8 +715,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'arsdelight:chimera_horn', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}flashpine_hornbeer`
         },
         {
@@ -728,8 +728,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'arsdelight:chimera_horn', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bombegrante_hornbeer`
         },
         {
@@ -740,8 +740,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:magebloom', amount: 1 },
                 { item: 'arsdelight:chimera_horn', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}source_berry_hornbeer`
         },
         {
@@ -754,8 +754,8 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:wilden_horn_powder', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}wilden_stew`
         },
         {
@@ -771,8 +771,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}arch_sauce`
         },
         {
@@ -788,8 +788,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sourceberry_bush', amount: 1 },
                 { item: 'minecraft:glow_berries', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}honey_glazed_chimera`
         },
 
@@ -803,8 +803,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}mendosteen_jelly`
         },
         {
@@ -817,8 +817,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bastion_jelly`
         },
         {
@@ -831,8 +831,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}bombegrante_jelly`
         },
         {
@@ -845,8 +845,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}frostaya_jelly`
         },
         {
@@ -859,19 +859,22 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}flashpine_jelly`
         },
         {
-            item_outputs: [{ item: 'arsdelight:source_berry_jelly', amount: 1 }],
+            item_outputs: [
+                { item: 'arsdelight:source_berry_jelly', amount: 1 },
+                { item: 'minecraft:glass_bottle', amount: 3 }
+            ],
             item_inputs: [
                 { item: 'arsdelight:source_berry_jam', amount: 3 },
                 { item: 'minecraft:slime_ball', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}source_berry_jelly`
         },
         {
@@ -888,8 +891,8 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:milk_bottle', amount: 1 },
                 { item: 'minecraft:paper', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}source_berry_cupcake`
         },
         {
@@ -901,8 +904,8 @@ ServerEvents.recipes((event) => {
                 { item: 'occultism:tallow', amount: 1 },
                 { item: 'minecraft:bowl', amount: 1 }
             ],
-            duration: 10,
-            eu: 16,
+            duration: 1,
+            eu: 128,
             id: `${id_prefix}wilden_sauce`
         },
         {
@@ -914,7 +917,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:warded_vessel', amount: 1 }
             ],
             no_batch: true,
-            duration: 10,
+            duration: 32,
             eu: 5000,
             id: `${id_prefix}qulliq_vessel`
         }
@@ -926,11 +929,11 @@ ServerEvents.recipes((event) => {
 
         if (!recipe.no_batch) {
             recipe.item_outputs = recipe.item_outputs.map((stack) => {
-                stack.amount *= 64;
+                stack.amount *= 8;
                 return stack;
             });
             recipe.item_inputs = recipe.item_inputs.map((stack) => {
-                stack.amount *= 64;
+                stack.amount *= 8;
                 return stack;
             });
         }

@@ -93,13 +93,13 @@
     "curseForgeHash": 1987996700,
     "modrinthHash": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
   },
-  "amendments-neoforge-1.21-2.1.5.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.5.jar",
+  "amendments-neoforge-1.21-2.1.6.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.6.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.5",
-    "curseForgeHash": 542999942,
-    "modrinthHash": "a959046cff848f4e2c63487117a4d0146a1cfb4e"
+    "version": "1.21-2.1.6",
+    "curseForgeHash": 685073506,
+    "modrinthHash": "f9fd50be516e618cb07f864c4ed03704131b4b80"
   },
   "animalhatmod-1.1.1-neoforge-1.21.1.jar": {
     "jarName": "animalhatmod-1.1.1-neoforge-1.21.1.jar",
@@ -1228,13 +1228,13 @@
     "curseForgeHash": 903616080,
     "modrinthHash": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
   },
-  "jei-1.21.1-neoforge-19.36.0.360.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.36.0.360.jar",
+  "jei-1.21.1-neoforge-19.37.0.362.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.37.0.362.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.36.0.360",
-    "curseForgeHash": 1694589738,
-    "modrinthHash": "b82c22d3db1488fc91b7f6cb3311a7591c6d041d"
+    "version": "19.37.0.362",
+    "curseForgeHash": 3331606099,
+    "modrinthHash": "abdd62a8cee4fa4b93e8267da4a9e6a3700be842"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -1617,13 +1617,13 @@
     "curseForgeHash": 1182471328,
     "modrinthHash": "d48b97b0cc58c9c75292a1d8eab2b7c1469ed8f7"
   },
-  "oracle_index-neoforge-1.3.0.jar": {
-    "jarName": "oracle_index-neoforge-1.3.0.jar",
+  "oracle_index-neoforge-1.3.1.jar": {
+    "jarName": "oracle_index-neoforge-1.3.1.jar",
     "modId": "oracle_index",
     "name": "Oracle Index",
-    "version": "1.3.0",
-    "curseForgeHash": 2038541308,
-    "modrinthHash": "cd3f553fcb22e72442fe52783e326991c32123b5"
+    "version": "1.3.1",
+    "curseForgeHash": 359456272,
+    "modrinthHash": "7fb52eefd2923a2caa2b0ee55389465bb0f84bcc"
   },
   "oritech-neoforge-1.21.1-1.2.8.jar": {
     "jarName": "oritech-neoforge-1.21.1-1.2.8.jar",
@@ -1913,21 +1913,21 @@
     "curseForgeHash": 3313847770,
     "modrinthHash": "d574c93098fe1189bf21eccaaff97d7a58798b8a"
   },
-  "sophisticatedcore-1.21.1-1.4.70.2131.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.70.2131.jar",
+  "sophisticatedcore-1.21.1-1.4.72.2136.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.72.2136.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.70",
-    "curseForgeHash": 2316460914,
-    "modrinthHash": "69ba73fd9d2fa071ecb5e05f71edfb63e1e39de9"
+    "version": "1.4.72",
+    "curseForgeHash": 1324084750,
+    "modrinthHash": "c57acf3ffeb9207fcfad94ecae3c2d5a963f5c1e"
   },
-  "sophisticatedstorage-1.21.1-1.5.71.1949.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.71.1949.jar",
+  "sophisticatedstorage-1.21.1-1.5.72.1956.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.72.1956.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.71",
-    "curseForgeHash": 1481450180,
-    "modrinthHash": "5591a5310106a24b70b9a8d9723898c9e083f5be"
+    "version": "1.5.72",
+    "curseForgeHash": 835971049,
+    "modrinthHash": "02589938cc206118f1981414d2055509181fd956"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.19.186.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.19.186.jar",

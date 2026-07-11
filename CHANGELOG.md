@@ -13,6 +13,7 @@ NeoForge-1.21.1-21.1.235 |
 - Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Endstone recipe in the mixer has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Lava to Steam recipe in the heat exchanger has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Industrial Cauldron recipes have had their base speed reduced and craft in smaller batches. This should help with recent changes to MI's recipe detection. [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### 🦟 Bugs Fixed
 
@@ -20,6 +21,7 @@ NeoForge-1.21.1-21.1.235 |
 - Electrostatic blocks are now properly searchable in EMI by tag [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Placable food items are now blocked from forced movement [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - LaserIO cards can be cleared in a crafting grid again [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Industrial Cauldron Source Jelly recipe now returns the bottles [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 
 #### ✔️ Added Mods
 
