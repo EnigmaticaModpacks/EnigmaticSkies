@@ -1,3 +1,35 @@
+### Enigmatic Skies 1.14.0
+
+NeoForge-1.21.1-21.1.235 |
+
+#### ⭐ Improvements
+
+- New Genes have been added to allow any mobs the ability to drop various meats. This includes common meats as well as Wilden and Chimera meat [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Level Emitters are now somewhat cheaper [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Biome temperatures should be a little more consistent [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Some Island Biomes should have more variety in the flowers they can produce from bone meal [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Warm Ocean has been renamed to Ocean for consistency with the biome's temperature [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Placid may now be obtained from flying cows [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Endstone recipe in the mixer has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Lava to Steam recipe in the heat exchanger has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Industrial Cauldron recipes have had their base speed reduced and craft in smaller batches. This should help with recent changes to MI's recipe detection. [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Pretty Pipes art assets improved [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295) ([Ridanisaurus](https://github.com/Ridanisaurus))
+
+#### 🦟 Bugs Fixed
+
+- More Hearts mutation now uses Life Shards so as not to conflict with Regeneration [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Electrostatic blocks are now properly searchable in EMI by tag [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Placable food items are now blocked from forced movement [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- LaserIO cards can be cleared in a crafting grid again [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Industrial Cauldron Source Jelly recipe now returns the bottles [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.13.0
 
 NeoForge-1.21.1-21.1.235 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.13.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.13.0.md)

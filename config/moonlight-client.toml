@@ -15,3 +15,5 @@
 	#Show Item and Block tags on item tooltip
 	#Allowed Values: OFF, ON, ADVANCED_ONLY
 	tags_tooltips = "OFF"
+	#Use Moonlight's own custom config screen. When disabled, config screens are left to the loader instead: on NeoForge that means NeoForge's own screen (or Configured, if installed), and on Fabric the old Cloth Config / YACL screens
+	custom_config_screen = true

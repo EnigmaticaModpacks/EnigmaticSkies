@@ -580,6 +580,7 @@
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_guardian\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_stalker\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_boss\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"aether:cockatrice\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:whirlisprig\"]",
