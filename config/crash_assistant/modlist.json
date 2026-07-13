@@ -644,13 +644,13 @@
     "curseForgeHash": 3268862051,
     "modrinthHash": "ff4b3d9ca8e8452a7a0362153c3108634ad2297c"
   },
-  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar": {
-    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar",
+  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.11.jar": {
+    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.11.jar",
     "modId": "crash_assistant",
     "name": "Crash Assistant",
-    "version": "1.11.10",
-    "curseForgeHash": 3170815324,
-    "modrinthHash": "2787616596ee00b1acca5b543d38525e7afbbb3e"
+    "version": "1.11.11",
+    "curseForgeHash": 947575198,
+    "modrinthHash": "b6c70031b22396a87c1139ed29deae93e86f058b"
   },
   "crashutilities-9.0.4.jar": {
     "jarName": "crashutilities-9.0.4.jar",
@@ -1521,13 +1521,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.1.0.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.1.0.jar",
+  "moonlight-neoforge-1.21.1-3.1.1.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.1.1.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.1.0",
-    "curseForgeHash": 203863309,
-    "modrinthHash": "2b07408a31f57f0934d921d760109f2508f3fccf"
+    "version": "1.21.1-3.1.1",
+    "curseForgeHash": 2603665788,
+    "modrinthHash": "05242edd767cd4b5a11c52f43dccd8013c8dbb68"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
@@ -1625,13 +1625,13 @@
     "curseForgeHash": 359456272,
     "modrinthHash": "7fb52eefd2923a2caa2b0ee55389465bb0f84bcc"
   },
-  "oritech-neoforge-1.21.1-1.2.8.jar": {
-    "jarName": "oritech-neoforge-1.21.1-1.2.8.jar",
+  "oritech-neoforge-1.21.1-1.2.9.jar": {
+    "jarName": "oritech-neoforge-1.21.1-1.2.9.jar",
     "modId": "oritech",
     "name": "Oritech",
-    "version": "1.2.8",
-    "curseForgeHash": 2367229879,
-    "modrinthHash": "8e72b47adacbe8e250f707ed8f938b698f894681"
+    "version": "1.2.9",
+    "curseForgeHash": 4166266473,
+    "modrinthHash": "3aa2fdd7c165f08a5efcb374ed45a9fe26409158"
   },
   "overloadedarmorbar-neoforge-1.21-2.jar": {
     "jarName": "overloadedarmorbar-neoforge-1.21-2.jar",
@@ -2073,13 +2073,13 @@
     "curseForgeHash": 2958043495,
     "modrinthHash": "9fd3e927696d9f55c8897900a69ac457747b6eb2"
   },
-  "titanium-1.21-4.0.43.jar": {
-    "jarName": "titanium-1.21-4.0.43.jar",
+  "titanium-1.21-4.0.45.jar": {
+    "jarName": "titanium-1.21-4.0.45.jar",
     "modId": "titanium",
     "name": "Titanium",
-    "version": "4.0.43",
-    "curseForgeHash": 138444591,
-    "modrinthHash": "e2f62d1bcdd38dd91679a2114e9946d9415746ee"
+    "version": "4.0.45",
+    "curseForgeHash": 1017383991,
+    "modrinthHash": "c718d4d8713b83964f9b8feea4443a25feb84fc9"
   },
   "ToastControl-1.21.1-9.0.1.jar": {
     "jarName": "ToastControl-1.21.1-9.0.1.jar",
