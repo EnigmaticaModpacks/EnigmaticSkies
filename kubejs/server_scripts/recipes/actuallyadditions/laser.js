@@ -81,7 +81,12 @@ ServerEvents.recipes((event) => {
             set: ['create:crimsite', 'create:ochrum', 'create:veridium', 'create:asurine']
         },
         {
-            set: ['arts_and_crafts:soapstone', 'arts_and_crafts:gypsum', 'create:limestone']
+            set: [
+                'arts_and_crafts:soapstone',
+                'arts_and_crafts:gypsum',
+                'create:limestone',
+                'supplementaries:brittlestone'
+            ]
         },
         {
             set: [
