@@ -128,6 +128,7 @@
 				"3CA4472228D0F866"
 				"3A7AD25302240A1B"
 			]
+			dependency_requirement: "one_completed"
 			id: "56DDD2327724F715"
 			rewards: [{
 				exclude_from_claim_all: true
