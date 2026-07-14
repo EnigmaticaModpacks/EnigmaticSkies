@@ -179,7 +179,6 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'minecraft:water', amount: 4000 } },
             inputs: { item: { item: 'theurgy:crystallized_water' } },
             pressure: 1.0,
-            exothermic: true,
             time: 1.0,
             id: `${id_prefix}water`
         },
