@@ -60,6 +60,22 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    event.forEachRecipe({ type: 'create:deploying' }, (r) => {
+        let recipe = JSON.parse(r.json);
+        let recipe_id = r.getId();
+
+        if (recipe_id.toString().match(/.*copper.*deoxidising/)) {
+            recipes.push({
+                results: [{ id: recipe.ingredients[0].item }],
+                ingredients: [
+                    { item: recipe.results[0].id },
+                    { type: 'fluid_stack', fluid: 'minecraft:water', amount: 250 }
+                ],
+                id: `${id_prefix}${recipe_id.split('/')[1].replace('_deox', '_ox')}`
+            });
+        }
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'create:filling';
         event.custom(recipe).id(recipe.id);

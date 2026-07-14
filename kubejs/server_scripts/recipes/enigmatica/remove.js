@@ -309,6 +309,7 @@ ServerEvents.recipes((event) => {
 
         { id: 'create_connected:sequenced_assembly/control_chip' },
         { id: /create_connected:.*ending_catalyst_(dragon|sanding|freezing)/ },
+        { id: /create_connected:.*dyeing_catalyst/ },
         { input: /create_connected:fan_(seeth|end|freez|wither|gloom|sculk|purify|sand)ing_catalyst/ },
         { input: /create_connected:fan_(transmutation|resonance|chocolate_coating|soul_striping)_catalyst/ },
         { input: /create_connected:fan_(honey_coating|exploding|soul_stripping)_catalyst/ },

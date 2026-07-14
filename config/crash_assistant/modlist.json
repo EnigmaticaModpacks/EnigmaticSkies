@@ -1497,21 +1497,21 @@
     "curseForgeHash": 3719215893,
     "modrinthHash": "aec10702d53cd7e630d3295fd4bd2bab030c936d"
   },
-  "modonomicon-1.21.1-neoforge-1.120.1.jar": {
-    "jarName": "modonomicon-1.21.1-neoforge-1.120.1.jar",
+  "modonomicon-1.21.1-neoforge-1.120.3.jar": {
+    "jarName": "modonomicon-1.21.1-neoforge-1.120.3.jar",
     "modId": "modonomicon",
     "name": "Modonomicon",
-    "version": "1.120.1",
-    "curseForgeHash": 2559059527,
-    "modrinthHash": "e127c8ba3d194678e11a00af6422394a7ed476b1"
+    "version": "1.120.3",
+    "curseForgeHash": 3230206328,
+    "modrinthHash": "af1a69445617058b1deeec34444310e81301ea4c"
   },
-  "modular-routers-13.2.5+mc1.21.1.jar": {
-    "jarName": "modular-routers-13.2.5+mc1.21.1.jar",
+  "modular-routers-13.2.6+mc1.21.1.jar": {
+    "jarName": "modular-routers-13.2.6+mc1.21.1.jar",
     "modId": "modularrouters",
     "name": "Modular Routers",
-    "version": "13.2.5",
-    "curseForgeHash": 1582266717,
-    "modrinthHash": "20fdf4da5776954bdb9608732c703362acbfaa9e"
+    "version": "13.2.6",
+    "curseForgeHash": 3824426607,
+    "modrinthHash": "67411990dbcd26da53d4845bceb3f16b730c0ad8"
   },
   "monocle-0.2.3.ms.jar": {
     "jarName": "monocle-0.2.3.ms.jar",
