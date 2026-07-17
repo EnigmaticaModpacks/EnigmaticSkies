@@ -69,13 +69,13 @@
     "curseForgeHash": 1983793457,
     "modrinthHash": "c6cb26a2031687d801bf1763dc0c75cd92f3715c"
   },
-  "ae2wtlib-19.5.0.jar": {
-    "jarName": "ae2wtlib-19.5.0.jar",
+  "ae2wtlib-19.5.1.jar": {
+    "jarName": "ae2wtlib-19.5.1.jar",
     "modId": "ae2wtlib",
     "name": "AE2WTLib",
-    "version": "19.5.0",
-    "curseForgeHash": 2534332371,
-    "modrinthHash": "de72e7f4d8d9d29dbe7f8790644b32f6c5b9655f"
+    "version": "19.5.1",
+    "curseForgeHash": 877254484,
+    "modrinthHash": "b1bee01393b15f1eb0f46d58862ef99234e1d337"
   },
   "aether-1.21.1-1.5.10-neoforge.jar": {
     "jarName": "aether-1.21.1-1.5.10-neoforge.jar",
@@ -1004,13 +1004,13 @@
     "curseForgeHash": 1163728616,
     "modrinthHash": "f8fd8b158379015302f7aa234785f29a1353803d"
   },
-  "ftb-essentials-neoforge-2101.1.9.jar": {
-    "jarName": "ftb-essentials-neoforge-2101.1.9.jar",
+  "ftb-essentials-neoforge-2101.1.10.jar": {
+    "jarName": "ftb-essentials-neoforge-2101.1.10.jar",
     "modId": "ftbessentials",
     "name": "FTB Essentials",
-    "version": "2101.1.9",
-    "curseForgeHash": 2942477040,
-    "modrinthHash": "7d6f274b38d767215549ec066246390c49ac7ad8"
+    "version": "2101.1.10",
+    "curseForgeHash": 397785702,
+    "modrinthHash": "fa7b3d1b06c0285dcbe8e53a27d44cd7f8d15726"
   },
   "ftb-filter-system-neoforge-21.1.4.jar": {
     "jarName": "ftb-filter-system-neoforge-21.1.4.jar",
@@ -1044,13 +1044,13 @@
     "curseForgeHash": 2020141909,
     "modrinthHash": "07fdfa3a75c3481770ce0118090a347d89e3a560"
   },
-  "ftb-team-bases-21.1.13.jar": {
-    "jarName": "ftb-team-bases-21.1.13.jar",
+  "ftb-team-bases-21.1.15.jar": {
+    "jarName": "ftb-team-bases-21.1.15.jar",
     "modId": "ftbteambases",
     "name": "FTB Team Bases",
-    "version": "21.1.13",
-    "curseForgeHash": 1800172359,
-    "modrinthHash": "be3b86d54d44bdb7edd2415583fc967ce34ea669"
+    "version": "21.1.15",
+    "curseForgeHash": 2686742057,
+    "modrinthHash": "70c376b93865996a0822e019c02cc4678fae6f71"
   },
   "ftb-teams-neoforge-2101.1.10.jar": {
     "jarName": "ftb-teams-neoforge-2101.1.10.jar",
@@ -1076,13 +1076,13 @@
     "curseForgeHash": 1511937694,
     "modrinthHash": "19ed7ed8edfddf26c5fc29fe66084b2c3b313981"
   },
-  "fusion-1.3.5-neoforge-mc1.21.1.jar": {
-    "jarName": "fusion-1.3.5-neoforge-mc1.21.1.jar",
+  "fusion-1.3.7-neoforge-mc1.21.1.jar": {
+    "jarName": "fusion-1.3.7-neoforge-mc1.21.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.5",
-    "curseForgeHash": 1363616011,
-    "modrinthHash": "7f352d351a1189cba2a7f8441006b7171574194e"
+    "version": "1.3.7",
+    "curseForgeHash": 925341077,
+    "modrinthHash": "c8a3fe9e0fe4fe51b7ab6da9704afd0fecbd3afb"
   },
   "fzzy_config-0.7.6+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+1.21+neoforge.jar",
@@ -1433,13 +1433,13 @@
     "curseForgeHash": 2382558381,
     "modrinthHash": "4c415df21ffe02b6619c204b84d20dbe94b5f3b1"
   },
-  "MEED-1.21.1-8.0.jar": {
-    "jarName": "MEED-1.21.1-8.0.jar",
+  "meed-1.21.1-8.0.1.jar": {
+    "jarName": "meed-1.21.1-8.0.1.jar",
     "modId": "meed",
     "name": "Moderately Enough Effect Descriptions",
-    "version": "8.0.0",
-    "curseForgeHash": 1978832106,
-    "modrinthHash": "d8d6f9317bd2ac92487d9666d8ee38c625d2ae3f"
+    "version": "8.0.1",
+    "curseForgeHash": 983616463,
+    "modrinthHash": "f57aff15b4110ad81f964930327a6f3c51c346a9"
   },
   "merequester-neoforge-1.21.1-1.4.3.jar": {
     "jarName": "merequester-neoforge-1.21.1-1.4.3.jar",
@@ -1569,13 +1569,13 @@
     "curseForgeHash": 164804057,
     "modrinthHash": "1eeb2aad79e2d9bac1b1d793768eb0d3483358fe"
   },
-  "neruina-3.3.2+1.21.1-neoforge.jar": {
-    "jarName": "neruina-3.3.2+1.21.1-neoforge.jar",
+  "neruina-3.3.3+1.21.1-neoforge.jar": {
+    "jarName": "neruina-3.3.3+1.21.1-neoforge.jar",
     "modId": "neruina",
     "name": "Neruina",
-    "version": "3.3.2",
-    "curseForgeHash": 1010597623,
-    "modrinthHash": "e988a2760fe4465e78e8980ba8283ecb2ced6b9e"
+    "version": "3.3.3",
+    "curseForgeHash": 3185069297,
+    "modrinthHash": "fcb2f6b8121bed42dd8ffd08ccefb61aa3ae76c9"
   },
   "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar": {
     "jarName": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
@@ -2009,13 +2009,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-neoforge-1.21.1-3.8.0.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.8.0.jar",
+  "supplementaries-neoforge-1.21.1-3.8.2.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.8.2.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.8.0",
-    "curseForgeHash": 1738183862,
-    "modrinthHash": "6b84a1cdef90e5ac0b0e8487ce8fe84a47950216"
+    "version": "1.21.1-3.8.2",
+    "curseForgeHash": 4079264862,
+    "modrinthHash": "e14eefc14535cebeddae773a5ce66e36a998ca9e"
   },
   "sushigocrafting-1.21-0.6.5.jar": {
     "jarName": "sushigocrafting-1.21-0.6.5.jar",

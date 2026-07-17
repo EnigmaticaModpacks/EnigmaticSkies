@@ -312,7 +312,6 @@
 	fire_pit = true
 	wicker_fence = true
 	brittlestone = true
-	brittlestone_bricks = true
 
 	[building.sconce]
 		enabled = true

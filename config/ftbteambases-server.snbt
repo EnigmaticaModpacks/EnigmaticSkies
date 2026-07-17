@@ -30,6 +30,12 @@
 		# Default: false
 		allow_lobby_spectators: false
 		
+		# If non-empty, and FTB Essentials is present, automatically set an FTB Essentials home
+		# for players when a they create a base or join an existing team, and delete it when they
+		# leave the team, or when the team is disbanded
+		# Default: "home"
+		base_home_name: "home"
+		
 		# Base separation (in 512-block regions) when allocating regions for new bases in shared dimensions; the amount of clear space between the edges of two adjacent bases
 		# Default: 4
 		# Range: 0 ~ 16
