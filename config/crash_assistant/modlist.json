@@ -1913,21 +1913,21 @@
     "curseForgeHash": 3313847770,
     "modrinthHash": "d574c93098fe1189bf21eccaaff97d7a58798b8a"
   },
-  "sophisticatedcore-1.21.1-1.4.75.2161.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.75.2161.jar",
+  "sophisticatedcore-1.21.1-1.4.76.2170.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.76.2170.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.75",
-    "curseForgeHash": 2840480593,
-    "modrinthHash": "dacb6f4673dbbec0bdf456f16eb0d2300740f296"
+    "version": "1.4.76",
+    "curseForgeHash": 1395968842,
+    "modrinthHash": "e229d78ed5c4005e37bea66f557e432a9debf209"
   },
-  "sophisticatedstorage-1.21.1-1.5.77.1982.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.77.1982.jar",
+  "sophisticatedstorage-1.21.1-1.5.79.1991.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.79.1991.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.77",
-    "curseForgeHash": 235012285,
-    "modrinthHash": "bb1a2fc1597096b4a53c2d98990013ee0f3e812c"
+    "version": "1.5.79",
+    "curseForgeHash": 2059829164,
+    "modrinthHash": "6eb3e179d14c106ff265eeb44d5dc2d0556962df"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.20.192.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.20.192.jar",
