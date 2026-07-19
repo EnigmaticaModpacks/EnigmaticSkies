@@ -17,6 +17,7 @@ NeoForge-1.21.1-21.1.235 |
 - Pretty Pipes art assets improved [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295) ([Ridanisaurus](https://github.com/Ridanisaurus))
 - Create and PNC now have recipes for tarnishing Copper and Silver [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Some PNC TPP recipes are now exothermic, making them a valueable source of heat for other recipes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Neptunium Knives are now capable of soul shattering [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### 🦟 Bugs Fixed
 
@@ -26,6 +27,7 @@ NeoForge-1.21.1-21.1.235 |
 - LaserIO cards can be cleared in a crafting grid again [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Industrial Cauldron Source Jelly recipe now returns the bottles [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Oritech Tanks now only stack to 1 to prevent dupes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Neptunium Knives are eligable for Looting again [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### ✔️ Added Mods
 
