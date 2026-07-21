@@ -17,3 +17,5 @@
 	tags_tooltips = "OFF"
 	#Use Moonlight's own custom config screen. When disabled, config screens are left to the loader instead: on NeoForge that means NeoForge's own screen (or Configured, if installed), and on Fabric the old Cloth Config / YACL screens
 	custom_config_screen = true
+	#Show a config tile for every installed mod that exposes a config screen, not just the ones using Moonlight's config system. Clicking one opens the screen the mod itself registered (NeoForge's screen extension, or Mod Menu on Fabric)
+	show_all_mod_configs = false
