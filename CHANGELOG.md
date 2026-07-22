@@ -12,7 +12,7 @@ NeoForge-1.21.1-21.1.235 |
 - Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Endstone recipe in the mixer has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Lava to Steam recipe in the heat exchanger has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
-- Industrial Cauldron recipes have had their base speed reduced and craft in smaller batches. This should help with recent changes to MI's recipe detection. [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Industrial Cauldron recipes have had their base runtime reduced and craft in smaller batches. This should help with recent changes to MI's recipe detection. [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Pretty Pipes art assets improved [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295) ([Ridanisaurus](https://github.com/Ridanisaurus))
 - Create and PNC now have recipes for tarnishing Copper and Silver [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Some PNC TPP recipes are now exothermic, making them a valueable source of heat for other recipes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
