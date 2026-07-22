@@ -428,13 +428,13 @@
     "curseForgeHash": 2260974458,
     "modrinthHash": "9ce39347637e6209e031402e054d7cc93b1e1a03"
   },
-  "chat_heads-0.15.2-neoforge-1.21.jar": {
-    "jarName": "chat_heads-0.15.2-neoforge-1.21.jar",
+  "chat_heads-0.15.3-neoforge-1.21.jar": {
+    "jarName": "chat_heads-0.15.3-neoforge-1.21.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.2",
-    "curseForgeHash": 3913145737,
-    "modrinthHash": "86abc08fbfa8eb3e2a41aa4403a6bd52543ea665"
+    "version": "0.15.3",
+    "curseForgeHash": 989483085,
+    "modrinthHash": "de821ac64b3c8694b1a27e0acd05742660c6af3f"
   },
   "Chimes-v2.1.1-1.21.1-NeoForge.jar": {
     "jarName": "Chimes-v2.1.1-1.21.1-NeoForge.jar",
@@ -756,13 +756,13 @@
     "curseForgeHash": 3538634606,
     "modrinthHash": "45b7240ad5cd561511ae3f80eea4cbfc110dae70"
   },
-  "cupboard-1.21.1-3.8.jar": {
-    "jarName": "cupboard-1.21.1-3.8.jar",
+  "cupboard-1.21.1-3.9.jar": {
+    "jarName": "cupboard-1.21.1-3.9.jar",
     "modId": "cupboard",
     "name": "Cupboard mod",
-    "version": "3.8",
-    "curseForgeHash": 843677085,
-    "modrinthHash": "39df849e5a338dfe9ccb7632b1849c20357e597b"
+    "version": "3.9",
+    "curseForgeHash": 1382537204,
+    "modrinthHash": "39952f4de65df780cf68ab0fd2f3d44a53d855f2"
   },
   "curios-neoforge-9.5.1+1.21.1.jar": {
     "jarName": "curios-neoforge-9.5.1+1.21.1.jar",
@@ -1076,13 +1076,13 @@
     "curseForgeHash": 394814837,
     "modrinthHash": "f5978bb49b71e94d7063502c0fad0202ebbefbcc"
   },
-  "fusion-1.3.8-neoforge-mc1.21.1.jar": {
-    "jarName": "fusion-1.3.8-neoforge-mc1.21.1.jar",
+  "fusion-1.3.9-neoforge-mc1.21.1.jar": {
+    "jarName": "fusion-1.3.9-neoforge-mc1.21.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.8",
-    "curseForgeHash": 4077145804,
-    "modrinthHash": "da06d0127cd86b0e1bc0c0c916a45711d0b672ee"
+    "version": "1.3.9",
+    "curseForgeHash": 176460360,
+    "modrinthHash": "37911dd0539f040e1599fe88aec5df66780e5534"
   },
   "fzzy_config-0.7.6+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+1.21+neoforge.jar",
@@ -1228,13 +1228,13 @@
     "curseForgeHash": 903616080,
     "modrinthHash": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
   },
-  "jei-1.21.1-neoforge-19.39.0.369.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.39.0.369.jar",
+  "jei-1.21.1-neoforge-19.39.0.370.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.39.0.370.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.39.0.369",
-    "curseForgeHash": 2458649518,
-    "modrinthHash": "d8733a53161c70e68512de4c4ac412caa1a616cc"
+    "version": "19.39.0.370",
+    "curseForgeHash": 380810620,
+    "modrinthHash": "b6d4e2b65720a50c82a6b4d52e00cefd561604e5"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -2057,13 +2057,13 @@
     "curseForgeHash": 34239584,
     "modrinthHash": "46aad3a4779f575611e6b28deb5b7bdcb27a0602"
   },
-  "theurgy-1.21.1-neoforge-1.73.1.jar": {
-    "jarName": "theurgy-1.21.1-neoforge-1.73.1.jar",
+  "theurgy-1.21.1-neoforge-1.74.0.jar": {
+    "jarName": "theurgy-1.21.1-neoforge-1.74.0.jar",
     "modId": "theurgy",
     "name": "Theurgy",
-    "version": "1.73.1",
-    "curseForgeHash": 4276348677,
-    "modrinthHash": "8ce405ecd5e98c3e6b7d8aed2746e04c7e4d7b67"
+    "version": "1.74.0",
+    "curseForgeHash": 2202255871,
+    "modrinthHash": "7383ec69d9a870b1c04b3bd7581bb46341f15dcd"
   },
   "TipTheScales-neoforge-1.21.1-16.0.0.1.jar": {
     "jarName": "TipTheScales-neoforge-1.21.1-16.0.0.1.jar",

@@ -18,6 +18,8 @@ NeoForge-1.21.1-21.1.235 |
 - Create and PNC now have recipes for tarnishing Copper and Silver [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Some PNC TPP recipes are now exothermic, making them a valueable source of heat for other recipes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Neptunium Knives are now capable of soul shattering [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Quantum Rings are now slightly cheaper to craft [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- AE2 power costs have been reduced [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### 🦟 Bugs Fixed
 
@@ -28,6 +30,7 @@ NeoForge-1.21.1-21.1.235 |
 - Industrial Cauldron Source Jelly recipe now returns the bottles [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Oritech Tanks now only stack to 1 to prevent dupes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Neptunium Knives are eligable for Looting again [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Cold Sweat set bonuses on Ars and MI armors have been removed due to crashes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### ✔️ Added Mods
 

@@ -16,12 +16,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `ae2:quantum_ring`,
-            pattern: ['ABA', 'CDC', 'ABA'],
+            pattern: ['ABA', 'CDC', 'AEA'],
             key: {
                 A: '#c:ingots/compressed_iron',
                 B: 'modern_industrialization:quantum_circuit',
                 C: '#ae2:smart_dense_cable',
-                D: 'ae2:energy_cell'
+                D: 'ae2:energy_cell',
+                E: 'malum:convoluted_lens'
             },
             id: `${id_prefix}quantum_ring`
         },
