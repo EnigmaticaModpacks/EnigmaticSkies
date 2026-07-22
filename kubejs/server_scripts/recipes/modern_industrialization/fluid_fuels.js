@@ -11,7 +11,7 @@ ServerEvents.generateData('after_mods', (event) => {
             '#c:empowered_oil': { eu_per_mb: 450 * multiplier },
             '#c:blaze_ember': { eu_per_mb: 800 * multiplier },
             '#c:voidflame': { eu_per_mb: 1600 * multiplier },
-            '#c:eclipse_ember': { eu_per_mb: 2400 * multiplier }
+            '#c:eclipse_ember': { eu_per_mb: 3200 * multiplier }
         }
     };
 

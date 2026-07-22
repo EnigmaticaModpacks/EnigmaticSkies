@@ -49,6 +49,10 @@
             "aether:zanite_ore",
             "aether:gravitite_ore",
 
+            "/apotheosis:.*spawner_rune/",
+            "/apotheosis:.*spawner_upgrade/",
+            "apotheosis:spawner_chain",
+
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",

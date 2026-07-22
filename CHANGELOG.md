@@ -4,7 +4,6 @@ NeoForge-1.21.1-21.1.235 |
 
 #### ⭐ Improvements
 
-- New Genes have been added to allow any mobs the ability to drop various meats. This includes common meats as well as Wilden and Chimera meat [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Level Emitters are now somewhat cheaper [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Biome temperatures should be a little more consistent [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Some Island Biomes should have more variety in the flowers they can produce from bone meal [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)

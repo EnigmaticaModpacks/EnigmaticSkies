@@ -135,7 +135,8 @@ ServerEvents.recipes((event) => {
 
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
-        // { id: /apotheosis:salvaging\/other/ },
+        { output: /apotheosis:.*spawner_rune/ },
+        { output: /apotheosis:.*spawner_upgrade/ },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },

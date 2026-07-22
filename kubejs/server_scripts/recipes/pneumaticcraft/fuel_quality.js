@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
         },
         {
             fluid: { tag: 'c:eclipse_ember' },
-            air_per_mb: 2400,
+            air_per_mb: 3200,
             burn_rate: 1.0,
             id: `${id_prefix}eclipse_ember`
         }

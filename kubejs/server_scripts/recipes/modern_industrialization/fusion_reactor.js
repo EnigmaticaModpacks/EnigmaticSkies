@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            fluid_outputs: [{ fluid: 'modern_industrialization:helium_plasma', amount: 2000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:helium_plasma', amount: 16000 }],
             fluid_inputs: [{ fluid: 'enigmatica:vapours_of_nyx', amount: 200 }],
             eu: 16000,
             duration: 30,
