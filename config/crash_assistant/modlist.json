@@ -5,13 +5,13 @@
     "name": "neoforge",
     "version": "neoforge-21.1.235"
   },
-  "aaron-1.21.1-1.17.0-build.310.jar": {
-    "jarName": "aaron-1.21.1-1.17.0-build.310.jar",
+  "aaron-1.21.1-1.17.1-build.11.jar": {
+    "jarName": "aaron-1.21.1-1.17.1-build.11.jar",
     "modId": "aaron",
     "name": "Aaron",
-    "version": "1.17.0",
-    "curseForgeHash": 3800330728,
-    "modrinthHash": "9a3af891af286da0ac3ed7e8a6c7d6e4b6a40166"
+    "version": "1.17.1",
+    "curseForgeHash": 2873222169,
+    "modrinthHash": "15c0269bb5dd798384051cef81091cbbdb857478"
   },
   "accelerated-decay-neoforge-21.0.0.jar": {
     "jarName": "accelerated-decay-neoforge-21.0.0.jar",
@@ -173,13 +173,13 @@
     "curseForgeHash": 4284657502,
     "modrinthHash": "93c2043c6a5cfbfbfba93321d044bc61d8a6547b"
   },
-  "architectury-13.0.8-neoforge.jar": {
-    "jarName": "architectury-13.0.8-neoforge.jar",
+  "architectury-13.0.11-neoforge.jar": {
+    "jarName": "architectury-13.0.11-neoforge.jar",
     "modId": "architectury",
     "name": "Architectury",
-    "version": "13.0.8",
-    "curseForgeHash": 418634412,
-    "modrinthHash": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b"
+    "version": "13.0.11",
+    "curseForgeHash": 3623028036,
+    "modrinthHash": "008656a0702801174b8ec245ed7aad1921d6e9f1"
   },
   "ArmorQuickSwap-v21.1.2-1.21.1-NeoForge.jar": {
     "jarName": "ArmorQuickSwap-v21.1.2-1.21.1-NeoForge.jar",
@@ -1108,13 +1108,13 @@
     "curseForgeHash": 3926185248,
     "modrinthHash": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
   },
-  "geneticsresequenced-1.21.1-1.13.1-build.268.jar": {
-    "jarName": "geneticsresequenced-1.21.1-1.13.1-build.268.jar",
+  "geneticsresequenced-1.21.1-1.14.0-build.34.jar": {
+    "jarName": "geneticsresequenced-1.21.1-1.14.0-build.34.jar",
     "modId": "geneticsresequenced",
     "name": "Genetics: Resequenced",
-    "version": "1.13.1",
-    "curseForgeHash": 564987377,
-    "modrinthHash": "127c33df3a3a1715e0f882c7340d9fcbab1d3812"
+    "version": "1.14.0",
+    "curseForgeHash": 1556772746,
+    "modrinthHash": "c55b6e75981db5f36f0d52c720fc1d430aed361c"
   },
   "Glassential-renewed-1.21.1-3.4.5.jar": {
     "jarName": "Glassential-renewed-1.21.1-3.4.5.jar",
@@ -1433,13 +1433,13 @@
     "curseForgeHash": 2382558381,
     "modrinthHash": "4c415df21ffe02b6619c204b84d20dbe94b5f3b1"
   },
-  "meed-1.21.1-8.0.1.jar": {
-    "jarName": "meed-1.21.1-8.0.1.jar",
+  "meed-1.21.1-8.0.2.jar": {
+    "jarName": "meed-1.21.1-8.0.2.jar",
     "modId": "meed",
     "name": "Moderately Enough Effect Descriptions",
-    "version": "8.0.1",
-    "curseForgeHash": 983616463,
-    "modrinthHash": "f57aff15b4110ad81f964930327a6f3c51c346a9"
+    "version": "8.0.2",
+    "curseForgeHash": 3901090988,
+    "modrinthHash": "def1da6322738057d6bfb2b12e06f8513627d2b1"
   },
   "merequester-neoforge-1.21.1-1.4.3.jar": {
     "jarName": "merequester-neoforge-1.21.1-1.4.3.jar",
@@ -1521,13 +1521,13 @@
     "curseForgeHash": 3191430449,
     "modrinthHash": "13fbaf958af07b2cc48ced3ec41b5139684b2332"
   },
-  "moonlight-neoforge-1.21.1-3.1.2.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.1.2.jar",
+  "moonlight-neoforge-1.21.1-3.1.3.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.1.3.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.1.2",
-    "curseForgeHash": 4148223551,
-    "modrinthHash": "933d522db79b3d19ec900c043a6282cd1123bf55"
+    "version": "1.21.1-3.1.3",
+    "curseForgeHash": 2334635094,
+    "modrinthHash": "679b119d7f8349644f56933dc95230f64b61b105"
   },
   "morejs-neoforge-1.21.1-0.16.0.jar": {
     "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
@@ -2057,13 +2057,13 @@
     "curseForgeHash": 34239584,
     "modrinthHash": "46aad3a4779f575611e6b28deb5b7bdcb27a0602"
   },
-  "theurgy-1.21.1-neoforge-1.74.0.jar": {
-    "jarName": "theurgy-1.21.1-neoforge-1.74.0.jar",
+  "theurgy-1.21.1-neoforge-1.75.1.jar": {
+    "jarName": "theurgy-1.21.1-neoforge-1.75.1.jar",
     "modId": "theurgy",
     "name": "Theurgy",
-    "version": "1.74.0",
-    "curseForgeHash": 2202255871,
-    "modrinthHash": "7383ec69d9a870b1c04b3bd7581bb46341f15dcd"
+    "version": "1.75.1",
+    "curseForgeHash": 9760672,
+    "modrinthHash": "dd4e014e66444c9cc8a5fd98fb4bd3cc4ffa43f5"
   },
   "TipTheScales-neoforge-1.21.1-16.0.0.1.jar": {
     "jarName": "TipTheScales-neoforge-1.21.1-16.0.0.1.jar",

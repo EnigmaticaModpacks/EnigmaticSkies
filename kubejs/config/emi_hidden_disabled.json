@@ -33,6 +33,7 @@
             "actuallyadditions:basic_coil",
             "actuallyadditions:advanced_coil",
             "actuallyadditions:black_quartz_ore",
+            "actuallyadditions:phantom_breaker",
 
             "/ae2:.*_processor_press/",
             "/ae2:printed_.*_processor/",

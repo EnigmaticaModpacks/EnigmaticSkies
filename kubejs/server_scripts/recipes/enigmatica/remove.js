@@ -77,6 +77,9 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:placer' },
         { id: 'actuallyadditions:dropper' },
         { id: `actuallyadditions:item_interface` },
+        { id: `actuallyadditions:phantom_breaker` },
+        { id: `actuallyadditions:phantom_connector` },
+        { id: `actuallyadditions:phantom_itemface` },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },

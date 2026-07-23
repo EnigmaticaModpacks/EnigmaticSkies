@@ -22,6 +22,7 @@ NeoForge-1.21.1-21.1.235 |
 - AE2 power costs have been reduced [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Fuel rates have been buffed, making JDT fuels last considerably longer, especially at higher tiers [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 - Fusion output rate has been significantly increased [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Cost of the Phantomface has been reduced [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### 🦟 Bugs Fixed
 
