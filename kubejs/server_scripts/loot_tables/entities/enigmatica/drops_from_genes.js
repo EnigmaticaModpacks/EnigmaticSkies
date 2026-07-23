@@ -117,24 +117,24 @@ LootJS.lootTables((event) => {
 
 // Loot Context: https://docs.almostreliable.com/lootjs/api/loot-context.html
 // Genetics: https://moddedmc.wiki/en/project/geneticsresequenced/latest/docs/devs/kubejs
-// LootJS.modifiers((event) => {
-//     event.addTableModifier(LootType.ENTITY).customAction((context, loot) => {
-//         const { entity } = context;
+LootJS.modifiers((event) => {
+    event.addTableModifier(LootType.ENTITY).customAction((context, loot) => {
+        const { entity } = context;
 
-//         const genes = ['bovine', 'ovine', 'porcine', 'galline', 'lapine', 'saevine', 'burgeoning'];
+        const genes = ['bovine', 'ovine', 'porcine', 'galline', 'lapine', 'saevine', 'burgeoning'];
 
-//         genes.forEach((gene) => {
-//             if (GeneticsJS.hasGene(entity, `geneticsresequenced:${gene}`)) {
-//                 loot.addEntry(LootEntry.reference(`enigmatica:entity/${gene}`));
-//             }
-//         });
+        genes.forEach((gene) => {
+            if (GeneticsJS.hasGene(entity, `geneticsresequenced:${gene}`)) {
+                loot.addEntry(LootEntry.reference(`enigmatica:entity/${gene}`));
+            }
+        });
 
-//         if (
-//             GeneticsJS.hasGene(entity, `geneticsresequenced:bovine`) ||
-//             GeneticsJS.hasGene(entity, `geneticsresequenced:ovine`) ||
-//             GeneticsJS.hasGene(entity, `geneticsresequenced:porcine`)
-//         ) {
-//             loot.addEntry(LootEntry.reference(`enigmatica:entity/tallow`));
-//         }
-//     });
-// });
+        if (
+            GeneticsJS.hasGene(entity, `geneticsresequenced:bovine`) ||
+            GeneticsJS.hasGene(entity, `geneticsresequenced:ovine`) ||
+            GeneticsJS.hasGene(entity, `geneticsresequenced:porcine`)
+        ) {
+            loot.addEntry(LootEntry.reference(`enigmatica:entity/tallow`));
+        }
+    });
+});

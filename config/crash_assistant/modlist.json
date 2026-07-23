@@ -516,13 +516,13 @@
     "curseForgeHash": 2393833781,
     "modrinthHash": "8d6c6653ef9a3b373132fb4e42a7b007111c2998"
   },
-  "CodeChickenLib-1.21.1-4.6.1.526.jar": {
-    "jarName": "CodeChickenLib-1.21.1-4.6.1.526.jar",
+  "CodeChickenLib-1.21.1-4.6.1.529.jar": {
+    "jarName": "CodeChickenLib-1.21.1-4.6.1.529.jar",
     "modId": "codechickenlib",
     "name": "CodeChicken Lib",
-    "version": "4.6.1.526",
-    "curseForgeHash": 872213290,
-    "modrinthHash": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
+    "version": "4.6.1.529",
+    "curseForgeHash": 1905888205,
+    "modrinthHash": "354d850ca72568b88d67e3c903efced7e62dc90f"
   },
   "ColdSweat-2.4.2.jar": {
     "jarName": "ColdSweat-2.4.2.jar",
@@ -1897,13 +1897,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.71.1997.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.71.1997.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.72.2012.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.72.2012.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.71",
-    "curseForgeHash": 1645186733,
-    "modrinthHash": "abde67e05fb19fb90c8be31cd7f261f0f5689d63"
+    "version": "3.25.72",
+    "curseForgeHash": 1173733861,
+    "modrinthHash": "d893873a2a48f6ea7a9cf7232699f62303adc242"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar",
@@ -1913,21 +1913,21 @@
     "curseForgeHash": 3313847770,
     "modrinthHash": "d574c93098fe1189bf21eccaaff97d7a58798b8a"
   },
-  "sophisticatedcore-1.21.1-1.4.77.2173.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.77.2173.jar",
+  "sophisticatedcore-1.21.1-1.4.79.2182.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.79.2182.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.77",
-    "curseForgeHash": 1219507785,
-    "modrinthHash": "505f7da23468980472d5f85cc50883055146557f"
+    "version": "1.4.79",
+    "curseForgeHash": 3212957857,
+    "modrinthHash": "97d5f6d6db08cd5e61437dab317cf0844b51b9e2"
   },
-  "sophisticatedstorage-1.21.1-1.5.80.1999.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.80.1999.jar",
+  "sophisticatedstorage-1.21.1-1.5.81.2009.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.81.2009.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.80",
-    "curseForgeHash": 474248152,
-    "modrinthHash": "aaa8cd0588f8f93d4c486fe914afe40bc24f5f57"
+    "version": "1.5.81",
+    "curseForgeHash": 2339113719,
+    "modrinthHash": "c6f8089d018765cdae88dd6bf19093a09f20fb8d"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.20.192.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.20.192.jar",
@@ -2033,13 +2033,13 @@
     "curseForgeHash": 4290330137,
     "modrinthHash": "2016eed89eac0eb0510d2190c3b0b80bf4346191"
   },
-  "tesseract-api-neoforge-1.12.12-1.21.1.jar": {
-    "jarName": "tesseract-api-neoforge-1.12.12-1.21.1.jar",
+  "tesseract-api-neoforge-1.12.13-1.21.1.jar": {
+    "jarName": "tesseract-api-neoforge-1.12.13-1.21.1.jar",
     "modId": "tesseract_api",
     "name": "Tesseract API",
-    "version": "1.12.12-1.21.1",
-    "curseForgeHash": 274931121,
-    "modrinthHash": "f1199ae4283d68bb9f787a2c479f5c85592d830a"
+    "version": "1.12.13-1.21.1",
+    "curseForgeHash": 3362236386,
+    "modrinthHash": "b91a7915bdd4def97aaa1040b690e71858a766b3"
   },
   "the_bumblezone-7.15.2+1.21.1-neoforge.jar": {
     "jarName": "the_bumblezone-7.15.2+1.21.1-neoforge.jar",
