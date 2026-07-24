@@ -121,7 +121,7 @@ LootJS.modifiers((event) => {
     event.addTableModifier(LootType.ENTITY).customAction((context, loot) => {
         const { entity } = context;
 
-        const genes = ['bovine', 'ovine', 'porcine', 'galline', 'lapine', 'saevine', 'burgeoning'];
+        const genes = ['bovine', 'ovine', 'porcine', 'galline', 'lapine', 'saevine', 'burgeoning', 'chimeric'];
 
         genes.forEach((gene) => {
             if (GeneticsJS.hasGene(entity, `geneticsresequenced:${gene}`)) {
