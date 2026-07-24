@@ -98,6 +98,7 @@
             "enderio:mind_killer",
             "enderio:broken_spawner",
             "enderio:powered_spawner",
+            "enderio:niard",
 
             "/enderio:.*capacitor_bank/",
             "/enderio:.*photovoltaic_module/",

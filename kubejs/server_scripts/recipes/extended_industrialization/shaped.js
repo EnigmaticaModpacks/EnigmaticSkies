@@ -188,11 +188,10 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'extended_industrialization:polished_silver_machine_casing',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: ['AAA', 'ABA', 'AAA'],
             key: {
                 A: '#c:plates/silver',
-                B: '#c:plates/sky',
-                C: 'enderio:ensouled_chassis'
+                B: 'enderio:ensouled_chassis'
             },
             id: `${id_prefix}polished_silver_machine_casing`
         },
