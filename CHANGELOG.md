@@ -13,8 +13,18 @@ NeoForge-1.21.1-21.1.235 |
 - Pig gene mutations have been moved to Phygs [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Endstone recipe in the mixer has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Lava to Steam recipe in the heat exchanger has been removed to avoid confusion [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
-- Industrial Cauldron recipes have had their base speed reduced and craft in smaller batches. This should help with recent changes to MI's recipe detection. [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Industrial Cauldron recipes have had their base runtime reduced and craft in smaller batches. This should help with recent changes to MI's recipe detection. [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Pretty Pipes art assets improved [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295) ([Ridanisaurus](https://github.com/Ridanisaurus))
+- Create and PNC now have recipes for tarnishing Copper and Silver [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Some PNC TPP recipes are now exothermic, making them a valueable source of heat for other recipes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Neptunium Knives are now capable of soul shattering [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Quantum Rings are now slightly cheaper to craft [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- AE2 power costs have been reduced [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Fuel rates have been buffed, making JDT fuels last considerably longer, especially at higher tiers [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Fusion output rate has been significantly increased [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Cost of the Phantomface has been reduced [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Shady Wizards now sell Flashjack and Siren tokens. Requires a freshly leveled villager. [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Genetics basic machines have been moved earlier [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### 🦟 Bugs Fixed
 
@@ -23,6 +33,9 @@ NeoForge-1.21.1-21.1.235 |
 - Placable food items are now blocked from forced movement [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - LaserIO cards can be cleared in a crafting grid again [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
 - Industrial Cauldron Source Jelly recipe now returns the bottles [(\#295)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/295)
+- Oritech Tanks now only stack to 1 to prevent dupes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Neptunium Knives are eligable for Looting again [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
+- Cold Sweat set bonuses on Ars and MI armors have been removed due to crashes [(\#302)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/302)
 
 #### ✔️ Added Mods
 

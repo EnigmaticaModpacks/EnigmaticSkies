@@ -250,13 +250,35 @@ const villagerTrades = {
 
         {
             result: { id: 'ars_nouveau:wixie_shards', count: 1 },
-            ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
             result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
-            ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 3
+        },
+
+        {
+            result: { id: 'ars_nouveau:ritual_binding', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'ars_nouveau:ritual_scrying', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+
+        {
+            result: { id: 'ars_elemental:flashjack_shards', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'ars_elemental:siren_shards', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
+            level: 5
         }
     ],
     // Stonecutter

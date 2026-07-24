@@ -77,6 +77,9 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:placer' },
         { id: 'actuallyadditions:dropper' },
         { id: `actuallyadditions:item_interface` },
+        { id: `actuallyadditions:phantom_breaker` },
+        { id: `actuallyadditions:phantom_connector` },
+        { id: `actuallyadditions:phantom_itemface` },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -135,7 +138,8 @@ ServerEvents.recipes((event) => {
 
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
-        // { id: /apotheosis:salvaging\/other/ },
+        { output: /apotheosis:.*spawner_rune/ },
+        { output: /apotheosis:.*spawner_upgrade/ },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
@@ -146,7 +150,7 @@ ServerEvents.recipes((event) => {
         { type: 'ars_nouveau:alakarkinos_conversion' },
         { type: 'ars_additions:locate_structure' },
         { output: /ars.*:ritual_(awakening|challenge|burrowing|sedimentation|containment)/ },
-        { output: /ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/ },
+        { output: /ars.*:ritual_(animal_summon|elder_summon|mana_regeneration|binding|scrying)/ },
         { output: /ars.*:ritual_(wilden_summon|conjure_island_end_portal|locate_structure)/ },
         { output: /ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/ },
         { output: /ars.*:ritual_(overgrowth|flight|fertility|cloudshaping|moonfall|sunrise)/ },
@@ -309,6 +313,7 @@ ServerEvents.recipes((event) => {
 
         { id: 'create_connected:sequenced_assembly/control_chip' },
         { id: /create_connected:.*ending_catalyst_(dragon|sanding|freezing)/ },
+        { id: /create_connected:.*dyeing_catalyst/ },
         { input: /create_connected:fan_(seeth|end|freez|wither|gloom|sculk|purify|sand)ing_catalyst/ },
         { input: /create_connected:fan_(transmutation|resonance|chocolate_coating|soul_striping)_catalyst/ },
         { input: /create_connected:fan_(honey_coating|exploding|soul_stripping)_catalyst/ },
@@ -321,14 +326,15 @@ ServerEvents.recipes((event) => {
         { type: 'enderio:fire_crafting' },
         { type: 'enderio:soul_binding' },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
+        { output: /enderio:.*photovoltaic_module/ },
+        { output: /enderio:.*capacitor/ },
+        { output: /enderio:.*capacitor_bank/ },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },
         { output: 'enderio:soul_binder' },
         { output: 'enderio:powered_spawner' },
         { output: 'enderio:mind_killer' },
-        { output: /enderio:.*photovoltaic_module/ },
-        { output: /enderio:.*capacitor/ },
-        { output: /enderio:.*capacitor_bank/ },
+        { output: 'enderio:niard' },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/uranium' },
         { id: 'enderio:sag_milling/tin' },

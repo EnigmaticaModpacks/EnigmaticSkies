@@ -33,6 +33,7 @@
             "actuallyadditions:basic_coil",
             "actuallyadditions:advanced_coil",
             "actuallyadditions:black_quartz_ore",
+            "actuallyadditions:phantom_breaker",
 
             "/ae2:.*_processor_press/",
             "/ae2:printed_.*_processor/",
@@ -48,6 +49,10 @@
             "aether:ambrosium_ore",
             "aether:zanite_ore",
             "aether:gravitite_ore",
+
+            "/apotheosis:.*spawner_rune/",
+            "/apotheosis:.*spawner_upgrade/",
+            "apotheosis:spawner_chain",
 
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
@@ -93,6 +98,7 @@
             "enderio:mind_killer",
             "enderio:broken_spawner",
             "enderio:powered_spawner",
+            "enderio:niard",
 
             "/enderio:.*capacitor_bank/",
             "/enderio:.*photovoltaic_module/",
