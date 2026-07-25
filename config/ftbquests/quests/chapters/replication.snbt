@@ -34,14 +34,25 @@
 			}
 			id: "6F1A7E1B49FCC4C0"
 			min_width: 300
-			rewards: [{
-				id: "4BA7C9A737BCB773"
-				item: {
-					count: 1
-					id: "replication:matter_tank"
+			rewards: [
+				{
+					id: "4BA7C9A737BCB773"
+					item: {
+						count: 1
+						id: "replication:matter_tank"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "2FA2ABE62BC46DBB"
+					item: {
+						count: 1
+						id: "replication:matter_network_pipe"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3A127950391395CF"
