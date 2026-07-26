@@ -17,6 +17,14 @@
 				id: "modern_industrialization:lv_steam_turbine"
 			}
 			id: "3BCD9E36D48B205A"
+			rewards: [{
+				id: "343E2B9C048DD375"
+				item: {
+					count: 1
+					id: "modern_industrialization:lv_steam_turbine"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "128597849E5D0BC1"
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
@@ -32,6 +40,15 @@
 			}
 			id: "60239B38B7288779"
 			min_width: 300
+			rewards: [{
+				count: 6
+				id: "5903E1D917411D3B"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "309F63672661FCFE"
@@ -77,6 +94,12 @@
 				id: "actuallyadditions:refined_canola_oil_bucket"
 			}
 			id: "47AFEF3DCB2990FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B80F37C1FB94A70"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "55C6D9B53E5ACF8D"
@@ -127,6 +150,12 @@
 				id: "justdirethings:refined_t3_fluid_bucket"
 			}
 			id: "48C487AF892A80B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A900379380346E0"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "18A4CA604C79A983"
@@ -152,6 +181,12 @@
 				id: "justdirethings:refined_t4_fluid_bucket"
 			}
 			id: "1B0718B6BDA972F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6436813D1127E540"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "1017047F516D849D"
@@ -195,6 +230,15 @@
 			}
 			id: "5FE4FD410171ABFD"
 			min_width: 300
+			rewards: [{
+				count: 6
+				id: "781CEF84680C197E"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2680E5AC31798C7C"
@@ -262,6 +306,12 @@
 				id: "justdirethings:refined_t2_fluid_bucket"
 			}
 			id: "59DC95275C1091C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "365C21AB6A3C7AB5"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "05900E7DD4281412"
@@ -289,6 +339,15 @@
 			}
 			id: "739A201F595E3EFE"
 			min_width: 300
+			rewards: [{
+				count: 6
+				id: "00F07FCCD09249A1"
+				item: {
+					count: 1
+					id: "modern_industrialization:clean_stainless_steel_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E5708C1045AB0B5"
@@ -342,6 +401,15 @@
 			}
 			id: "6EB5108D30F5A94A"
 			min_width: 300
+			rewards: [{
+				count: 6
+				id: "713FE458B36B751B"
+				item: {
+					count: 1
+					id: "modern_industrialization:clean_stainless_steel_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "561998A954F6820E"
@@ -397,6 +465,15 @@
 			}
 			id: "1CBC50FA40BFB54A"
 			min_width: 300
+			rewards: [{
+				count: 6
+				id: "79EBC14CEFF32E9E"
+				item: {
+					count: 1
+					id: "modern_industrialization:clean_stainless_steel_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6C1BEADC0F34C2DE"
@@ -436,6 +513,15 @@
 			}
 			id: "154F980273016EAF"
 			min_width: 300
+			rewards: [{
+				count: 6
+				id: "368E7ADE7E391151"
+				item: {
+					count: 1
+					id: "modern_industrialization:quantum_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "09ADA821CAE930FF"
@@ -465,11 +551,32 @@
 			dependencies: ["154F980273016EAF"]
 			id: "1B276AC6C7D95526"
 			min_width: 300
-			tasks: [{
-				id: "709841C0A3752FFD"
-				item: { count: 1, id: "modern_industrialization:plasma_turbine" }
+			rewards: [{
+				count: 6
+				id: "241F0D526C8A0CF6"
+				item: {
+					count: 1
+					id: "modern_industrialization:quantum_machine_casing"
+				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "709841C0A3752FFD"
+					item: { count: 1, id: "modern_industrialization:plasma_turbine" }
+					type: "item"
+				}
+				{
+					id: "72863B90041839DB"
+					item: { count: 1, id: "modern_industrialization:iridium_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "7FE3CAF7D9E30071"
+					item: { count: 1, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 6.0d
 		}
@@ -542,6 +649,12 @@
 		{
 			dependencies: ["0230942DF53BB9E5"]
 			id: "2D55E211F5B4F0BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D7601BE07B18EC4"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "666CD839E64B504B"
 				item: { count: 1, id: "actuallyadditions:energizer" }
@@ -553,6 +666,12 @@
 		{
 			dependencies: ["0230942DF53BB9E5"]
 			id: "140BFF0572840B6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "335AC723CD5EC97D"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "2D58565836AB423E"
 				item: { count: 1, id: "oritech:charger_block" }
@@ -564,6 +683,12 @@
 		{
 			dependencies: ["0230942DF53BB9E5"]
 			id: "31FAEA42AC32BD3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01EF5C390FAC755C"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "19441FEE260AA388"
 				item: { count: 1, id: "industrialforegoing:infinity_charger" }
@@ -575,6 +700,12 @@
 		{
 			dependencies: ["0230942DF53BB9E5"]
 			id: "0963C14E9AF5A836"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "332258E6C7BF2907"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "7660A3F10F0C4450"
 				item: { count: 1, id: "enderio:wired_charger" }
@@ -586,6 +717,12 @@
 		{
 			dependencies: ["0230942DF53BB9E5"]
 			id: "12E0E45FC08A5912"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38672488FAF1DE34"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "05D3A1B39FC0F352"
 				item: { count: 1, id: "wirelesschargers:basic_wireless_player_charger" }
@@ -597,6 +734,12 @@
 		{
 			dependencies: ["0230942DF53BB9E5"]
 			id: "0C8FAB4B801907B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443D94A4E08AAA5C"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "3CC9A0AA47C6FC02"
 				item: { count: 1, id: "extended_industrialization:tesla_handheld_receiver" }
