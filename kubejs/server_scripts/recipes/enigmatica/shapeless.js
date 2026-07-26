@@ -125,6 +125,8 @@ ServerEvents.recipes((event) => {
         { item: 'malum:suspicious_device', matrix: 1 },
         { item: 'malum:sympathy_drive', matrix: 1 },
         { item: 'malum:warping_engine', matrix: 1 },
+        { item: 'malum:accelerating_inlay', matrix: 1 },
+        { item: 'malum:stellar_mechanism', matrix: 1 },
 
         { item: 'modern_industrialization:basic_upgrade', matrix: 1 },
         { item: 'modern_industrialization:advanced_upgrade', matrix: 1 },
