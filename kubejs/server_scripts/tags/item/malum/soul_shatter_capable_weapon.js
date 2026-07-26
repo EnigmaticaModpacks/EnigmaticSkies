@@ -5,7 +5,7 @@ ServerEvents.tags('item', (event) => {
         'arsdelight:enchanters_knife',
         /naturesaura:(sky|depth)_(sword|axe)/,
         /justdirethings:(eclipsealloy|celestigem)_(sword|axe|paxel)/,
-        /aquaculture:neptunium_(sword|axe)/
+        /aquaculture:neptunium_(sword|axe|fillet_knife)/
     ];
 
     event.get('malum:soul_shatter_capable_weapon').add(additions);

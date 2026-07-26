@@ -45,7 +45,8 @@ ServerEvents.generateData('before_mods', (event) => {
             ],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:explosive_exit': 3
+                'geneticsresequenced:explosive_exit': 3,
+                'geneticsresequenced:burgeoning': 1
             }
         },
         {
@@ -118,16 +119,33 @@ ServerEvents.generateData('before_mods', (event) => {
             entities: ['aether:flying_cow'],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:no_fall_damage': 1,
                 'geneticsresequenced:eat_grass': 3,
-                'geneticsresequenced:milky': 4
+                'geneticsresequenced:milky': 4,
+                'geneticsresequenced:placid': 3,
+                'geneticsresequenced:no_fall_damage': 1
+            }
+        },
+        {
+            entities: ['minecraft:cow'],
+            genes: {
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:eat_grass': 3,
+                'geneticsresequenced:milky': 4,
+                'geneticsresequenced:placid': 3
             }
         },
         {
             entities: ['aether:phyg'],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:no_fall_damage': 1,
+                'geneticsresequenced:meaty': 2,
+                'geneticsresequenced:no_fall_damage': 1
+            }
+        },
+        {
+            entities: ['minecraft:pig'],
+            genes: {
+                'geneticsresequenced:basic': 5,
                 'geneticsresequenced:meaty': 2
             }
         },
@@ -135,18 +153,36 @@ ServerEvents.generateData('before_mods', (event) => {
             entities: ['aether:aerbunny'],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:no_fall_damage': 1,
+                'geneticsresequenced:fertile': 3,
                 'geneticsresequenced:jump_boost': 5,
                 'geneticsresequenced:luck': 4,
-                'geneticsresequenced:speed': 2,
-                'geneticsresequenced:fertile': 3
+                'geneticsresequenced:speed': 3,
+                'geneticsresequenced:no_fall_damage': 1
+            }
+        },
+        {
+            entities: ['minecraft:rabbit'],
+            genes: {
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:fertile': 3,
+                'geneticsresequenced:jump_boost': 5,
+                'geneticsresequenced:luck': 4,
+                'geneticsresequenced:speed': 3
             }
         },
         {
             entities: ['aether:sheepuff'],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:no_fall_damage': 1,
+                'geneticsresequenced:eat_grass': 3,
+                'geneticsresequenced:wooly': 4,
+                'geneticsresequenced:no_fall_damage': 1
+            }
+        },
+        {
+            entities: ['minecraft:sheep'],
+            genes: {
+                'geneticsresequenced:basic': 5,
                 'geneticsresequenced:eat_grass': 3,
                 'geneticsresequenced:wooly': 4
             }
@@ -193,12 +229,31 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:jump_boost': 1,
                 'geneticsresequenced:oozing': 1
             }
+        },
+        {
+            entities: ['minecraft:chicken'],
+            genes: {
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:lay_egg': 4,
+                'geneticsresequenced:no_fall_damage': 1
+            }
+        },
+        {
+            entities: ['minecraft:iron_golem'],
+            genes: {
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:more_hearts': 2,
+                'geneticsresequenced:reaching': 3,
+                'geneticsresequenced:resistance': 4,
+                'geneticsresequenced:strength': 3
+            }
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.entities.forEach((entity) => {
-            event.json(`enigmatica:geneticsresequenced/entity_genes/${getID(entity)}`, {
+            let namespace = entity.split(':')[0];
+            event.json(`${namespace}:geneticsresequenced/entity_genes/${getID(entity)}`, {
                 entity: entity,
                 gene_weights: recipe.genes
             });

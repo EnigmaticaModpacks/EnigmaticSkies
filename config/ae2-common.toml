@@ -98,10 +98,10 @@
 [powerRatios]
 	# Default: 0.5
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	forgeEnergy = 1.0
+	forgeEnergy = 0.5
 	# Default: 1.0
 	# Range: 0.01 ~ 1.7976931348623157E308
-	usageMultiplier = 8.0
+	usageMultiplier = 3.0
 	#How much energy can the internal grid buffer storage per node attached to the grid.
 	# Default: 25.0
 	# Range: 1.0 ~ 1000000.0

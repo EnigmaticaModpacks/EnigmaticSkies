@@ -16,12 +16,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `ae2:quantum_ring`,
-            pattern: ['ABA', 'CDC', 'ABA'],
+            pattern: ['ABA', 'CDC', 'AEA'],
             key: {
                 A: '#c:ingots/compressed_iron',
                 B: 'modern_industrialization:quantum_circuit',
                 C: '#ae2:smart_dense_cable',
-                D: 'ae2:energy_cell'
+                D: 'ae2:energy_cell',
+                E: 'malum:convoluted_lens'
             },
             id: `${id_prefix}quantum_ring`
         },
@@ -99,6 +100,25 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/certus_quartz'
             },
             id: `${id_prefix}quartz_block`
+        },
+        {
+            output: `ae2:level_emitter`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'create:electron_tube',
+                B: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}level_emitter`
+        },
+        {
+            output: `ae2:energy_level_emitter`,
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'create:electron_tube',
+                B: '#c:gems/charged_certus',
+                C: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}energy_level_emitter`
         }
     ];
 

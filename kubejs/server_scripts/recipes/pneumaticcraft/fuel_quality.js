@@ -25,19 +25,19 @@ ServerEvents.recipes((event) => {
         },
         {
             fluid: { tag: 'c:blaze_ember' },
-            air_per_mb: 700,
+            air_per_mb: 800,
             burn_rate: 1.0,
             id: `${id_prefix}blaze_ember`
         },
         {
             fluid: { tag: 'c:voidflame' },
-            air_per_mb: 1000,
+            air_per_mb: 1600,
             burn_rate: 1.0,
             id: `${id_prefix}voidflame`
         },
         {
             fluid: { tag: 'c:eclipse_ember' },
-            air_per_mb: 1600,
+            air_per_mb: 3200,
             burn_rate: 1.0,
             id: `${id_prefix}eclipse_ember`
         }
@@ -47,7 +47,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'pneumaticcraft:fuel_quality';
         recipe.air_per_bucket = recipe.air_per_mb * 1000 * multiplier;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

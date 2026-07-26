@@ -298,6 +298,25 @@ ServerEvents.recipes((event) => {
                 C: 'prettypipes:blank_module'
             },
             id: `${id_prefix}laser_upgrade_invisibility`
+        },
+        {
+            output: 'actuallyadditions:phantom_itemface',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]',
+                B: '#c:gems/emeradic',
+                C: 'ars_nouveau:archwood_chest'
+            },
+            id: `${id_prefix}phantom_itemface`
+        },
+        {
+            output: 'actuallyadditions:phantom_connector',
+            pattern: ['BA', 'AB'],
+            key: {
+                A: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]',
+                B: 'minecraft:chain'
+            },
+            id: `${id_prefix}phantom_connector`
         }
     ];
 

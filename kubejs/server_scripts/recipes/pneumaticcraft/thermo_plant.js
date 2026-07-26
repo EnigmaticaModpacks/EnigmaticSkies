@@ -30,6 +30,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'actuallyadditions:crystallized_canola_seed' }
             },
             pressure: 2.0,
+            exothermic: true,
             time: 0.05,
             id: `${id_prefix}crystallized_oil`
         },
@@ -40,6 +41,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'actuallyadditions:empowered_canola_seed' }
             },
             pressure: 2.0,
+            exothermic: true,
             time: 0.05,
             id: `${id_prefix}empowered_oil`
         },
@@ -61,6 +63,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
             inputs: { item: { item: 'minecraft:glow_berries' } },
             pressure: 1.0,
+            exothermic: true,
             time: 1.0,
             id: `${id_prefix}lumisene`
         },
@@ -139,6 +142,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
             inputs: { item: { item: 'minecraft:dandelion' } },
             pressure: 2.0,
+            exothermic: true,
             time: 0.05,
             id: `${id_prefix}latex_from_dandelion`
         },
@@ -146,6 +150,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
             inputs: { item: { item: 'minecraft:vine' } },
             pressure: 2.0,
+            exothermic: true,
             time: 0.1,
             id: `${id_prefix}latex_from_vine`
         },
@@ -156,6 +161,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'oritech:carbon_fibre_strands' }
             },
             pressure: 2.0,
+            exothermic: true,
             time: 32,
             id: `${id_prefix}reinforced_carbon_sheet`
         },
@@ -166,6 +172,7 @@ ServerEvents.recipes((event) => {
                 item: { tag: 'c:dusts/obsidian' }
             },
             pressure: 2.0,
+            exothermic: true,
             id: `${id_prefix}sturdy_sheet`
         },
         {
@@ -284,6 +291,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'ars_nouveau:starbuncle_charm' }
             },
             pressure: 1.0,
+            exothermic: true,
             id: `${id_prefix}lubricant_from_starbuncle`
         },
 
@@ -294,6 +302,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'farmersdelight:canvas' }
             },
             pressure: 2.0,
+            exothermic: true,
             time: 0.5,
             id: `${id_prefix}rubber_sheet`
         },
@@ -409,6 +418,25 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}rotting_essence_from_rotten_flesh`
         }
     ];
+
+    event.forEachRecipe({ type: 'create:deploying' }, (r) => {
+        let recipe = JSON.parse(r.json);
+        let recipe_id = r.getId();
+
+        if (recipe_id.toString().match(/.*deoxidising/)) {
+            recipes.push({
+                outputs: { item_output: { id: recipe.ingredients[0].item, count: 1 } },
+                inputs: {
+                    fluid: { fluid: 'minecraft:water', amount: 50 },
+                    item: { item: recipe.results[0].id }
+                },
+                pressure: 1.0,
+                exothermic: true,
+                time: 0.05,
+                id: `${id_prefix}${recipe_id.split('/')[1].replace('_deox', '_ox')}`
+            });
+        }
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = `pneumaticcraft:thermo_plant`;

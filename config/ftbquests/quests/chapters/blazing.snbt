@@ -144,12 +144,22 @@
 				id: "oritech:centrifuge_block"
 			}
 			id: "5FC9979B966955DE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3ECFD08B60410EE1"
-				table_id: 3480305820603047814L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3ECFD08B60410EE1"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+				{
+					id: "3066037400888B36"
+					item: {
+						count: 1
+						id: "oritech:machine_fluid_addon"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "23E25E62847B9FD8"

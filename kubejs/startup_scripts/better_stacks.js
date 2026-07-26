@@ -102,6 +102,10 @@ ItemEvents.modification((event) => {
                 // music discs
                 /music_disc/
             ]
+        },
+        {
+            size: 1,
+            items: ['oritech:small_tank_block']
         }
     ];
 

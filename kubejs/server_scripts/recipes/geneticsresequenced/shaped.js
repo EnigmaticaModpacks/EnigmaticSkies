@@ -33,12 +33,14 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `geneticsresequenced:advanced_incubator`,
-            pattern: ['AAA', 'ABA', 'CDC'],
+            pattern: ['ABA', 'CDE', 'AFA'],
             key: {
                 A: `#c:gems/empowered_void`,
-                B: `geneticsresequenced:incubator`,
-                C: '#c:gears/dark_steel',
-                D: 'enderio:z_logic_controller'
+                B: `malum:sympathy_drive`,
+                C: 'malum:shielding_apparatus',
+                D: `geneticsresequenced:incubator`,
+                E: 'malum:impurity_stabilizer',
+                F: 'enderio:z_logic_controller'
             },
             id: `${id_prefix}advanced_incubator`
         },
@@ -46,7 +48,7 @@ ServerEvents.recipes((event) => {
             output: `geneticsresequenced:gene_checker`,
             pattern: [' A ', 'ABA', ' C '],
             key: {
-                A: `#c:plates/plastic`,
+                A: `#c:gems/empowered_enori`,
                 B: 'enderio:skeletal_contractor',
                 C: 'geneticsresequenced:syringe'
             },
@@ -65,13 +67,13 @@ ServerEvents.recipes((event) => {
     ];
 
     const machines = [
-        { output: 'cell_analyzer', input: 'minecraft:observer' },
-        { output: 'dna_extractor', input: 'create:whisk' },
-        { output: 'dna_decryptor', input: 'create:content_observer' },
-        { output: 'blood_purifier', input: 'create:attribute_filter' },
-        { output: 'plasmid_infuser', input: 'create:brass_hand' },
-        { output: 'incubator', input: 'minecraft:copper_bulb' },
-        { output: 'plasmid_injector', input: 'create:spout' }
+        { output: 'cell_analyzer', input: 'ars_nouveau:ritual_scrying' },
+        { output: 'dna_extractor', input: 'ars_nouveau:ritual_harvest' },
+        { output: 'dna_decryptor', input: 'ars_nouveau:ritual_disintegration' },
+        { output: 'blood_purifier', input: 'ars_nouveau:ritual_restoration' },
+        { output: 'plasmid_infuser', input: 'ars_nouveau:ritual_binding' },
+        { output: 'incubator', input: 'ars_nouveau:ritual_overgrowth' },
+        { output: 'plasmid_injector', input: 'ars_nouveau:ritual_sanctuary' }
     ];
 
     machines.forEach((recipe) => {
@@ -79,12 +81,12 @@ ServerEvents.recipes((event) => {
             output: `geneticsresequenced:${recipe.output}`,
             pattern: ['ACA', 'DBD', 'EFE'],
             key: {
-                A: `#c:plates/plastic`,
-                B: 'modern_industrialization:steel_machine_casing',
+                A: 'modern_industrialization:robot_arm',
+                B: 'enderio:ensouled_chassis',
                 C: recipe.input,
                 D: '#c:gears/compressed_iron',
-                E: 'modern_industrialization:motor',
-                F: 'enigmatica:pulsating_mechanism'
+                E: 'ars_technica:calibrated_precision_mechanism',
+                F: 'oritech:flux_gate'
             },
             id: `${id_prefix}${recipe.output}`
         });
