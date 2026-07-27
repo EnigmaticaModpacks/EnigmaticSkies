@@ -21,3 +21,5 @@
 	show_all_mod_configs = false
 	#Also show tiles for other mods that don't use Moonlight and render their config directly in Moonlight's own screen (NeoForge only). Best-effort: options Moonlight can't represent are left to the mod's own screen. Implies show_all_mod_configs for the tile grid
 	convert_foreign_configs = false
+	#Show a slowly panning strip of a mod's items on its config screen
+	config_item_carousel = true

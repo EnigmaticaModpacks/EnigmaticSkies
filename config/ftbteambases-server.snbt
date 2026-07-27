@@ -26,15 +26,34 @@
 		server_team_name: "Enigmatic Skies - Lobby"
 	}
 	general: {
+		# How base slots are allocated in shared dimensions.
+		# SPIRAL: ring spiral outward around XZ=(0,0), spreading bases evenly in all four quadrants.
+		# ROWS: legacy behaviour, bases march east from (0,0) in rows.
+		# Default: "spiral"
+		# Valid values: "spiral", "rows"
+		allocation_mode: "spiral"
+		
 		# If true, allow spectator-mode players to use the lobby portal
 		# Default: false
 		allow_lobby_spectators: false
+		
+		# SPIRAL allocation only: if true, base slots whose region files already exist on disk are
+		# skipped even for structure-based construction. Relocation-based construction (prebuilt or
+		# pregen region files) always skips slots with existing region files regardless of this setting.
+		# Default: false
+		avoid_generated_regions: false
 		
 		# If non-empty, and FTB Essentials is present, automatically set an FTB Essentials home
 		# for players when a they create a base or join an existing team, and delete it when they
 		# leave the team, or when the team is disbanded
 		# Default: "home"
 		base_home_name: "home"
+		
+		# SPIRAL allocation only: base slots whose footprint intersects a square of this many blocks
+		# around XZ=(0,0) are never allocated. Use this to reserve the lobby area in shared dimensions.
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		base_min_dist_from_origin: 0
 		
 		# Base separation (in 512-block regions) when allocating regions for new bases in shared dimensions; the amount of clear space between the edges of two adjacent bases
 		# Default: 4
