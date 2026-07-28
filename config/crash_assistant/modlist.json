@@ -5,13 +5,13 @@
     "name": "neoforge",
     "version": "neoforge-21.1.244"
   },
-  "aaron-1.21.1-1.18.0-build.15.jar": {
-    "jarName": "aaron-1.21.1-1.18.0-build.15.jar",
+  "aaron-1.21.1-1.18.1-build.18.jar": {
+    "jarName": "aaron-1.21.1-1.18.1-build.18.jar",
     "modId": "aaron",
     "name": "Aaron",
-    "version": "1.18.0",
-    "curseForgeHash": 3330431985,
-    "modrinthHash": "1c051fddc486b5358e2c1ecd50d14e55e890acc3"
+    "version": "1.18.1",
+    "curseForgeHash": 3583524816,
+    "modrinthHash": "df005807d7f746ab610221c004cc5e9984ff1128"
   },
   "accelerated-decay-neoforge-21.0.0.jar": {
     "jarName": "accelerated-decay-neoforge-21.0.0.jar",
@@ -109,13 +109,13 @@
     "curseForgeHash": 3015221479,
     "modrinthHash": "26eef3e36bd3af25e5122dec2e9b918e26270c4e"
   },
-  "Apotheosis-1.21.1-8.6.0.jar": {
-    "jarName": "Apotheosis-1.21.1-8.6.0.jar",
+  "Apotheosis-1.21.1-8.6.1.jar": {
+    "jarName": "Apotheosis-1.21.1-8.6.1.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.6.0",
-    "curseForgeHash": 3487140419,
-    "modrinthHash": "816c532349f51a370f62ecb47a723bef2a891cf0"
+    "version": "8.6.1",
+    "curseForgeHash": 3362945668,
+    "modrinthHash": "7a639e58c820069ec1d8a3431c38b58511d24dc1"
   },
   "ApothicAttributes-1.21.1-2.10.1.jar": {
     "jarName": "ApothicAttributes-1.21.1-2.10.1.jar",
@@ -484,13 +484,13 @@
     "curseForgeHash": 3792132118,
     "modrinthHash": "9d13b8315b03bda4bc6f5637c51f25a99cdcacd3"
   },
-  "clienttweaks-neoforge-1.21.1-21.1.13.jar": {
-    "jarName": "clienttweaks-neoforge-1.21.1-21.1.13.jar",
+  "clienttweaks-neoforge-1.21.1-21.1.14.jar": {
+    "jarName": "clienttweaks-neoforge-1.21.1-21.1.14.jar",
     "modId": "clienttweaks",
     "name": "Client Tweaks",
-    "version": "21.1.13",
-    "curseForgeHash": 3153124110,
-    "modrinthHash": "7969d3af6f3b44e0760c3529045585ca95b0e596"
+    "version": "21.1.14",
+    "curseForgeHash": 1395156757,
+    "modrinthHash": "faf5d806df2dd053178045d6eee0be5fc30734e8"
   },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
