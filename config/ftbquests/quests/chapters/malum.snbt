@@ -7,6 +7,7 @@
 		id: "malum:eldritch_spirit"
 	}
 	id: "0C0D9C8007301C03"
+	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [

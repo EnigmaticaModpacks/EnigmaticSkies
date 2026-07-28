@@ -7,6 +7,7 @@
 		id: "malum:infernal_spirit"
 	}
 	id: "13C15ACA23526F9E"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
