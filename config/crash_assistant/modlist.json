@@ -1228,13 +1228,13 @@
     "curseForgeHash": 903616080,
     "modrinthHash": "144ffaf459b58db14614a7e1ef3425c2594e30b6"
   },
-  "jei-1.21.1-neoforge-19.42.0.379.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.42.0.379.jar",
+  "jei-1.21.1-neoforge-19.42.0.385.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.42.0.385.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.42.0.379",
-    "curseForgeHash": 3313197208,
-    "modrinthHash": "4fdbb01db6ee66ff4c6ef7d875bf4a4fa5dc9f7a"
+    "version": "19.42.0.385",
+    "curseForgeHash": 2085583176,
+    "modrinthHash": "665c00d9e58e8b87dc4da84f4da515b3819a456b"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -2001,13 +2001,13 @@
     "curseForgeHash": 1923939184,
     "modrinthHash": "07452242e389975e8a88b97066f4bae6a4ebe574"
   },
-  "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar": {
-    "jarName": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+  "supermartijn642corelib-1.1.22-neoforge-mc1.21.jar": {
+    "jarName": "supermartijn642corelib-1.1.22-neoforge-mc1.21.jar",
     "modId": "supermartijn642corelib",
     "name": "SuperMartijn642\u0027s Core Lib",
-    "version": "1.1.21",
-    "curseForgeHash": 3414849852,
-    "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
+    "version": "1.1.22",
+    "curseForgeHash": 3994155733,
+    "modrinthHash": "ad3d575887d50ab321176b58af4b31166bb67b41"
   },
   "supplementaries-neoforge-1.21.1-3.8.4.jar": {
     "jarName": "supplementaries-neoforge-1.21.1-3.8.4.jar",
