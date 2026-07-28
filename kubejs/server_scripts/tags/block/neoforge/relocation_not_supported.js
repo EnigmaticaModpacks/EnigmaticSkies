@@ -20,7 +20,7 @@ ServerEvents.tags('block', (event) => {
         'farmersdelight:roast_chicken_block',
         'farmersdelight:shepherds_pie_block',
         'farmersdelight:stuffed_pumpkin_block',
-        'farmersdelight:sweet_berry_cheescake',
+        'farmersdelight:sweet_berry_cheesecake',
         'minecraft:cake',
         'supplementaries:pancake'
     ];
