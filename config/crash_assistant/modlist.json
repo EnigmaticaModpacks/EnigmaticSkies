@@ -724,13 +724,13 @@
     "curseForgeHash": 2186625105,
     "modrinthHash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
   },
-  "CreateDragonsPlus-1.11.2b.jar": {
-    "jarName": "CreateDragonsPlus-1.11.2b.jar",
+  "CreateDragonsPlus-1.11.3.jar": {
+    "jarName": "CreateDragonsPlus-1.11.3.jar",
     "modId": "create_dragons_plus",
     "name": "Create: Dragons Plus",
-    "version": "1.11.2b",
-    "curseForgeHash": 1693188569,
-    "modrinthHash": "c0427a7f657f583694e485186621bdeda16ca8dd"
+    "version": "1.11.3",
+    "curseForgeHash": 3175373970,
+    "modrinthHash": "37e2373216b70893409d2baeae86b02c2bfa65bc"
   },
   "createfiltersanywhere-1.21.1-2.5.0.jar": {
     "jarName": "createfiltersanywhere-1.21.1-2.5.0.jar",
@@ -1076,13 +1076,13 @@
     "curseForgeHash": 394814837,
     "modrinthHash": "f5978bb49b71e94d7063502c0fad0202ebbefbcc"
   },
-  "fusion-1.3.9-neoforge-mc1.21.1.jar": {
-    "jarName": "fusion-1.3.9-neoforge-mc1.21.1.jar",
+  "fusion-1.3.10-neoforge-mc1.21.1.jar": {
+    "jarName": "fusion-1.3.10-neoforge-mc1.21.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.9",
-    "curseForgeHash": 176460360,
-    "modrinthHash": "37911dd0539f040e1599fe88aec5df66780e5534"
+    "version": "1.3.10",
+    "curseForgeHash": 780243271,
+    "modrinthHash": "ddc54ef269c152a1a4e4a92c57c05583d9a6160e"
   },
   "fzzy_config-0.7.6+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+1.21+neoforge.jar",
@@ -1497,13 +1497,13 @@
     "curseForgeHash": 3719215893,
     "modrinthHash": "aec10702d53cd7e630d3295fd4bd2bab030c936d"
   },
-  "modonomicon-1.21.1-neoforge-1.120.3.jar": {
-    "jarName": "modonomicon-1.21.1-neoforge-1.120.3.jar",
+  "modonomicon-1.21.1-neoforge-1.120.4.jar": {
+    "jarName": "modonomicon-1.21.1-neoforge-1.120.4.jar",
     "modId": "modonomicon",
     "name": "Modonomicon",
-    "version": "1.120.3",
-    "curseForgeHash": 3230206328,
-    "modrinthHash": "af1a69445617058b1deeec34444310e81301ea4c"
+    "version": "1.120.4",
+    "curseForgeHash": 3586170747,
+    "modrinthHash": "1377fec77ba0cb3e4adda0da9ce2f14847e21e40"
   },
   "modular-routers-13.2.7+mc1.21.1.jar": {
     "jarName": "modular-routers-13.2.7+mc1.21.1.jar",
