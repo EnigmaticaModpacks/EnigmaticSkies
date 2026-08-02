@@ -8,6 +8,7 @@
 		id: "minecraft:burn_pottery_sherd"
 	}
 	id: "0FF1E0FF9CAD1914"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -201,23 +202,6 @@
 				}
 			]
 			x: -0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"739A201F595E3EFE"
-				"6EB5108D30F5A94A"
-			]
-			icon: {
-				id: "malum:umbral_spirit"
-			}
-			id: "36A18D327A03810B"
-			tasks: [{
-				id: "422830C3718262F1"
-				item: { count: 1, id: "malum:umbral_spirit" }
-				type: "item"
-			}]
-			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -544,7 +528,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -577,19 +561,22 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["36A18D327A03810B"]
+			dependencies: [
+				"36A18D327A03810B"
+				"1CBC50FA40BFB54A"
+			]
 			id: "21B7BDFCF5144431"
 			tasks: [{
 				id: "678D630492F602D7"
 				item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6806970967942788"]

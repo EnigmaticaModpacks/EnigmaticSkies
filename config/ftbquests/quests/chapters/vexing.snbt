@@ -11,6 +11,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "72447ED7D54B4AF7"
+	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -1217,6 +1218,22 @@
 			]
 			x: 15.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0DE5D9ADB947B171"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:umbral_spirit"
+			}
+			id: "36A18D327A03810B"
+			shape: "heart"
+			tasks: [{
+				id: "422830C3718262F1"
+				item: { count: 1, id: "malum:umbral_spirit" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.5d
 		}
 	]
 }

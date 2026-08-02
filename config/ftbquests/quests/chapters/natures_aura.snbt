@@ -8,6 +8,7 @@
 		id: "malum:earthen_spirit"
 	}
 	id: "70FCD34EEFA2F001"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

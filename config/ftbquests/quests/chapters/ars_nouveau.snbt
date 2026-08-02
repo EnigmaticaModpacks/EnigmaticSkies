@@ -8,6 +8,7 @@
 		id: "malum:arcane_spirit"
 	}
 	id: "5C2F675CD8139E11"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

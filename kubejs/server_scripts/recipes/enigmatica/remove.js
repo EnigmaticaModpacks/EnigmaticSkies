@@ -902,6 +902,7 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:vanilla_recipes/mixer/endstone' },
         { id: 'modern_industrialization:vanilla_recipes/macerator/sand' },
         { id: 'modern_industrialization:vanilla_recipes/macerator/sandstone_to_sand' },
+        { id: 'modern_industrialization:vanilla_recipes/macerator/gilded_blackstone' },
         { id: `modern_industrialization:oil/mixer/lubricant_from_plant_oil` },
         { id: `modern_industrialization:oil/vacuum_freezer/styrene_butadiene_rubber` },
         { id: `modern_industrialization:oil/mixer/sugar_solution` },
