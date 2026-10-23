@@ -36,10 +36,10 @@ EntityEvents.spawned((event) => {
                     server.runCommandSilent(command);
                 }
 
-                if (index % Math.floor(coordinates.length / num_points) === 0) {
-                    command = `/execute in ${ritual_dimension} run playsound quark:ambient.cave block @p ${coord.x} ${coord.y} ${coord.z} 2 1`;
-                    server.runCommandSilent(command);
-                }
+                // if (index % Math.floor(coordinates.length / num_points) === 0) {
+                //     command = `/execute in ${ritual_dimension} run playsound quark:ambient.cave block @p ${coord.x} ${coord.y} ${coord.z} 2 1`;
+                //     server.runCommandSilent(command);
+                // }
             });
         });
 

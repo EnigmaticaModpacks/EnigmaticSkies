@@ -1,13 +1,3 @@
-#─────────────────────────────────────────────────────────────────────────
-# Anywhere that uses IDs, such as blocks, biomes, dimensions, and structures, also supports:
-# • Tags (e.g. "#minecraft:is_underground")
-# • Comma-separated lists (e.g. "minecraft:desert,#minecraft:is_badlands")
-#     Applies the setting to all listed IDs. Can use tags, regular IDs, and negation interchangeably
-# • Negation (e.g. "!minecraft:jungle_leaves")
-#     Useful with lists/tags. Excludes the listed IDs from the setting
-#     i.e. "#minecraft:leaves,!minecraft:jungle_leaves" (all leaves EXCEPT jungle leaves)
-# Settings with "//v" will list elements vertically. Removing "//v" will list elements in one line
-#─────────────────────────────────────────────────────────────────────────
 [Dimensions]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Applies an offset to the world's temperature across an entire dimension
@@ -34,25 +24,27 @@
 [Biomes]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Applies an offset to the temperature of a biome
-	# ├── Format: [["biome_id", lowTemp, highTemp, *units, *waterTemp], [...], etc]
+	# ├── Format: [["biome_id", lowTemp, highTemp, *units, *waterTemp, *freezingPoint], [...], etc]
 	# └── [* = optional]
 	# • biome_id: The ID of the biome (e.g. "minecraft:desert")
 	# • lowTemp: The temperature offset at midnight
 	# • highTemp: The temperature offset at noon
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# • *waterTemp: Offsets the temperature of water in the biome
+	# • *freezingPoint: Offsets the temperature at which water freezes in the biome
 	"Biome Temperature Offsets" = [
 	    ["minecraft:warm_ocean", -3, -3, "mc"]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a biome, overriding the biome's default temperature
-	# ├── Format: [["biome_id", lowTemp, highTemp, *units, *waterTemp], [...], etc]
+	# ├── Format: [["biome_id", lowTemp, highTemp, *units, *waterTemp, *freezingPoint], [...], etc]
 	# └── [* = optional]
 	# • biome_id: The ID of the biome (e.g. "minecraft:desert")
 	# • lowTemp: The temperature of the biome at midnight
 	# • highTemp: The temperature of the biome at noon
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# • *waterTemp: The temperature of water in the biome
+	# • *freezingPoint: The temperature at which water freezes in the biome
 	"Biome Temperatures" = [
 	    ["minecraft:the_void", -2, -2, "mc"],
 	    ["minecraft:mushroom_fields", -2, -2, "mc"],
@@ -122,7 +114,7 @@
 	# └── Format: [temperature, *units]
 	"Default Water Temperature" = [-10, "f"]
 	#─────────────────────────────────────────────────────────────────────────
-	# The maximum soak level a player can reach from rain alone (0.0 - 1.0)
+	# The maximum temperature effect of rain soaking on the player, in MC units
 	# Default: 0.2
 	# Range: 0.0 ~ Infinity
 	"Max Rain Soak" = 0.2
@@ -288,3 +280,27 @@
 		# Default: 40
 		# Range: > 0
 		"Icebox Fuel Consumption Interval" = 1
+
+#─────────────────────────────────────────────────────────────────────────
+# Anywhere that uses IDs, such as blocks, biomes, dimensions, and structures, also supports:
+# • Tags (e.g. "#minecraft:is_underground")
+# • Comma-separated lists (e.g. "minecraft:desert,#minecraft:is_badlands")
+#     Applies the setting to all listed IDs. Can use tags, regular IDs, and negation interchangeably
+# • Negation (e.g. "!minecraft:jungle_leaves")
+#     Useful with lists/tags. Excludes the listed IDs from the setting
+#     i.e. "#minecraft:leaves,!minecraft:jungle_leaves" (all leaves EXCEPT jungle leaves)
+# Settings with "//v" will list elements vertically. Removing "//v" will list elements in one line
+#─────────────────────────────────────────────────────────────────────────
+[General]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# The time of day when the world is at its hottest, in ticks
+	# └── 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight
+	# Default: 6000
+	# Range: 0 ~ 24000
+	"Hottest Time" = 6000
+	#─────────────────────────────────────────────────────────────────────────//v
+	# The time of day when the world is at its coldest, in ticks
+	# └── 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight
+	# Default: 18000
+	# Range: 0 ~ 24000
+	"Coldest Time" = 18000

@@ -1,3 +1,20 @@
+### Enigmatic Skies 1.16.0
+
+NeoForge-1.21.1-21.1.256 |
+
+#### ⭐ Improvements
+
+#### 🦟 Bugs Fixed
+
+- Fixed a bug where the Particle Accelerator would spawn a gateway even if the speed didn't match. [(\#316)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/316)
+- Disable Macaw's Kitchen Sink right-click feature [(\#316)](https://github.com/EnigmaticaModpacks/EnigmaticSkies/issues/316)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+---
+
 ### Enigmatic Skies 1.15.0
 
 NeoForge-1.21.1-21.1.248 | [Mod Updates](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_1.15.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_1.15.0.md)

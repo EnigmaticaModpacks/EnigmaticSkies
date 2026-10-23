@@ -6,7 +6,9 @@ OritechEvents.particleCollided((event) => {
     const dimension = String(level.getDimension());
     const execute = `execute in ${dimension} run`;
 
-    if (recipeId == null) return;
+    // console.log(recipe.time);
+    // console.log(speed);
+    if (recipeId == null || speed < recipe.time) return;
     // console.log(collisionPos);
 
     // Gate Pearl Handling
